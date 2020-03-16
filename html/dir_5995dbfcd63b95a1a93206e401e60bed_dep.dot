@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/matrices/LduMatrix/Smoothers/GaussSeidel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_dbeb5dcd741f309aa6524e1dd7f86f94 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Smoothers" fontname="Helvetica", fontsize="10", URL="dir_dbeb5dcd741f309aa6524e1dd7f86f94.html"]
+  dir_5995dbfcd63b95a1a93206e401e60bed [shape=box, label="GaussSeidel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5995dbfcd63b95a1a93206e401e60bed.html"];
+  }
+  dir_5ec68055571869848388d37c5cf0a9c9 [shape=box label="LduMatrix" color="red" URL="dir_5ec68055571869848388d37c5cf0a9c9.html"];
+  dir_5995dbfcd63b95a1a93206e401e60bed->dir_5ec68055571869848388d37c5cf0a9c9 [headlabel="1", labeldistance=1.5 headhref="dir_002470_002448.html"];
+}

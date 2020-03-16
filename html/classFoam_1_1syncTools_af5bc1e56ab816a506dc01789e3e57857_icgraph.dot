@@ -1,0 +1,20 @@
+digraph "syncPointList"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="syncPointList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::hexRef8::consistent\lSlowRefinement",height=0.2,width=0.4,color="black",URL="$classFoam_1_1hexRef8.html#aeb54557fb67f4384c1d524d031d65e71",tooltip="Like consistentRefinement but slower: "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::meshRefinement\l::dupNonManifoldBoundaryPoints",height=0.2,width=0.4,color="black",URL="$classFoam_1_1meshRefinement.html#a68fee3d317a75975b1b881dcec746240",tooltip="Find boundary points that are on faceZones of type boundary. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::pointBitSet::\lmaxSize",height=0.2,width=0.4,color="black",URL="$classFoam_1_1pointBitSet.html#a206202e32e4c47a49ba035f18e19e6a7",tooltip="Return max index+1. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="syncPointList",height=0.2,width=0.4,color="black",URL="$classFoam_1_1syncTools.html#a6758ab205305d1ddc7acca025afa5356",tooltip="Synchronize values on selected mesh points. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="syncPointPositions",height=0.2,width=0.4,color="black",URL="$classFoam_1_1syncTools.html#aaab9b7ba5034d80f0fbe32b3e76446fe",tooltip="Synchronize locations on all mesh points. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::zoneMotion::zoneMotion",height=0.2,width=0.4,color="black",URL="$classFoam_1_1zoneMotion.html#ab542405b7fcbc09b790f2c36dbb15e83",tooltip="Construct from dictionary. "];
+}

@@ -1,0 +1,17 @@
+digraph "checkOverlap"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="checkOverlap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::cuttingSurfaceBase\l::checkOverlap",height=0.2,width=0.4,color="red",URL="$classFoam_1_1cuttingSurfaceBase.html#a27c66bf80809c719c9a97ba1727b19f5",tooltip="Check and warn if bounding boxes do not intersect. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::boundBox::valid",height=0.2,width=0.4,color="black",URL="$classFoam_1_1boundBox.html#a8d985300b138b6c5556ab17ed4df3b38",tooltip="Bounding box is non-inverted. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::endl",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::boundBox::intersects",height=0.2,width=0.4,color="black",URL="$classFoam_1_1boundBox.html#afe64746d86369394b18c2ca077efeb55",tooltip="Does plane intersect this bounding box. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

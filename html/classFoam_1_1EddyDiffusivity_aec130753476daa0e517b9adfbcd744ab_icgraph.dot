@@ -1,0 +1,12 @@
+digraph "alphat"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="alphat",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::EddyDiffusivity\l\< compressible::turbulenceModel\l \>::alphat",height=0.2,width=0.4,color="black",URL="$classFoam_1_1EddyDiffusivity.html#a727bf0eea1e8fa614f2570847a8a7c94",tooltip="Return the turbulent thermal diffusivity for enthalpy for a patch. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::EddyDiffusivity\l\< compressible::turbulenceModel\l \>::kappaEff",height=0.2,width=0.4,color="black",URL="$classFoam_1_1EddyDiffusivity.html#a34d3537d2e3767dab7a2ff7aaf293e0b",tooltip="Return the effective turbulent thermal diffusivity for temperature. "];
+}

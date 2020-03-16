@@ -1,0 +1,15 @@
+digraph "src/finiteVolume/interpolation/surfaceInterpolation/schemes/weightedFlux" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_deb7d71175aa940c147966c547ebcb7e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="schemes" fontname="Helvetica", fontsize="10", URL="dir_deb7d71175aa940c147966c547ebcb7e.html"]
+  dir_bad6c893db8735e6cb4402d09f3f119b [shape=box, label="weightedFlux", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_bad6c893db8735e6cb4402d09f3f119b.html"];
+  }
+  dir_19d3b1afd53ea5e65e1bc53b79dacb85 [shape=box label="surfaceInterpolationScheme" URL="dir_19d3b1afd53ea5e65e1bc53b79dacb85.html"];
+  dir_25ab4a83a983f7bb7a38b7f63bb141b7 [shape=box label="fields" color="red" URL="dir_25ab4a83a983f7bb7a38b7f63bb141b7.html"];
+  dir_19d3b1afd53ea5e65e1bc53b79dacb85->dir_25ab4a83a983f7bb7a38b7f63bb141b7 [headlabel="5", labeldistance=1.5 headhref="dir_001256_000890.html"];
+  dir_bad6c893db8735e6cb4402d09f3f119b->dir_19d3b1afd53ea5e65e1bc53b79dacb85 [headlabel="1", labeldistance=1.5 headhref="dir_001253_001256.html"];
+  dir_bad6c893db8735e6cb4402d09f3f119b->dir_25ab4a83a983f7bb7a38b7f63bb141b7 [headlabel="1", labeldistance=1.5 headhref="dir_001253_000890.html"];
+}

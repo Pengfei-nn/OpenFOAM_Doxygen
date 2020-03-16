@@ -1,0 +1,16 @@
+digraph "sumDiag"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sumDiag",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::diag",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a8cdb0ba0633c91ed7041368519cd217c"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="lower",height=0.2,width=0.4,color="black",URL="$classFoam_1_1LduMatrix.html#aed8d4c3b9386a81ed7ff9f44cb736255"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::UList::size",height=0.2,width=0.4,color="red",URL="$classFoam_1_1UList.html#afee03bfededf699921815b2bf3c41e35",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="upper",height=0.2,width=0.4,color="black",URL="$classFoam_1_1LduMatrix.html#a53e005fd695b53bc8dd07c670f533b39"];
+}

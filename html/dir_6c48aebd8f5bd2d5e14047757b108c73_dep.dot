@@ -1,0 +1,21 @@
+digraph "src/combustionModels/diffusion" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a28bb8a003fe9b05e061f79ecbbcb476 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="combustionModels" fontname="Helvetica", fontsize="10", URL="dir_a28bb8a003fe9b05e061f79ecbbcb476.html"]
+  dir_6c48aebd8f5bd2d5e14047757b108c73 [shape=box, label="diffusion", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6c48aebd8f5bd2d5e14047757b108c73.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_cf7b61e9dee2eed7a2c89936088862b3 [shape=box label="combustionModel" URL="dir_cf7b61e9dee2eed7a2c89936088862b3.html"];
+  dir_67089bd647ef63ae09f43c52d62dbb27 [shape=box label="singleStepCombustion" URL="dir_67089bd647ef63ae09f43c52d62dbb27.html"];
+  dir_2778d089ec5c4f66810b11f753867003 [shape=box label="thermophysicalModels" color="red" URL="dir_2778d089ec5c4f66810b11f753867003.html"];
+  dir_6c48aebd8f5bd2d5e14047757b108c73->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_000516_000814.html"];
+  dir_6c48aebd8f5bd2d5e14047757b108c73->dir_cf7b61e9dee2eed7a2c89936088862b3 [headlabel="1", labeldistance=1.5 headhref="dir_000516_000513.html"];
+  dir_6c48aebd8f5bd2d5e14047757b108c73->dir_67089bd647ef63ae09f43c52d62dbb27 [headlabel="1", labeldistance=1.5 headhref="dir_000516_000544.html"];
+  dir_6c48aebd8f5bd2d5e14047757b108c73->dir_2778d089ec5c4f66810b11f753867003 [headlabel="3", labeldistance=1.5 headhref="dir_000516_001225.html"];
+  dir_67089bd647ef63ae09f43c52d62dbb27->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_000544_000814.html"];
+  dir_67089bd647ef63ae09f43c52d62dbb27->dir_2778d089ec5c4f66810b11f753867003 [headlabel="1", labeldistance=1.5 headhref="dir_000544_001225.html"];
+  dir_2778d089ec5c4f66810b11f753867003->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="122", labeldistance=1.5 headhref="dir_001225_000814.html"];
+}

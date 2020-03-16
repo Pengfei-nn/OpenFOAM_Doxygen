@@ -1,0 +1,18 @@
+digraph "interfaceCompositionModel"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="interfaceCompositionModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mesh_" ,fontname="Helvetica"];
+  Node2 [label="fvMesh",height=0.2,width=0.4,color="red",URL="$classFoam_1_1fvMesh.html",tooltip="Mesh data needed to do the Finite Volume discretisation. "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" speciesNames_" ,fontname="Helvetica"];
+  Node3 [label="hashedWordList",height=0.2,width=0.4,color="red",URL="$classFoam_1_1hashedWordList.html",tooltip="A wordList with hashed named lookup, which can be faster in some situations than using the normal lis..."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pair_" ,fontname="Helvetica"];
+  Node4 [label="phasePair",height=0.2,width=0.4,color="red",URL="$classFoam_1_1phasePair.html",tooltip="Description for mass transfer between a pair of phases. The direction of the mass transfer is from th..."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" speciesName_" ,fontname="Helvetica"];
+  Node5 [label="word",height=0.2,width=0.4,color="red",URL="$classFoam_1_1word.html",tooltip="A class for handling words, derived from Foam::string. "];
+  Node5 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="Helvetica"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" modelVariableNames" ,fontname="Helvetica"];
+  Node6 [label="Enum\< modelVariable \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1Enum.html"];
+}

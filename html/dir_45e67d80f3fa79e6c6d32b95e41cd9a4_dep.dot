@@ -1,0 +1,25 @@
+digraph "applications/solvers/multiphase/multiphaseEulerFoam/interfacialModels/dragModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_69624978ef3c7e8265410d055036ffd4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfacialModels" fontname="Helvetica", fontsize="10", URL="dir_69624978ef3c7e8265410d055036ffd4.html"]
+  subgraph clusterdir_45e67d80f3fa79e6c6d32b95e41cd9a4 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_45e67d80f3fa79e6c6d32b95e41cd9a4.html"];
+    dir_45e67d80f3fa79e6c6d32b95e41cd9a4 [shape=plaintext label="dragModels"];
+    dir_0e3d2ff9071cde97a4f775f14119c6cf [shape=box label="blended" color="black" fillcolor="white" style="filled" URL="dir_0e3d2ff9071cde97a4f775f14119c6cf.html"];
+    dir_aab926f8c809f21411fe17f01c5ceb13 [shape=box label="dragModel" color="black" fillcolor="white" style="filled" URL="dir_aab926f8c809f21411fe17f01c5ceb13.html"];
+    dir_4ba6869695401ad29328c3efe2e04dbc [shape=box label="Ergun" color="black" fillcolor="white" style="filled" URL="dir_4ba6869695401ad29328c3efe2e04dbc.html"];
+    dir_d4d47de58c57056d7c90661bccf8c883 [shape=box label="Gibilaro" color="black" fillcolor="white" style="filled" URL="dir_d4d47de58c57056d7c90661bccf8c883.html"];
+    dir_f201f2ed91fb34e6e4a7d289bb813775 [shape=box label="GidaspowErgunWenYu" color="black" fillcolor="white" style="filled" URL="dir_f201f2ed91fb34e6e4a7d289bb813775.html"];
+    dir_be6cf3619f23aff17c5c4043b8f05eb0 [shape=box label="GidaspowSchillerNaumann" color="black" fillcolor="white" style="filled" URL="dir_be6cf3619f23aff17c5c4043b8f05eb0.html"];
+    dir_d2cce3408771bd430fd8ab499a0412a3 [shape=box label="interface" color="black" fillcolor="white" style="filled" URL="dir_d2cce3408771bd430fd8ab499a0412a3.html"];
+    dir_667fcf2a10203763e95d4d186592c503 [shape=box label="SchillerNaumann" color="black" fillcolor="white" style="filled" URL="dir_667fcf2a10203763e95d4d186592c503.html"];
+    dir_724200dddd22155731dda5b58ba91637 [shape=box label="SyamlalOBrien" color="black" fillcolor="white" style="filled" URL="dir_724200dddd22155731dda5b58ba91637.html"];
+    dir_e1ac219811b1339254a0a1c27c5e545a [shape=box label="WenYu" color="black" fillcolor="white" style="filled" URL="dir_e1ac219811b1339254a0a1c27c5e545a.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_aab926f8c809f21411fe17f01c5ceb13->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_003085_000499.html"];
+}

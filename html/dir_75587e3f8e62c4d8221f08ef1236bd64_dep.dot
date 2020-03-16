@@ -1,0 +1,10 @@
+digraph "src/functionObjects/lagrangian/doc" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d9814129caaca576fbd52a4e4170397d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lagrangian" fontname="Helvetica", fontsize="10", URL="dir_d9814129caaca576fbd52a4e4170397d.html"]
+  dir_75587e3f8e62c4d8221f08ef1236bd64 [shape=box, label="doc", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_75587e3f8e62c4d8221f08ef1236bd64.html"];
+  }
+}

@@ -1,0 +1,17 @@
+digraph "src/TurbulenceModels/turbulenceModels/RAS/RNGkEpsilon" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_adfb94148fb30832cafb0debb79458ba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="RAS" fontname="Helvetica", fontsize="10", URL="dir_adfb94148fb30832cafb0debb79458ba.html"]
+  dir_239c96af6f8a4efdc6ee2b93db001075 [shape=box, label="RNGkEpsilon", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_239c96af6f8a4efdc6ee2b93db001075.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_695988d4b6a6c12df1635b93ccab0d53 [shape=box label="RASModel" URL="dir_695988d4b6a6c12df1635b93ccab0d53.html"];
+  dir_2ce9cd11231736fb615d4764f347b0fd [shape=box label="eddyViscosity" URL="dir_2ce9cd11231736fb615d4764f347b0fd.html"];
+  dir_239c96af6f8a4efdc6ee2b93db001075->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_004106_000814.html"];
+  dir_239c96af6f8a4efdc6ee2b93db001075->dir_695988d4b6a6c12df1635b93ccab0d53 [headlabel="1", labeldistance=1.5 headhref="dir_004106_004104.html"];
+  dir_239c96af6f8a4efdc6ee2b93db001075->dir_2ce9cd11231736fb615d4764f347b0fd [headlabel="1", labeldistance=1.5 headhref="dir_004106_004066.html"];
+  dir_2ce9cd11231736fb615d4764f347b0fd->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_004066_000814.html"];
+}

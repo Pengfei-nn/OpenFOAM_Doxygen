@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/matrices/SymmetricSquareMatrix" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b07477ab37bc0cd7eb28fb569c691c21 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="matrices" fontname="Helvetica", fontsize="10", URL="dir_b07477ab37bc0cd7eb28fb569c691c21.html"]
+  dir_065029d1b90700fbd81fbc5c2723758f [shape=box, label="SymmetricSquareMatrix", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_065029d1b90700fbd81fbc5c2723758f.html"];
+  }
+  dir_9de91893ed1140d312544af919035e0c [shape=box label="SquareMatrix" URL="dir_9de91893ed1140d312544af919035e0c.html"];
+  dir_065029d1b90700fbd81fbc5c2723758f->dir_9de91893ed1140d312544af919035e0c [headlabel="1", labeldistance=1.5 headhref="dir_002519_002518.html"];
+}

@@ -1,0 +1,10 @@
+digraph "applications/solvers/compressible/sonicFoam/sonicDyMFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5c7741d678abb4eb6f65432f0716c51d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="sonicFoam" fontname="Helvetica", fontsize="10", URL="dir_5c7741d678abb4eb6f65432f0716c51d.html"]
+  dir_a3b7cfc6d4caf9b4db7acac63cbf1de1 [shape=box, label="sonicDyMFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a3b7cfc6d4caf9b4db7acac63cbf1de1.html"];
+  }
+}

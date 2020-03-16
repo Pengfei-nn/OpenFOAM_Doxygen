@@ -1,0 +1,21 @@
+digraph "src/OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeTemplates.C"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/OpenFOAM/meshes\l/polyMesh/mapPolyMesh\l/mapDistribute/mapDistribute\lTemplates.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Pstream.H",height=0.2,width=0.4,color="red",URL="$Pstream_8H.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PstreamBuffers.H",height=0.2,width=0.4,color="red",URL="$PstreamBuffers_8H.html"];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PstreamCombineReduceOps.H",height=0.2,width=0.4,color="red",URL="$PstreamCombineReduceOps_8H.html",tooltip="Combination-Reduction operation for a parallel run. The information from all nodes is collected on th..."];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="globalIndexAndTransform.H",height=0.2,width=0.4,color="red",URL="$globalIndexAndTransform_8H.html"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="transformField.H",height=0.2,width=0.4,color="red",URL="$transformField_8H.html",tooltip="Spatial transformation functions for primitive fields. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="flipOp.H",height=0.2,width=0.4,color="red",URL="$flipOp_8H.html"];
+}

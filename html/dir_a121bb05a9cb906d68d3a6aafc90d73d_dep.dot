@@ -1,0 +1,10 @@
+digraph "applications/utilities/mesh/manipulation/stitchMesh" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_15449a1ef4a09517cc5e2efa6b11565e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="manipulation" fontname="Helvetica", fontsize="10", URL="dir_15449a1ef4a09517cc5e2efa6b11565e.html"]
+  dir_a121bb05a9cb906d68d3a6aafc90d73d [shape=box, label="stitchMesh", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a121bb05a9cb906d68d3a6aafc90d73d.html"];
+  }
+}

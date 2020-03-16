@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/global/clockTime" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8583492183f4d27c76555f8f333dd07b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="global" fontname="Helvetica", fontsize="10", URL="dir_8583492183f4d27c76555f8f333dd07b.html"]
+  dir_4730ae0fce5f0ea084f9e136244c66cb [shape=box, label="clockTime", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4730ae0fce5f0ea084f9e136244c66cb.html"];
+  }
+  dir_a0379dfa97e423990f824c6448e80195 [shape=box label="clockValue" URL="dir_a0379dfa97e423990f824c6448e80195.html"];
+  dir_4730ae0fce5f0ea084f9e136244c66cb->dir_a0379dfa97e423990f824c6448e80195 [headlabel="1", labeldistance=1.5 headhref="dir_002388_002389.html"];
+}

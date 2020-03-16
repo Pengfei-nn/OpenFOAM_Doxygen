@@ -1,0 +1,32 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/interfacialModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9a8884475cf7812a7a55716c3274f065 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="twoPhaseEulerFoam" fontname="Helvetica", fontsize="10", URL="dir_9a8884475cf7812a7a55716c3274f065.html"]
+  subgraph clusterdir_b7d8cc85fbe5b5cd664e714a0ccf860f {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_b7d8cc85fbe5b5cd664e714a0ccf860f.html"];
+    dir_b7d8cc85fbe5b5cd664e714a0ccf860f [shape=plaintext label="interfacialModels"];
+    dir_61a4c66f01258155d2258fd2274f3c82 [shape=box label="aspectRatioModels" color="red" fillcolor="white" style="filled" URL="dir_61a4c66f01258155d2258fd2274f3c82.html"];
+    dir_c58268a9b7712e9928f15c977fe2c49e [shape=box label="dragModels" color="red" fillcolor="white" style="filled" URL="dir_c58268a9b7712e9928f15c977fe2c49e.html"];
+    dir_81d54ca60ad155def2638f1cea9745c5 [shape=box label="heatTransferModels" color="red" fillcolor="white" style="filled" URL="dir_81d54ca60ad155def2638f1cea9745c5.html"];
+    dir_1930af04ba8ca8c5e74b60dc9dc3e3d1 [shape=box label="liftModels" color="red" fillcolor="white" style="filled" URL="dir_1930af04ba8ca8c5e74b60dc9dc3e3d1.html"];
+    dir_7250cc01f0e1754edfd2e7db56583832 [shape=box label="swarmCorrections" color="red" fillcolor="white" style="filled" URL="dir_7250cc01f0e1754edfd2e7db56583832.html"];
+    dir_5aa708de83d803d157d448a53cf133e9 [shape=box label="turbulentDispersionModels" color="red" fillcolor="white" style="filled" URL="dir_5aa708de83d803d157d448a53cf133e9.html"];
+    dir_c7c4cf1da3e2c897dbb17eca239ee974 [shape=box label="virtualMassModels" color="red" fillcolor="white" style="filled" URL="dir_c7c4cf1da3e2c897dbb17eca239ee974.html"];
+    dir_9a64456bd455cf322ce106d4d8831907 [shape=box label="wallDependentModel" color="black" fillcolor="white" style="filled" URL="dir_9a64456bd455cf322ce106d4d8831907.html"];
+    dir_e3b447723574590c1503966e204656bb [shape=box label="wallLubricationModels" color="red" fillcolor="white" style="filled" URL="dir_e3b447723574590c1503966e204656bb.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_1930af04ba8ca8c5e74b60dc9dc3e3d1->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003130_000499.html"];
+  dir_61a4c66f01258155d2258fd2274f3c82->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003071_000499.html"];
+  dir_c7c4cf1da3e2c897dbb17eca239ee974->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003170_000499.html"];
+  dir_e3b447723574590c1503966e204656bb->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003189_000499.html"];
+  dir_9a64456bd455cf322ce106d4d8831907->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_003186_000499.html"];
+  dir_c58268a9b7712e9928f15c977fe2c49e->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003086_000499.html"];
+  dir_81d54ca60ad155def2638f1cea9745c5->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_001797_000499.html"];
+  dir_5aa708de83d803d157d448a53cf133e9->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003156_000499.html"];
+  dir_7250cc01f0e1754edfd2e7db56583832->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003148_000499.html"];
+}

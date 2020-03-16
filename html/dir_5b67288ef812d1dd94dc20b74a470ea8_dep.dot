@@ -1,0 +1,15 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/derivedFvPatchFields/wallBoilingSubModels/CHFModels/Zuber" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6f8b4b7cf1ebc0560c602445b7e42d3b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="CHFModels" fontname="Helvetica", fontsize="10", URL="dir_6f8b4b7cf1ebc0560c602445b7e42d3b.html"]
+  dir_5b67288ef812d1dd94dc20b74a470ea8 [shape=box, label="Zuber", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5b67288ef812d1dd94dc20b74a470ea8.html"];
+  }
+  dir_3e83cc90fb897ce5b48f0e685ec2c73a [shape=box label="CHFModel" URL="dir_3e83cc90fb897ce5b48f0e685ec2c73a.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_5b67288ef812d1dd94dc20b74a470ea8->dir_3e83cc90fb897ce5b48f0e685ec2c73a [headlabel="1", labeldistance=1.5 headhref="dir_003009_003008.html"];
+  dir_5b67288ef812d1dd94dc20b74a470ea8->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003009_002151.html"];
+  dir_3e83cc90fb897ce5b48f0e685ec2c73a->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003008_002151.html"];
+}

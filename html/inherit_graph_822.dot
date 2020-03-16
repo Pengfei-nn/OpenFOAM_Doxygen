@@ -1,0 +1,14 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="FixedList\< T, 2 \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1FixedList.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Pair\< T \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Pair.html",tooltip="An ordered pair of two objects of type &lt;T&gt; with first() and second() elements. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="edge",height=0.2,width=0.4,color="black",URL="$classFoam_1_1edge.html",tooltip="An edge is a list of two point labels. The functionality it provides supports the discretisation on a..."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="meshReader::cellFaceIdentifier",height=0.2,width=0.4,color="black",URL="$classFoam_1_1meshReader_1_1cellFaceIdentifier.html",tooltip="Identify cell faces in terms of cell Id and face Id. "];
+}

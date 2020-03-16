@@ -1,0 +1,36 @@
+digraph "sampleOnFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sampleOnFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$classFoam_1_1polyMesh.html#a6b7f5ba89250dbd7a1c6c7860ab60fe3",tooltip="Return boundary mesh. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="faces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1sampledTriSurfaceMesh.html#a4d06c698bba36dbfe629cf0cda3649b1",tooltip="Faces of surface. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::sampledSurface\l::mesh",height=0.2,width=0.4,color="red",URL="$classFoam_1_1sampledSurface.html#aa51573bc757d5d5bb058db0464886447",tooltip="Access to the underlying mesh. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::primitiveMesh\l::nBoundaryFaces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1primitiveMesh.html#ac2e4cb144010acc4855a5c909f2167b2",tooltip="Number of boundary faces (== nFaces - nInternalFaces) "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::sampledSurface::New",height=0.2,width=0.4,color="black",URL="$classFoam_1_1sampledSurface.html#a9dcc5d6a2827b13633443209f5cabf7d",tooltip="Return a reference to the selected surface. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1primitiveMesh.html#a3078ec5cedf6305a3e5781a7d005f0fc",tooltip="Number of internal faces. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="onBoundary",height=0.2,width=0.4,color="black",URL="$classFoam_1_1sampledTriSurfaceMesh.html#a90393f14ee6629a53198dec3e391ce28",tooltip="Sampling boundary values instead of cell values. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="points",height=0.2,width=0.4,color="black",URL="$classFoam_1_1sampledTriSurfaceMesh.html#a419417e2425dc489a0d4eb9f257e557b",tooltip="Points of surface. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::interpolation::psi",height=0.2,width=0.4,color="black",URL="$classFoam_1_1interpolation.html#a57bd59e9c54833774641fd197eb3964a",tooltip="Return the field to be interpolated. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::sampledSurface\l::sampleOnFaces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1sampledSurface.html#a9fb76fb748cde34167297d8ec12963d8",tooltip="General loop for sampling elements to faces. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::UList::size",height=0.2,width=0.4,color="red",URL="$classFoam_1_1UList.html#afee03bfededf699921815b2bf3c41e35",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::polyBoundaryMesh\l::start",height=0.2,width=0.4,color="black",URL="$classFoam_1_1polyBoundaryMesh.html#a96b607a9a9baa575783b4af443ef613f",tooltip="The start label of the boundary faces in the polyMesh face list. "];
+  Node13 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Foam::HashTableOps\l::values",height=0.2,width=0.4,color="red",URL="$namespaceFoam_1_1HashTableOps.html#ac4b37690391dc27447cbff9181265054",tooltip="List of values from HashTable, optionally sorted. "];
+}

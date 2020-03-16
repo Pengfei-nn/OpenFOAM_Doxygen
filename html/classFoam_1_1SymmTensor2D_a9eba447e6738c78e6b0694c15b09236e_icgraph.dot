@@ -1,0 +1,26 @@
+digraph "xy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="xy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::dev",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a560470217689182b6af0151aad48e69c",tooltip="Return the deviatoric part of a symmetric tensor. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::dev2",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#abd54080f00600e590fe507914355fb5c",tooltip="Return the deviatoric part of a symmetric tensor. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::invariantIII",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#aa68648ea88eb8e54735863f4ff02e976",tooltip="Return the 3rd invariant of a symmetric tensor. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::operator&",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a29109ba4618a2f45abff6732831e5093",tooltip="Inner-product between two symmetric tensors. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::operator&&",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a96c208d4698811a9a5afd3cfd8de7207",tooltip="Double-dot-product between a symmetric tensor and a symmetric tensor. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::operator+",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a28ea67871014901a88d1a70d293f957a"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::operator-",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a9ad3917c718c521f11d2550d0eefe541"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::Tensor2D::operator=",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Tensor2D.html#acdd34ba94146fb11495970ee4c49fb63",tooltip="Copy assign from SphericalTensor2D. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::Tensor2D::Tensor2D",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Tensor2D.html#a2cd4301263182caa8094dc0faecd0020",tooltip="Construct given SphericalTensor2D. "];
+}

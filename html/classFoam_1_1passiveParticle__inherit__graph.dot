@@ -1,0 +1,11 @@
+digraph "passiveParticle"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="passiveParticle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="particle\< Type \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1particle.html",tooltip="Base particle class. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="passivePositionParticle",height=0.2,width=0.4,color="black",URL="$classFoam_1_1passivePositionParticle.html",tooltip="Passive particle, transferring in old format (i.e. position instead of coordinates). Used for e.g. redistributePar. "];
+}

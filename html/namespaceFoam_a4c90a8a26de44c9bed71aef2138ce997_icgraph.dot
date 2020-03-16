@@ -1,0 +1,14 @@
+digraph "LUDecompose"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="LUDecompose",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::LUscalarMatrix::inv",height=0.2,width=0.4,color="black",URL="$classFoam_1_1LUscalarMatrix.html#acef53c143015f25882f04066c28c0828",tooltip="Set M to the inverse of this square matrix. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="LUDecompose",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#ad665fab9e1a6b0c886e5005d39fc1af3",tooltip="LU decompose the matrix with pivoting. sign is -1 for odd number of row interchanges and 1 for even n..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::LUscalarMatrix\l::LUscalarMatrix",height=0.2,width=0.4,color="black",URL="$classFoam_1_1LUscalarMatrix.html#ac526d9be364ec8c315b57186f99c89d2",tooltip="Construct from lduMatrix and perform LU decomposition. "];
+}

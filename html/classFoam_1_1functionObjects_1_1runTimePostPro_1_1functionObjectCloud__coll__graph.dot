@@ -1,0 +1,20 @@
+digraph "functionObjectCloud"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="functionObjectCloud",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="pointData",height=0.2,width=0.4,color="red",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1pointData.html",tooltip="Visualisation of point data. "];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="functionObjectBase",height=0.2,width=0.4,color="red",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1functionObjectBase.html",tooltip="Base class for function object visualisation. "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" functionObjectName_" ,fontname="Helvetica"];
+  Node4 [label="word",height=0.2,width=0.4,color="red",URL="$classFoam_1_1word.html",tooltip="A class for handling words, derived from Foam::string. "];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="Helvetica"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" actor_" ,fontname="Helvetica"];
+  Node5 [label="vtkSmartPointer\< vtkActor \>",height=0.2,width=0.4,color="red",URL="$classvtkSmartPointer.html"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" inputFileName_" ,fontname="Helvetica"];
+  Node6 [label="fileName",height=0.2,width=0.4,color="red",URL="$classFoam_1_1fileName.html",tooltip="A class for handling file names. "];
+  Node6 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="Helvetica"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" colourFieldName_\ncloudName_" ,fontname="Helvetica"];
+}

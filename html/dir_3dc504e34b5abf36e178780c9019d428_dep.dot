@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/interfacialModels/dragModels/SyamlalOBrien" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c58268a9b7712e9928f15c977fe2c49e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="dragModels" fontname="Helvetica", fontsize="10", URL="dir_c58268a9b7712e9928f15c977fe2c49e.html"]
+  dir_3dc504e34b5abf36e178780c9019d428 [shape=box, label="SyamlalOBrien", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3dc504e34b5abf36e178780c9019d428.html"];
+  }
+}

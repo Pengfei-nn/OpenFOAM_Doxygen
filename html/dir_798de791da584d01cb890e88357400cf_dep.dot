@@ -1,0 +1,26 @@
+digraph "src/thermophysicalModels/radiation/derivedFvPatchFields/MarshakRadiation" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_530cedc3d4dca2a21c1df83b126c2fbd {
+    graph [ bgcolor="#ddddee", pencolor="black", label="derivedFvPatchFields" fontname="Helvetica", fontsize="10", URL="dir_530cedc3d4dca2a21c1df83b126c2fbd.html"]
+  dir_798de791da584d01cb890e88357400cf [shape=box, label="MarshakRadiation", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_798de791da584d01cb890e88357400cf.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_23cbc874b5ea49089939faa93b6f03ce [shape=box label="radiationModels" color="red" URL="dir_23cbc874b5ea49089939faa93b6f03ce.html"];
+  dir_e8719ccd60760366888bb431a21ef811 [shape=box label="submodels" color="red" URL="dir_e8719ccd60760366888bb431a21ef811.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_9bd15774b555cf7259a6fa18f99fe99b->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="895", labeldistance=1.5 headhref="dir_000814_002151.html"];
+  dir_23cbc874b5ea49089939faa93b6f03ce->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="26", labeldistance=1.5 headhref="dir_003453_000814.html"];
+  dir_23cbc874b5ea49089939faa93b6f03ce->dir_e8719ccd60760366888bb431a21ef811 [headlabel="15", labeldistance=1.5 headhref="dir_003453_003744.html"];
+  dir_23cbc874b5ea49089939faa93b6f03ce->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="41", labeldistance=1.5 headhref="dir_003453_002151.html"];
+  dir_e8719ccd60760366888bb431a21ef811->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="10", labeldistance=1.5 headhref="dir_003744_000814.html"];
+  dir_e8719ccd60760366888bb431a21ef811->dir_23cbc874b5ea49089939faa93b6f03ce [headlabel="5", labeldistance=1.5 headhref="dir_003744_003453.html"];
+  dir_e8719ccd60760366888bb431a21ef811->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="65", labeldistance=1.5 headhref="dir_003744_002151.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_002151_000814.html"];
+  dir_798de791da584d01cb890e88357400cf->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="3", labeldistance=1.5 headhref="dir_003725_000814.html"];
+  dir_798de791da584d01cb890e88357400cf->dir_23cbc874b5ea49089939faa93b6f03ce [headlabel="1", labeldistance=1.5 headhref="dir_003725_003453.html"];
+  dir_798de791da584d01cb890e88357400cf->dir_e8719ccd60760366888bb431a21ef811 [headlabel="1", labeldistance=1.5 headhref="dir_003725_003744.html"];
+  dir_798de791da584d01cb890e88357400cf->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003725_002151.html"];
+}

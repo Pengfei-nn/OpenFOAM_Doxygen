@@ -1,0 +1,14 @@
+digraph "calcFaceStencil"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="calcFaceStencil",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::CECCellToFaceStencil\l::CECCellToFaceStencil",height=0.2,width=0.4,color="black",URL="$classFoam_1_1CECCellToFaceStencil.html#a88e1b7ea278f86d5c51916777ec47cbc",tooltip="Construct from all cells and boundary faces. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::CFCCellToFaceStencil\l::CFCCellToFaceStencil",height=0.2,width=0.4,color="black",URL="$classFoam_1_1CFCCellToFaceStencil.html#acd3e71562af2950fcab4f4a2a6f4a8b3",tooltip="Construct from mesh. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::CPCCellToFaceStencil\l::CPCCellToFaceStencil",height=0.2,width=0.4,color="black",URL="$classFoam_1_1CPCCellToFaceStencil.html#ac86febb09c8cd6805d1f59fc965b2b8d",tooltip="Construct from all cells and boundary faces. "];
+}

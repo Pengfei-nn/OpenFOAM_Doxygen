@@ -1,0 +1,12 @@
+digraph "applications/solvers/multiphase/icoReactingMultiphaseInterFoam/phasesSystem/MassTransferPhaseSystem" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9814e8b96a810c0bc5aa9f21bfecc094 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="phasesSystem" fontname="Helvetica", fontsize="10", URL="dir_9814e8b96a810c0bc5aa9f21bfecc094.html"]
+  dir_96e342c4616a8c768001902afad6c0db [shape=box, label="MassTransferPhaseSystem", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_96e342c4616a8c768001902afad6c0db.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_96e342c4616a8c768001902afad6c0db->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000201_000499.html"];
+}

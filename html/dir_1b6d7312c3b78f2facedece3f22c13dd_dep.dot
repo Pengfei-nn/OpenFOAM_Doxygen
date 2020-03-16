@@ -1,0 +1,14 @@
+digraph "applications/solvers/lagrangian/icoUncoupledKinematicParcelFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9e1aaabb0e6f6026c8abb09c4d63ec18 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lagrangian" fontname="Helvetica", fontsize="10", URL="dir_9e1aaabb0e6f6026c8abb09c4d63ec18.html"]
+  subgraph clusterdir_1b6d7312c3b78f2facedece3f22c13dd {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1b6d7312c3b78f2facedece3f22c13dd.html"];
+    dir_1b6d7312c3b78f2facedece3f22c13dd [shape=plaintext label="icoUncoupledKinematicParcelFoam"];
+    dir_fdc47220d54a73bc7ec593764d4e027d [shape=box label="icoUncoupledKinematicParcelDyMFoam" color="black" fillcolor="white" style="filled" URL="dir_fdc47220d54a73bc7ec593764d4e027d.html"];
+  }
+  }
+}

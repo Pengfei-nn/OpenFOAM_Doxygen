@@ -1,0 +1,18 @@
+digraph "applications/solvers/multiphase/compressibleMultiphaseInterFoam/multiphaseMixtureThermo" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_75bd1829166ce4d491db72d27f90896f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="compressibleMultiphaseInterFoam" fontname="Helvetica", fontsize="10", URL="dir_75bd1829166ce4d491db72d27f90896f.html"]
+  subgraph clusterdir_4d5f0f5b5dec621b48f4410ade9ffff5 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_4d5f0f5b5dec621b48f4410ade9ffff5.html"];
+    dir_4d5f0f5b5dec621b48f4410ade9ffff5 [shape=plaintext label="multiphaseMixtureThermo"];
+    dir_f34d4c54300c823100407345aec3ed97 [shape=box label="alphaContactAngle" color="black" fillcolor="white" style="filled" URL="dir_f34d4c54300c823100407345aec3ed97.html"];
+    dir_35fee6bdd439117af09bfc2aa45fa1c6 [shape=box label="phaseModel" color="black" fillcolor="white" style="filled" URL="dir_35fee6bdd439117af09bfc2aa45fa1c6.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_f34d4c54300c823100407345aec3ed97->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_003301_000499.html"];
+  dir_35fee6bdd439117af09bfc2aa45fa1c6->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_003231_000499.html"];
+}

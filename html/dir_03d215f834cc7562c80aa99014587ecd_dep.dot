@@ -1,0 +1,12 @@
+digraph "applications/solvers/basic/scalarTransportFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c1a1d77e2de9f0a909b0abf393e236fa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="basic" fontname="Helvetica", fontsize="10", URL="dir_c1a1d77e2de9f0a909b0abf393e236fa.html"]
+  dir_03d215f834cc7562c80aa99014587ecd [shape=box, label="scalarTransportFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_03d215f834cc7562c80aa99014587ecd.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_03d215f834cc7562c80aa99014587ecd->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000024_000499.html"];
+}

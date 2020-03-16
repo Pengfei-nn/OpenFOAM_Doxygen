@@ -1,0 +1,12 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/phaseSystems/reactionThermo" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_264d2d6ce5df211e174aa532bbc40de4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="phaseSystems" fontname="Helvetica", fontsize="10", URL="dir_264d2d6ce5df211e174aa532bbc40de4.html"]
+  dir_129faec124be9504b8822295892c1534 [shape=box, label="reactionThermo", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_129faec124be9504b8822295892c1534.html"];
+  }
+  dir_2778d089ec5c4f66810b11f753867003 [shape=box label="thermophysicalModels" color="red" URL="dir_2778d089ec5c4f66810b11f753867003.html"];
+  dir_129faec124be9504b8822295892c1534->dir_2778d089ec5c4f66810b11f753867003 [headlabel="16", labeldistance=1.5 headhref="dir_003296_001225.html"];
+}

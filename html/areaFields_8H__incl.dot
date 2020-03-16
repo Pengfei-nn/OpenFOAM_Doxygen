@@ -1,0 +1,23 @@
+digraph "src/finiteArea/fields/areaFields/areaFields.H"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/finiteArea/fields\l/areaFields/areaFields.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="objectRegistry.H",height=0.2,width=0.4,color="red",URL="$objectRegistry_8H.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GeometricFields.H",height=0.2,width=0.4,color="red",URL="$GeometricFields_8H.html",tooltip="The standard GeometricField types. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="areaFaMesh.H",height=0.2,width=0.4,color="red",URL="$areaFaMesh_8H.html"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="faMesh.H",height=0.2,width=0.4,color="red",URL="$faMesh_8H.html"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="areaFieldsFwd.H",height=0.2,width=0.4,color="red",URL="$areaFieldsFwd_8H.html",tooltip="Forwards and collection of common area field types. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="faPatchFields.H",height=0.2,width=0.4,color="red",URL="$faPatchFields_8H.html"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="calculatedFaPatchFields.H",height=0.2,width=0.4,color="red",URL="$calculatedFaPatchFields_8H.html"];
+}

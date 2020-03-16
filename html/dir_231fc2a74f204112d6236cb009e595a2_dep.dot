@@ -1,0 +1,10 @@
+digraph "src/OpenFOAM/primitives/Swap" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3e50f45338116b169052b428016851aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="primitives" fontname="Helvetica", fontsize="10", URL="dir_3e50f45338116b169052b428016851aa.html"]
+  dir_231fc2a74f204112d6236cb009e595a2 [shape=box, label="Swap", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_231fc2a74f204112d6236cb009e595a2.html"];
+  }
+}

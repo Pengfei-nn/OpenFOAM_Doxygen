@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DelaunayMesh\< Triangulation\l \>::Traits_for_spatial_sort\l::Less_y_3",height=0.2,width=0.4,color="black",URL="$structFoam_1_1DelaunayMesh_1_1Traits__for__spatial__sort_1_1Less__y__3.html"];
+}

@@ -1,0 +1,18 @@
+digraph "refValue"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="refValue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::advectiveFvPatchField\l::advectiveFvPatchField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1advectiveFvPatchField.html#a3a4545613ae40ef76ad1664be8d51ee7",tooltip="Construct from patch and internal field. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::externalCoupledMixed\lFvPatchField::externalCoupledMixed\lFvPatchField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1externalCoupledMixedFvPatchField.html#af2b86e62de1687df54a7966355f30166",tooltip="Construct from patch and internal field. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::inletOutletFvPatch\lField::inletOutletFvPatchField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1inletOutletFvPatchField.html#a3522f9cdea1f9eec26623acfeb81875b",tooltip="Construct from patch and internal field. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::outletInletFvPatch\lField::outletInletFvPatchField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1outletInletFvPatchField.html#a91cb8e4b99275b8d6e8aa6c492eb54e9",tooltip="Construct from patch and internal field. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::uniformInletOutlet\lFvPatchField::uniformInletOutlet\lFvPatchField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1uniformInletOutletFvPatchField.html#a314d86fb3334d0f7d02332536e6f1617",tooltip="Construct from patch and internal field. "];
+}

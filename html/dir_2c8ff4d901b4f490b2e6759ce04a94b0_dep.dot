@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/fields/Fields/globalFields" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7d364942a13d3ce50f6681364b448a98 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Fields" fontname="Helvetica", fontsize="10", URL="dir_7d364942a13d3ce50f6681364b448a98.html"]
+  dir_2c8ff4d901b4f490b2e6759ce04a94b0 [shape=box, label="globalFields", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2c8ff4d901b4f490b2e6759ce04a94b0.html"];
+  }
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_2c8ff4d901b4f490b2e6759ce04a94b0->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002330_002218.html"];
+}

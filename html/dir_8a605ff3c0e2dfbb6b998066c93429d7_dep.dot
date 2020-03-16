@@ -1,0 +1,15 @@
+digraph "applications/solvers/discreteMethods" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fdd174abb8ada244b49e98779c87ac3c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="solvers" fontname="Helvetica", fontsize="10", URL="dir_fdd174abb8ada244b49e98779c87ac3c.html"]
+  subgraph clusterdir_8a605ff3c0e2dfbb6b998066c93429d7 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_8a605ff3c0e2dfbb6b998066c93429d7.html"];
+    dir_8a605ff3c0e2dfbb6b998066c93429d7 [shape=plaintext label="discreteMethods"];
+    dir_b20997a7199e59148f127b94cdef3c86 [shape=box label="dsmc" color="red" fillcolor="white" style="filled" URL="dir_b20997a7199e59148f127b94cdef3c86.html"];
+    dir_d7710ebd646f354d1444cb29608ef4d3 [shape=box label="molecularDynamics" color="red" fillcolor="white" style="filled" URL="dir_d7710ebd646f354d1444cb29608ef4d3.html"];
+  }
+  }
+}

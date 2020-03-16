@@ -1,0 +1,12 @@
+digraph "applications/utilities/miscellaneous/foamHelp/helpTypes/helpFunctionObject" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b5fb8d533a2553de813871c14cde32df {
+    graph [ bgcolor="#ddddee", pencolor="black", label="helpTypes" fontname="Helvetica", fontsize="10", URL="dir_b5fb8d533a2553de813871c14cde32df.html"]
+  dir_49085ed06e0b418243026e8df827d34f [shape=box, label="helpFunctionObject", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_49085ed06e0b418243026e8df827d34f.html"];
+  }
+  dir_0d4e5ca2c009be1b391d6f05c3f42dd3 [shape=box label="helpType" URL="dir_0d4e5ca2c009be1b391d6f05c3f42dd3.html"];
+  dir_49085ed06e0b418243026e8df827d34f->dir_0d4e5ca2c009be1b391d6f05c3f42dd3 [headlabel="1", labeldistance=1.5 headhref="dir_000393_000395.html"];
+}

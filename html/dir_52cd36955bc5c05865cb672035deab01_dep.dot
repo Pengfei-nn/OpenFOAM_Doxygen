@@ -1,0 +1,15 @@
+digraph "src/sixDoFRigidBodyMotion/sixDoFSolvers/Newmark" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7ca4084a0a6342ee22329da340f40c5e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="sixDoFSolvers" fontname="Helvetica", fontsize="10", URL="dir_7ca4084a0a6342ee22329da340f40c5e.html"]
+  dir_52cd36955bc5c05865cb672035deab01 [shape=box, label="Newmark", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_52cd36955bc5c05865cb672035deab01.html"];
+  }
+  dir_e8500c461da12689a3ca237a381f4b08 [shape=box label="sixDoFSolver" URL="dir_e8500c461da12689a3ca237a381f4b08.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_e8500c461da12689a3ca237a381f4b08->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003621_002151.html"];
+  dir_52cd36955bc5c05865cb672035deab01->dir_e8500c461da12689a3ca237a381f4b08 [headlabel="1", labeldistance=1.5 headhref="dir_003543_003621.html"];
+  dir_52cd36955bc5c05865cb672035deab01->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_003543_002151.html"];
+}

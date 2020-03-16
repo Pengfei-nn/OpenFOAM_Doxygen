@@ -1,0 +1,22 @@
+digraph "src/OpenFOAM/primitives/Scalar/scalar" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b4f4914e791ff496381862f16be45bae {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Scalar" fontname="Helvetica", fontsize="10", URL="dir_b4f4914e791ff496381862f16be45bae.html"]
+  dir_e67694ff55b44d11ba71a37378a61ef5 [shape=box, label="scalar", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e67694ff55b44d11ba71a37378a61ef5.html"];
+  }
+  dir_388ebc957afd3195739a0ce6ea56f687 [shape=box label="floatScalar" URL="dir_388ebc957afd3195739a0ce6ea56f687.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_8583492183f4d27c76555f8f333dd07b [shape=box label="global" color="red" URL="dir_8583492183f4d27c76555f8f333dd07b.html"];
+  dir_b50ec81b3f603d5ef30cf7e329144f8a [shape=box label="doubleScalar" URL="dir_b50ec81b3f603d5ef30cf7e329144f8a.html"];
+  dir_e67694ff55b44d11ba71a37378a61ef5->dir_388ebc957afd3195739a0ce6ea56f687 [headlabel="1", labeldistance=1.5 headhref="dir_002715_002713.html"];
+  dir_e67694ff55b44d11ba71a37378a61ef5->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002715_002218.html"];
+  dir_e67694ff55b44d11ba71a37378a61ef5->dir_8583492183f4d27c76555f8f333dd07b [headlabel="2", labeldistance=1.5 headhref="dir_002715_002385.html"];
+  dir_e67694ff55b44d11ba71a37378a61ef5->dir_b50ec81b3f603d5ef30cf7e329144f8a [headlabel="1", labeldistance=1.5 headhref="dir_002715_002712.html"];
+  dir_388ebc957afd3195739a0ce6ea56f687->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="2", labeldistance=1.5 headhref="dir_002713_002218.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_8583492183f4d27c76555f8f333dd07b [headlabel="35", labeldistance=1.5 headhref="dir_002218_002385.html"];
+  dir_8583492183f4d27c76555f8f333dd07b->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="63", labeldistance=1.5 headhref="dir_002385_002218.html"];
+  dir_b50ec81b3f603d5ef30cf7e329144f8a->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="2", labeldistance=1.5 headhref="dir_002712_002218.html"];
+}

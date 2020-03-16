@@ -1,0 +1,12 @@
+digraph "applications/solvers/compressible/rhoCentralFoam/BCs/U" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_54c0031b8ef4373f0f738562c5f5a67d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="BCs" fontname="Helvetica", fontsize="10", URL="dir_54c0031b8ef4373f0f738562c5f5a67d.html"]
+  dir_e416c957047ebcafed1cec2f50432190 [shape=box, label="U", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e416c957047ebcafed1cec2f50432190.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_e416c957047ebcafed1cec2f50432190->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000125_000499.html"];
+}

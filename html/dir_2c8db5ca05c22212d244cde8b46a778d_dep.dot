@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/twoPhaseSystem/diameterModels/isothermalDiameter" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1b4e163c8b0104bdcce8d831ee7dc741 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="diameterModels" fontname="Helvetica", fontsize="10", URL="dir_1b4e163c8b0104bdcce8d831ee7dc741.html"]
+  dir_2c8db5ca05c22212d244cde8b46a778d [shape=box, label="isothermalDiameter", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2c8db5ca05c22212d244cde8b46a778d.html"];
+  }
+}

@@ -1,0 +1,44 @@
+digraph "clear"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="clear",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::dynamicCode::\laddCompileFile",height=0.2,width=0.4,color="red",URL="$classFoam_1_1dynamicCode.html#ab932e125a2e17fa04beab188c1781840",tooltip="Add a file template name, which will be found and filtered. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::HashSet::assignMany",height=0.2,width=0.4,color="black",URL="$classFoam_1_1HashSet.html#a79a0b3e89479a2cb49652d355a3820f4"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::CStringList::\lclear",height=0.2,width=0.4,color="black",URL="$classFoam_1_1CStringList.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear contents and free memory. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::dlLibraryTable\l::empty",height=0.2,width=0.4,color="black",URL="$classFoam_1_1dlLibraryTable.html#ac6e61de369e994009e36f344f99c15ad",tooltip="True if no there are no libraries loaded by the table. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::regExpPosix::\lempty",height=0.2,width=0.4,color="black",URL="$classFoam_1_1regExpPosix.html#a3f6fc5de06a318920d84f3c3742db07f",tooltip="Return true if a precompiled expression does not exist. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::PtrDynList::expand\lStorage",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PtrDynList.html#aec2bfc62a849a819de0c89cfed6ce642",tooltip="Expand the addressable size to fit the allocated capacity. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::sampledTriSurfaceMesh\l::expire",height=0.2,width=0.4,color="black",URL="$classFoam_1_1sampledTriSurfaceMesh.html#a99e9f0908a967713d117081d26ed51d0",tooltip="Mark the surface as needing an update. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::discreteSurface\l::expire",height=0.2,width=0.4,color="black",URL="$classFoam_1_1discreteSurface.html#a99e9f0908a967713d117081d26ed51d0",tooltip="Mark the surface as needing an update. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::expressions::\lexprResult::exprResult",height=0.2,width=0.4,color="black",URL="$classFoam_1_1expressions_1_1exprResult.html#a77f0b489f0bdb7568cec5ec348e02ce2",tooltip="Copy construct. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::wordRe::match",height=0.2,width=0.4,color="black",URL="$classFoam_1_1wordRe.html#a7571f07dabdba5d94fbf226a21b11390",tooltip="Smart match as regular expression or as a string. "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::regExpPosix::\loperator=",height=0.2,width=0.4,color="black",URL="$classFoam_1_1regExpPosix.html#a23488cd3e67a813490f3a45c9f0111f2",tooltip="Assign and compile pattern from a character array. "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::regExpCxx::operator=",height=0.2,width=0.4,color="black",URL="$classFoam_1_1regExpCxx.html#a23488cd3e67a813490f3a45c9f0111f2",tooltip="Assign and compile pattern from a character array. "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Foam::PtrList::readIstream",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PtrList.html#abd10854d664e07f878aff6bb4699f02d",tooltip="Read from Istream using Istream constructor class. "];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Foam::expressions::\lexprResult::reset",height=0.2,width=0.4,color="black",URL="$classFoam_1_1expressions_1_1exprResult.html#aee66dcc10b76716d1492c2f6ab3720a0",tooltip="Reset at new timestep according to type. "];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Foam::SHA1::SHA1",height=0.2,width=0.4,color="black",URL="$classFoam_1_1SHA1.html#a70a254f3d0029995efc36989b1c419c9",tooltip="Construct null and append initial std::string. "];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Foam::keyType::swap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1keyType.html#af4b443243d66c892d5858b9f442f21c7",tooltip="Swap contents. Self-swapping is a no-op. "];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Foam::HashTable::swap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1HashTable.html#a9d149d7c6221f2115f2dae3b445ab348",tooltip="Swap contents into this table. "];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="Foam::vtk::vtuSizing\l::vtuSizing",height=0.2,width=0.4,color="black",URL="$classFoam_1_1vtk_1_1vtuSizing.html#aa6da970a4fb76799004c0e5cf04fce91",tooltip="Construct sizing by analyzing the mesh. "];
+}

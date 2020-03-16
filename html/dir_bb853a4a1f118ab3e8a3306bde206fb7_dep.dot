@@ -1,0 +1,16 @@
+digraph "applications/solvers/basic/potentialFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c1a1d77e2de9f0a909b0abf393e236fa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="basic" fontname="Helvetica", fontsize="10", URL="dir_c1a1d77e2de9f0a909b0abf393e236fa.html"]
+  subgraph clusterdir_bb853a4a1f118ab3e8a3306bde206fb7 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_bb853a4a1f118ab3e8a3306bde206fb7.html"];
+    dir_bb853a4a1f118ab3e8a3306bde206fb7 [shape=plaintext label="potentialFoam"];
+    dir_1d57cbc032c3bc3355ddaf02700939d9 [shape=box label="overPotentialFoam" color="black" fillcolor="white" style="filled" URL="dir_1d57cbc032c3bc3355ddaf02700939d9.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_1d57cbc032c3bc3355ddaf02700939d9->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000008_000499.html"];
+}

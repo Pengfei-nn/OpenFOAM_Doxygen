@@ -1,0 +1,10 @@
+digraph "applications/solvers/discreteMethods/dsmc/dsmcFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b20997a7199e59148f127b94cdef3c86 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="dsmc" fontname="Helvetica", fontsize="10", URL="dir_b20997a7199e59148f127b94cdef3c86.html"]
+  dir_09e15c0d3c97688c95c2d06028e6da55 [shape=box, label="dsmcFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_09e15c0d3c97688c95c2d06028e6da55.html"];
+  }
+}

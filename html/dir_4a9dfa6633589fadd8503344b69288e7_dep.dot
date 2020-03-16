@@ -1,0 +1,15 @@
+digraph "applications/utilities/mesh/conversion/ccm" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5148cfe1bce83bc5fdc09a52963260a1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="conversion" fontname="Helvetica", fontsize="10", URL="dir_5148cfe1bce83bc5fdc09a52963260a1.html"]
+  subgraph clusterdir_4a9dfa6633589fadd8503344b69288e7 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_4a9dfa6633589fadd8503344b69288e7.html"];
+    dir_4a9dfa6633589fadd8503344b69288e7 [shape=plaintext label="ccm"];
+    dir_593367381191fea95e621c85f8e9b5f3 [shape=box label="ccmToFoam" color="black" fillcolor="white" style="filled" URL="dir_593367381191fea95e621c85f8e9b5f3.html"];
+    dir_4448dda20ed8a748c3f42b93017eb076 [shape=box label="foamToCcm" color="black" fillcolor="white" style="filled" URL="dir_4448dda20ed8a748c3f42b93017eb076.html"];
+  }
+  }
+}

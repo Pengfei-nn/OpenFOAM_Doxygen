@@ -1,0 +1,12 @@
+digraph "applications/solvers/compressible/sonicFoam/sonicLiquidFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5c7741d678abb4eb6f65432f0716c51d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="sonicFoam" fontname="Helvetica", fontsize="10", URL="dir_5c7741d678abb4eb6f65432f0716c51d.html"]
+  dir_e3ae0e36c11ee3f56f9094df7d2df9ad [shape=box, label="sonicLiquidFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e3ae0e36c11ee3f56f9094df7d2df9ad.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_e3ae0e36c11ee3f56f9094df7d2df9ad->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000127_000499.html"];
+}

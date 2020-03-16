@@ -1,0 +1,15 @@
+digraph "src/thermophysicalModels/chemistryModel/chemistrySolver/ode" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6bcc1e86007f484a5b22bf400ecd810f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="chemistrySolver" fontname="Helvetica", fontsize="10", URL="dir_6bcc1e86007f484a5b22bf400ecd810f.html"]
+  dir_0c84beea5d7d3600bce4f850f077082a [shape=box, label="ode", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0c84beea5d7d3600bce4f850f077082a.html"];
+  }
+  dir_b6062828977f0670e70ecb4568245308 [shape=box label="chemistrySolver" URL="dir_b6062828977f0670e70ecb4568245308.html"];
+  dir_e47b7a1cb0d621da2e060462b00c1c76 [shape=box label="ODE" color="red" URL="dir_e47b7a1cb0d621da2e060462b00c1c76.html"];
+  dir_b6062828977f0670e70ecb4568245308->dir_0c84beea5d7d3600bce4f850f077082a [headlabel="1", labeldistance=1.5 headhref="dir_003708_003711.html"];
+  dir_0c84beea5d7d3600bce4f850f077082a->dir_b6062828977f0670e70ecb4568245308 [headlabel="1", labeldistance=1.5 headhref="dir_003711_003708.html"];
+  dir_0c84beea5d7d3600bce4f850f077082a->dir_e47b7a1cb0d621da2e060462b00c1c76 [headlabel="1", labeldistance=1.5 headhref="dir_003711_001605.html"];
+}

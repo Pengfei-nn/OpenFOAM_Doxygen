@@ -1,0 +1,16 @@
+digraph "applications/solvers/combustion/PDRFoam/XiModels/transport" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_875d300f7c06ad3c5c9e587b64daa300 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="XiModels" fontname="Helvetica", fontsize="10", URL="dir_875d300f7c06ad3c5c9e587b64daa300.html"]
+  dir_eda7b24b0204271cfbfc036663d9608d [shape=box, label="transport", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_eda7b24b0204271cfbfc036663d9608d.html"];
+  }
+  dir_8466298f5f92a7096630ba54e6501d61 [shape=box label="XiGModels" color="red" URL="dir_8466298f5f92a7096630ba54e6501d61.html"];
+  dir_86c6030308677972953fc7979d3a85bb [shape=box label="XiEqModels" color="red" URL="dir_86c6030308677972953fc7979d3a85bb.html"];
+  dir_014c63896f54c5ff2237bb87c905c8be [shape=box label="XiModel" URL="dir_014c63896f54c5ff2237bb87c905c8be.html"];
+  dir_eda7b24b0204271cfbfc036663d9608d->dir_8466298f5f92a7096630ba54e6501d61 [headlabel="1", labeldistance=1.5 headhref="dir_000108_000115.html"];
+  dir_eda7b24b0204271cfbfc036663d9608d->dir_86c6030308677972953fc7979d3a85bb [headlabel="1", labeldistance=1.5 headhref="dir_000108_000109.html"];
+  dir_eda7b24b0204271cfbfc036663d9608d->dir_014c63896f54c5ff2237bb87c905c8be [headlabel="1", labeldistance=1.5 headhref="dir_000108_000119.html"];
+}

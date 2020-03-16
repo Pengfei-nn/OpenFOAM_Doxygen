@@ -1,0 +1,12 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/interfacialModels/wallDependentModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b7d8cc85fbe5b5cd664e714a0ccf860f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfacialModels" fontname="Helvetica", fontsize="10", URL="dir_b7d8cc85fbe5b5cd664e714a0ccf860f.html"]
+  dir_9a64456bd455cf322ce106d4d8831907 [shape=box, label="wallDependentModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9a64456bd455cf322ce106d4d8831907.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_9a64456bd455cf322ce106d4d8831907->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_003186_000499.html"];
+}

@@ -1,0 +1,20 @@
+digraph "src/OpenFOAM/db/dictionary/functionEntries/ifEntry" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_02d80f093374efbc333e223ddfd028a9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="functionEntries" fontname="Helvetica", fontsize="10", URL="dir_02d80f093374efbc333e223ddfd028a9.html"]
+  dir_e1f91c38c1dcfb9172193bc940f0f631 [shape=box, label="ifEntry", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e1f91c38c1dcfb9172193bc940f0f631.html"];
+  }
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_6052bdb7d5023dde0aed3053cfe5fd5e [shape=box label="ifeqEntry" URL="dir_6052bdb7d5023dde0aed3053cfe5fd5e.html"];
+  dir_97107bb83a2a5bbfad7ddd584e3f301c [shape=box label="runTimeSelection" color="red" URL="dir_97107bb83a2a5bbfad7ddd584e3f301c.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_97107bb83a2a5bbfad7ddd584e3f301c [headlabel="16", labeldistance=1.5 headhref="dir_002628_002282.html"];
+  dir_6052bdb7d5023dde0aed3053cfe5fd5e->dir_3e50f45338116b169052b428016851aa [headlabel="2", labeldistance=1.5 headhref="dir_002231_002628.html"];
+  dir_6052bdb7d5023dde0aed3053cfe5fd5e->dir_97107bb83a2a5bbfad7ddd584e3f301c [headlabel="1", labeldistance=1.5 headhref="dir_002231_002282.html"];
+  dir_6052bdb7d5023dde0aed3053cfe5fd5e->dir_e1f91c38c1dcfb9172193bc940f0f631 [headlabel="1", labeldistance=1.5 headhref="dir_002231_002230.html"];
+  dir_e1f91c38c1dcfb9172193bc940f0f631->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002230_002628.html"];
+  dir_e1f91c38c1dcfb9172193bc940f0f631->dir_6052bdb7d5023dde0aed3053cfe5fd5e [headlabel="1", labeldistance=1.5 headhref="dir_002230_002231.html"];
+  dir_e1f91c38c1dcfb9172193bc940f0f631->dir_97107bb83a2a5bbfad7ddd584e3f301c [headlabel="1", labeldistance=1.5 headhref="dir_002230_002282.html"];
+}

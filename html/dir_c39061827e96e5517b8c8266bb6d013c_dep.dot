@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_17a9bfb76e5e1dbc9e2e32285df4aeb8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="pointPatchField" fontname="Helvetica", fontsize="10", URL="dir_17a9bfb76e5e1dbc9e2e32285df4aeb8.html"]
+  dir_c39061827e96e5517b8c8266bb6d013c [shape=box, label="pointConstraint", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_c39061827e96e5517b8c8266bb6d013c.html"];
+  }
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_c39061827e96e5517b8c8266bb6d013c->dir_3e50f45338116b169052b428016851aa [headlabel="5", labeldistance=1.5 headhref="dir_002382_002628.html"];
+}

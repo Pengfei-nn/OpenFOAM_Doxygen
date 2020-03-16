@@ -1,0 +1,20 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/interfacialModels/aspectRatioModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b7d8cc85fbe5b5cd664e714a0ccf860f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfacialModels" fontname="Helvetica", fontsize="10", URL="dir_b7d8cc85fbe5b5cd664e714a0ccf860f.html"]
+  subgraph clusterdir_61a4c66f01258155d2258fd2274f3c82 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_61a4c66f01258155d2258fd2274f3c82.html"];
+    dir_61a4c66f01258155d2258fd2274f3c82 [shape=plaintext label="aspectRatioModels"];
+    dir_8953d7c515d018a0dfe9ce713e024667 [shape=box label="aspectRatioModel" color="black" fillcolor="white" style="filled" URL="dir_8953d7c515d018a0dfe9ce713e024667.html"];
+    dir_54e2a49189ddde16347c66a00aa9f7cd [shape=box label="constantAspectRatio" color="black" fillcolor="white" style="filled" URL="dir_54e2a49189ddde16347c66a00aa9f7cd.html"];
+    dir_ca1457f22a1eecebe23114c4a05c7fa9 [shape=box label="TomiyamaAspectRatio" color="black" fillcolor="white" style="filled" URL="dir_ca1457f22a1eecebe23114c4a05c7fa9.html"];
+    dir_4ee27ff397c98cb392ece2a916aeff03 [shape=box label="VakhrushevEfremov" color="black" fillcolor="white" style="filled" URL="dir_4ee27ff397c98cb392ece2a916aeff03.html"];
+    dir_87c3d4c0d011c528c583cfbb9a1294b1 [shape=box label="Wellek" color="black" fillcolor="white" style="filled" URL="dir_87c3d4c0d011c528c583cfbb9a1294b1.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_8953d7c515d018a0dfe9ce713e024667->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003072_000499.html"];
+}

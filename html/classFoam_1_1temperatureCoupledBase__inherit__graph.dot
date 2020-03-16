@@ -1,0 +1,22 @@
+digraph "temperatureCoupledBase"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="temperatureCoupledBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="turbulentTemperatureCoupled\lBaffleMixedFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1compressible_1_1turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.html",tooltip="Mixed boundary condition for temperature, to be used for heat-transfer on back-to-back baffles..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="turbulentTemperatureRadCoupled\lMixedFvPatchScalarField",height=0.2,width=0.4,color="red",URL="$classFoam_1_1compressible_1_1turbulentTemperatureRadCoupledMixedFvPatchScalarField.html",tooltip="Mixed boundary condition for temperature and radiation heat transfer to be used for in multiregion ca..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="externalWallHeatFluxTemperature\lFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1externalWallHeatFluxTemperatureFvPatchScalarField.html",tooltip="This boundary condition applies a heat flux condition to temperature on an external wall in one of th..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="filmPyrolysisRadiativeCoupled\lMixedFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1filmPyrolysisRadiativeCoupledMixedFvPatchScalarField.html",tooltip="Mixed boundary condition for temperature, to be used in the flow and pyrolysis regions when a film re..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="humidityTemperatureCoupled\lMixedFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1humidityTemperatureCoupledMixedFvPatchScalarField.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="lumpedMassWallTemperature\lFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1lumpedMassWallTemperatureFvPatchScalarField.html",tooltip="Employs a lumped mass model for temperature. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="fixedIncidentRadiationFv\lPatchScalarField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1radiation_1_1fixedIncidentRadiationFvPatchScalarField.html",tooltip="Boundary condition for thermal coupling for solid regions. Used to emulate a fixed incident radiative..."];
+}

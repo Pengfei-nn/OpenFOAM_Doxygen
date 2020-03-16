@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['janafthermo',['janafThermo',['../classFoam_1_1janafThermo.html',1,'Foam']]],
+  ['janevreactionrate',['JanevReactionRate',['../classFoam_1_1JanevReactionRate.html',1,'Foam']]],
+  ['jeschar',['Jeschar',['../classFoam_1_1wallBoilingModels_1_1CHFModels_1_1Jeschar.html',1,'Foam::wallBoilingModels::CHFModels']]],
+  ['jobinfo',['JobInfo',['../classFoam_1_1JobInfo.html',1,'Foam']]],
+  ['johnsonjackson',['JohnsonJackson',['../classFoam_1_1kineticTheoryModels_1_1frictionalStressModels_1_1JohnsonJackson.html',1,'Foam::kineticTheoryModels::frictionalStressModels']]],
+  ['johnsonjacksonparticleslipfvpatchvectorfield',['JohnsonJacksonParticleSlipFvPatchVectorField',['../classFoam_1_1JohnsonJacksonParticleSlipFvPatchVectorField.html',1,'Foam']]],
+  ['johnsonjacksonparticlethetafvpatchscalarfield',['JohnsonJacksonParticleThetaFvPatchScalarField',['../classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html',1,'Foam']]],
+  ['johnsonjacksonschaeffer',['JohnsonJacksonSchaeffer',['../classFoam_1_1kineticTheoryModels_1_1frictionalStressModels_1_1JohnsonJacksonSchaeffer.html',1,'Foam::kineticTheoryModels::frictionalStressModels']]],
+  ['joint',['joint',['../classFoam_1_1RBD_1_1joint.html',1,'Foam::RBD']]],
+  ['jointbody',['jointBody',['../classFoam_1_1jointBody.html',1,'Foam']]],
+  ['jointbody',['jointBody',['../classFoam_1_1RBD_1_1jointBody.html',1,'Foam::RBD']]],
+  ['jouleheatingsource',['jouleHeatingSource',['../classFoam_1_1fv_1_1jouleHeatingSource.html',1,'Foam::fv']]],
+  ['jplotgraph',['jplotGraph',['../classFoam_1_1jplotGraph.html',1,'Foam']]],
+  ['jplotsetwriter',['jplotSetWriter',['../classFoam_1_1jplotSetWriter.html',1,'Foam']]],
+  ['jumpcyclicamifvpatchfield',['jumpCyclicAMIFvPatchField',['../classFoam_1_1jumpCyclicAMIFvPatchField.html',1,'Foam']]],
+  ['jumpcyclicfvpatchfield',['jumpCyclicFvPatchField',['../classFoam_1_1jumpCyclicFvPatchField.html',1,'Foam']]]
+];

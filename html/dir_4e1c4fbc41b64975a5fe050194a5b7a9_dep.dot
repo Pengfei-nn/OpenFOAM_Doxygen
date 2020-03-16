@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/pUf" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9a8884475cf7812a7a55716c3274f065 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="twoPhaseEulerFoam" fontname="Helvetica", fontsize="10", URL="dir_9a8884475cf7812a7a55716c3274f065.html"]
+  dir_4e1c4fbc41b64975a5fe050194a5b7a9 [shape=box, label="pUf", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4e1c4fbc41b64975a5fe050194a5b7a9.html"];
+  }
+}

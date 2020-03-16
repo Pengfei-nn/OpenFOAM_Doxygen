@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['b',['B',['../classFoam_1_1Barycentric.html#a34a2c423b3ea385bdb64e0dbba3f901ba3f2a77ecd272aa6d6b5902faa5e5fc68',1,'Foam::Barycentric::B()'],['../classFoam_1_1Barycentric2D.html#a34a2c423b3ea385bdb64e0dbba3f901ba3f2a77ecd272aa6d6b5902faa5e5fc68',1,'Foam::Barycentric2D::B()'],['../classFoam_1_1cubicEqn.html#a34a2c423b3ea385bdb64e0dbba3f901ba3f2a77ecd272aa6d6b5902faa5e5fc68',1,'Foam::cubicEqn::B()'],['../classFoam_1_1linearEqn.html#a34a2c423b3ea385bdb64e0dbba3f901ba3f2a77ecd272aa6d6b5902faa5e5fc68',1,'Foam::linearEqn::B()'],['../classFoam_1_1quadraticEqn.html#a34a2c423b3ea385bdb64e0dbba3f901ba3f2a77ecd272aa6d6b5902faa5e5fc68',1,'Foam::quadraticEqn::B()']]],
+  ['back',['BACK',['../classFoam_1_1plane.html#afc015eff6557e84151d2e53b94375445ac921ff2cfc571c1d19b0485d7f6926ee',1,'Foam::plane::BACK()'],['../classFoam_1_1treeBoundBox.html#aca50bc12d2c406d18786bfd3ca38164dac921ff2cfc571c1d19b0485d7f6926ee',1,'Foam::treeBoundBox::BACK()']]],
+  ['backbit',['BACKBIT',['../classFoam_1_1treeBoundBox.html#a12e21e727c433314c0538c10561e17b1ab7b61bcfee5cda23e4eba456961ead90',1,'Foam::treeBoundBox']]],
+  ['backward',['BACKWARD',['../classFoam_1_1functionObjects_1_1streamLineBase.html#a7bdac2f106ddd534fd2051681d72960cafed2fca77e454294d6b8bda1bf2c9fd6',1,'Foam::functionObjects::streamLineBase']]],
+  ['bad',['BAD',['../classFoam_1_1IOobject.html#a0155511b28ed34c7b4ac41d095632d13afe29bdbfb6e2165eec29bf28af429856',1,'Foam::IOobject']]],
+  ['baffle',['BAFFLE',['../classFoam_1_1surfaceZonesInfo.html#a390c37d9b1516748356dd5803d3592baad4e2475b7c29ab3bc8514d1e2f85ea06',1,'Foam::surfaceZonesInfo']]],
+  ['begin_5fblock',['BEGIN_BLOCK',['../classFoam_1_1token.html#a4aba281d025f1d580c3835d67656fd31a1a359ac3023cdc0a2d09f3c5124e09d1',1,'Foam::token']]],
+  ['begin_5flist',['BEGIN_LIST',['../classFoam_1_1token.html#a4aba281d025f1d580c3835d67656fd31a8042f41e6dc49acd5cf4e86844f79acb',1,'Foam::token']]],
+  ['begin_5fsqr',['BEGIN_SQR',['../classFoam_1_1token.html#a4aba281d025f1d580c3835d67656fd31a205c3715f7e514a181174f5a8e35e5e5',1,'Foam::token']]],
+  ['begin_5fstring',['BEGIN_STRING',['../classFoam_1_1token.html#a4aba281d025f1d580c3835d67656fd31a06a55d67cef55846d08d4482ee6a507f',1,'Foam::token']]],
+  ['bidirectional',['BIDIRECTIONAL',['../classFoam_1_1functionObjects_1_1streamLineBase.html#a7bdac2f106ddd534fd2051681d72960cad136b9b8eb37198a3ce7e36b925dacd7',1,'Foam::functionObjects::streamLineBase']]],
+  ['binary',['BINARY',['../classFoam_1_1fileFormats_1_1STLCore.html#ad4185a8478bf3a11fdbc0aecde17bbb3aecafbc1299672a8c1521cc0d5f1ae986',1,'Foam::fileFormats::STLCore::BINARY()'],['../classFoam_1_1IOstreamOption.html#a7b2668fb57e659fea11ecef32c33bd01aecafbc1299672a8c1521cc0d5f1ae986',1,'Foam::IOstreamOption::BINARY()'],['../classFoam_1_1token.html#a6de61d020d5e51c1d065ccb79387e682aecafbc1299672a8c1521cc0d5f1ae986',1,'Foam::token::BINARY()']]],
+  ['block',['BLOCK',['../namespaceFoam_1_1vtk.html#afd7226e03c422ce67a088e9c9d482bdba4d34f53389ed7f28ca91fc31ea360a66',1,'Foam::vtk']]],
+  ['blocked_5fface',['BLOCKED_FACE',['../classFoam_1_1PDRpatchDef.html#a83032533c6ac74cf4216cd9bd32f0290abdc3f0432a1067cc32627657646e0bed',1,'Foam::PDRpatchDef']]],
+  ['blocking',['blocking',['../classFoam_1_1UPstream.html#a12cf32e9b7820a2c00bf40c8617ab55ba14343966a1d7dce7526e57cf2206d19d',1,'Foam::UPstream']]],
+  ['bnd_5ffile',['BND_FILE',['../classFoam_1_1fileFormats_1_1STARCDCore.html#ad622cbf6833cf7da2e7ef4897d6487f5af5d4be85f9a680b0300a4ddb0ebeda57',1,'Foam::fileFormats::STARCDCore']]],
+  ['bool',['BOOL',['../classFoam_1_1token.html#a6a0d563d5e7c57fc510988d6694cc9e9ae663dbb8f8244e122acb5bd6b2c216e1',1,'Foam::token']]],
+  ['both',['BOTH',['../classFoam_1_1functionObjects_1_1limitFields.html#a04b54e5fd226c4bcb6d5946d728d3beca627abe5a430420baf29ebe1940a7f2fb',1,'Foam::functionObjects::limitFields::BOTH()'],['../classFoam_1_1extendedEdgeMesh.html#aa6376232c086ea48a8b69bdac97b2ceca627abe5a430420baf29ebe1940a7f2fb',1,'Foam::extendedEdgeMesh::BOTH()'],['../classFoam_1_1cellToFace.html#a84d1150d5ad7ac112597aff81d6fc1c3a627abe5a430420baf29ebe1940a7f2fb',1,'Foam::cellToFace::BOTH()']]],
+  ['bottom',['BOTTOM',['../classFoam_1_1treeBoundBox.html#aca50bc12d2c406d18786bfd3ca38164da8c371f4e766fb2c49c219bbc88989461',1,'Foam::treeBoundBox']]],
+  ['bottombit',['BOTTOMBIT',['../classFoam_1_1treeBoundBox.html#a12e21e727c433314c0538c10561e17b1afc4d7e527709b6c660a847de8bb46b0d',1,'Foam::treeBoundBox']]],
+  ['boundary',['BOUNDARY',['../classFoam_1_1surfaceZonesInfo.html#a390c37d9b1516748356dd5803d3592baabb01c29d92244006bbc24ac5229da199',1,'Foam::surfaceZonesInfo']]],
+  ['boundaryfaces',['boundaryFaces',['../classFoam_1_1sampledTriSurfaceMesh.html#a6abf597141d9a1340bfb60e108a540daa85fb792f1f55355dcbbb38b292ad5bdf',1,'Foam::sampledTriSurfaceMesh::boundaryFaces()'],['../classFoam_1_1discreteSurface.html#a6abf597141d9a1340bfb60e108a540daa85fb792f1f55355dcbbb38b292ad5bdf',1,'Foam::discreteSurface::boundaryFaces()']]]
+];

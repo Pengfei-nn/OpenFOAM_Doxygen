@@ -1,0 +1,10 @@
+digraph "tellg"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="tellg",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::ISstream::stdStream",height=0.2,width=0.4,color="black",URL="$classFoam_1_1ISstream.html#a513d1fa6b29fa93acb75f0afe0a58dd5",tooltip="Access to underlying std::istream. "];
+}

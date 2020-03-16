@@ -1,0 +1,18 @@
+digraph "PatchInjection"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PatchInjection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::IOobject::db",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#adf469b34fcd0250cef43ac4ce3f153ab",tooltip="Return the local objectRegistry. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::DSMCCloud::mesh",height=0.2,width=0.4,color="black",URL="$classFoam_1_1DSMCCloud.html#a628df3d8f239d8393610d6310eb56ad1",tooltip="Return reference to the mesh. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::objectRegistry\l::time",height=0.2,width=0.4,color="black",URL="$classFoam_1_1objectRegistry.html#a48fcf6de2789aff6b430b5fc1a05693f",tooltip="Return time. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::patchInjectionBase\l::updateMesh",height=0.2,width=0.4,color="black",URL="$classFoam_1_1patchInjectionBase.html#a6d43ae10cf9dba5b6063e706ab5534e3",tooltip="Update patch geometry and derived info for injection locations. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::TimeState::userTime\lToTime",height=0.2,width=0.4,color="black",URL="$classFoam_1_1TimeState.html#a53b169b496268aa38cca7ce6ad8ff063",tooltip="Convert the user-time (e.g. CA deg) to real-time (s). "];
+}

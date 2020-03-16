@@ -1,0 +1,15 @@
+digraph "applications/solvers/multiphase/icoReactingMultiphaseInterFoam/laserDTRM/DTRMParticle" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_73a577334200d1ddf7eccf77782bc5f9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="laserDTRM" fontname="Helvetica", fontsize="10", URL="dir_73a577334200d1ddf7eccf77782bc5f9.html"]
+  dir_2bb3a3346b46f8df5f22ac6a69065b2a [shape=box, label="DTRMParticle", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2bb3a3346b46f8df5f22ac6a69065b2a.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_e944b23a9482893a0f1e38eaa537ebd2 [shape=box label="reflectionModel" color="red" URL="dir_e944b23a9482893a0f1e38eaa537ebd2.html"];
+  dir_e944b23a9482893a0f1e38eaa537ebd2->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="5", labeldistance=1.5 headhref="dir_000187_000499.html"];
+  dir_2bb3a3346b46f8df5f22ac6a69065b2a->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="6", labeldistance=1.5 headhref="dir_000185_000499.html"];
+  dir_2bb3a3346b46f8df5f22ac6a69065b2a->dir_e944b23a9482893a0f1e38eaa537ebd2 [headlabel="1", labeldistance=1.5 headhref="dir_000185_000187.html"];
+}

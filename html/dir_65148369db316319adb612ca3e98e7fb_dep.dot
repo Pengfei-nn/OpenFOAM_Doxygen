@@ -1,0 +1,20 @@
+digraph "src/finiteVolume/finiteVolume/snGradSchemes/quadraticFitSnGrad" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f2a32fae3c7e5034ec75716fe725e251 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="snGradSchemes" fontname="Helvetica", fontsize="10", URL="dir_f2a32fae3c7e5034ec75716fe725e251.html"]
+  dir_65148369db316319adb612ca3e98e7fb [shape=box, label="quadraticFitSnGrad", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_65148369db316319adb612ca3e98e7fb.html"];
+  }
+  dir_e22c81bf62a8cb96666294c9a89f2d77 [shape=box label="CentredFitSnGrad" URL="dir_e22c81bf62a8cb96666294c9a89f2d77.html"];
+  dir_c382fa095c9c33d8673c0dd60aaef275 [shape=box label="fvMesh" color="red" URL="dir_c382fa095c9c33d8673c0dd60aaef275.html"];
+  dir_a586eb954e2e5e74ecf6fe95a2457777 [shape=box label="interpolation" color="red" URL="dir_a586eb954e2e5e74ecf6fe95a2457777.html"];
+  dir_e22c81bf62a8cb96666294c9a89f2d77->dir_c382fa095c9c33d8673c0dd60aaef275 [headlabel="1", labeldistance=1.5 headhref="dir_001076_001106.html"];
+  dir_e22c81bf62a8cb96666294c9a89f2d77->dir_a586eb954e2e5e74ecf6fe95a2457777 [headlabel="1", labeldistance=1.5 headhref="dir_001076_000815.html"];
+  dir_c382fa095c9c33d8673c0dd60aaef275->dir_a586eb954e2e5e74ecf6fe95a2457777 [headlabel="2", labeldistance=1.5 headhref="dir_001106_000815.html"];
+  dir_a586eb954e2e5e74ecf6fe95a2457777->dir_c382fa095c9c33d8673c0dd60aaef275 [headlabel="40", labeldistance=1.5 headhref="dir_000815_001106.html"];
+  dir_65148369db316319adb612ca3e98e7fb->dir_e22c81bf62a8cb96666294c9a89f2d77 [headlabel="1", labeldistance=1.5 headhref="dir_001082_001076.html"];
+  dir_65148369db316319adb612ca3e98e7fb->dir_c382fa095c9c33d8673c0dd60aaef275 [headlabel="1", labeldistance=1.5 headhref="dir_001082_001106.html"];
+  dir_65148369db316319adb612ca3e98e7fb->dir_a586eb954e2e5e74ecf6fe95a2457777 [headlabel="1", labeldistance=1.5 headhref="dir_001082_000815.html"];
+}

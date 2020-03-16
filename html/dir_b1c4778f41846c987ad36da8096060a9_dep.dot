@@ -1,0 +1,12 @@
+digraph "applications/solvers/combustion/PDRFoam/XiModels/XiEqModels/Gulder" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_86c6030308677972953fc7979d3a85bb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="XiEqModels" fontname="Helvetica", fontsize="10", URL="dir_86c6030308677972953fc7979d3a85bb.html"]
+  dir_b1c4778f41846c987ad36da8096060a9 [shape=box, label="Gulder", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b1c4778f41846c987ad36da8096060a9.html"];
+  }
+  dir_a02a87a06df1180e1e734c7954ddb4f4 [shape=box label="XiEqModel" URL="dir_a02a87a06df1180e1e734c7954ddb4f4.html"];
+  dir_b1c4778f41846c987ad36da8096060a9->dir_a02a87a06df1180e1e734c7954ddb4f4 [headlabel="1", labeldistance=1.5 headhref="dir_000110_000114.html"];
+}

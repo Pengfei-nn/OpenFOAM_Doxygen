@@ -1,0 +1,40 @@
+digraph "check"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="check",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::CollisionRecordList\l::CollisionRecordList",height=0.2,width=0.4,color="black",URL="$classFoam_1_1CollisionRecordList.html#a1b2489c470983ec6d916b89bb38649ff",tooltip="Construct from component fields (for IO) "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::kinematicParcelInjection\lData::kinematicParcelInjectionData",height=0.2,width=0.4,color="black",URL="$classFoam_1_1kinematicParcelInjectionData.html#a8c1b1375768f52c872df5f7824b3bbb1",tooltip="Construct from Istream. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::maxFirstOp::operator()",height=0.2,width=0.4,color="black",URL="$structFoam_1_1maxFirstOp.html#a38066be9937aa7348daae57379b1e385"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#ae12ca579a804acaa71b2aae74015687c"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::eddy::operator=",height=0.2,width=0.4,color="black",URL="$classFoam_1_1eddy.html#a7b6992610555dd8673960a58d13b1e92"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::operator\>\>",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a0ac486020b556b1f6d1413b72f05a21e"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::orientedType\l::oriented",height=0.2,width=0.4,color="red",URL="$classFoam_1_1orientedType.html#a50cf27e5d855735e6b584359a6fc4102",tooltip="Return non-const reference to the oriented flag. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::PairCollisionRecord\l::PairCollisionRecord",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PairCollisionRecord.html#ac128b0c7366baead4a0d0460807e1f78",tooltip="Construct from Istream. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::reactingMultiphase\lParcelInjectionData::reacting\lMultiphaseParcelInjectionData",height=0.2,width=0.4,color="black",URL="$classFoam_1_1reactingMultiphaseParcelInjectionData.html#a784911731891cd92eb662bb6cbeee619",tooltip="Construct from Istream. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::reactingParcelInjection\lData::reactingParcelInjectionData",height=0.2,width=0.4,color="black",URL="$classFoam_1_1reactingParcelInjectionData.html#afad14f27509181c1fd187ae82c8b9b25",tooltip="Construct from Istream. "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::thermoParcelInjection\lData::thermoParcelInjectionData",height=0.2,width=0.4,color="black",URL="$classFoam_1_1thermoParcelInjectionData.html#a555229036265831bb90c2e112fdb3b59",tooltip="Construct from Istream. "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::VectorSpace::\lVectorSpace",height=0.2,width=0.4,color="black",URL="$classFoam_1_1VectorSpace.html#a09a50e81a83b80244faf890ec24441de",tooltip="Construct from Istream. "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Foam::WallCollisionRecord\l::WallCollisionRecord",height=0.2,width=0.4,color="black",URL="$classFoam_1_1WallCollisionRecord.html#a92cce6f4263fa65fd3d8dcefc930f61a",tooltip="Construct from Istream. "];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Foam::Detail::PtrListDetail\l::write",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Detail_1_1PtrListDetail.html#a9bf9d63c2cf1bac059ee009e9bc6f500",tooltip="Write output, optionally silently trimming nullptrs. "];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Foam::UILList::writeList",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UILList.html#abed2d1c33121b8d932b8241a1068091c",tooltip="Write UILList with line-breaks when length exceeds shortLen. "];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Foam::IndirectListBase\l::writeList",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IndirectListBase.html#abed2d1c33121b8d932b8241a1068091c",tooltip="Write List, with line-breaks in ASCII when length exceeds shortLen. "];
+}

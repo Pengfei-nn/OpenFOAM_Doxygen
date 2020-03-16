@@ -1,0 +1,21 @@
+digraph "src/meshTools/algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.H"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/meshTools/algorithms\l/PatchEdgeFaceWave/PatchEdgeFace\lWave.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/functionObjects\l/field/fluxSummary/fluxSummary.C",height=0.2,width=0.4,color="black",URL="$fluxSummary_8C.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/mesh/snappyHexMesh\l/meshRefinement/meshRefinement\lBaffles.C",height=0.2,width=0.4,color="black",URL="$meshRefinementBaffles_8C.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/meshTools/algorithms\l/PatchEdgeFaceWave/PatchEdgeFace\lWave.C",height=0.2,width=0.4,color="black",URL="$PatchEdgeFaceWave_8C.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/meshTools/algorithms\l/PatchEdgeFaceWave/PatchEdgeFace\lWaveName.C",height=0.2,width=0.4,color="black",URL="$PatchEdgeFaceWaveName_8C.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/meshTools/algorithms\l/PatchEdgeFaceWave/patchPatchDist.C",height=0.2,width=0.4,color="black",URL="$patchPatchDist_8C.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/meshTools/regionSplit2\lD/regionSplit2D.C",height=0.2,width=0.4,color="black",URL="$regionSplit2D_8C.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/meshTools/sets\l/faceSources/regionToFace\l/regionToFace.C",height=0.2,width=0.4,color="black",URL="$regionToFace_8C.html"];
+}

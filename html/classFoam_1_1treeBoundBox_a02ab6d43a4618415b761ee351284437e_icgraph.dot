@@ -1,0 +1,12 @@
+digraph "points"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="points",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::searchableBox\l::findNearest",height=0.2,width=0.4,color="black",URL="$classFoam_1_1searchableBox.html#a73281254ab1a91bdbd0519abababad15",tooltip="Calculate nearest point on surface. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::AABBTree::writeOBJ",height=0.2,width=0.4,color="black",URL="$classFoam_1_1AABBTree.html#aefa238599bcd43a3a5593b83ef66b397",tooltip="Write OBJ file of bounding box. "];
+}

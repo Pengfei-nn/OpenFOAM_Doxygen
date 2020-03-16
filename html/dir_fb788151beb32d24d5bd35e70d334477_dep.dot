@@ -1,0 +1,15 @@
+digraph "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/initialPointsMethod/autoDensity" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8fe8a2be90de25befe5b2e9b512a52aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="initialPointsMethod" fontname="Helvetica", fontsize="10", URL="dir_8fe8a2be90de25befe5b2e9b512a52aa.html"]
+  dir_fb788151beb32d24d5bd35e70d334477 [shape=box, label="autoDensity", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_fb788151beb32d24d5bd35e70d334477.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_6320d834263f3367c754599438b3baf0 [shape=box label="initialPointsMethod" URL="dir_6320d834263f3367c754599438b3baf0.html"];
+  dir_fb788151beb32d24d5bd35e70d334477->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000329_000499.html"];
+  dir_fb788151beb32d24d5bd35e70d334477->dir_6320d834263f3367c754599438b3baf0 [headlabel="1", labeldistance=1.5 headhref="dir_000329_000332.html"];
+  dir_6320d834263f3367c754599438b3baf0->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="5", labeldistance=1.5 headhref="dir_000332_000499.html"];
+}

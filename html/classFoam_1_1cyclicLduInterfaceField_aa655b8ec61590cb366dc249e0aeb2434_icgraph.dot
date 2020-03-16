@@ -1,0 +1,10 @@
+digraph "transformCoupleField"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="transformCoupleField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::cyclicFaPatchField\l::cyclicPatch",height=0.2,width=0.4,color="black",URL="$classFoam_1_1cyclicFaPatchField.html#a88ab0a8fb4ac489d40314a1ad4415dbf",tooltip="Return local reference cast into the cyclic patch. "];
+}

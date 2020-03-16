@@ -1,0 +1,13 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/phaseSystems/populationBalanceModel/driftModels/driftModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_97472f4e162dc62825fbdb5183cf7ef9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="driftModels" fontname="Helvetica", fontsize="10", URL="dir_97472f4e162dc62825fbdb5183cf7ef9.html"]
+  dir_58f0bca98fc3553561d1e7c68fccccd6 [shape=box, label="driftModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_58f0bca98fc3553561d1e7c68fccccd6.html"];
+  }
+  dir_6836c8d0bc2688f1a5e39885a04a3d18 [shape=box label="populationBalanceModel" URL="dir_6836c8d0bc2688f1a5e39885a04a3d18.html"];
+  dir_58f0bca98fc3553561d1e7c68fccccd6->dir_6836c8d0bc2688f1a5e39885a04a3d18 [headlabel="1", labeldistance=1.5 headhref="dir_003282_003295.html"];
+  dir_6836c8d0bc2688f1a5e39885a04a3d18->dir_58f0bca98fc3553561d1e7c68fccccd6 [headlabel="1", labeldistance=1.5 headhref="dir_003295_003282.html"];
+}

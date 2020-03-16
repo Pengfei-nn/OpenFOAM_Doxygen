@@ -1,0 +1,22 @@
+digraph "TurbulenceModel&lt; Alpha, Rho, BasicTurbulenceModel, TransportModel &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TurbulenceModel\< Alpha,\l Rho, BasicTurbulenceModel,\l TransportModel \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BasicTurbulenceModel",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PhaseCompressibleTurbulence\lModel\< Foam::phaseModel \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1PhaseCompressibleTurbulenceModel.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PhaseCompressibleTurbulence\lModel\< typename BasicTurbulence\lModel::transportModel \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1PhaseCompressibleTurbulenceModel.html"];
+  Node1 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< volScalarField, volScalar\lField, compressibleTurbulenceModel,\l TransportModel \>" ,fontname="Helvetica"];
+  Node5 [label="TurbulenceModel\< volScalar\lField, volScalarField,\l compressibleTurbulenceModel,\l TransportModel \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1TurbulenceModel.html"];
+  Node1 -> Node6 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< geometricOneField,\l volScalarField, compressible\lTurbulenceModel, TransportModel \>" ,fontname="Helvetica"];
+  Node6 [label="TurbulenceModel\< geometric\lOneField, volScalarField,\l compressibleTurbulenceModel,\l TransportModel \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1TurbulenceModel.html"];
+  Node1 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< geometricOneField,\l geometricOneField,\l incompressibleTurbulenceModel,\l TransportModel \>" ,fontname="Helvetica"];
+  Node7 [label="TurbulenceModel\< geometric\lOneField, geometricOneField,\l incompressibleTurbulenceModel,\l TransportModel \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1TurbulenceModel.html"];
+  Node1 -> Node8 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< volScalarField, geometric\lOneField, incompressibleTurbulence\lModel, TransportModel \>" ,fontname="Helvetica"];
+  Node8 [label="TurbulenceModel\< volScalar\lField, geometricOneField,\l incompressibleTurbulenceModel,\l TransportModel \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1TurbulenceModel.html"];
+}

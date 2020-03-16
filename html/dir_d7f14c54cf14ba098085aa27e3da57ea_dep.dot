@@ -1,0 +1,17 @@
+digraph "src/finiteVolume/functionObjects/fieldSelections/volFieldSelection" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1642ec77de5c1131da2ea78767feb908 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="fieldSelections" fontname="Helvetica", fontsize="10", URL="dir_1642ec77de5c1131da2ea78767feb908.html"]
+  dir_d7f14c54cf14ba098085aa27e3da57ea [shape=box, label="volFieldSelection", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d7f14c54cf14ba098085aa27e3da57ea.html"];
+  }
+  dir_25ab4a83a983f7bb7a38b7f63bb141b7 [shape=box label="fields" color="red" URL="dir_25ab4a83a983f7bb7a38b7f63bb141b7.html"];
+  dir_7265a9fc25ca2a64e7b043152d73af93 [shape=box label="fieldSelection" URL="dir_7265a9fc25ca2a64e7b043152d73af93.html"];
+  dir_1a4209badf8dc5d7c181708103efea60 [shape=box label="volMesh" URL="dir_1a4209badf8dc5d7c181708103efea60.html"];
+  dir_25ab4a83a983f7bb7a38b7f63bb141b7->dir_1a4209badf8dc5d7c181708103efea60 [headlabel="12", labeldistance=1.5 headhref="dir_000890_001259.html"];
+  dir_d7f14c54cf14ba098085aa27e3da57ea->dir_25ab4a83a983f7bb7a38b7f63bb141b7 [headlabel="2", labeldistance=1.5 headhref="dir_001091_000890.html"];
+  dir_d7f14c54cf14ba098085aa27e3da57ea->dir_7265a9fc25ca2a64e7b043152d73af93 [headlabel="1", labeldistance=1.5 headhref="dir_001091_001088.html"];
+  dir_d7f14c54cf14ba098085aa27e3da57ea->dir_1a4209badf8dc5d7c181708103efea60 [headlabel="1", labeldistance=1.5 headhref="dir_001091_001259.html"];
+}

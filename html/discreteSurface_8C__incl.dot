@@ -1,0 +1,23 @@
+digraph "src/sampling/surface/triSurfaceMesh/discreteSurface.C"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/sampling/surface\l/triSurfaceMesh/discreteSurface.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="discreteSurface.H",height=0.2,width=0.4,color="red",URL="$discreteSurface_8H.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="meshSearch.H",height=0.2,width=0.4,color="red",URL="$meshSearch_8H.html"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Tuple2.H",height=0.2,width=0.4,color="red",URL="$Tuple2_8H.html"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="globalIndex.H",height=0.2,width=0.4,color="red",URL="$globalIndex_8H.html"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="treeDataCell.H",height=0.2,width=0.4,color="red",URL="$treeDataCell_8H.html"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="treeDataFace.H",height=0.2,width=0.4,color="red",URL="$treeDataFace_8H.html"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="meshTools.H",height=0.2,width=0.4,color="red",URL="$meshTools_8H.html"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="addToRunTimeSelectionTable.H",height=0.2,width=0.4,color="black",URL="$addToRunTimeSelectionTable_8H.html",tooltip="Macros for easy insertion into run-time selection tables. "];
+}

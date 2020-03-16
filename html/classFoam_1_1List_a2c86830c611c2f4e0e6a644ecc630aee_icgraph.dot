@@ -1,0 +1,18 @@
+digraph "operator="
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::cellShape::collapse",height=0.2,width=0.4,color="red",URL="$classFoam_1_1cellShape.html#a5883ecc0c5ecdb7129b2dfbee64e4828",tooltip="Collapse shape to correct one after removing duplicate vertices. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::decomposedBlockData\l::decomposedBlockData",height=0.2,width=0.4,color="black",URL="$classFoam_1_1decomposedBlockData.html#a2d493a550db49a966e20d4189b88ee4a",tooltip="Construct by transferring the List contents. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::IOList::IOList",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOList.html#aac86c6730eab0ab334c9f2a9f6ea984c",tooltip="Construct by transferring the List content. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::SortableList\l::operator=",height=0.2,width=0.4,color="black",URL="$classFoam_1_1SortableList.html#a5cb3385e7151c3d0e67a565c36502482",tooltip="Assignment operator. Takes linear time. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::Field::operator=",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Field.html#a311afe5f4bd37f10614008d41f6eb90c"];
+}

@@ -1,0 +1,12 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/phaseSystems/PhaseSystems/PopulationBalancePhaseSystem" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a7327b39a6c21bd7cb6ad15cb00d59b5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="PhaseSystems" fontname="Helvetica", fontsize="10", URL="dir_a7327b39a6c21bd7cb6ad15cb00d59b5.html"]
+  dir_b828fbd4afd2b04571f65356251d073c [shape=box, label="PopulationBalancePhaseSystem", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b828fbd4afd2b04571f65356251d073c.html"];
+  }
+  dir_4a6d1fbad301874a73ea01594d41bbe5 [shape=box label="populationBalanceModel" color="red" URL="dir_4a6d1fbad301874a73ea01594d41bbe5.html"];
+  dir_b828fbd4afd2b04571f65356251d073c->dir_4a6d1fbad301874a73ea01594d41bbe5 [headlabel="1", labeldistance=1.5 headhref="dir_003257_000852.html"];
+}

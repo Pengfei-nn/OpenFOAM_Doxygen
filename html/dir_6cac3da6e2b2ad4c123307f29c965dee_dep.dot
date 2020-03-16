@@ -1,0 +1,20 @@
+digraph "src/OpenFOAM/fields/pointPatchFields/basic/calculated" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6a30703e73af3ba7ed84ebe53ffd3e12 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="basic" fontname="Helvetica", fontsize="10", URL="dir_6a30703e73af3ba7ed84ebe53ffd3e12.html"]
+  dir_6cac3da6e2b2ad4c123307f29c965dee [shape=box, label="calculated", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6cac3da6e2b2ad4c123307f29c965dee.html"];
+  }
+  dir_7d364942a13d3ce50f6681364b448a98 [shape=box label="Fields" color="red" URL="dir_7d364942a13d3ce50f6681364b448a98.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_17a9bfb76e5e1dbc9e2e32285df4aeb8 [shape=box label="pointPatchField" color="red" URL="dir_17a9bfb76e5e1dbc9e2e32285df4aeb8.html"];
+  dir_7d364942a13d3ce50f6681364b448a98->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="28", labeldistance=1.5 headhref="dir_002323_002218.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="3", labeldistance=1.5 headhref="dir_002218_002323.html"];
+  dir_6cac3da6e2b2ad4c123307f29c965dee->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="1", labeldistance=1.5 headhref="dir_002361_002323.html"];
+  dir_6cac3da6e2b2ad4c123307f29c965dee->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002361_002218.html"];
+  dir_6cac3da6e2b2ad4c123307f29c965dee->dir_17a9bfb76e5e1dbc9e2e32285df4aeb8 [headlabel="2", labeldistance=1.5 headhref="dir_002361_002381.html"];
+  dir_17a9bfb76e5e1dbc9e2e32285df4aeb8->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="4", labeldistance=1.5 headhref="dir_002381_002323.html"];
+  dir_17a9bfb76e5e1dbc9e2e32285df4aeb8->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002381_002218.html"];
+}

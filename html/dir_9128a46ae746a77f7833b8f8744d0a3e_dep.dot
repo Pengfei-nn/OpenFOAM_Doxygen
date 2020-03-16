@@ -1,0 +1,16 @@
+digraph "applications/solvers/multiphase/icoReactingMultiphaseInterFoam/phasesSystem/phaseSystem" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9814e8b96a810c0bc5aa9f21bfecc094 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="phasesSystem" fontname="Helvetica", fontsize="10", URL="dir_9814e8b96a810c0bc5aa9f21bfecc094.html"]
+  subgraph clusterdir_9128a46ae746a77f7833b8f8744d0a3e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_9128a46ae746a77f7833b8f8744d0a3e.html"];
+    dir_9128a46ae746a77f7833b8f8744d0a3e [shape=plaintext label="phaseSystem"];
+    dir_da2859fc6ac8da3fc3522268779fb7f7 [shape=box label="multiphaseSystem" color="black" fillcolor="white" style="filled" URL="dir_da2859fc6ac8da3fc3522268779fb7f7.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_da2859fc6ac8da3fc3522268779fb7f7->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000206_000499.html"];
+}

@@ -1,0 +1,15 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/derivedFvPatchFields/wallBoilingSubModels/CHFSubCoolModels/HuaXu" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_de5e5b261db000506cd63f506bb25378 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="CHFSubCoolModels" fontname="Helvetica", fontsize="10", URL="dir_de5e5b261db000506cd63f506bb25378.html"]
+  dir_a1d026cb8921cb55b0bad1cec85e486d [shape=box, label="HuaXu", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a1d026cb8921cb55b0bad1cec85e486d.html"];
+  }
+  dir_702454d4465b1117fd851bf46462b050 [shape=box label="CHFSubCoolModel" URL="dir_702454d4465b1117fd851bf46462b050.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_a1d026cb8921cb55b0bad1cec85e486d->dir_702454d4465b1117fd851bf46462b050 [headlabel="1", labeldistance=1.5 headhref="dir_003012_003011.html"];
+  dir_a1d026cb8921cb55b0bad1cec85e486d->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003012_002151.html"];
+  dir_702454d4465b1117fd851bf46462b050->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003011_002151.html"];
+}

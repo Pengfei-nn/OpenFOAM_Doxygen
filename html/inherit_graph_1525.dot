@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="searchableSurfaceModifier::cut",height=0.2,width=0.4,color="black",URL="$classFoam_1_1searchableSurfaceModifier_1_1cut.html",tooltip="Patchify triangles based on orientation w.r.t other (triangulated or triangulatable) surfaces..."];
+}

@@ -1,0 +1,12 @@
+digraph "applications/utilities/surface/surfacePatch/searchableSurfaceModifier" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9bb5ffcb72caf686892d4c33f10ecb67 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="surfacePatch" fontname="Helvetica", fontsize="10", URL="dir_9bb5ffcb72caf686892d4c33f10ecb67.html"]
+  dir_0ebf8dc8a280699cfb3e941baf43cfc8 [shape=box, label="searchableSurfaceModifier", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0ebf8dc8a280699cfb3e941baf43cfc8.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_0ebf8dc8a280699cfb3e941baf43cfc8->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="8", labeldistance=1.5 headhref="dir_000354_000499.html"];
+}

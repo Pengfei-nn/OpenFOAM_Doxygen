@@ -1,0 +1,16 @@
+digraph "src/lagrangian/intermediate/clouds/derived/basicThermoCloud" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c6860622f4fbcabfab9cda1ac4325d83 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="derived" fontname="Helvetica", fontsize="10", URL="dir_c6860622f4fbcabfab9cda1ac4325d83.html"]
+  dir_8b51402f133ef2621262e7528aef3084 [shape=box, label="basicThermoCloud", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_8b51402f133ef2621262e7528aef3084.html"];
+  }
+  dir_f332ac72f0d3698ba18c2dc3cab43221 [shape=box label="Templates" color="red" URL="dir_f332ac72f0d3698ba18c2dc3cab43221.html"];
+  dir_b8d19ddbdf0975644e34192d6313800e [shape=box label="parcels" color="red" URL="dir_b8d19ddbdf0975644e34192d6313800e.html"];
+  dir_f332ac72f0d3698ba18c2dc3cab43221->dir_b8d19ddbdf0975644e34192d6313800e [headlabel="1", labeldistance=1.5 headhref="dir_001588_001609.html"];
+  dir_8b51402f133ef2621262e7528aef3084->dir_f332ac72f0d3698ba18c2dc3cab43221 [headlabel="1", labeldistance=1.5 headhref="dir_001587_001588.html"];
+  dir_8b51402f133ef2621262e7528aef3084->dir_b8d19ddbdf0975644e34192d6313800e [headlabel="1", labeldistance=1.5 headhref="dir_001587_001609.html"];
+  dir_b8d19ddbdf0975644e34192d6313800e->dir_f332ac72f0d3698ba18c2dc3cab43221 [headlabel="1", labeldistance=1.5 headhref="dir_001609_001588.html"];
+}

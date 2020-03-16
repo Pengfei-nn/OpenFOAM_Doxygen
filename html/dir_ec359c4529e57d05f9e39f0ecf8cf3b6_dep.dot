@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/icoReactingMultiphaseInterFoam/massTransferModels/Lee" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_22e84d0f1ac24eb425676d371410161f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="massTransferModels" fontname="Helvetica", fontsize="10", URL="dir_22e84d0f1ac24eb425676d371410161f.html"]
+  dir_ec359c4529e57d05f9e39f0ecf8cf3b6 [shape=box, label="Lee", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ec359c4529e57d05f9e39f0ecf8cf3b6.html"];
+  }
+}

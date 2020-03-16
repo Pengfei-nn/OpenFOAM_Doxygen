@@ -1,0 +1,10 @@
+digraph "applications/utilities/postProcessing/lumped/lumpedPointForces" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_841b188b54e869951e65e52efec69528 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lumped" fontname="Helvetica", fontsize="10", URL="dir_841b188b54e869951e65e52efec69528.html"]
+  dir_5ba6c22f680f62193acaef4616ef3184 [shape=box, label="lumpedPointForces", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5ba6c22f680f62193acaef4616ef3184.html"];
+  }
+}

@@ -1,0 +1,26 @@
+digraph "src/OpenFOAM/meshes/pointMesh/pointPatches/constraint/symmetryPlane" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e167ef4ffdb4a3e074def457cb9fd663 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="constraint" fontname="Helvetica", fontsize="10", URL="dir_e167ef4ffdb4a3e074def457cb9fd663.html"]
+  dir_66703b1954c6d5b59fc6db33c192de9c [shape=box, label="symmetryPlane", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_66703b1954c6d5b59fc6db33c192de9c.html"];
+  }
+  dir_962442b8f989d5529fab5e0f0e4ffb74 [shape=box label="fields" color="red" URL="dir_962442b8f989d5529fab5e0f0e4ffb74.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_5e5a63cb97aae3d01c8e98f0c14953bc [shape=box label="polyMesh" color="red" URL="dir_5e5a63cb97aae3d01c8e98f0c14953bc.html"];
+  dir_602eb11747eaf9b0ac10527ada580b7b [shape=box label="facePointPatch" URL="dir_602eb11747eaf9b0ac10527ada580b7b.html"];
+  dir_962442b8f989d5529fab5e0f0e4ffb74->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="64", labeldistance=1.5 headhref="dir_002305_002218.html"];
+  dir_962442b8f989d5529fab5e0f0e4ffb74->dir_5e5a63cb97aae3d01c8e98f0c14953bc [headlabel="10", labeldistance=1.5 headhref="dir_002305_002572.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_962442b8f989d5529fab5e0f0e4ffb74 [headlabel="3", labeldistance=1.5 headhref="dir_002218_002305.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_5e5a63cb97aae3d01c8e98f0c14953bc [headlabel="6", labeldistance=1.5 headhref="dir_002218_002572.html"];
+  dir_5e5a63cb97aae3d01c8e98f0c14953bc->dir_962442b8f989d5529fab5e0f0e4ffb74 [headlabel="17", labeldistance=1.5 headhref="dir_002572_002305.html"];
+  dir_5e5a63cb97aae3d01c8e98f0c14953bc->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="62", labeldistance=1.5 headhref="dir_002572_002218.html"];
+  dir_66703b1954c6d5b59fc6db33c192de9c->dir_962442b8f989d5529fab5e0f0e4ffb74 [headlabel="1", labeldistance=1.5 headhref="dir_002565_002305.html"];
+  dir_66703b1954c6d5b59fc6db33c192de9c->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002565_002218.html"];
+  dir_66703b1954c6d5b59fc6db33c192de9c->dir_5e5a63cb97aae3d01c8e98f0c14953bc [headlabel="1", labeldistance=1.5 headhref="dir_002565_002572.html"];
+  dir_66703b1954c6d5b59fc6db33c192de9c->dir_602eb11747eaf9b0ac10527ada580b7b [headlabel="1", labeldistance=1.5 headhref="dir_002565_002570.html"];
+  dir_602eb11747eaf9b0ac10527ada580b7b->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002570_002218.html"];
+  dir_602eb11747eaf9b0ac10527ada580b7b->dir_5e5a63cb97aae3d01c8e98f0c14953bc [headlabel="1", labeldistance=1.5 headhref="dir_002570_002572.html"];
+}

@@ -1,0 +1,14 @@
+digraph "src/OpenFOAM/containers/Circulators/ConstCirculator" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_95a7e81c1594d83c19708405d7dbc74d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Circulators" fontname="Helvetica", fontsize="10", URL="dir_95a7e81c1594d83c19708405d7dbc74d.html"]
+  dir_962bbfe8887f5592a9eb6e11136e6af4 [shape=box, label="ConstCirculator", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_962bbfe8887f5592a9eb6e11136e6af4.html"];
+  }
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_a82de541a3ae3ff38b30bc16fbb29fe5 [shape=box label="CirculatorBase" URL="dir_a82de541a3ae3ff38b30bc16fbb29fe5.html"];
+  dir_962bbfe8887f5592a9eb6e11136e6af4->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002164_002218.html"];
+  dir_962bbfe8887f5592a9eb6e11136e6af4->dir_a82de541a3ae3ff38b30bc16fbb29fe5 [headlabel="1", labeldistance=1.5 headhref="dir_002164_002163.html"];
+}

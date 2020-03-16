@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/fields/Fields/zeroField" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7d364942a13d3ce50f6681364b448a98 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Fields" fontname="Helvetica", fontsize="10", URL="dir_7d364942a13d3ce50f6681364b448a98.html"]
+  dir_d8c1444d0105358aa27f42fe7eaf8f93 [shape=box, label="zeroField", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d8c1444d0105358aa27f42fe7eaf8f93.html"];
+  }
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_d8c1444d0105358aa27f42fe7eaf8f93->dir_3e50f45338116b169052b428016851aa [headlabel="2", labeldistance=1.5 headhref="dir_002345_002628.html"];
+}

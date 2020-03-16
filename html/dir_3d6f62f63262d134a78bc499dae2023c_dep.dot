@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/multiphaseEulerFoam/multiphaseSystem/diameterModels/constantDiameter" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d2fa68893773f04e02f4fa5f3ba06996 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="diameterModels" fontname="Helvetica", fontsize="10", URL="dir_d2fa68893773f04e02f4fa5f3ba06996.html"]
+  dir_3d6f62f63262d134a78bc499dae2023c [shape=box, label="constantDiameter", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3d6f62f63262d134a78bc499dae2023c.html"];
+  }
+}

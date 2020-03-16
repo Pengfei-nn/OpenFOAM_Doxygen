@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/interpolations/interpolation2DTable" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e764f87aebd421bcba631b254777cd25 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interpolations" fontname="Helvetica", fontsize="10", URL="dir_e764f87aebd421bcba631b254777cd25.html"]
+  dir_8630504119f3d0001a5421f145fe19b5 [shape=box, label="interpolation2DTable", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_8630504119f3d0001a5421f145fe19b5.html"];
+  }
+  dir_9f1aca8cdff648a574ac91ac8f606876 [shape=box label="interpolationTable" color="red" URL="dir_9f1aca8cdff648a574ac91ac8f606876.html"];
+  dir_8630504119f3d0001a5421f145fe19b5->dir_9f1aca8cdff648a574ac91ac8f606876 [headlabel="2", labeldistance=1.5 headhref="dir_002423_002425.html"];
+}

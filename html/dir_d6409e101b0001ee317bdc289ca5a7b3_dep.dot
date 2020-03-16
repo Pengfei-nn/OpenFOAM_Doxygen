@@ -1,0 +1,12 @@
+digraph "src/thermophysicalModels/specie/reaction/Reactions/ReversibleReaction" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6df6717126315845253e3389d84631ef {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Reactions" fontname="Helvetica", fontsize="10", URL="dir_6df6717126315845253e3389d84631ef.html"]
+  dir_d6409e101b0001ee317bdc289ca5a7b3 [shape=box, label="ReversibleReaction", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d6409e101b0001ee317bdc289ca5a7b3.html"];
+  }
+  dir_b7c4cf0a4d4427609627ff77ee1a173b [shape=box label="Reaction" URL="dir_b7c4cf0a4d4427609627ff77ee1a173b.html"];
+  dir_d6409e101b0001ee317bdc289ca5a7b3->dir_b7c4cf0a4d4427609627ff77ee1a173b [headlabel="1", labeldistance=1.5 headhref="dir_003863_003861.html"];
+}

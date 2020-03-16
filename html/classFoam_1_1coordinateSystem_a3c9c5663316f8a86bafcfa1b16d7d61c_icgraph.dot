@@ -1,0 +1,14 @@
+digraph "localToGlobal"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="localToGlobal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="e2",height=0.2,width=0.4,color="red",URL="$classFoam_1_1coordinateSystem.html#a9e699825df4a10f0729fabb98baaf0a5",tooltip="The local Cartesian y-axis in global coordinates. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::coordSystem::\lcylindrical::localToGlobal",height=0.2,width=0.4,color="black",URL="$classFoam_1_1coordSystem_1_1cylindrical.html#a3c9c5663316f8a86bafcfa1b16d7d61c",tooltip="From local coordinate system to the global Cartesian system with optional translation for the origin..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="note",height=0.2,width=0.4,color="black",URL="$classFoam_1_1coordinateSystem.html#a19a917e855211758355866985b53ec87",tooltip="Provide non-constant access to the optional note. "];
+}

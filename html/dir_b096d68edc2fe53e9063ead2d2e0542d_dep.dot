@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/twoPhaseSystem/diameterModels/IATE/IATEsources/wakeEntrainmentCoalescence" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_97c1c9bab2462ef6cb1398bf82c2b820 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="IATEsources" fontname="Helvetica", fontsize="10", URL="dir_97c1c9bab2462ef6cb1398bf82c2b820.html"]
+  dir_b096d68edc2fe53e9063ead2d2e0542d [shape=box, label="wakeEntrainmentCoalescence", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b096d68edc2fe53e9063ead2d2e0542d.html"];
+  }
+}

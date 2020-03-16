@@ -1,0 +1,26 @@
+digraph "src/OpenFOAM/primitives/Barycentric2D" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3e50f45338116b169052b428016851aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="primitives" fontname="Helvetica", fontsize="10", URL="dir_3e50f45338116b169052b428016851aa.html"]
+  subgraph clusterdir_6e8a170138ae6b8d987b72ceda6fbe53 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_6e8a170138ae6b8d987b72ceda6fbe53.html"];
+    dir_6e8a170138ae6b8d987b72ceda6fbe53 [shape=plaintext label="Barycentric2D"];
+    dir_0b893c4b3a0dced1511bc6f5c26fd2d6 [shape=box label="barycentric2D" color="black" fillcolor="white" style="filled" URL="dir_0b893c4b3a0dced1511bc6f5c26fd2d6.html"];
+  }
+  }
+  dir_fe902bc9ff5b589eb0ead5d28c94889f [shape=box label="random" color="red" URL="dir_fe902bc9ff5b589eb0ead5d28c94889f.html"];
+  dir_b4f4914e791ff496381862f16be45bae [shape=box label="Scalar" color="red" URL="dir_b4f4914e791ff496381862f16be45bae.html"];
+  dir_67e43ffa00fdb90d8ab20f3d61175616 [shape=box label="VectorSpace" URL="dir_67e43ffa00fdb90d8ab20f3d61175616.html"];
+  dir_1b29830830533868fb04f0e807b2ad78 [shape=box label="contiguous" URL="dir_1b29830830533868fb04f0e807b2ad78.html"];
+  dir_6e8a170138ae6b8d987b72ceda6fbe53->dir_67e43ffa00fdb90d8ab20f3d61175616 [headlabel="1", labeldistance=1.5 headhref="dir_002632_002770.html"];
+  dir_6e8a170138ae6b8d987b72ceda6fbe53->dir_1b29830830533868fb04f0e807b2ad78 [headlabel="1", labeldistance=1.5 headhref="dir_002632_002642.html"];
+  dir_fe902bc9ff5b589eb0ead5d28c94889f->dir_b4f4914e791ff496381862f16be45bae [headlabel="1", labeldistance=1.5 headhref="dir_002702_002711.html"];
+  dir_0b893c4b3a0dced1511bc6f5c26fd2d6->dir_fe902bc9ff5b589eb0ead5d28c94889f [headlabel="1", labeldistance=1.5 headhref="dir_002633_002702.html"];
+  dir_0b893c4b3a0dced1511bc6f5c26fd2d6->dir_b4f4914e791ff496381862f16be45bae [headlabel="1", labeldistance=1.5 headhref="dir_002633_002711.html"];
+  dir_b4f4914e791ff496381862f16be45bae->dir_67e43ffa00fdb90d8ab20f3d61175616 [headlabel="1", labeldistance=1.5 headhref="dir_002711_002770.html"];
+  dir_67e43ffa00fdb90d8ab20f3d61175616->dir_b4f4914e791ff496381862f16be45bae [headlabel="1", labeldistance=1.5 headhref="dir_002770_002711.html"];
+  dir_1b29830830533868fb04f0e807b2ad78->dir_b4f4914e791ff496381862f16be45bae [headlabel="1", labeldistance=1.5 headhref="dir_002642_002711.html"];
+}

@@ -1,0 +1,12 @@
+digraph "applications/solvers/multiphase/driftFluxFoam/relativeVelocityModels/general" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6785f5d6f26af236cd0d743b0d7f771e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="relativeVelocityModels" fontname="Helvetica", fontsize="10", URL="dir_6785f5d6f26af236cd0d743b0d7f771e.html"]
+  dir_0f950d16cae18e5c7db0d228731f9a83 [shape=box, label="general", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0f950d16cae18e5c7db0d228731f9a83.html"];
+  }
+  dir_1a0430f305b7748d4b6b015618ca2055 [shape=box label="relativeVelocityModel" URL="dir_1a0430f305b7748d4b6b015618ca2055.html"];
+  dir_0f950d16cae18e5c7db0d228731f9a83->dir_1a0430f305b7748d4b6b015618ca2055 [headlabel="1", labeldistance=1.5 headhref="dir_001535_000182.html"];
+}

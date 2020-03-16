@@ -1,0 +1,12 @@
+digraph "src/lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/Rebound" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cf43f87a8139bd03a012339b0f68c2d8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="PatchInteractionModel" fontname="Helvetica", fontsize="10", URL="dir_cf43f87a8139bd03a012339b0f68c2d8.html"]
+  dir_af6f25dd17f1e434d49b52a581c1b215 [shape=box, label="Rebound", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_af6f25dd17f1e434d49b52a581c1b215.html"];
+  }
+  dir_fbe14706e92980c2567ab36ee0a0e449 [shape=box label="PatchInteractionModel" URL="dir_fbe14706e92980c2567ab36ee0a0e449.html"];
+  dir_af6f25dd17f1e434d49b52a581c1b215->dir_fbe14706e92980c2567ab36ee0a0e449 [headlabel="1", labeldistance=1.5 headhref="dir_001721_001720.html"];
+}

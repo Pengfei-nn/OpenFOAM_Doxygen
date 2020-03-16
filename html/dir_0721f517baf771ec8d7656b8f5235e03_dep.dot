@@ -1,0 +1,38 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/phaseSystems/populationBalanceModel/coalescenceModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4a6d1fbad301874a73ea01594d41bbe5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="populationBalanceModel" fontname="Helvetica", fontsize="10", URL="dir_4a6d1fbad301874a73ea01594d41bbe5.html"]
+  subgraph clusterdir_0721f517baf771ec8d7656b8f5235e03 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_0721f517baf771ec8d7656b8f5235e03.html"];
+    dir_0721f517baf771ec8d7656b8f5235e03 [shape=plaintext label="coalescenceModels"];
+    dir_266a22525b8231633db5495286b1dd46 [shape=box label="coalescenceModel" color="black" fillcolor="white" style="filled" URL="dir_266a22525b8231633db5495286b1dd46.html"];
+    dir_1cf20db7250329d557375b60eaae5f8a [shape=box label="constantCoalescence" color="black" fillcolor="white" style="filled" URL="dir_1cf20db7250329d557375b60eaae5f8a.html"];
+    dir_5da84d35649e661eab80e5483a52f169 [shape=box label="CoulaloglouTavlaridesCoalescence" color="black" fillcolor="white" style="filled" URL="dir_5da84d35649e661eab80e5483a52f169.html"];
+    dir_d397cabb2c1c5074ce6bd72797873e6a [shape=box label="hydrodynamic" color="black" fillcolor="white" style="filled" URL="dir_d397cabb2c1c5074ce6bd72797873e6a.html"];
+    dir_c247bf9c28a1446381cbdff83f1d2b9f [shape=box label="LehrMilliesMewesCoalescence" color="black" fillcolor="white" style="filled" URL="dir_c247bf9c28a1446381cbdff83f1d2b9f.html"];
+    dir_e8a9db5eda96eae40a65bc003fd0e4b2 [shape=box label="Luo" color="black" fillcolor="white" style="filled" URL="dir_e8a9db5eda96eae40a65bc003fd0e4b2.html"];
+    dir_eaace51cbb372901d65995cac003553c [shape=box label="PrinceBlanch" color="black" fillcolor="white" style="filled" URL="dir_eaace51cbb372901d65995cac003553c.html"];
+  }
+  }
+  dir_6836c8d0bc2688f1a5e39885a04a3d18 [shape=box label="populationBalanceModel" URL="dir_6836c8d0bc2688f1a5e39885a04a3d18.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_c247bf9c28a1446381cbdff83f1d2b9f->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003272_002151.html"];
+  dir_c247bf9c28a1446381cbdff83f1d2b9f->dir_266a22525b8231633db5495286b1dd46 [headlabel="1", labeldistance=1.5 headhref="dir_003272_003268.html"];
+  dir_eaace51cbb372901d65995cac003553c->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003274_002151.html"];
+  dir_eaace51cbb372901d65995cac003553c->dir_266a22525b8231633db5495286b1dd46 [headlabel="1", labeldistance=1.5 headhref="dir_003274_003268.html"];
+  dir_1cf20db7250329d557375b60eaae5f8a->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_003269_002151.html"];
+  dir_1cf20db7250329d557375b60eaae5f8a->dir_266a22525b8231633db5495286b1dd46 [headlabel="1", labeldistance=1.5 headhref="dir_003269_003268.html"];
+  dir_6836c8d0bc2688f1a5e39885a04a3d18->dir_0721f517baf771ec8d7656b8f5235e03 [headlabel="1", labeldistance=1.5 headhref="dir_003295_003267.html"];
+  dir_6836c8d0bc2688f1a5e39885a04a3d18->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_003295_002151.html"];
+  dir_6836c8d0bc2688f1a5e39885a04a3d18->dir_266a22525b8231633db5495286b1dd46 [headlabel="1", labeldistance=1.5 headhref="dir_003295_003268.html"];
+  dir_5da84d35649e661eab80e5483a52f169->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_003270_002151.html"];
+  dir_5da84d35649e661eab80e5483a52f169->dir_266a22525b8231633db5495286b1dd46 [headlabel="1", labeldistance=1.5 headhref="dir_003270_003268.html"];
+  dir_266a22525b8231633db5495286b1dd46->dir_6836c8d0bc2688f1a5e39885a04a3d18 [headlabel="1", labeldistance=1.5 headhref="dir_003268_003295.html"];
+  dir_e8a9db5eda96eae40a65bc003fd0e4b2->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003273_002151.html"];
+  dir_e8a9db5eda96eae40a65bc003fd0e4b2->dir_266a22525b8231633db5495286b1dd46 [headlabel="1", labeldistance=1.5 headhref="dir_003273_003268.html"];
+  dir_d397cabb2c1c5074ce6bd72797873e6a->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_003271_002151.html"];
+  dir_d397cabb2c1c5074ce6bd72797873e6a->dir_266a22525b8231633db5495286b1dd46 [headlabel="1", labeldistance=1.5 headhref="dir_003271_003268.html"];
+}

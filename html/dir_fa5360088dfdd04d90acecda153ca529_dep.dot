@@ -1,0 +1,23 @@
+digraph "src/OpenFOAM/db/dictionary/functionEntries/inputMode" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_02d80f093374efbc333e223ddfd028a9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="functionEntries" fontname="Helvetica", fontsize="10", URL="dir_02d80f093374efbc333e223ddfd028a9.html"]
+  dir_fa5360088dfdd04d90acecda153ca529 [shape=box, label="inputMode", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_fa5360088dfdd04d90acecda153ca529.html"];
+  }
+  dir_921060969b2ec46ffd0fdd6e3b1e6f93 [shape=box label="entry" URL="dir_921060969b2ec46ffd0fdd6e3b1e6f93.html"];
+  dir_93ae320f13f2b5009a9bc00443e35e66 [shape=box label="functionEntry" URL="dir_93ae320f13f2b5009a9bc00443e35e66.html"];
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_97107bb83a2a5bbfad7ddd584e3f301c [shape=box label="runTimeSelection" color="red" URL="dir_97107bb83a2a5bbfad7ddd584e3f301c.html"];
+  dir_921060969b2ec46ffd0fdd6e3b1e6f93->dir_93ae320f13f2b5009a9bc00443e35e66 [headlabel="1", labeldistance=1.5 headhref="dir_002224_002229.html"];
+  dir_921060969b2ec46ffd0fdd6e3b1e6f93->dir_3e50f45338116b169052b428016851aa [headlabel="3", labeldistance=1.5 headhref="dir_002224_002628.html"];
+  dir_93ae320f13f2b5009a9bc00443e35e66->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002229_002628.html"];
+  dir_93ae320f13f2b5009a9bc00443e35e66->dir_97107bb83a2a5bbfad7ddd584e3f301c [headlabel="1", labeldistance=1.5 headhref="dir_002229_002282.html"];
+  dir_fa5360088dfdd04d90acecda153ca529->dir_921060969b2ec46ffd0fdd6e3b1e6f93 [headlabel="1", labeldistance=1.5 headhref="dir_002235_002224.html"];
+  dir_fa5360088dfdd04d90acecda153ca529->dir_93ae320f13f2b5009a9bc00443e35e66 [headlabel="1", labeldistance=1.5 headhref="dir_002235_002229.html"];
+  dir_fa5360088dfdd04d90acecda153ca529->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002235_002628.html"];
+  dir_fa5360088dfdd04d90acecda153ca529->dir_97107bb83a2a5bbfad7ddd584e3f301c [headlabel="1", labeldistance=1.5 headhref="dir_002235_002282.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_97107bb83a2a5bbfad7ddd584e3f301c [headlabel="16", labeldistance=1.5 headhref="dir_002628_002282.html"];
+}

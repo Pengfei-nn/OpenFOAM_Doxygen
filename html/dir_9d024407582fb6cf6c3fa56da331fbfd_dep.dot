@@ -1,0 +1,10 @@
+digraph "applications/utilities/mesh/conversion/foamToFireMesh" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5148cfe1bce83bc5fdc09a52963260a1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="conversion" fontname="Helvetica", fontsize="10", URL="dir_5148cfe1bce83bc5fdc09a52963260a1.html"]
+  dir_9d024407582fb6cf6c3fa56da331fbfd [shape=box, label="foamToFireMesh", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9d024407582fb6cf6c3fa56da331fbfd.html"];
+  }
+}

@@ -1,0 +1,10 @@
+digraph "interpolateOrRead"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="interpolateOrRead",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::dictionary::found",height=0.2,width=0.4,color="black",URL="$classFoam_1_1dictionary.html#a48c2fe14a2e97cbe5a6d8b197043f5d7",tooltip="Search for an entry (const access) with the given keyword. "];
+}

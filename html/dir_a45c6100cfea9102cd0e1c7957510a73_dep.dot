@@ -1,0 +1,12 @@
+digraph "applications/utilities/thermophysical/mixtureAdiabaticFlameT" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ad006ac2d4adf68d191bc9af38a824ca {
+    graph [ bgcolor="#ddddee", pencolor="black", label="thermophysical" fontname="Helvetica", fontsize="10", URL="dir_ad006ac2d4adf68d191bc9af38a824ca.html"]
+  dir_a45c6100cfea9102cd0e1c7957510a73 [shape=box, label="mixtureAdiabaticFlameT", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a45c6100cfea9102cd0e1c7957510a73.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_a45c6100cfea9102cd0e1c7957510a73->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="5", labeldistance=1.5 headhref="dir_000498_000499.html"];
+}

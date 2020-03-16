@@ -1,0 +1,16 @@
+digraph "src/OpenFOAM/containers/Lists/Histogram" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f87fe3b02e96c330e8a853ff310f1666 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Lists" fontname="Helvetica", fontsize="10", URL="dir_f87fe3b02e96c330e8a853ff310f1666.html"]
+  dir_6a5c0fdd6d142927ad4090a95de87297 [shape=box, label="Histogram", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6a5c0fdd6d142927ad4090a95de87297.html"];
+  }
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_223fa5778bd37fe62bf7ed63d1f3016b [shape=box label="ListOps" URL="dir_223fa5778bd37fe62bf7ed63d1f3016b.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_223fa5778bd37fe62bf7ed63d1f3016b [headlabel="2", labeldistance=1.5 headhref="dir_002628_002207.html"];
+  dir_223fa5778bd37fe62bf7ed63d1f3016b->dir_3e50f45338116b169052b428016851aa [headlabel="3", labeldistance=1.5 headhref="dir_002207_002628.html"];
+  dir_6a5c0fdd6d142927ad4090a95de87297->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002204_002628.html"];
+  dir_6a5c0fdd6d142927ad4090a95de87297->dir_223fa5778bd37fe62bf7ed63d1f3016b [headlabel="1", labeldistance=1.5 headhref="dir_002204_002207.html"];
+}

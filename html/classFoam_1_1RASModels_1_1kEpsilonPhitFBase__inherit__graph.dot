@@ -1,0 +1,9 @@
+digraph "kEpsilonPhitFBase"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="kEpsilonPhitFBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="kEpsilonPhitF\< BasicTurbulence\lModel \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1RASModels_1_1kEpsilonPhitF.html",tooltip="The k-epsilon-phit-f turbulence closure model for incompressible and compressible flows..."];
+}

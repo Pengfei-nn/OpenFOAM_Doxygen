@@ -1,0 +1,12 @@
+digraph "src/transportModels/interfaceProperties/alphaContactAngle" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c88d6d7462244dc5ba84ed1605548fd3 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfaceProperties" fontname="Helvetica", fontsize="10", URL="dir_c88d6d7462244dc5ba84ed1605548fd3.html"]
+  dir_4776c0577ab936818fd1897a5a206db6 [shape=box, label="alphaContactAngle", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4776c0577ab936818fd1897a5a206db6.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_4776c0577ab936818fd1897a5a206db6->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="4", labeldistance=1.5 headhref="dir_003964_000814.html"];
+}

@@ -1,0 +1,20 @@
+digraph "mappedPatchBase"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mappedPatchBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="thermalBaffle1DFvPatchScalar\lField\< solidType \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1compressible_1_1thermalBaffle1DFvPatchScalarField.html",tooltip="This BC solves a steady 1D thermal baffle. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mappedFieldFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1mappedFieldFvPatchField.html",tooltip="This boundary condition provides a self-contained version of the mapped condition. It does not use information on the patch; instead it holds the data locally. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mappedPolyPatch",height=0.2,width=0.4,color="black",URL="$classFoam_1_1mappedPolyPatch.html",tooltip="Determines a mapping between patch face centres and mesh cell or face centres and processors they&#39;re ..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mappedWallPolyPatch",height=0.2,width=0.4,color="red",URL="$classFoam_1_1mappedWallPolyPatch.html",tooltip="Determines a mapping between patch face centres and mesh cell or face centres and processors they&#39;re ..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Sampled\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PatchFunction1Types_1_1Sampled.html",tooltip="PatchFunction1 to sample an existing field. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="semiPermeableBaffleMassFraction\lFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1semiPermeableBaffleMassFractionFvPatchScalarField.html",tooltip="This is a mass-fraction boundary condition for a semi-permeable baffle. "];
+}

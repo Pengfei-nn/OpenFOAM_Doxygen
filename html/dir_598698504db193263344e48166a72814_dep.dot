@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/twoPhaseSystem/diameterModels/IATE/IATEsources/randomCoalescence" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_97c1c9bab2462ef6cb1398bf82c2b820 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="IATEsources" fontname="Helvetica", fontsize="10", URL="dir_97c1c9bab2462ef6cb1398bf82c2b820.html"]
+  dir_598698504db193263344e48166a72814 [shape=box, label="randomCoalescence", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_598698504db193263344e48166a72814.html"];
+  }
+}

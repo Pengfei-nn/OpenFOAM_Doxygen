@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/primitives/MatrixSpace" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3e50f45338116b169052b428016851aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="primitives" fontname="Helvetica", fontsize="10", URL="dir_3e50f45338116b169052b428016851aa.html"]
+  dir_74bb8d3ac938216a63ff87e7c9cc403c [shape=box, label="MatrixSpace", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_74bb8d3ac938216a63ff87e7c9cc403c.html"];
+  }
+  dir_67e43ffa00fdb90d8ab20f3d61175616 [shape=box label="VectorSpace" URL="dir_67e43ffa00fdb90d8ab20f3d61175616.html"];
+  dir_74bb8d3ac938216a63ff87e7c9cc403c->dir_67e43ffa00fdb90d8ab20f3d61175616 [headlabel="1", labeldistance=1.5 headhref="dir_002689_002770.html"];
+}

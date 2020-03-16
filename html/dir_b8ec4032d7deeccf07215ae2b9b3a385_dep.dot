@@ -1,0 +1,15 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/phaseSystems/populationBalanceModel/breakupModels/breakupModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_14c0d0009f2ac072307ec8ee27104b33 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="breakupModels" fontname="Helvetica", fontsize="10", URL="dir_14c0d0009f2ac072307ec8ee27104b33.html"]
+  dir_b8ec4032d7deeccf07215ae2b9b3a385 [shape=box, label="breakupModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b8ec4032d7deeccf07215ae2b9b3a385.html"];
+  }
+  dir_6836c8d0bc2688f1a5e39885a04a3d18 [shape=box label="populationBalanceModel" URL="dir_6836c8d0bc2688f1a5e39885a04a3d18.html"];
+  dir_437be3405d66d0964c66d14b4aa635fe [shape=box label="daughterSizeDistributionModels" color="red" URL="dir_437be3405d66d0964c66d14b4aa635fe.html"];
+  dir_b8ec4032d7deeccf07215ae2b9b3a385->dir_6836c8d0bc2688f1a5e39885a04a3d18 [headlabel="1", labeldistance=1.5 headhref="dir_003265_003295.html"];
+  dir_b8ec4032d7deeccf07215ae2b9b3a385->dir_437be3405d66d0964c66d14b4aa635fe [headlabel="1", labeldistance=1.5 headhref="dir_003265_003275.html"];
+  dir_6836c8d0bc2688f1a5e39885a04a3d18->dir_b8ec4032d7deeccf07215ae2b9b3a385 [headlabel="1", labeldistance=1.5 headhref="dir_003295_003265.html"];
+}

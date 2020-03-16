@@ -1,0 +1,16 @@
+digraph "applications/solvers/combustion/PDRFoam/laminarFlameSpeed" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7013a7587984e010384a3ad956d16510 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="PDRFoam" fontname="Helvetica", fontsize="10", URL="dir_7013a7587984e010384a3ad956d16510.html"]
+  subgraph clusterdir_7c5380a9e15431c3d88f79d83259de89 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_7c5380a9e15431c3d88f79d83259de89.html"];
+    dir_7c5380a9e15431c3d88f79d83259de89 [shape=plaintext label="laminarFlameSpeed"];
+    dir_5529a56fec1ecbc5f929af7cfa7dec0a [shape=box label="SCOPE" color="black" fillcolor="white" style="filled" URL="dir_5529a56fec1ecbc5f929af7cfa7dec0a.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_5529a56fec1ecbc5f929af7cfa7dec0a->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000094_000499.html"];
+}

@@ -1,0 +1,12 @@
+digraph "applications/solvers/multiphase/reactingEulerFoam/functionObjects/phaseForces" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6f32b53028a749a7dc7e421e2a086c23 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="functionObjects" fontname="Helvetica", fontsize="10", URL="dir_6f32b53028a749a7dc7e421e2a086c23.html"]
+  dir_826d57a981394f170c7ee8de88247b01 [shape=box, label="phaseForces", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_826d57a981394f170c7ee8de88247b01.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_826d57a981394f170c7ee8de88247b01->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000227_000499.html"];
+}

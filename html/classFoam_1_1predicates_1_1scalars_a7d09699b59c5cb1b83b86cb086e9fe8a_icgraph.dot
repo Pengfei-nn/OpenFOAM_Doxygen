@@ -1,0 +1,12 @@
+digraph "operation"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="operation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="operation",height=0.2,width=0.4,color="black",URL="$classFoam_1_1predicates_1_1scalars.html#a4b4e888019d709cfe116623d03dfccb8",tooltip="Standard comparison method by (name, value) "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="scalars",height=0.2,width=0.4,color="black",URL="$classFoam_1_1predicates_1_1scalars.html#ac72231325f8cad614b5a44c0248a5b0e",tooltip="Construct from Istream, from list of (opName opValue) tuples. "];
+}

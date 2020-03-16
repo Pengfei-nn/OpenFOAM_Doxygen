@@ -1,0 +1,36 @@
+digraph "src/OpenFOAM/meshes/primitiveShapes/line" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a36ac568b20b0ed2190ed53a491bc296 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="primitiveShapes" fontname="Helvetica", fontsize="10", URL="dir_a36ac568b20b0ed2190ed53a491bc296.html"]
+  dir_b2b20348f78d31f6a5e7322ebd1c6bd6 [shape=box, label="line", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b2b20348f78d31f6a5e7322ebd1c6bd6.html"];
+  }
+  dir_19d0872053bde092be81d7fe3f56cbf7 [shape=box label="containers" color="red" URL="dir_19d0872053bde092be81d7fe3f56cbf7.html"];
+  dir_c0616edb543207648ea9c3d1bc69a611 [shape=box label="point2D" URL="dir_c0616edb543207648ea9c3d1bc69a611.html"];
+  dir_7bcf26a537537c6a3ac3b09fc24af38a [shape=box label="objectHit" URL="dir_7bcf26a537537c6a3ac3b09fc24af38a.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_cb34e2eea6ae8af2554e1d80aff9f166 [shape=box label="point" URL="dir_cb34e2eea6ae8af2554e1d80aff9f166.html"];
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_19d0872053bde092be81d7fe3f56cbf7->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="55", labeldistance=1.5 headhref="dir_002156_002218.html"];
+  dir_19d0872053bde092be81d7fe3f56cbf7->dir_3e50f45338116b169052b428016851aa [headlabel="61", labeldistance=1.5 headhref="dir_002156_002628.html"];
+  dir_c0616edb543207648ea9c3d1bc69a611->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002621_002628.html"];
+  dir_7bcf26a537537c6a3ac3b09fc24af38a->dir_c0616edb543207648ea9c3d1bc69a611 [headlabel="1", labeldistance=1.5 headhref="dir_002618_002621.html"];
+  dir_7bcf26a537537c6a3ac3b09fc24af38a->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="2", labeldistance=1.5 headhref="dir_002618_002218.html"];
+  dir_7bcf26a537537c6a3ac3b09fc24af38a->dir_cb34e2eea6ae8af2554e1d80aff9f166 [headlabel="3", labeldistance=1.5 headhref="dir_002618_002620.html"];
+  dir_7bcf26a537537c6a3ac3b09fc24af38a->dir_3e50f45338116b169052b428016851aa [headlabel="5", labeldistance=1.5 headhref="dir_002618_002628.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="45", labeldistance=1.5 headhref="dir_002218_002156.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_3e50f45338116b169052b428016851aa [headlabel="95", labeldistance=1.5 headhref="dir_002218_002628.html"];
+  dir_cb34e2eea6ae8af2554e1d80aff9f166->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="4", labeldistance=1.5 headhref="dir_002620_002156.html"];
+  dir_cb34e2eea6ae8af2554e1d80aff9f166->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002620_002628.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="42", labeldistance=1.5 headhref="dir_002628_002156.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="100", labeldistance=1.5 headhref="dir_002628_002218.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_cb34e2eea6ae8af2554e1d80aff9f166 [headlabel="1", labeldistance=1.5 headhref="dir_002628_002620.html"];
+  dir_b2b20348f78d31f6a5e7322ebd1c6bd6->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="2", labeldistance=1.5 headhref="dir_002617_002156.html"];
+  dir_b2b20348f78d31f6a5e7322ebd1c6bd6->dir_c0616edb543207648ea9c3d1bc69a611 [headlabel="2", labeldistance=1.5 headhref="dir_002617_002621.html"];
+  dir_b2b20348f78d31f6a5e7322ebd1c6bd6->dir_7bcf26a537537c6a3ac3b09fc24af38a [headlabel="1", labeldistance=1.5 headhref="dir_002617_002618.html"];
+  dir_b2b20348f78d31f6a5e7322ebd1c6bd6->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002617_002218.html"];
+  dir_b2b20348f78d31f6a5e7322ebd1c6bd6->dir_cb34e2eea6ae8af2554e1d80aff9f166 [headlabel="1", labeldistance=1.5 headhref="dir_002617_002620.html"];
+  dir_b2b20348f78d31f6a5e7322ebd1c6bd6->dir_3e50f45338116b169052b428016851aa [headlabel="2", labeldistance=1.5 headhref="dir_002617_002628.html"];
+}

@@ -1,0 +1,15 @@
+digraph "applications/solvers/multiphase/driftFluxFoam/incompressibleTwoPhaseInteractingMixture" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0c082c89dfcc226032574eee25dcdb41 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="driftFluxFoam" fontname="Helvetica", fontsize="10", URL="dir_0c082c89dfcc226032574eee25dcdb41.html"]
+  dir_e0b47a3648811f68d5a37c88ffdb183a [shape=box, label="incompressibleTwoPhaseInteractingMixture", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e0b47a3648811f68d5a37c88ffdb183a.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_86eef1904a5ad7add78c6b09bd981540 [shape=box label="mixtureViscosityModels" color="red" URL="dir_86eef1904a5ad7add78c6b09bd981540.html"];
+  dir_86eef1904a5ad7add78c6b09bd981540->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="9", labeldistance=1.5 headhref="dir_000176_000499.html"];
+  dir_e0b47a3648811f68d5a37c88ffdb183a->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_000175_000499.html"];
+  dir_e0b47a3648811f68d5a37c88ffdb183a->dir_86eef1904a5ad7add78c6b09bd981540 [headlabel="1", labeldistance=1.5 headhref="dir_000175_000176.html"];
+}

@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ensightPart::localPoints",height=0.2,width=0.4,color="black",URL="$structFoam_1_1ensightPart_1_1localPoints.html",tooltip="Track the points used by the part and map global to local indices. "];
+}

@@ -1,0 +1,12 @@
+digraph "src/lagrangian/intermediate/submodels/HeterogeneousReactingModel/NoheterogeneousReacting" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fb1c2bb12d2b85259453545b2631e6a2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="HeterogeneousReactingModel" fontname="Helvetica", fontsize="10", URL="dir_fb1c2bb12d2b85259453545b2631e6a2.html"]
+  dir_90d462c3736277305eca2ebc5979e31d [shape=box, label="NoheterogeneousReacting", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_90d462c3736277305eca2ebc5979e31d.html"];
+  }
+  dir_06141f6634409701a7cfd6670fa1b702 [shape=box label="HeterogeneousReactingModel" URL="dir_06141f6634409701a7cfd6670fa1b702.html"];
+  dir_90d462c3736277305eca2ebc5979e31d->dir_06141f6634409701a7cfd6670fa1b702 [headlabel="1", labeldistance=1.5 headhref="dir_001664_001662.html"];
+}

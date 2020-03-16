@@ -1,0 +1,22 @@
+digraph "applications/solvers/multiphase/interFoam/interMixingFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6cbc35a456677982ef0a79ee58fc4be3 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interFoam" fontname="Helvetica", fontsize="10", URL="dir_6cbc35a456677982ef0a79ee58fc4be3.html"]
+  subgraph clusterdir_011fa2c206d871c34274e95e94b6d3f0 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_011fa2c206d871c34274e95e94b6d3f0.html"];
+    dir_011fa2c206d871c34274e95e94b6d3f0 [shape=plaintext label="interMixingFoam"];
+    dir_a8cb270b8e0465a49a6ee7d487836ab6 [shape=box label="immiscibleIncompressibleThreePhaseMixture" color="black" fillcolor="white" style="filled" URL="dir_a8cb270b8e0465a49a6ee7d487836ab6.html"];
+    dir_739f0f82caf86bc6717e811a1995f7e5 [shape=box label="incompressibleThreePhaseMixture" color="black" fillcolor="white" style="filled" URL="dir_739f0f82caf86bc6717e811a1995f7e5.html"];
+    dir_6d13952641fb818872efe65013d54c93 [shape=box label="threePhaseInterfaceProperties" color="black" fillcolor="white" style="filled" URL="dir_6d13952641fb818872efe65013d54c93.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_739f0f82caf86bc6717e811a1995f7e5->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="5", labeldistance=1.5 headhref="dir_000212_000499.html"];
+  dir_a8cb270b8e0465a49a6ee7d487836ab6->dir_739f0f82caf86bc6717e811a1995f7e5 [headlabel="1", labeldistance=1.5 headhref="dir_000211_000212.html"];
+  dir_a8cb270b8e0465a49a6ee7d487836ab6->dir_6d13952641fb818872efe65013d54c93 [headlabel="1", labeldistance=1.5 headhref="dir_000211_000213.html"];
+  dir_6d13952641fb818872efe65013d54c93->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000213_000499.html"];
+  dir_6d13952641fb818872efe65013d54c93->dir_739f0f82caf86bc6717e811a1995f7e5 [headlabel="1", labeldistance=1.5 headhref="dir_000213_000212.html"];
+}

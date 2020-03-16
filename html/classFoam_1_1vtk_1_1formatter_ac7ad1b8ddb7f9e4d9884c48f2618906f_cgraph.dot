@@ -1,0 +1,18 @@
+digraph "beginDataArray"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="beginDataArray",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="closeTag",height=0.2,width=0.4,color="black",URL="$classFoam_1_1vtk_1_1formatter.html#abc4d0780cdafd4cd951c15f7684df664",tooltip="Finish an XML tag, optional as an empty container. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="name",height=0.2,width=0.4,color="black",URL="$classFoam_1_1vtk_1_1formatter.html#a1a30ad8f276a2310571c36239554831a",tooltip="Name for the XML output type or the legacy output type. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="offset",height=0.2,width=0.4,color="black",URL="$classFoam_1_1vtk_1_1formatter.html#a783b4d3f2502c80b46771db01bc2d5be",tooltip="Increase the append data offset by numbytes and sizeof(uint64_t). "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="openTag",height=0.2,width=0.4,color="black",URL="$classFoam_1_1vtk_1_1formatter.html#a1a95c82b510866f8000aacf4368df00b",tooltip="Start an XML tag, optionally with attributes. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="xmlAttr",height=0.2,width=0.4,color="black",URL="$classFoam_1_1vtk_1_1formatter.html#a2d18861ea69168d1c05479faf2569ef1",tooltip="No-op write XML attribute (for templating code). "];
+}

@@ -1,0 +1,16 @@
+digraph "src/OpenFOAM/db/dictionary/dictionaryEntry" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_43e4f3d5f4ba74ef6e29186317ac2bae {
+    graph [ bgcolor="#ddddee", pencolor="black", label="dictionary" fontname="Helvetica", fontsize="10", URL="dir_43e4f3d5f4ba74ef6e29186317ac2bae.html"]
+  dir_ed941fe9052e18fa030c964648f4c994 [shape=box, label="dictionaryEntry", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ed941fe9052e18fa030c964648f4c994.html"];
+  }
+  dir_921060969b2ec46ffd0fdd6e3b1e6f93 [shape=box label="entry" URL="dir_921060969b2ec46ffd0fdd6e3b1e6f93.html"];
+  dir_466e4f5b4cc1582939ab4ceba36098d8 [shape=box label="IOstreams" color="red" URL="dir_466e4f5b4cc1582939ab4ceba36098d8.html"];
+  dir_921060969b2ec46ffd0fdd6e3b1e6f93->dir_ed941fe9052e18fa030c964648f4c994 [headlabel="1", labeldistance=1.5 headhref="dir_002224_002222.html"];
+  dir_921060969b2ec46ffd0fdd6e3b1e6f93->dir_466e4f5b4cc1582939ab4ceba36098d8 [headlabel="1", labeldistance=1.5 headhref="dir_002224_002265.html"];
+  dir_ed941fe9052e18fa030c964648f4c994->dir_921060969b2ec46ffd0fdd6e3b1e6f93 [headlabel="1", labeldistance=1.5 headhref="dir_002222_002224.html"];
+  dir_ed941fe9052e18fa030c964648f4c994->dir_466e4f5b4cc1582939ab4ceba36098d8 [headlabel="2", labeldistance=1.5 headhref="dir_002222_002265.html"];
+}

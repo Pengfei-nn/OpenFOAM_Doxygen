@@ -1,0 +1,36 @@
+digraph "Solvers"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node12 [label="Lagrangian solvers",height=0.2,width=0.4,color="black",URL="$group__grpLagrangianSolvers.html"];
+  Node1 [label="Basic solvers",height=0.2,width=0.4,color="black",URL="$group__grpBasicSolvers.html"];
+  Node7 [label="Finite area solvers",height=0.2,width=0.4,color="black",URL="$group__grpFiniteAreaSolvers.html"];
+  Node13 [label="Multiphase solvers",height=0.2,width=0.4,color="black",URL="$group__grpMultiphaseSolvers.html"];
+  Node3 [label="Compressible flow solvers",height=0.2,width=0.4,color="black",URL="$group__grpCompressibleSolvers.html"];
+  Node4 [label="Discrete method solvers",height=0.2,width=0.4,color="black",URL="$group__grpDiscreteMethodsSolvers.html"];
+  Node5 [label="Direct Numerical Simulation\l solvers",height=0.2,width=0.4,color="black",URL="$group__grpDNSSolvers.html"];
+  Node0 [label="Solvers",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node6 [label="Moving mesh solvers",height=0.2,width=0.4,color="black",URL="$group__grpMovingMeshSolvers.html"];
+  Node11 [label="Incompressible flow\l solvers",height=0.2,width=0.4,color="black",URL="$group__grpIncompressibleSolvers.html"];
+  Node9 [label="Financial solvers",height=0.2,width=0.4,color="black",URL="$group__grpFinancialSolvers.html"];
+  Node8 [label="Electro-magnetics solvers",height=0.2,width=0.4,color="black",URL="$group__grpElectroMagneticsSolvers.html"];
+  Node10 [label="Heat transfer solvers",height=0.2,width=0.4,color="black",URL="$group__grpHeatTransferSolvers.html"];
+  Node2 [label="Combustion solvers",height=0.2,width=0.4,color="black",URL="$group__grpCombustionSolvers.html"];
+  Node14 [label="Stress analysis solvers",height=0.2,width=0.4,color="black",URL="$group__grpStressAnalysisSolvers.html"];
+  Node0->Node1 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node4 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node5 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node6 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node7 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node8 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node9 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node10 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node11 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node12 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node13 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node14 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+}

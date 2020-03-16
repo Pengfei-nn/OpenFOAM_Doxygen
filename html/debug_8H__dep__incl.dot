@@ -1,0 +1,23 @@
+digraph "src/OpenFOAM/global/debug/debug.H"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/OpenFOAM/global\l/debug/debug.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/finiteVolume/finiteVolume\l/ddtSchemes/ddtScheme/ddtSchemeBase.C",height=0.2,width=0.4,color="black",URL="$ddtSchemeBase_8C.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/meshTools/algorithms\l/MeshWave/FaceCellWave.C",height=0.2,width=0.4,color="black",URL="$FaceCellWave_8C.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/meshTools/algorithms\l/PointEdgeWave/PointEdgeWave.C",height=0.2,width=0.4,color="black",URL="$PointEdgeWave_8C.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/OpenFOAM/db/IOstreams\l/Pstreams/UPstream.C",height=0.2,width=0.4,color="black",URL="$OpenFOAM_2db_2IOstreams_2Pstreams_2UPstream_8C.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/OpenFOAM/global\l/debug/debug.C",height=0.2,width=0.4,color="black",URL="$debug_8C.html",tooltip="Class for handling debugging switches. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/OpenFOAM/global\l/debug/defineDebugSwitch.H",height=0.2,width=0.4,color="red",URL="$defineDebugSwitch_8H.html",tooltip="Macro definitions for debug switches. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/OpenFOAM/primitives\l/strings/regex/regExpCxx.C",height=0.2,width=0.4,color="black",URL="$regExpCxx_8C.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/OpenFOAM/primitives\l/strings/word/word.C",height=0.2,width=0.4,color="black",URL="$word_8C.html"];
+}

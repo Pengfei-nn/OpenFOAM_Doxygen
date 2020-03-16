@@ -1,0 +1,12 @@
+digraph "src/thermophysicalModels/reactionThermo/mixtures/singleComponentMixture" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4c3899116fa10d6c6748b991d6c665d1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="mixtures" fontname="Helvetica", fontsize="10", URL="dir_4c3899116fa10d6c6748b991d6c665d1.html"]
+  dir_2c65d1c5acf762c7e994b5d91d867bd9 [shape=box, label="singleComponentMixture", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2c65d1c5acf762c7e994b5d91d867bd9.html"];
+  }
+  dir_a92e19af280cfe91c9dfbd265388786a [shape=box label="basicSpecieMixture" URL="dir_a92e19af280cfe91c9dfbd265388786a.html"];
+  dir_2c65d1c5acf762c7e994b5d91d867bd9->dir_a92e19af280cfe91c9dfbd265388786a [headlabel="1", labeldistance=1.5 headhref="dir_003800_003794.html"];
+}

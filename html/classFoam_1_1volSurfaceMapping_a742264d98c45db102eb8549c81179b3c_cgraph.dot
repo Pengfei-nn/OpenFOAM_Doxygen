@@ -1,0 +1,20 @@
+digraph "mapToSurface"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mapToSurface",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$classFoam_1_1polyMesh.html#a6b7f5ba89250dbd7a1c6c7860ab60fe3",tooltip="Return boundary mesh. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::faMesh::faceLabels",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faMesh.html#ad34c8e741f054aecf4dfd0775edc5bea",tooltip="Return faMesh face labels. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1primitiveMesh.html#ae1fbe690fc3c47739168a97f79907217",tooltip="Number of mesh faces. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::tmp::ref",height=0.2,width=0.4,color="black",URL="$classFoam_1_1tmp.html#af16202cc9b8e931206cfceb8d9779bb2",tooltip="Return non-const reference to the contents of a non-null managed pointer. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::UList::size",height=0.2,width=0.4,color="red",URL="$classFoam_1_1UList.html#afee03bfededf699921815b2bf3c41e35",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::polyBoundaryMesh\l::whichPatch",height=0.2,width=0.4,color="black",URL="$classFoam_1_1polyBoundaryMesh.html#a6d7e875689c6272231ad4b60139b7324",tooltip="Return patch index for a given face label. "];
+}

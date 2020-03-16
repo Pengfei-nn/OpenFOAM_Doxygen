@@ -1,0 +1,14 @@
+digraph "scaleSources"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="scaleSources",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="relax",height=0.2,width=0.4,color="black",URL="$combustion_2fireFoam_2UEqn_8H.html#ae7e2b1e87cf8932eba1e615fb13c3a2c"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="UCoeff",height=0.2,width=0.4,color="black",URL="$classFoam_1_1KinematicCloud.html#aa40d4aba6ddafe0705ca1b77b17f413c",tooltip="Return coefficient for carrier phase U equation. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="UTrans",height=0.2,width=0.4,color="black",URL="$classFoam_1_1KinematicCloud.html#ac03730ba115dd1f86138b19e3e6fff8e",tooltip="Return reference to momentum source. "];
+}

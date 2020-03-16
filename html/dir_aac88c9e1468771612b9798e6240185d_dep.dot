@@ -1,0 +1,15 @@
+digraph "src/meshTools/edgeMesh/edgeMeshFormats/nas" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_20885d94c217223254c59944990e8857 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="edgeMeshFormats" fontname="Helvetica", fontsize="10", URL="dir_20885d94c217223254c59944990e8857.html"]
+  dir_aac88c9e1468771612b9798e6240185d [shape=box, label="nas", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_aac88c9e1468771612b9798e6240185d.html"];
+  }
+  dir_b05602f37bb521a7142c0a3e200b5f35 [shape=box label="fileFormats" color="red" URL="dir_b05602f37bb521a7142c0a3e200b5f35.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_aac88c9e1468771612b9798e6240185d->dir_b05602f37bb521a7142c0a3e200b5f35 [headlabel="1", labeldistance=1.5 headhref="dir_001998_000682.html"];
+  dir_aac88c9e1468771612b9798e6240185d->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="5", labeldistance=1.5 headhref="dir_001998_002151.html"];
+  dir_b05602f37bb521a7142c0a3e200b5f35->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="218", labeldistance=1.5 headhref="dir_000682_002151.html"];
+}

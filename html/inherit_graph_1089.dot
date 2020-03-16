@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mapAddedPolyMesh",height=0.2,width=0.4,color="black",URL="$classFoam_1_1mapAddedPolyMesh.html",tooltip="Class containing mesh-to-mesh mapping information after a mesh addition where we add a mesh (&#39;added m..."];
+}

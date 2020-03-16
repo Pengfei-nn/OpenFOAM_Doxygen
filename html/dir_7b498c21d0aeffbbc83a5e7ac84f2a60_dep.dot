@@ -1,0 +1,14 @@
+digraph "src/TurbulenceModels/turbulenceModels/DES/SpalartAllmarasIDDES" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4c597e202e8b6e09c8ced0164b37938b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="DES" fontname="Helvetica", fontsize="10", URL="dir_4c597e202e8b6e09c8ced0164b37938b.html"]
+  dir_7b498c21d0aeffbbc83a5e7ac84f2a60 [shape=box, label="SpalartAllmarasIDDES", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7b498c21d0aeffbbc83a5e7ac84f2a60.html"];
+  }
+  dir_02ee5e2b8c0e0c042c55db2cba8bf0bd [shape=box label="SpalartAllmarasDES" URL="dir_02ee5e2b8c0e0c042c55db2cba8bf0bd.html"];
+  dir_9fc1e48ca755258281286cef4f8e0bec [shape=box label="LES" color="red" URL="dir_9fc1e48ca755258281286cef4f8e0bec.html"];
+  dir_7b498c21d0aeffbbc83a5e7ac84f2a60->dir_02ee5e2b8c0e0c042c55db2cba8bf0bd [headlabel="1", labeldistance=1.5 headhref="dir_004065_004064.html"];
+  dir_7b498c21d0aeffbbc83a5e7ac84f2a60->dir_9fc1e48ca755258281286cef4f8e0bec [headlabel="1", labeldistance=1.5 headhref="dir_004065_004071.html"];
+}

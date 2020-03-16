@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/global/constants/thermodynamic" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b19db2d11b7f3a11ba09bd713d4f9fa8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="constants" fontname="Helvetica", fontsize="10", URL="dir_b19db2d11b7f3a11ba09bd713d4f9fa8.html"]
+  dir_7f5ec1ae56ac3f1b2371d7646c8957d9 [shape=box, label="thermodynamic", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7f5ec1ae56ac3f1b2371d7646c8957d9.html"];
+  }
+  dir_406debfe117f9f6b18483be693110e22 [shape=box label="physicoChemical" URL="dir_406debfe117f9f6b18483be693110e22.html"];
+  dir_7f5ec1ae56ac3f1b2371d7646c8957d9->dir_406debfe117f9f6b18483be693110e22 [headlabel="1", labeldistance=1.5 headhref="dir_002396_002395.html"];
+}

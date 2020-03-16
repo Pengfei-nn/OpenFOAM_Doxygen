@@ -1,0 +1,21 @@
+digraph "applications/solvers/multiphase/icoReactingMultiphaseInterFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d62a5a20700de1cb9696e405d497a576 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="multiphase" fontname="Helvetica", fontsize="10", URL="dir_d62a5a20700de1cb9696e405d497a576.html"]
+  subgraph clusterdir_1ff87e91ba7f0e4bf8179bd47788b26b {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1ff87e91ba7f0e4bf8179bd47788b26b.html"];
+    dir_1ff87e91ba7f0e4bf8179bd47788b26b [shape=plaintext label="icoReactingMultiphaseInterFoam"];
+    dir_8073c8340b5e916ca8fe38004ea6b922 [shape=box label="CompressibleMultiPhaseTurbulenceModels" color="black" fillcolor="white" style="filled" URL="dir_8073c8340b5e916ca8fe38004ea6b922.html"];
+    dir_73a577334200d1ddf7eccf77782bc5f9 [shape=box label="laserDTRM" color="red" fillcolor="white" style="filled" URL="dir_73a577334200d1ddf7eccf77782bc5f9.html"];
+    dir_22e84d0f1ac24eb425676d371410161f [shape=box label="massTransferModels" color="red" fillcolor="white" style="filled" URL="dir_22e84d0f1ac24eb425676d371410161f.html"];
+    dir_9814e8b96a810c0bc5aa9f21bfecc094 [shape=box label="phasesSystem" color="red" fillcolor="white" style="filled" URL="dir_9814e8b96a810c0bc5aa9f21bfecc094.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_73a577334200d1ddf7eccf77782bc5f9->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="20", labeldistance=1.5 headhref="dir_000184_000499.html"];
+  dir_22e84d0f1ac24eb425676d371410161f->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_000192_000499.html"];
+  dir_9814e8b96a810c0bc5aa9f21bfecc094->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="30", labeldistance=1.5 headhref="dir_000196_000499.html"];
+}

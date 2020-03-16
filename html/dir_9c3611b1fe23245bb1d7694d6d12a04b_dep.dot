@@ -1,0 +1,13 @@
+digraph "src/OpenFOAM/primitives/strings/wordRes" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ce1ee507886310df0e74ee2e624fbc88 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="strings" fontname="Helvetica", fontsize="10", URL="dir_ce1ee507886310df0e74ee2e624fbc88.html"]
+  dir_9c3611b1fe23245bb1d7694d6d12a04b [shape=box, label="wordRes", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9c3611b1fe23245bb1d7694d6d12a04b.html"];
+  }
+  dir_3225460a2bc040f976df3516175e6565 [shape=box label="lists" URL="dir_3225460a2bc040f976df3516175e6565.html"];
+  dir_9c3611b1fe23245bb1d7694d6d12a04b->dir_3225460a2bc040f976df3516175e6565 [headlabel="1", labeldistance=1.5 headhref="dir_002741_002734.html"];
+  dir_3225460a2bc040f976df3516175e6565->dir_9c3611b1fe23245bb1d7694d6d12a04b [headlabel="1", labeldistance=1.5 headhref="dir_002734_002741.html"];
+}

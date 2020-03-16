@@ -1,0 +1,24 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="false_type",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="isPointerLike\< T \>",height=0.2,width=0.4,color="black",URL="$structFoam_1_1Detail_1_1isPointerLike.html",tooltip="Pointer-like behaviour. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="is_contiguous\< basicHeterogeneous\lReactingParcel \>",height=0.2,width=0.4,color="black",URL="$structFoam_1_1is__contiguous_3_01basicHeterogeneousReactingParcel_01_4.html",tooltip="Non-contiguous data for basicHeterogeneousReactingParcel. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="is_contiguous\< basicReacting\lMultiphaseParcel \>",height=0.2,width=0.4,color="black",URL="$structFoam_1_1is__contiguous_3_01basicReactingMultiphaseParcel_01_4.html",tooltip="Non-contiguous data for basicReactingMultiphaseParcel. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="is_contiguous\< basicReacting\lParcel \>",height=0.2,width=0.4,color="black",URL="$structFoam_1_1is__contiguous_3_01basicReactingParcel_01_4.html",tooltip="Non-contiguous data for basicReactingParcel. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="is_contiguous\< basicSpray\lParcel \>",height=0.2,width=0.4,color="black",URL="$structFoam_1_1is__contiguous_3_01basicSprayParcel_01_4.html",tooltip="Non-contiguous data for basicSprayParcel. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="is_contiguous\< coalParcel \>",height=0.2,width=0.4,color="black",URL="$structFoam_1_1is__contiguous_3_01coalParcel_01_4.html",tooltip="Non-contiguous data for coalParcel. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="isVolMesh\< class \>",height=0.2,width=0.4,color="black",URL="$structFoam_1_1isVolMesh.html",tooltip="Template argument for type volMesh. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="never",height=0.2,width=0.4,color="black",URL="$structFoam_1_1predicates_1_1never.html",tooltip="Unary and binary predicates that never return true, useful for templating. "];
+}

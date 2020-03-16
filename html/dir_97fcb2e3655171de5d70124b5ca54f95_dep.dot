@@ -1,0 +1,15 @@
+digraph "src/lagrangian/intermediate/submodels/Kinematic/ParticleForces/Interface" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7880c6dec9d81c909715027e243e12ba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="ParticleForces" fontname="Helvetica", fontsize="10", URL="dir_7880c6dec9d81c909715027e243e12ba.html"]
+  dir_97fcb2e3655171de5d70124b5ca54f95 [shape=box, label="Interface", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_97fcb2e3655171de5d70124b5ca54f95.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_6ac06ece5f26f1196a12108b46c15ea0 [shape=box label="ParticleForce" URL="dir_6ac06ece5f26f1196a12108b46c15ea0.html"];
+  dir_6ac06ece5f26f1196a12108b46c15ea0->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_001712_000814.html"];
+  dir_97fcb2e3655171de5d70124b5ca54f95->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_001705_000814.html"];
+  dir_97fcb2e3655171de5d70124b5ca54f95->dir_6ac06ece5f26f1196a12108b46c15ea0 [headlabel="1", labeldistance=1.5 headhref="dir_001705_001712.html"];
+}

@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/global/constants/mathematical" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b19db2d11b7f3a11ba09bd713d4f9fa8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="constants" fontname="Helvetica", fontsize="10", URL="dir_b19db2d11b7f3a11ba09bd713d4f9fa8.html"]
+  dir_f2c9a2d2c9f9a7a5c230d027402c3ec0 [shape=box, label="mathematical", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_f2c9a2d2c9f9a7a5c230d027402c3ec0.html"];
+  }
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_f2c9a2d2c9f9a7a5c230d027402c3ec0->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002394_002628.html"];
+}

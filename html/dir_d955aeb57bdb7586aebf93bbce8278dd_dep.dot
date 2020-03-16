@@ -1,0 +1,20 @@
+digraph "src/lagrangian/coalCombustion/coalCloud" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6061a3ee916a9160a3a185551ff9959f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="coalCombustion" fontname="Helvetica", fontsize="10", URL="dir_6061a3ee916a9160a3a185551ff9959f.html"]
+  dir_d955aeb57bdb7586aebf93bbce8278dd [shape=box, label="coalCloud", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d955aeb57bdb7586aebf93bbce8278dd.html"];
+  }
+  dir_d3c32a493136c130c1f0d51f4f35c297 [shape=box label="intermediate" color="red" URL="dir_d3c32a493136c130c1f0d51f4f35c297.html"];
+  dir_81b66f608873071c4b7b42d74a623022 [shape=box label="coalParcel" URL="dir_81b66f608873071c4b7b42d74a623022.html"];
+  dir_584e0ab0901b4327f36f4285cac7f2f8 [shape=box label="basic" color="red" URL="dir_584e0ab0901b4327f36f4285cac7f2f8.html"];
+  dir_d3c32a493136c130c1f0d51f4f35c297->dir_584e0ab0901b4327f36f4285cac7f2f8 [headlabel="40", labeldistance=1.5 headhref="dir_001526_001501.html"];
+  dir_d955aeb57bdb7586aebf93bbce8278dd->dir_d3c32a493136c130c1f0d51f4f35c297 [headlabel="4", labeldistance=1.5 headhref="dir_001511_001526.html"];
+  dir_d955aeb57bdb7586aebf93bbce8278dd->dir_81b66f608873071c4b7b42d74a623022 [headlabel="1", labeldistance=1.5 headhref="dir_001511_001513.html"];
+  dir_d955aeb57bdb7586aebf93bbce8278dd->dir_584e0ab0901b4327f36f4285cac7f2f8 [headlabel="1", labeldistance=1.5 headhref="dir_001511_001501.html"];
+  dir_81b66f608873071c4b7b42d74a623022->dir_d3c32a493136c130c1f0d51f4f35c297 [headlabel="4", labeldistance=1.5 headhref="dir_001513_001526.html"];
+  dir_81b66f608873071c4b7b42d74a623022->dir_d955aeb57bdb7586aebf93bbce8278dd [headlabel="1", labeldistance=1.5 headhref="dir_001513_001511.html"];
+  dir_81b66f608873071c4b7b42d74a623022->dir_584e0ab0901b4327f36f4285cac7f2f8 [headlabel="1", labeldistance=1.5 headhref="dir_001513_001501.html"];
+}

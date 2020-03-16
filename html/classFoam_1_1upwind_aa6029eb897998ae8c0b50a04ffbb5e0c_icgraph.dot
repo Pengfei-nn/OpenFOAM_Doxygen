@@ -1,0 +1,12 @@
+digraph "weights"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="weights",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::multivariateScheme\l::multivariateScheme",height=0.2,width=0.4,color="black",URL="$classFoam_1_1multivariateScheme.html#a1df2075ff6df9ddb6b2bf9570e8905eb",tooltip="Construct for field, faceFlux and Istream. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::multivariateSelection\lScheme::multivariateSelectionScheme",height=0.2,width=0.4,color="black",URL="$classFoam_1_1multivariateSelectionScheme.html#a3f90d5fb2cb054bd811362c07ceb2019",tooltip="Construct for field, faceFlux and Istream. "];
+}

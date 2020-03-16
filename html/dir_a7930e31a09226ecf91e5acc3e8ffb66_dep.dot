@@ -1,0 +1,10 @@
+digraph "applications/utilities/postProcessing/dataConversion/smapToFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_287a8ee951d3c46055211652d30251ed {
+    graph [ bgcolor="#ddddee", pencolor="black", label="dataConversion" fontname="Helvetica", fontsize="10", URL="dir_287a8ee951d3c46055211652d30251ed.html"]
+  dir_a7930e31a09226ecf91e5acc3e8ffb66 [shape=box, label="smapToFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a7930e31a09226ecf91e5acc3e8ffb66.html"];
+  }
+}

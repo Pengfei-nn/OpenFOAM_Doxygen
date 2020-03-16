@@ -1,0 +1,28 @@
+digraph "absorptionEmissionModel"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="absorptionEmissionModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="binaryAbsorptionEmission",height=0.2,width=0.4,color="black",URL="$classFoam_1_1radiation_1_1binaryAbsorptionEmission.html",tooltip="Radiation coefficient based on two absorption models. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cloudAbsorptionEmission",height=0.2,width=0.4,color="black",URL="$classFoam_1_1radiation_1_1cloudAbsorptionEmission.html",tooltip="Retrieves absorption/emission data from a cloud object. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="constantAbsorptionEmission",height=0.2,width=0.4,color="black",URL="$classFoam_1_1radiation_1_1constantAbsorptionEmission.html",tooltip="Constant radiation absorption and emission coefficients for continuous phase. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="greyMeanAbsorptionEmission",height=0.2,width=0.4,color="black",URL="$classFoam_1_1radiation_1_1greyMeanAbsorptionEmission.html",tooltip="greyMeanAbsorptionEmission radiation absorption and emission coefficients for continuous phase ..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="greyMeanSolidAbsorptionEmission",height=0.2,width=0.4,color="black",URL="$classFoam_1_1radiation_1_1greyMeanSolidAbsorptionEmission.html",tooltip="greyMeanSolidAbsorptionEmission radiation absorption and emission coefficients for solid mixture ..."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="localDensityAbsorptionEmission",height=0.2,width=0.4,color="black",URL="$classFoam_1_1radiation_1_1localDensityAbsorptionEmission.html",tooltip="Constant radiation absorption and emission coefficients for continuous phase. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="multiBandAbsorptionEmission",height=0.2,width=0.4,color="black",URL="$classFoam_1_1radiation_1_1multiBandAbsorptionEmission.html",tooltip="multiBandAbsorptionEmission radiation absorption/emission for solids. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="multiBandZoneAbsorptionEmission",height=0.2,width=0.4,color="black",URL="$classFoam_1_1radiation_1_1multiBandZoneAbsorptionEmission.html",tooltip="multiBandZoneAbsorptionEmission radiation absorption/emission for solids. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="noAbsorptionEmission",height=0.2,width=0.4,color="black",URL="$classFoam_1_1radiation_1_1noAbsorptionEmission.html",tooltip="Dummy absorption-emission model for &#39;none&#39;. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="wideBandAbsorptionEmission",height=0.2,width=0.4,color="black",URL="$classFoam_1_1radiation_1_1wideBandAbsorptionEmission.html",tooltip="wideBandAbsorptionEmission radiation absorption and emission coefficients for continuous phase..."];
+}

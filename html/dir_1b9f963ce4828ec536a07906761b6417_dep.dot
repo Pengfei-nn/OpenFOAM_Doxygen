@@ -1,0 +1,17 @@
+digraph "src/TurbulenceModels/turbulenceModels/RAS/SSG" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_adfb94148fb30832cafb0debb79458ba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="RAS" fontname="Helvetica", fontsize="10", URL="dir_adfb94148fb30832cafb0debb79458ba.html"]
+  dir_1b9f963ce4828ec536a07906761b6417 [shape=box, label="SSG", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1b9f963ce4828ec536a07906761b6417.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_a67c08fbd1e754f82bdfbdb2e52c41bb [shape=box label="ReynoldsStress" URL="dir_a67c08fbd1e754f82bdfbdb2e52c41bb.html"];
+  dir_695988d4b6a6c12df1635b93ccab0d53 [shape=box label="RASModel" URL="dir_695988d4b6a6c12df1635b93ccab0d53.html"];
+  dir_a67c08fbd1e754f82bdfbdb2e52c41bb->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="3", labeldistance=1.5 headhref="dir_004109_000814.html"];
+  dir_1b9f963ce4828ec536a07906761b6417->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_004107_000814.html"];
+  dir_1b9f963ce4828ec536a07906761b6417->dir_a67c08fbd1e754f82bdfbdb2e52c41bb [headlabel="1", labeldistance=1.5 headhref="dir_004107_004109.html"];
+  dir_1b9f963ce4828ec536a07906761b6417->dir_695988d4b6a6c12df1635b93ccab0d53 [headlabel="1", labeldistance=1.5 headhref="dir_004107_004104.html"];
+}

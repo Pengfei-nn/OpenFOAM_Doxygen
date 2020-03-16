@@ -1,0 +1,10 @@
+digraph "applications/solvers/lagrangian/DPMFoam/MPPICFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a90c95a63081a4a48ff9b32980da26da {
+    graph [ bgcolor="#ddddee", pencolor="black", label="DPMFoam" fontname="Helvetica", fontsize="10", URL="dir_a90c95a63081a4a48ff9b32980da26da.html"]
+  dir_2b94ab65310021c1d92c332559e7c60f [shape=box, label="MPPICFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2b94ab65310021c1d92c332559e7c60f.html"];
+  }
+}

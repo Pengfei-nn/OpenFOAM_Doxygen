@@ -1,0 +1,19 @@
+digraph "src/OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaceFields/processorCyclicGAMGInterfaceField" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b7abb153e8987c9544a572b6404d8f9c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfaceFields" fontname="Helvetica", fontsize="10", URL="dir_b7abb153e8987c9544a572b6404d8f9c.html"]
+  dir_bed6829d3114989523219f02de1a9c8d [shape=box, label="processorCyclicGAMGInterfaceField", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_bed6829d3114989523219f02de1a9c8d.html"];
+  }
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_a26efeeb8ce935076846d3f2281d079b [shape=box label="processorGAMGInterfaceField" URL="dir_a26efeeb8ce935076846d3f2281d079b.html"];
+  dir_1ce70feb2b06c30ebd4091245573b99e [shape=box label="lduMatrix" URL="dir_1ce70feb2b06c30ebd4091245573b99e.html"];
+  dir_bed6829d3114989523219f02de1a9c8d->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002493_002218.html"];
+  dir_bed6829d3114989523219f02de1a9c8d->dir_a26efeeb8ce935076846d3f2281d079b [headlabel="1", labeldistance=1.5 headhref="dir_002493_002494.html"];
+  dir_bed6829d3114989523219f02de1a9c8d->dir_1ce70feb2b06c30ebd4091245573b99e [headlabel="1", labeldistance=1.5 headhref="dir_002493_002450.html"];
+  dir_a26efeeb8ce935076846d3f2281d079b->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002494_002218.html"];
+  dir_a26efeeb8ce935076846d3f2281d079b->dir_1ce70feb2b06c30ebd4091245573b99e [headlabel="1", labeldistance=1.5 headhref="dir_002494_002450.html"];
+  dir_1ce70feb2b06c30ebd4091245573b99e->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="6", labeldistance=1.5 headhref="dir_002450_002218.html"];
+}

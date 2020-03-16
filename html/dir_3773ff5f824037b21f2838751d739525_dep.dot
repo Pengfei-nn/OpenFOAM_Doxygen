@@ -1,0 +1,12 @@
+digraph "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_616e89101b4d92e7765258ddbabd9ee1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="conformalVoronoiMesh" fontname="Helvetica", fontsize="10", URL="dir_616e89101b4d92e7765258ddbabd9ee1.html"]
+  dir_3773ff5f824037b21f2838751d739525 [shape=box, label="cvControls", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3773ff5f824037b21f2838751d739525.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_3773ff5f824037b21f2838751d739525->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_000322_000499.html"];
+}

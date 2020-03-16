@@ -1,0 +1,14 @@
+digraph "applications/solvers/combustion/PDRFoam/XiModels/XiEqModels/SCOPEXiEq" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_86c6030308677972953fc7979d3a85bb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="XiEqModels" fontname="Helvetica", fontsize="10", URL="dir_86c6030308677972953fc7979d3a85bb.html"]
+  dir_2c42a6fe3770ac2302de58602b512ce5 [shape=box, label="SCOPEXiEq", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2c42a6fe3770ac2302de58602b512ce5.html"];
+  }
+  dir_a02a87a06df1180e1e734c7954ddb4f4 [shape=box label="XiEqModel" URL="dir_a02a87a06df1180e1e734c7954ddb4f4.html"];
+  dir_7c5380a9e15431c3d88f79d83259de89 [shape=box label="laminarFlameSpeed" color="red" URL="dir_7c5380a9e15431c3d88f79d83259de89.html"];
+  dir_2c42a6fe3770ac2302de58602b512ce5->dir_a02a87a06df1180e1e734c7954ddb4f4 [headlabel="1", labeldistance=1.5 headhref="dir_000113_000114.html"];
+  dir_2c42a6fe3770ac2302de58602b512ce5->dir_7c5380a9e15431c3d88f79d83259de89 [headlabel="1", labeldistance=1.5 headhref="dir_000113_000093.html"];
+}

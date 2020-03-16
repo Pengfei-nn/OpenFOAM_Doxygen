@@ -1,0 +1,20 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/interfacialModels/wallLubricationModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b7d8cc85fbe5b5cd664e714a0ccf860f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfacialModels" fontname="Helvetica", fontsize="10", URL="dir_b7d8cc85fbe5b5cd664e714a0ccf860f.html"]
+  subgraph clusterdir_e3b447723574590c1503966e204656bb {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_e3b447723574590c1503966e204656bb.html"];
+    dir_e3b447723574590c1503966e204656bb [shape=plaintext label="wallLubricationModels"];
+    dir_23292519a103f7f45ef1cf74ae469edc [shape=box label="Antal" color="black" fillcolor="white" style="filled" URL="dir_23292519a103f7f45ef1cf74ae469edc.html"];
+    dir_e36a4194704575c735e8fce456f11578 [shape=box label="Frank" color="black" fillcolor="white" style="filled" URL="dir_e36a4194704575c735e8fce456f11578.html"];
+    dir_220432bf38e8c3385b6510c891b36688 [shape=box label="noWallLubrication" color="black" fillcolor="white" style="filled" URL="dir_220432bf38e8c3385b6510c891b36688.html"];
+    dir_c9874d4250432b4319758c808669fa85 [shape=box label="TomiyamaWallLubrication" color="black" fillcolor="white" style="filled" URL="dir_c9874d4250432b4319758c808669fa85.html"];
+    dir_45aa1d3e94517b1a0982b731eb8cd790 [shape=box label="wallLubricationModel" color="black" fillcolor="white" style="filled" URL="dir_45aa1d3e94517b1a0982b731eb8cd790.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_45aa1d3e94517b1a0982b731eb8cd790->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003198_000499.html"];
+}

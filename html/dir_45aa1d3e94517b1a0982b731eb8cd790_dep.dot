@@ -1,0 +1,12 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/interfacialModels/wallLubricationModels/wallLubricationModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e3b447723574590c1503966e204656bb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="wallLubricationModels" fontname="Helvetica", fontsize="10", URL="dir_e3b447723574590c1503966e204656bb.html"]
+  dir_45aa1d3e94517b1a0982b731eb8cd790 [shape=box, label="wallLubricationModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_45aa1d3e94517b1a0982b731eb8cd790.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_45aa1d3e94517b1a0982b731eb8cd790->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003198_000499.html"];
+}

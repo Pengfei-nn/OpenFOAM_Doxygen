@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/interfacialModels/liftModels/LegendreMagnaudet" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1930af04ba8ca8c5e74b60dc9dc3e3d1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="liftModels" fontname="Helvetica", fontsize="10", URL="dir_1930af04ba8ca8c5e74b60dc9dc3e3d1.html"]
+  dir_7f0ce98d7a45ed76793b16299ac0b712 [shape=box, label="LegendreMagnaudet", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7f0ce98d7a45ed76793b16299ac0b712.html"];
+  }
+}

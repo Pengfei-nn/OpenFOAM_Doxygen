@@ -1,0 +1,20 @@
+digraph "src/combustionModels/eddyDissipationDiffusionModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a28bb8a003fe9b05e061f79ecbbcb476 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="combustionModels" fontname="Helvetica", fontsize="10", URL="dir_a28bb8a003fe9b05e061f79ecbbcb476.html"]
+  dir_49d9ffd88b2f25f2e31d69ab400b1526 [shape=box, label="eddyDissipationDiffusionModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_49d9ffd88b2f25f2e31d69ab400b1526.html"];
+  }
+  dir_cf7b61e9dee2eed7a2c89936088862b3 [shape=box label="combustionModel" URL="dir_cf7b61e9dee2eed7a2c89936088862b3.html"];
+  dir_aa87515cc454361a491a90dadc832250 [shape=box label="eddyDissipationModelBase" URL="dir_aa87515cc454361a491a90dadc832250.html"];
+  dir_67089bd647ef63ae09f43c52d62dbb27 [shape=box label="singleStepCombustion" URL="dir_67089bd647ef63ae09f43c52d62dbb27.html"];
+  dir_2778d089ec5c4f66810b11f753867003 [shape=box label="thermophysicalModels" color="red" URL="dir_2778d089ec5c4f66810b11f753867003.html"];
+  dir_aa87515cc454361a491a90dadc832250->dir_67089bd647ef63ae09f43c52d62dbb27 [headlabel="1", labeldistance=1.5 headhref="dir_000521_000544.html"];
+  dir_67089bd647ef63ae09f43c52d62dbb27->dir_2778d089ec5c4f66810b11f753867003 [headlabel="1", labeldistance=1.5 headhref="dir_000544_001225.html"];
+  dir_49d9ffd88b2f25f2e31d69ab400b1526->dir_cf7b61e9dee2eed7a2c89936088862b3 [headlabel="1", labeldistance=1.5 headhref="dir_000520_000513.html"];
+  dir_49d9ffd88b2f25f2e31d69ab400b1526->dir_aa87515cc454361a491a90dadc832250 [headlabel="2", labeldistance=1.5 headhref="dir_000520_000521.html"];
+  dir_49d9ffd88b2f25f2e31d69ab400b1526->dir_67089bd647ef63ae09f43c52d62dbb27 [headlabel="1", labeldistance=1.5 headhref="dir_000520_000544.html"];
+  dir_49d9ffd88b2f25f2e31d69ab400b1526->dir_2778d089ec5c4f66810b11f753867003 [headlabel="3", labeldistance=1.5 headhref="dir_000520_001225.html"];
+}

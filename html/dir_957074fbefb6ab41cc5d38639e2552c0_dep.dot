@@ -1,0 +1,12 @@
+digraph "src/lagrangian/intermediate/submodels/Kinematic/ParticleForces/Lift/TomiyamaLift" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6635d9aa68d59377dd7165d1393d2e30 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Lift" fontname="Helvetica", fontsize="10", URL="dir_6635d9aa68d59377dd7165d1393d2e30.html"]
+  dir_957074fbefb6ab41cc5d38639e2552c0 [shape=box, label="TomiyamaLift", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_957074fbefb6ab41cc5d38639e2552c0.html"];
+  }
+  dir_9a4a8342949d31bc44597bb8c0b2f489 [shape=box label="LiftForce" URL="dir_9a4a8342949d31bc44597bb8c0b2f489.html"];
+  dir_957074fbefb6ab41cc5d38639e2552c0->dir_9a4a8342949d31bc44597bb8c0b2f489 [headlabel="1", labeldistance=1.5 headhref="dir_001709_001707.html"];
+}

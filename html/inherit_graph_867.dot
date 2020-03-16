@@ -1,0 +1,44 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="fieldVisualisationBase",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1fieldVisualisationBase.html",tooltip="Base class for scene objects. "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="contourFilter",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1contourFilter.html",tooltip="Iso-surface contours of OpenFOAM volume fields. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cuttingPlaneFilter",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1cuttingPlaneFilter.html",tooltip="Cutting planes of OpenFOAM volume fields. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="functionObjectBase",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1functionObjectBase.html",tooltip="Base class for function object visualisation. "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="functionObjectCloud",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1functionObjectCloud.html",tooltip="Visualisation of cloud data from function object output (file-based only). "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="functionObjectLine",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1functionObjectLine.html",tooltip="Visualisation of line data from function object output (file-based only). "];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="functionObjectSurface",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1functionObjectSurface.html",tooltip="Visualisation of surface data from function object output, typically the result of a prior sampled su..."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="geometryCloud",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1geometryCloud.html",tooltip="Visualisation of cloud data from function object output (file-based only). "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="geometryPatches",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1geometryPatches.html",tooltip="Visualisation of OpenFOAM patches and fields. "];
+  Node10 [label="geometryBase",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1geometryBase.html",tooltip="Base class for surface, text handling etc. "];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="pathline",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1pathline.html",tooltip="Visualisation of line data (eg, streamlines) "];
+  Node11 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="pointData",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1pointData.html",tooltip="Visualisation of point data. "];
+  Node12 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="surface",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1surface.html",tooltip="Visualisation of surface data with additional routines for handling parallel distributed data..."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="geometrySurface",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1geometrySurface.html",tooltip="Read and visualize surface geometry files. "];
+  Node14 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="volumeFilter",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1volumeFilter.html",tooltip="Visualisation of OpenFOAM volume fields as surface data using a VTK filter cascade. "];
+  Node15 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="text",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1text.html",tooltip="Define text element for runTimePostProcessing. "];
+}

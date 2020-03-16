@@ -1,0 +1,38 @@
+digraph "operator&amp;"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="operator&",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::SymmTensor::xx",height=0.2,width=0.4,color="black",URL="$classFoam_1_1SymmTensor.html#adefeff2f0e457c0e62a5e9d1292e3569"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::Tensor::xx",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Tensor.html#adefeff2f0e457c0e62a5e9d1292e3569"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::SymmTensor::xy",height=0.2,width=0.4,color="black",URL="$classFoam_1_1SymmTensor.html#a9eba447e6738c78e6b0694c15b09236e"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::Tensor::xy",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Tensor.html#a9eba447e6738c78e6b0694c15b09236e"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::SymmTensor::xz",height=0.2,width=0.4,color="black",URL="$classFoam_1_1SymmTensor.html#a217bb40fe6bbc4fd0d1f61fb1585d47e"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::Tensor::xz",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Tensor.html#a217bb40fe6bbc4fd0d1f61fb1585d47e"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::Tensor::yx",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Tensor.html#a6db6b3dd02257844bb6fc0b9bf95ff5c"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::SymmTensor::yy",height=0.2,width=0.4,color="black",URL="$classFoam_1_1SymmTensor.html#a1fabd792063b2f2c0c53693512a5baeb"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::Tensor::yy",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Tensor.html#a1fabd792063b2f2c0c53693512a5baeb"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::SymmTensor::yz",height=0.2,width=0.4,color="black",URL="$classFoam_1_1SymmTensor.html#aded7c943a25c96a9b28f63116b1060c8"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::Tensor::yz",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Tensor.html#aded7c943a25c96a9b28f63116b1060c8"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::Tensor::zx",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Tensor.html#a7222a378de92a8c4aef02b0c26d33dcd"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Foam::Tensor::zy",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Tensor.html#ab6046e7336c8423b79112ae4b13e66ca"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Foam::SymmTensor::zz",height=0.2,width=0.4,color="black",URL="$classFoam_1_1SymmTensor.html#ad557e07a1361f2a9875b25deead0beb8"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Foam::Tensor::zz",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Tensor.html#ad557e07a1361f2a9875b25deead0beb8"];
+}

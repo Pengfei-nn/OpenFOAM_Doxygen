@@ -1,0 +1,16 @@
+digraph "src/transportModels/incompressible/viscosityModels/powerLaw" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_96098a512bec5be00e402918bdacabdd {
+    graph [ bgcolor="#ddddee", pencolor="black", label="viscosityModels" fontname="Helvetica", fontsize="10", URL="dir_96098a512bec5be00e402918bdacabdd.html"]
+  dir_df83502f6a7df682e3825c6081ab1c8e [shape=box, label="powerLaw", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_df83502f6a7df682e3825c6081ab1c8e.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_9bd15774b555cf7259a6fa18f99fe99b->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="895", labeldistance=1.5 headhref="dir_000814_002151.html"];
+  dir_df83502f6a7df682e3825c6081ab1c8e->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_000858_000814.html"];
+  dir_df83502f6a7df682e3825c6081ab1c8e->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_000858_002151.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_002151_000814.html"];
+}

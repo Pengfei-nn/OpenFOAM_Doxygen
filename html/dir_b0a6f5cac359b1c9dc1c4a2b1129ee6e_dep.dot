@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/interfacialModels/heatTransferModels/sphericalHeatTransfer" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_81d54ca60ad155def2638f1cea9745c5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="heatTransferModels" fontname="Helvetica", fontsize="10", URL="dir_81d54ca60ad155def2638f1cea9745c5.html"]
+  dir_b0a6f5cac359b1c9dc1c4a2b1129ee6e [shape=box, label="sphericalHeatTransfer", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b0a6f5cac359b1c9dc1c4a2b1129ee6e.html"];
+  }
+}

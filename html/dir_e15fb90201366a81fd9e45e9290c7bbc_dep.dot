@@ -1,0 +1,10 @@
+digraph "src/thermophysicalModels/radiation/submodels/doc" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e8719ccd60760366888bb431a21ef811 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="submodels" fontname="Helvetica", fontsize="10", URL="dir_e8719ccd60760366888bb431a21ef811.html"]
+  dir_e15fb90201366a81fd9e45e9290c7bbc [shape=box, label="doc", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e15fb90201366a81fd9e45e9290c7bbc.html"];
+  }
+}

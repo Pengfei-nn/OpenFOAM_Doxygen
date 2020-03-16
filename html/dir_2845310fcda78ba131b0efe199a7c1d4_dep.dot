@@ -1,0 +1,18 @@
+digraph "src/TurbulenceModels/turbulenceModels/laminar/Stokes" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ed53039aa445a8005a2a7b1a43c7904d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="laminar" fontname="Helvetica", fontsize="10", URL="dir_ed53039aa445a8005a2a7b1a43c7904d.html"]
+  dir_2845310fcda78ba131b0efe199a7c1d4 [shape=box, label="Stokes", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2845310fcda78ba131b0efe199a7c1d4.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_6de2f4e401c036f5ee61e389e7ad7f69 [shape=box label="laminarModel" URL="dir_6de2f4e401c036f5ee61e389e7ad7f69.html"];
+  dir_99ef1563f00ecf6cdfecfeb625e8133a [shape=box label="linearViscousStress" URL="dir_99ef1563f00ecf6cdfecfeb625e8133a.html"];
+  dir_6de2f4e401c036f5ee61e389e7ad7f69->dir_2845310fcda78ba131b0efe199a7c1d4 [headlabel="1", labeldistance=1.5 headhref="dir_004068_004070.html"];
+  dir_99ef1563f00ecf6cdfecfeb625e8133a->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_004094_000814.html"];
+  dir_2845310fcda78ba131b0efe199a7c1d4->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="5", labeldistance=1.5 headhref="dir_004070_000814.html"];
+  dir_2845310fcda78ba131b0efe199a7c1d4->dir_6de2f4e401c036f5ee61e389e7ad7f69 [headlabel="1", labeldistance=1.5 headhref="dir_004070_004068.html"];
+  dir_2845310fcda78ba131b0efe199a7c1d4->dir_99ef1563f00ecf6cdfecfeb625e8133a [headlabel="1", labeldistance=1.5 headhref="dir_004070_004094.html"];
+}

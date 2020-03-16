@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/containers/IndirectLists/BiIndirectList" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f1bdd3e1864452c4a43cb0467c28790d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="IndirectLists" fontname="Helvetica", fontsize="10", URL="dir_f1bdd3e1864452c4a43cb0467c28790d.html"]
+  dir_8398464456314792f42f44156729da6f [shape=box, label="BiIndirectList", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_8398464456314792f42f44156729da6f.html"];
+  }
+  dir_f87fe3b02e96c330e8a853ff310f1666 [shape=box label="Lists" color="red" URL="dir_f87fe3b02e96c330e8a853ff310f1666.html"];
+  dir_8398464456314792f42f44156729da6f->dir_f87fe3b02e96c330e8a853ff310f1666 [headlabel="1", labeldistance=1.5 headhref="dir_002182_002198.html"];
+}

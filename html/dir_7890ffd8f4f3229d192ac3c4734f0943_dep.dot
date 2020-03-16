@@ -1,0 +1,15 @@
+digraph "src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_09b4360db181b1c37726382a34e0210b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="constraint" fontname="Helvetica", fontsize="10", URL="dir_09b4360db181b1c37726382a34e0210b.html"]
+  dir_7890ffd8f4f3229d192ac3c4734f0943 [shape=box, label="empty", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7890ffd8f4f3229d192ac3c4734f0943.html"];
+  }
+  dir_e00799da7fb4d299a4bc01389c26736d [shape=box label="polyPatch" URL="dir_e00799da7fb4d299a4bc01389c26736d.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_e00799da7fb4d299a4bc01389c26736d->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="6", labeldistance=1.5 headhref="dir_002601_002218.html"];
+  dir_7890ffd8f4f3229d192ac3c4734f0943->dir_e00799da7fb4d299a4bc01389c26736d [headlabel="1", labeldistance=1.5 headhref="dir_002591_002601.html"];
+  dir_7890ffd8f4f3229d192ac3c4734f0943->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002591_002218.html"];
+}

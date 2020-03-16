@@ -1,0 +1,18 @@
+digraph "src/fvOptions/sources/interRegion/interRegionHeatTransfer/interRegionHeatTransferModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8c328afdfc5b8d48f5b4349289c6a376 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interRegionHeatTransfer" fontname="Helvetica", fontsize="10", URL="dir_8c328afdfc5b8d48f5b4349289c6a376.html"]
+  dir_c627215e7364d331f2459936eb5b644d [shape=box, label="interRegionHeatTransferModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_c627215e7364d331f2459936eb5b644d.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_e004c8aef6ad3730b0be09e2a7704e0f [shape=box label="interRegionOption" URL="dir_e004c8aef6ad3730b0be09e2a7704e0f.html"];
+  dir_2778d089ec5c4f66810b11f753867003 [shape=box label="thermophysicalModels" color="red" URL="dir_2778d089ec5c4f66810b11f753867003.html"];
+  dir_e004c8aef6ad3730b0be09e2a7704e0f->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_001453_000814.html"];
+  dir_2778d089ec5c4f66810b11f753867003->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="122", labeldistance=1.5 headhref="dir_001225_000814.html"];
+  dir_c627215e7364d331f2459936eb5b644d->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="5", labeldistance=1.5 headhref="dir_001491_000814.html"];
+  dir_c627215e7364d331f2459936eb5b644d->dir_e004c8aef6ad3730b0be09e2a7704e0f [headlabel="1", labeldistance=1.5 headhref="dir_001491_001453.html"];
+  dir_c627215e7364d331f2459936eb5b644d->dir_2778d089ec5c4f66810b11f753867003 [headlabel="1", labeldistance=1.5 headhref="dir_001491_001225.html"];
+}

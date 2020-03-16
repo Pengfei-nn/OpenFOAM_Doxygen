@@ -1,0 +1,19 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/phaseSystems/phasePair" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_264d2d6ce5df211e174aa532bbc40de4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="phaseSystems" fontname="Helvetica", fontsize="10", URL="dir_264d2d6ce5df211e174aa532bbc40de4.html"]
+  subgraph clusterdir_71d01da5815d425c3df8c565f99b754b {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_71d01da5815d425c3df8c565f99b754b.html"];
+    dir_71d01da5815d425c3df8c565f99b754b [shape=plaintext label="phasePair"];
+    dir_ab6f279e136e9aa2bc4626378b651df7 [shape=box label="orderedPhasePair" color="black" fillcolor="white" style="filled" URL="dir_ab6f279e136e9aa2bc4626378b651df7.html"];
+    dir_552c4ca7f12e70b4b571c639cd94c727 [shape=box label="phasePair" color="black" fillcolor="white" style="filled" URL="dir_552c4ca7f12e70b4b571c639cd94c727.html"];
+    dir_b4268e7ae0f3fbcfc7925033a530ef6c [shape=box label="phasePairKey" color="black" fillcolor="white" style="filled" URL="dir_b4268e7ae0f3fbcfc7925033a530ef6c.html"];
+  }
+  }
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_552c4ca7f12e70b4b571c639cd94c727->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_003245_002151.html"];
+  dir_b4268e7ae0f3fbcfc7925033a530ef6c->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_003248_002151.html"];
+}

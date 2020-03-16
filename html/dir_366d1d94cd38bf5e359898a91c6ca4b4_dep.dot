@@ -1,0 +1,14 @@
+digraph "src/OpenFOAM/primitives/Vector/complexVector" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6ef5fbba1c02603637a533e2f686aa62 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Vector" fontname="Helvetica", fontsize="10", URL="dir_6ef5fbba1c02603637a533e2f686aa62.html"]
+  dir_366d1d94cd38bf5e359898a91c6ca4b4 [shape=box, label="complexVector", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_366d1d94cd38bf5e359898a91c6ca4b4.html"];
+  }
+  dir_9b55caa1365775a4268140b8f5b75f1d [shape=box label="complex" URL="dir_9b55caa1365775a4268140b8f5b75f1d.html"];
+  dir_1d0183e3dd439c231d98049d5fd7da7c [shape=box label="vector" URL="dir_1d0183e3dd439c231d98049d5fd7da7c.html"];
+  dir_366d1d94cd38bf5e359898a91c6ca4b4->dir_9b55caa1365775a4268140b8f5b75f1d [headlabel="1", labeldistance=1.5 headhref="dir_002761_002641.html"];
+  dir_366d1d94cd38bf5e359898a91c6ca4b4->dir_1d0183e3dd439c231d98049d5fd7da7c [headlabel="1", labeldistance=1.5 headhref="dir_002761_002766.html"];
+}

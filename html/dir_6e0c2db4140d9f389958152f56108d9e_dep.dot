@@ -1,0 +1,10 @@
+digraph "applications/solvers/compressible/rhoPimpleAdiabaticFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ec6fbd2e4e71296a5c4843bd2aa1db19 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="compressible" fontname="Helvetica", fontsize="10", URL="dir_ec6fbd2e4e71296a5c4843bd2aa1db19.html"]
+  dir_6e0c2db4140d9f389958152f56108d9e [shape=box, label="rhoPimpleAdiabaticFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6e0c2db4140d9f389958152f56108d9e.html"];
+  }
+}

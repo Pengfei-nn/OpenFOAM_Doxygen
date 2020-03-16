@@ -1,0 +1,15 @@
+digraph "src/optimisation/adjointOptimisation/adjoint/solvers/solverControl/SIMPLEControl/SIMPLEControl" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ecf406ef7f8ca5419358fd512340fb34 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="SIMPLEControl" fontname="Helvetica", fontsize="10", URL="dir_ecf406ef7f8ca5419358fd512340fb34.html"]
+  dir_4a9076ca332766da9cc226d19900520a [shape=box, label="SIMPLEControl", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4a9076ca332766da9cc226d19900520a.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_e81d89f91bfba3766c2179154dd784ad [shape=box label="solverControl" URL="dir_e81d89f91bfba3766c2179154dd784ad.html"];
+  dir_4a9076ca332766da9cc226d19900520a->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_002912_000814.html"];
+  dir_4a9076ca332766da9cc226d19900520a->dir_e81d89f91bfba3766c2179154dd784ad [headlabel="1", labeldistance=1.5 headhref="dir_002912_002914.html"];
+  dir_e81d89f91bfba3766c2179154dd784ad->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_002914_000814.html"];
+}

@@ -1,0 +1,10 @@
+digraph "applications/utilities/mesh/generation/foamyMesh/foamyHexMesh" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_525b031d9ecda2adbb84a631566a9480 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="foamyMesh" fontname="Helvetica", fontsize="10", URL="dir_525b031d9ecda2adbb84a631566a9480.html"]
+  dir_939d1fac41bd63bba444a189292d769c [shape=box, label="foamyHexMesh", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_939d1fac41bd63bba444a189292d769c.html"];
+  }
+}

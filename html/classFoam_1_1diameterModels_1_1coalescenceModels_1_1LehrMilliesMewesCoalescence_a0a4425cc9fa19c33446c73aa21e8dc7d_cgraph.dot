@@ -1,0 +1,32 @@
+digraph "addToCoalescenceRate"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="addToCoalescenceRate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::cbrt",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#aca0b7feea326c0e1e9e04078a319d019"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::diameterModels\l::sizeGroup::d",height=0.2,width=0.4,color="black",URL="$classFoam_1_1diameterModels_1_1sizeGroup.html#a9b7a8d3b12024ab85869800b7e5c0661",tooltip="Return representative diameter of the sizeGroup. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::exp",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a12bca6c677fcf0977532179c3cb9bb89"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a834bb6faa2fd38f3b65634f2e1987e97"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a0e0c00c14acbabe88eec56a8b0fa2806",tooltip="Find the max value in labelHashSet, optionally limited by second argument. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a96b65441175bbfb9a869045dc05fb0b9",tooltip="Find the min value in labelHashSet, optionally limited by second argument. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::diameterModels\l::sizeGroup::phase",height=0.2,width=0.4,color="red",URL="$classFoam_1_1diameterModels_1_1sizeGroup.html#a801bcda5541ce34b959df34746a31fff",tooltip="Return const-reference to the phase. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::constant::mathematical::pi",height=0.2,width=0.4,color="black",URL="$namespaceFoam_1_1constant_1_1mathematical.html#ab8005f9f2f9b1371555df4dd0ad907ba"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::phaseModel::residual\lAlpha",height=0.2,width=0.4,color="black",URL="$classFoam_1_1phaseModel.html#a30182fa571b0167a7c5e89bb9929ae7a",tooltip="Return the residual phase-fraction for given phase. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::sqr",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a277dc11c581d53826ab5090b08f3b17b"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::sqrt",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a8616bd62eebf2342a80222fecb1bda71"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::phaseModel::U",height=0.2,width=0.4,color="black",URL="$classFoam_1_1phaseModel.html#aaadc4951d5334553262388253cbf21c6",tooltip="Return the velocity. "];
+}

@@ -1,0 +1,20 @@
+digraph "src/TurbulenceModels/incompressible/turbulentTransportModels/RAS/LienCubicKE" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_96b47c9484aadeb0211f2ded0ebdc3ac {
+    graph [ bgcolor="#ddddee", pencolor="black", label="RAS" fontname="Helvetica", fontsize="10", URL="dir_96b47c9484aadeb0211f2ded0ebdc3ac.html"]
+  dir_a409958685228f4cb6e2434816a1d24d [shape=box, label="LienCubicKE", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a409958685228f4cb6e2434816a1d24d.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_a3dc37bcacf99bb6122ed819dac99f09 [shape=box label="turbulenceModels" color="red" URL="dir_a3dc37bcacf99bb6122ed819dac99f09.html"];
+  dir_9bd15774b555cf7259a6fa18f99fe99b->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="895", labeldistance=1.5 headhref="dir_000814_002151.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_002151_000814.html"];
+  dir_a3dc37bcacf99bb6122ed819dac99f09->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="117", labeldistance=1.5 headhref="dir_002934_000814.html"];
+  dir_a3dc37bcacf99bb6122ed819dac99f09->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="49", labeldistance=1.5 headhref="dir_002934_002151.html"];
+  dir_a409958685228f4cb6e2434816a1d24d->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_004013_000814.html"];
+  dir_a409958685228f4cb6e2434816a1d24d->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_004013_002151.html"];
+  dir_a409958685228f4cb6e2434816a1d24d->dir_a3dc37bcacf99bb6122ed819dac99f09 [headlabel="1", labeldistance=1.5 headhref="dir_004013_002934.html"];
+}

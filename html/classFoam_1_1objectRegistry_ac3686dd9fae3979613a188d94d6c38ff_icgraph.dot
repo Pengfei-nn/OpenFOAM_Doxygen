@@ -1,0 +1,13 @@
+digraph "erase"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="erase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="clear",height=0.2,width=0.4,color="red",URL="$classFoam_1_1objectRegistry.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear all entries from the registry. "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::eraseImpl",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#af53f3c9d7251c8e7f2bd5150e4d2aaf4"];
+}

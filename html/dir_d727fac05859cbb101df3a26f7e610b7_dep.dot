@@ -1,0 +1,15 @@
+digraph "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cellShapeControl/smoothAlignmentSolver" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5088df82dcf25da56e0bc3a1a53ca996 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="cellShapeControl" fontname="Helvetica", fontsize="10", URL="dir_5088df82dcf25da56e0bc3a1a53ca996.html"]
+  dir_d727fac05859cbb101df3a26f7e610b7 [shape=box, label="smoothAlignmentSolver", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d727fac05859cbb101df3a26f7e610b7.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_fd5fe15316df322b328286394841bb09 [shape=box label="cellShapeControlMesh" URL="dir_fd5fe15316df322b328286394841bb09.html"];
+  dir_d727fac05859cbb101df3a26f7e610b7->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000300_000499.html"];
+  dir_d727fac05859cbb101df3a26f7e610b7->dir_fd5fe15316df322b328286394841bb09 [headlabel="1", labeldistance=1.5 headhref="dir_000300_000294.html"];
+  dir_fd5fe15316df322b328286394841bb09->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="8", labeldistance=1.5 headhref="dir_000294_000499.html"];
+}

@@ -1,0 +1,16 @@
+digraph "neighbPatchID"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="neighbPatchID",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::cyclicACMIFvPatch\l::cyclicACMIPatch",height=0.2,width=0.4,color="black",URL="$classFoam_1_1cyclicACMIFvPatch.html#ad03a1336a4ae3957212a693300bd474c",tooltip="Return local reference cast into the cyclic patch. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::cyclicAMIFvPatch\l::owner",height=0.2,width=0.4,color="black",URL="$classFoam_1_1cyclicAMIFvPatch.html#ae2fb0867c083f040d00c1b69a4f59b0f"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::cyclicACMIFvPatch\l::owner",height=0.2,width=0.4,color="black",URL="$classFoam_1_1cyclicACMIFvPatch.html#ae2fb0867c083f040d00c1b69a4f59b0f"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::cyclicACMIFvPatch\l::parallel",height=0.2,width=0.4,color="black",URL="$classFoam_1_1cyclicACMIFvPatch.html#a155cd0ed094eb1c75aba4cdb37be8c4d",tooltip="Are the cyclic planes parallel. "];
+}

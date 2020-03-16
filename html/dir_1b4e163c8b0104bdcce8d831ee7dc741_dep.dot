@@ -1,0 +1,20 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/twoPhaseSystem/diameterModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cfe205aac25c0433b15142b141b5f211 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="twoPhaseSystem" fontname="Helvetica", fontsize="10", URL="dir_cfe205aac25c0433b15142b141b5f211.html"]
+  subgraph clusterdir_1b4e163c8b0104bdcce8d831ee7dc741 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1b4e163c8b0104bdcce8d831ee7dc741.html"];
+    dir_1b4e163c8b0104bdcce8d831ee7dc741 [shape=plaintext label="diameterModels"];
+    dir_3883bac504c22ea54aa982d2ff7044c9 [shape=box label="constantDiameter" color="black" fillcolor="white" style="filled" URL="dir_3883bac504c22ea54aa982d2ff7044c9.html"];
+    dir_6dd2bf5b80f43d3ebff4b92890b8a835 [shape=box label="diameterModel" color="black" fillcolor="white" style="filled" URL="dir_6dd2bf5b80f43d3ebff4b92890b8a835.html"];
+    dir_eb7c587e9f5410f39a50ecf72a9463c4 [shape=box label="IATE" color="red" fillcolor="white" style="filled" URL="dir_eb7c587e9f5410f39a50ecf72a9463c4.html"];
+    dir_2c8db5ca05c22212d244cde8b46a778d [shape=box label="isothermalDiameter" color="black" fillcolor="white" style="filled" URL="dir_2c8db5ca05c22212d244cde8b46a778d.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_eb7c587e9f5410f39a50ecf72a9463c4->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_003368_000499.html"];
+  dir_6dd2bf5b80f43d3ebff4b92890b8a835->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_003214_000499.html"];
+}

@@ -1,0 +1,10 @@
+digraph "master"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="master",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="omegaWallFunctionFvPatch\lScalarField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1omegaWallFunctionFvPatchScalarField.html#a26075cd96383142b2b7e83a130df61b0",tooltip="Construct from patch and internal field. "];
+}

@@ -1,0 +1,12 @@
+digraph "src/waveModels/waveAbsorptionModels/base/waveAbsorptionModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_dc11627dd50b3e909aec9c48d931dd3e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="base" fontname="Helvetica", fontsize="10", URL="dir_dc11627dd50b3e909aec9c48d931dd3e.html"]
+  dir_de2a6d6362caf065683deebdb9b9e992 [shape=box, label="waveAbsorptionModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_de2a6d6362caf065683deebdb9b9e992.html"];
+  }
+  dir_cee882d11d98834f07952dd5b2a801bf [shape=box label="waveModel" URL="dir_cee882d11d98834f07952dd5b2a801bf.html"];
+  dir_de2a6d6362caf065683deebdb9b9e992->dir_cee882d11d98834f07952dd5b2a801bf [headlabel="1", labeldistance=1.5 headhref="dir_004122_004141.html"];
+}

@@ -1,0 +1,15 @@
+digraph "src/thermophysicalModels/radiation/submodels/scatterModel/noScatter" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cb26d37727abb9dd047dc85abd79b584 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="scatterModel" fontname="Helvetica", fontsize="10", URL="dir_cb26d37727abb9dd047dc85abd79b584.html"]
+  dir_473a316115b8d9ea6c341ff2006fed9b [shape=box, label="noScatter", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_473a316115b8d9ea6c341ff2006fed9b.html"];
+  }
+  dir_f4c1439a6f10e72bb919ce47b4faf6ca [shape=box label="scatterModel" URL="dir_f4c1439a6f10e72bb919ce47b4faf6ca.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_f4c1439a6f10e72bb919ce47b4faf6ca->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="5", labeldistance=1.5 headhref="dir_003764_002151.html"];
+  dir_473a316115b8d9ea6c341ff2006fed9b->dir_f4c1439a6f10e72bb919ce47b4faf6ca [headlabel="1", labeldistance=1.5 headhref="dir_003763_003764.html"];
+  dir_473a316115b8d9ea6c341ff2006fed9b->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_003763_002151.html"];
+}

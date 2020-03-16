@@ -1,0 +1,30 @@
+digraph "TDACChemistryModel"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TDACChemistryModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="logFile",height=0.2,width=0.4,color="black",URL="$classFoam_1_1TDACChemistryModel.html#a4b01bdca66b9b7924f5137edd69ab738",tooltip="Create and return a TDAC log file of the given name. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::basicChemistryModel\l::mesh",height=0.2,width=0.4,color="black",URL="$classFoam_1_1basicChemistryModel.html#a628df3d8f239d8393610d6310eb56ad1",tooltip="Return const access to the mesh database. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::baseIOdictionary\l::name",height=0.2,width=0.4,color="black",URL="$classFoam_1_1baseIOdictionary.html#a6d60057c26042eaf7fa1b3b6fb07b582",tooltip="Name function is needed to disambiguate those inherited. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::chemistryTabulation\lMethod::New",height=0.2,width=0.4,color="red",URL="$classFoam_1_1chemistryTabulationMethod.html#aca13b40b8f79fc509a9e2e0df5ad043c"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::chemistryReduction\lMethod::New",height=0.2,width=0.4,color="red",URL="$classFoam_1_1chemistryReductionMethod.html#a5de82d36230bbf4c0031a57aaaf1131a"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::basicMultiComponent\lMixture::setInactive",height=0.2,width=0.4,color="black",URL="$classFoam_1_1basicMultiComponentMixture.html#a7425b854423b92253e725ad3269ac336",tooltip="Set speciei inactive. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::basicMultiComponent\lMixture::species",height=0.2,width=0.4,color="black",URL="$classFoam_1_1basicMultiComponentMixture.html#ac3684786b3929e4b59bca4087f9f4609",tooltip="Return the table of species. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::BasicChemistryModel\l::thermo",height=0.2,width=0.4,color="black",URL="$classFoam_1_1BasicChemistryModel.html#acc4713ada21d71c7c5734019c38fd9c0",tooltip="Return access to the thermo package. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::IOobject::time",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#ab5a56b597db315d880e81c09a4341244",tooltip="Return time. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::IOobject::typeHeaderOk",height=0.2,width=0.4,color="red",URL="$classFoam_1_1IOobject.html#a48b9a53e7714e526af3603a0502a83eb",tooltip="Read header (uses typeFilePath to find file) and check its info. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Y",height=0.2,width=0.4,color="black",URL="$classFoam_1_1TDACChemistryModel.html#a98fc615b86ae04a5a00a36c8fb619a16"];
+}

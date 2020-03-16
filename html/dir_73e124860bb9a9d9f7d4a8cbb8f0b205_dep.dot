@@ -1,0 +1,12 @@
+digraph "applications/utilities/postProcessing/graphics/PVReaders/blockMeshReader/library" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4d451762ae5cbb4ad2fc8a6548b8ce62 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="blockMeshReader" fontname="Helvetica", fontsize="10", URL="dir_4d451762ae5cbb4ad2fc8a6548b8ce62.html"]
+  dir_73e124860bb9a9d9f7d4a8cbb8f0b205 [shape=box, label="library", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_73e124860bb9a9d9f7d4a8cbb8f0b205.html"];
+  }
+  dir_eb666c3203132dcd5610cbda0090760e [shape=box label="common" URL="dir_eb666c3203132dcd5610cbda0090760e.html"];
+  dir_73e124860bb9a9d9f7d4a8cbb8f0b205->dir_eb666c3203132dcd5610cbda0090760e [headlabel="1", labeldistance=1.5 headhref="dir_000416_000417.html"];
+}

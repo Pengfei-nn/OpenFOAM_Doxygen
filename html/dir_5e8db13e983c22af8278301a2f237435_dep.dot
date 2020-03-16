@@ -1,0 +1,16 @@
+digraph "src/TurbulenceModels/turbulenceModels/RAS/derivedFvPatchFields/turbulentMixingLengthFrequencyInlet" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_22069f5775fb39fd683a4fab70e8b0be {
+    graph [ bgcolor="#ddddee", pencolor="black", label="derivedFvPatchFields" fontname="Helvetica", fontsize="10", URL="dir_22069f5775fb39fd683a4fab70e8b0be.html"]
+  dir_5e8db13e983c22af8278301a2f237435 [shape=box, label="turbulentMixingLengthFrequencyInlet", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5e8db13e983c22af8278301a2f237435.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_9bd15774b555cf7259a6fa18f99fe99b->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="895", labeldistance=1.5 headhref="dir_000814_002151.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_002151_000814.html"];
+  dir_5e8db13e983c22af8278301a2f237435->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="4", labeldistance=1.5 headhref="dir_004098_000814.html"];
+  dir_5e8db13e983c22af8278301a2f237435->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_004098_002151.html"];
+}

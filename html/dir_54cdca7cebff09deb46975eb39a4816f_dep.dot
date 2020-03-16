@@ -1,0 +1,16 @@
+digraph "applications/solvers/multiphase/MPPICInterFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d62a5a20700de1cb9696e405d497a576 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="multiphase" fontname="Helvetica", fontsize="10", URL="dir_d62a5a20700de1cb9696e405d497a576.html"]
+  subgraph clusterdir_54cdca7cebff09deb46975eb39a4816f {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_54cdca7cebff09deb46975eb39a4816f.html"];
+    dir_54cdca7cebff09deb46975eb39a4816f [shape=plaintext label="MPPICInterFoam"];
+    dir_69c890a79f25684aaa1c34661459b1d6 [shape=box label="CompressibleTwoPhaseMixtureTurbulenceModels" color="black" fillcolor="white" style="filled" URL="dir_69c890a79f25684aaa1c34661459b1d6.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_54cdca7cebff09deb46975eb39a4816f->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_000079_000499.html"];
+}

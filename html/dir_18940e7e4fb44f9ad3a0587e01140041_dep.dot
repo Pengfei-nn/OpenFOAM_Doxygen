@@ -1,0 +1,28 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0ef23d3ece64393022aafe54aa180a7c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="phaseCompressibleTurbulenceModels" fontname="Helvetica", fontsize="10", URL="dir_0ef23d3ece64393022aafe54aa180a7c.html"]
+  subgraph clusterdir_18940e7e4fb44f9ad3a0587e01140041 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_18940e7e4fb44f9ad3a0587e01140041.html"];
+    dir_18940e7e4fb44f9ad3a0587e01140041 [shape=plaintext label="kineticTheoryModels"];
+    dir_ba321717d448fd8e54ed59d33003675b [shape=box label="conductivityModel" color="red" fillcolor="white" style="filled" URL="dir_ba321717d448fd8e54ed59d33003675b.html"];
+    dir_b95f3ed2c94842634c0a0c14885ad0c5 [shape=box label="derivedFvPatchFields" color="red" fillcolor="white" style="filled" URL="dir_b95f3ed2c94842634c0a0c14885ad0c5.html"];
+    dir_0105b01121de7b92f68615c3d021d922 [shape=box label="frictionalStressModel" color="red" fillcolor="white" style="filled" URL="dir_0105b01121de7b92f68615c3d021d922.html"];
+    dir_8a87f5759e8efc37b819fa36188b226f [shape=box label="granularPressureModel" color="red" fillcolor="white" style="filled" URL="dir_8a87f5759e8efc37b819fa36188b226f.html"];
+    dir_cf4d3670220bc19a63001f4205030acc [shape=box label="kineticTheoryModel" color="black" fillcolor="white" style="filled" URL="dir_cf4d3670220bc19a63001f4205030acc.html"];
+    dir_457aacccdf25eced75bbda085efde982 [shape=box label="radialModel" color="red" fillcolor="white" style="filled" URL="dir_457aacccdf25eced75bbda085efde982.html"];
+    dir_3a016090ec0dbe2adbd41e72261da980 [shape=box label="viscosityModel" color="red" fillcolor="white" style="filled" URL="dir_3a016090ec0dbe2adbd41e72261da980.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_b95f3ed2c94842634c0a0c14885ad0c5->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_003319_000499.html"];
+  dir_457aacccdf25eced75bbda085efde982->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_003345_000499.html"];
+  dir_0105b01121de7b92f68615c3d021d922->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_003325_000499.html"];
+  dir_8a87f5759e8efc37b819fa36188b226f->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_003335_000499.html"];
+  dir_ba321717d448fd8e54ed59d33003675b->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_003309_000499.html"];
+  dir_cf4d3670220bc19a63001f4205030acc->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003342_000499.html"];
+  dir_3a016090ec0dbe2adbd41e72261da980->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_003355_000499.html"];
+}

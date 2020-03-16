@@ -1,0 +1,30 @@
+digraph "size"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::boundaryAdjointContribution\l::adjointTMVariable2Source",height=0.2,width=0.4,color="black",URL="$classFoam_1_1boundaryAdjointContribution.html#a3a353b2c11d1aea8dd03063b5dd456bb"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::compressible\l::alphatWallBoilingWallFunction\lFvPatchScalarField::alphatWallBoiling\lWallFunctionFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1compressible_1_1alphatWallBoilingWallFunctionFvPatchScalarField.html#a35fe38a228b8a16b29a4d7a1e06f31d8",tooltip="Construct from patch and internal field. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::cyclicAMIFvPatch\l::makeWeights",height=0.2,width=0.4,color="black",URL="$classFoam_1_1cyclicAMIFvPatch.html#a6e8461e70d8bb85a22df5d8266daaa55",tooltip="Make patch weighting factors. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="patchInternalField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fvPatch.html#aac03451aa767a085791676993c91b405"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::semiPermeableBaffle\lVelocityFvPatchVectorField\l::semiPermeableBaffleVelocityFvPatch\lVectorField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1semiPermeableBaffleVelocityFvPatchVectorField.html#a4446adc8bf6762ff30f6398fe8b5bc72",tooltip="Construct by mapping given fixedValueTypeFvPatchField. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::boundaryAdjointContribution\lIncompressible::sumContributions",height=0.2,width=0.4,color="black",URL="$classFoam_1_1boundaryAdjointContributionIncompressible.html#add4ebe78f34cc109090ab69f18787e27"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::compressible\l::thermalBaffle1DFvPatchScalar\lField::thermalBaffle1DFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1compressible_1_1thermalBaffle1DFvPatchScalarField.html#aeb5a482f08e04f74295b63f2aa4385f2",tooltip="Construct from patch and internal field. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::boundaryAdjointContribution\l::TMVariable1",height=0.2,width=0.4,color="black",URL="$classFoam_1_1boundaryAdjointContribution.html#a86f7e11cbb074046e439c855920465cc"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::boundaryAdjointContribution\l::TMVariable1Diffusion",height=0.2,width=0.4,color="black",URL="$classFoam_1_1boundaryAdjointContribution.html#a6853e420a6e035c671f7fc62e4d40a46"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::boundaryAdjointContribution\l::TMVariable2",height=0.2,width=0.4,color="black",URL="$classFoam_1_1boundaryAdjointContribution.html#a558e83d51280e549fce23347fe5609dd"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::boundaryAdjointContribution\l::TMVariable2Diffusion",height=0.2,width=0.4,color="black",URL="$classFoam_1_1boundaryAdjointContribution.html#a034656222e38ba72c28c25c7898b0d30"];
+}

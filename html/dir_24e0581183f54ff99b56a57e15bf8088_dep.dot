@@ -1,0 +1,16 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/reactingTwoPhaseEulerFoam/twoPhaseSystem/diameterModels/IATE/IATEsources/turbulentBreakUp" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_78411669d47b5e19928eafa1c2794fe4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="IATEsources" fontname="Helvetica", fontsize="10", URL="dir_78411669d47b5e19928eafa1c2794fe4.html"]
+  dir_24e0581183f54ff99b56a57e15bf8088 [shape=box, label="turbulentBreakUp", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_24e0581183f54ff99b56a57e15bf8088.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_9bd15774b555cf7259a6fa18f99fe99b->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="895", labeldistance=1.5 headhref="dir_000814_002151.html"];
+  dir_24e0581183f54ff99b56a57e15bf8088->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_003376_000814.html"];
+  dir_24e0581183f54ff99b56a57e15bf8088->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_003376_002151.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_002151_000814.html"];
+}

@@ -1,0 +1,13 @@
+digraph "breakupModel"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="breakupModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="exponential",height=0.2,width=0.4,color="black",URL="$classFoam_1_1diameterModels_1_1breakupModels_1_1exponential.html",tooltip="Exponential kernel. Used for verification and validation of the breakup formulation implemented in th..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="LaakkonenAlopaeusAittamaa",height=0.2,width=0.4,color="black",URL="$classFoam_1_1diameterModels_1_1breakupModels_1_1LaakkonenAlopaeusAittamaa.html",tooltip="Model of Laakkonen et al. (2006). The total breakup rate is calculated by. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="powerLaw",height=0.2,width=0.4,color="black",URL="$classFoam_1_1diameterModels_1_1breakupModels_1_1powerLaw.html",tooltip="Powerlaw kernel. Used for verification and validation of the breakup formulation implemented in the p..."];
+}

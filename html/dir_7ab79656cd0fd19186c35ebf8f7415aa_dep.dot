@@ -1,0 +1,10 @@
+digraph "src/OpenFOAM/meshes/meshShapes/traits" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b8e2732bc99f8fb2a379dad81aa6030e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="meshShapes" fontname="Helvetica", fontsize="10", URL="dir_b8e2732bc99f8fb2a379dad81aa6030e.html"]
+  dir_7ab79656cd0fd19186c35ebf8f7415aa [shape=box, label="traits", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7ab79656cd0fd19186c35ebf8f7415aa.html"];
+  }
+}

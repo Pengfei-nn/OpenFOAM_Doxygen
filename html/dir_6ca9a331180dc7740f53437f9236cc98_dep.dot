@@ -1,0 +1,20 @@
+digraph "src/rigidBodyDynamics/restraints/linearAxialAngularSpring" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5934478bd312d980c3411c3627b10c8a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="restraints" fontname="Helvetica", fontsize="10", URL="dir_5934478bd312d980c3411c3627b10c8a.html"]
+  dir_6ca9a331180dc7740f53437f9236cc98 [shape=box, label="linearAxialAngularSpring", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6ca9a331180dc7740f53437f9236cc98.html"];
+  }
+  dir_af944db0c164b1c029d2b46f26f41dd1 [shape=box label="restraint" URL="dir_af944db0c164b1c029d2b46f26f41dd1.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_01d230fdb888802d871acc5f0e1690e2 [shape=box label="rigidBodyModel" URL="dir_01d230fdb888802d871acc5f0e1690e2.html"];
+  dir_af944db0c164b1c029d2b46f26f41dd1->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="6", labeldistance=1.5 headhref="dir_003530_002151.html"];
+  dir_af944db0c164b1c029d2b46f26f41dd1->dir_01d230fdb888802d871acc5f0e1690e2 [headlabel="2", labeldistance=1.5 headhref="dir_003530_003535.html"];
+  dir_6ca9a331180dc7740f53437f9236cc98->dir_af944db0c164b1c029d2b46f26f41dd1 [headlabel="1", labeldistance=1.5 headhref="dir_003520_003530.html"];
+  dir_6ca9a331180dc7740f53437f9236cc98->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_003520_002151.html"];
+  dir_6ca9a331180dc7740f53437f9236cc98->dir_01d230fdb888802d871acc5f0e1690e2 [headlabel="1", labeldistance=1.5 headhref="dir_003520_003535.html"];
+  dir_01d230fdb888802d871acc5f0e1690e2->dir_af944db0c164b1c029d2b46f26f41dd1 [headlabel="2", labeldistance=1.5 headhref="dir_003535_003530.html"];
+  dir_01d230fdb888802d871acc5f0e1690e2->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003535_002151.html"];
+}

@@ -1,0 +1,32 @@
+digraph "dimensions"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dimensions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::fa::steadyStateFaDdt\lScheme::facDdt",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fa_1_1steadyStateFaDdtScheme.html#a5602f5bba7ca0eea8227231409a97951"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::fa::EulerFaDdtScheme\l::facDdt",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fa_1_1EulerFaDdtScheme.html#a5602f5bba7ca0eea8227231409a97951"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::fa::backwardFaDdtScheme\l::facDdt",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fa_1_1backwardFaDdtScheme.html#a5602f5bba7ca0eea8227231409a97951"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::fv::EulerD2dt2Scheme\l::fvcD2dt2",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fv_1_1EulerD2dt2Scheme.html#aaece7c74ba7952eb4972b7e707813b6b"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::fv::steadyStateDdt\lScheme::fvcDdt",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fv_1_1steadyStateDdtScheme.html#a2b9a1541ce06c457e16e2cb676f67e46"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::fv::EulerDdtScheme\l::fvcDdt",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fv_1_1EulerDdtScheme.html#a2b9a1541ce06c457e16e2cb676f67e46"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::fv::backwardDdtScheme\l::fvcDdt",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fv_1_1backwardDdtScheme.html#a2b9a1541ce06c457e16e2cb676f67e46"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::fv::CrankNicolsonDdt\lScheme::fvcDdt",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fv_1_1CrankNicolsonDdtScheme.html#a2b9a1541ce06c457e16e2cb676f67e46"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::makeDimensionedMinMax",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a478552cb5bdaa6abd057d53075d2a6ec",tooltip="Combine two dimensioned types into a dimensionedMinMax with specified name. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="read",height=0.2,width=0.4,color="red",URL="$classFoam_1_1dimensioned.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Update the value of dimensioned&lt;Type&gt;, lookup in dictionary with the name(). "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::stabilise",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a1f3543a73e4e73c68a5d03e4dba703dd"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="T",height=0.2,width=0.4,color="black",URL="$classFoam_1_1dimensioned.html#a802b622792a2cfdcfb1253c3e414f3d3",tooltip="Return transpose. "];
+}

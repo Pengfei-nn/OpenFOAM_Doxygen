@@ -1,0 +1,12 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleSlip" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b95f3ed2c94842634c0a0c14885ad0c5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="derivedFvPatchFields" fontname="Helvetica", fontsize="10", URL="dir_b95f3ed2c94842634c0a0c14885ad0c5.html"]
+  dir_68a090b94c7671709511a379d381e0f7 [shape=box, label="JohnsonJacksonParticleSlip", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_68a090b94c7671709511a379d381e0f7.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_68a090b94c7671709511a379d381e0f7->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_003320_000499.html"];
+}

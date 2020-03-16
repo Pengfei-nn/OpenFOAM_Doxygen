@@ -1,0 +1,12 @@
+digraph "src/rigidBodyDynamics/bodies/compositeBody" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_01e6611f9f28701f695d48f798765437 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="bodies" fontname="Helvetica", fontsize="10", URL="dir_01e6611f9f28701f695d48f798765437.html"]
+  dir_1e11307ab4a1bbb9c1cc5f4ee0cbc318 [shape=box, label="compositeBody", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1e11307ab4a1bbb9c1cc5f4ee0cbc318.html"];
+  }
+  dir_35dd5cd9890fdce6a1471825e6c7daa2 [shape=box label="rigidBody" URL="dir_35dd5cd9890fdce6a1471825e6c7daa2.html"];
+  dir_1e11307ab4a1bbb9c1cc5f4ee0cbc318->dir_35dd5cd9890fdce6a1471825e6c7daa2 [headlabel="1", labeldistance=1.5 headhref="dir_003492_003496.html"];
+}

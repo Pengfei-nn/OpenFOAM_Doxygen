@@ -1,0 +1,44 @@
+digraph "log"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="log",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::logPolynomialTransport\l::alphah",height=0.2,width=0.4,color="black",URL="$classFoam_1_1logPolynomialTransport.html#ac520da3d109a3f8a049034c3c1624274",tooltip="Thermal diffusivity of enthalpy [kg/ms]. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::nutkWallFunctionFv\lPatchScalarField::calcNut",height=0.2,width=0.4,color="black",URL="$classFoam_1_1nutkWallFunctionFvPatchScalarField.html#a0de861b523c0bb1dcf5f0bd1e44efb54",tooltip="Calculate the turbulence viscosity. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::nutUWallFunctionFv\lPatchScalarField::calcNut",height=0.2,width=0.4,color="black",URL="$classFoam_1_1nutUWallFunctionFvPatchScalarField.html#a0de861b523c0bb1dcf5f0bd1e44efb54",tooltip="Calculate the turbulence viscosity. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::nutkAtmRoughWallFunction\lFvPatchScalarField::calcNut",height=0.2,width=0.4,color="black",URL="$classFoam_1_1nutkAtmRoughWallFunctionFvPatchScalarField.html#a3d7b33c5eb572bc4684ad4c690a762b8",tooltip="Calculate the turbulence viscosity. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::hConstThermo\l::dGdT",height=0.2,width=0.4,color="black",URL="$classFoam_1_1hConstThermo.html#a086bd7fabe873a49ffc1aaec0110c521",tooltip="Derivative of Gibbs free energy w.r.t. temperature. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::eRefConstThermo\l::dGdT",height=0.2,width=0.4,color="black",URL="$classFoam_1_1eRefConstThermo.html#a086bd7fabe873a49ffc1aaec0110c521",tooltip="Derivative of Gibbs free energy w.r.t. temperature. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::hRefConstThermo\l::dGdT",height=0.2,width=0.4,color="black",URL="$classFoam_1_1hRefConstThermo.html#a086bd7fabe873a49ffc1aaec0110c521",tooltip="Derivative of Gibbs free energy w.r.t. temperature. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::eConstThermo\l::dGdT",height=0.2,width=0.4,color="black",URL="$classFoam_1_1eConstThermo.html#a086bd7fabe873a49ffc1aaec0110c521",tooltip="Derivative of Gibbs free energy w.r.t. temperature. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::NSRDSfunc1::f",height=0.2,width=0.4,color="black",URL="$classFoam_1_1NSRDSfunc1.html#a4ab62338f8530b8dc7efbf7c744c4d53",tooltip="Evaluate the function and return the result. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::nutkRoughWallFunction\lFvPatchScalarField::fnRough",height=0.2,width=0.4,color="black",URL="$classFoam_1_1nutkRoughWallFunctionFvPatchScalarField.html#a7c067e2ca824c0d4f24d5c6d24423bf0",tooltip="Compute the roughness function. "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::logPolynomialTransport\l::kappa",height=0.2,width=0.4,color="black",URL="$classFoam_1_1logPolynomialTransport.html#ade885edc7c55d70ee36aebd5b3d666e9",tooltip="Thermal conductivity [W/mK]. "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="minimaxs",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a337e5a818a61385c6b44a6e3c164760a"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Foam::distributionModels\l::exponential::minValue",height=0.2,width=0.4,color="black",URL="$classFoam_1_1distributionModels_1_1exponential.html#ab08de74651c9375ec2f95c8595feabad",tooltip="Return the minimum value. "];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Foam::perfectGas::psi",height=0.2,width=0.4,color="black",URL="$classFoam_1_1perfectGas.html#a4c595c293213389fa75fac8fea39f547",tooltip="Return compressibility rho/p [s^2/m^2]. "];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Foam::linear::psi",height=0.2,width=0.4,color="black",URL="$classFoam_1_1linear.html#a4c595c293213389fa75fac8fea39f547",tooltip="Return compressibility rho/p [s^2/m^2]. "];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Foam::perfectFluid::psi",height=0.2,width=0.4,color="black",URL="$classFoam_1_1perfectFluid.html#a4c595c293213389fa75fac8fea39f547",tooltip="Return compressibility rho/p [s^2/m^2]. "];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Foam::simpleObjectRegistry\l::setValues",height=0.2,width=0.4,color="black",URL="$classFoam_1_1simpleObjectRegistry.html#a6d5b7dec48bb27cff12b842b873cc7d8",tooltip="Set values (invoke callbacks) from dictionary entries. "];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="sumProd",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a93e6930f789f21705c721dc592817713",tooltip="Sum product. "];
+}

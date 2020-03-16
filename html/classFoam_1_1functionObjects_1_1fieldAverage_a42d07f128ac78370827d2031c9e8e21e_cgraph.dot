@@ -1,0 +1,26 @@
+digraph "addMeanFieldType"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="addMeanFieldType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::functionObjects\l::fieldAverageItem::active",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1fieldAverageItem.html#a6fd1dc792a0b98e6530a7383d4ef3074",tooltip="Return const access to the active flag. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::endl",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::functionObjects\l::fieldAverageItem::fieldName",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1fieldAverageItem.html#a640df1149048f7e9b2482d44db62c0f0",tooltip="Return const access to the field name. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::functionObjects\l::fieldAverageItem::mean",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1fieldAverageItem.html#a264b38bbc6744bb1615c7e29fa39a9b5",tooltip="Return const access to the mean flag. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::functionObjects\l::fieldAverageItem::meanFieldName",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1fieldAverageItem.html#a0e449d376a299e2cb4670d5eb3b3ebc6",tooltip="Return const access to the mean field name. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::functionObjects\l::regionFunctionObject::obr",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1regionFunctionObject.html#a97b328c3896937a2c4201accbe1e6632",tooltip="The region or sub-region registry being used. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::regIOobject::\lstore",height=0.2,width=0.4,color="black",URL="$classFoam_1_1regIOobject.html#af5d1fdcbfe78592afb590a4c244acf20",tooltip="Transfer ownership of this object to its registry. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::functionObjects\l::timeFunctionObject::time",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1timeFunctionObject.html#a48fcf6de2789aff6b430b5fc1a05693f",tooltip="Return time database. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="value",height=0.2,width=0.4,color="black",URL="$StCorr_8H.html#a7f851d6ccb9cf41e28285ce3b75e11df"];
+}

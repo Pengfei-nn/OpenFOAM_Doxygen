@@ -1,0 +1,18 @@
+digraph "src/meshTools/searchableSurfaces/searchableSurfaceCollection" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fdba7555f757b9c8126275cbaccc3a14 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="searchableSurfaces" fontname="Helvetica", fontsize="10", URL="dir_fdba7555f757b9c8126275cbaccc3a14.html"]
+  dir_d821aa219549a650992f35c436d46f0f [shape=box, label="searchableSurfaceCollection", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d821aa219549a650992f35c436d46f0f.html"];
+  }
+  dir_fcae8e4034cfc581908ed167c302db30 [shape=box label="coordinate" color="red" URL="dir_fcae8e4034cfc581908ed167c302db30.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_2c0c1e46bbc9d953f93a672220dabf55 [shape=box label="searchableSurface" URL="dir_2c0c1e46bbc9d953f93a672220dabf55.html"];
+  dir_fcae8e4034cfc581908ed167c302db30->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="42", labeldistance=1.5 headhref="dir_001990_002151.html"];
+  dir_d821aa219549a650992f35c436d46f0f->dir_fcae8e4034cfc581908ed167c302db30 [headlabel="1", labeldistance=1.5 headhref="dir_002045_001990.html"];
+  dir_d821aa219549a650992f35c436d46f0f->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="6", labeldistance=1.5 headhref="dir_002045_002151.html"];
+  dir_d821aa219549a650992f35c436d46f0f->dir_2c0c1e46bbc9d953f93a672220dabf55 [headlabel="1", labeldistance=1.5 headhref="dir_002045_002044.html"];
+  dir_2c0c1e46bbc9d953f93a672220dabf55->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="8", labeldistance=1.5 headhref="dir_002044_002151.html"];
+}

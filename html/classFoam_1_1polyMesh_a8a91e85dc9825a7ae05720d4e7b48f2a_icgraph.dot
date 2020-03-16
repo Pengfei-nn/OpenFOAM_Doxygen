@@ -1,0 +1,12 @@
+digraph "facesInstance"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="facesInstance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::faMesh::patch",height=0.2,width=0.4,color="red",URL="$classFoam_1_1faMesh.html#a1ff8b2fdb3637d00594b64bf4d72b51d",tooltip="Return constant reference to primitive patch. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::hexRef8::removeFiles",height=0.2,width=0.4,color="black",URL="$classFoam_1_1hexRef8.html#a257d112b33d6d4b4edb27c98f49fc1ce",tooltip="Helper: remove all relevant files from mesh instance. "];
+}

@@ -1,0 +1,13 @@
+digraph "joint::XSvc"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="joint::XSvc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" X" ,fontname="Helvetica"];
+  Node2 [label="spatialTransform",height=0.2,width=0.4,color="black",URL="$classFoam_1_1spatialTransform.html",tooltip="Compact representation of the Plücker spatial transformation tensor in terms of the rotation tensor E..."];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" S" ,fontname="Helvetica"];
+  Node3 [label="CompactSpatialTensor\l\< scalar \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1CompactSpatialTensor.html"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" S1\nc\nv" ,fontname="Helvetica"];
+  Node4 [label="SpatialVector\< scalar \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1SpatialVector.html"];
+}

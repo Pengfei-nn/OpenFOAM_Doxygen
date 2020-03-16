@@ -1,0 +1,17 @@
+digraph "error"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="error",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="exception",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="messageStream",height=0.2,width=0.4,color="black",URL="$classFoam_1_1messageStream.html",tooltip="Class to handle messaging in a simple, consistent stream-based manner. "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" title_" ,fontname="Helvetica"];
+  Node4 [label="string",height=0.2,width=0.4,color="red",URL="$classFoam_1_1string.html",tooltip="A class for handling character strings derived from std::string. "];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="Helvetica"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" messageStreamPtr_" ,fontname="Helvetica"];
+  Node5 [label="OStringStream",height=0.2,width=0.4,color="red",URL="$classFoam_1_1OStringStream.html",tooltip="Output to string buffer, using a OSstream. "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sourceFileName_\nfunctionName_" ,fontname="Helvetica"];
+}

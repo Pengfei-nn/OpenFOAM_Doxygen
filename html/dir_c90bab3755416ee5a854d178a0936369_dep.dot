@@ -1,0 +1,15 @@
+digraph "src/lagrangian/turbulence/submodels/Kinematic/DispersionModel/StochasticDispersionRAS" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ec3a45eb9e031fb2cbc5f0a1a823b94d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="DispersionModel" fontname="Helvetica", fontsize="10", URL="dir_ec3a45eb9e031fb2cbc5f0a1a823b94d.html"]
+  dir_c90bab3755416ee5a854d178a0936369 [shape=box, label="StochasticDispersionRAS", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_c90bab3755416ee5a854d178a0936369.html"];
+  }
+  dir_4f1e65378d6609b741f29ec515225be4 [shape=box label="DispersionRASModel" URL="dir_4f1e65378d6609b741f29ec515225be4.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_c90bab3755416ee5a854d178a0936369->dir_4f1e65378d6609b741f29ec515225be4 [headlabel="1", labeldistance=1.5 headhref="dir_001882_001880.html"];
+  dir_c90bab3755416ee5a854d178a0936369->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_001882_002151.html"];
+  dir_4f1e65378d6609b741f29ec515225be4->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_001880_002151.html"];
+}

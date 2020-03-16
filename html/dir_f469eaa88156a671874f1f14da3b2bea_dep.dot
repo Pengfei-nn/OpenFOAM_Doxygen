@@ -1,0 +1,22 @@
+digraph "src/TurbulenceModels/schemes" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1eda626aeac0f0ad2848c36acaa5d501 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="TurbulenceModels" fontname="Helvetica", fontsize="10", URL="dir_1eda626aeac0f0ad2848c36acaa5d501.html"]
+  subgraph clusterdir_f469eaa88156a671874f1f14da3b2bea {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_f469eaa88156a671874f1f14da3b2bea.html"];
+    dir_f469eaa88156a671874f1f14da3b2bea [shape=plaintext label="schemes"];
+    dir_d14172b196fc87988844fc0a56da27ab [shape=box label="DEShybrid" color="black" fillcolor="white" style="filled" URL="dir_d14172b196fc87988844fc0a56da27ab.html"];
+  }
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_7904bc8e3270082a35070ba525b2d08a [shape=box label="compressible" color="red" URL="dir_7904bc8e3270082a35070ba525b2d08a.html"];
+  dir_65e3a25be7d63d0357fd279a6ba5d718 [shape=box label="incompressible" color="red" URL="dir_65e3a25be7d63d0357fd279a6ba5d718.html"];
+  dir_d14172b196fc87988844fc0a56da27ab->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="4", labeldistance=1.5 headhref="dir_004031_000814.html"];
+  dir_d14172b196fc87988844fc0a56da27ab->dir_7904bc8e3270082a35070ba525b2d08a [headlabel="1", labeldistance=1.5 headhref="dir_004031_003977.html"];
+  dir_d14172b196fc87988844fc0a56da27ab->dir_65e3a25be7d63d0357fd279a6ba5d718 [headlabel="1", labeldistance=1.5 headhref="dir_004031_003983.html"];
+  dir_7904bc8e3270082a35070ba525b2d08a->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="46", labeldistance=1.5 headhref="dir_003977_000814.html"];
+  dir_65e3a25be7d63d0357fd279a6ba5d718->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="16", labeldistance=1.5 headhref="dir_003983_000814.html"];
+}

@@ -1,0 +1,19 @@
+digraph "src/lagrangian/spray/submodels/StochasticCollision/ORourkeCollision" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d1a3f71b50ce1a4c501cb9b210d08764 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="StochasticCollision" fontname="Helvetica", fontsize="10", URL="dir_d1a3f71b50ce1a4c501cb9b210d08764.html"]
+  dir_01a2942dd95d383dccdbc857d1cde848 [shape=box, label="ORourkeCollision", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_01a2942dd95d383dccdbc857d1cde848.html"];
+  }
+  dir_d3c32a493136c130c1f0d51f4f35c297 [shape=box label="intermediate" color="red" URL="dir_d3c32a493136c130c1f0d51f4f35c297.html"];
+  dir_2778d089ec5c4f66810b11f753867003 [shape=box label="thermophysicalModels" color="red" URL="dir_2778d089ec5c4f66810b11f753867003.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_d3c32a493136c130c1f0d51f4f35c297->dir_2778d089ec5c4f66810b11f753867003 [headlabel="12", labeldistance=1.5 headhref="dir_001526_001225.html"];
+  dir_d3c32a493136c130c1f0d51f4f35c297->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="291", labeldistance=1.5 headhref="dir_001526_002151.html"];
+  dir_2778d089ec5c4f66810b11f753867003->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="389", labeldistance=1.5 headhref="dir_001225_002151.html"];
+  dir_01a2942dd95d383dccdbc857d1cde848->dir_d3c32a493136c130c1f0d51f4f35c297 [headlabel="1", labeldistance=1.5 headhref="dir_001873_001526.html"];
+  dir_01a2942dd95d383dccdbc857d1cde848->dir_2778d089ec5c4f66810b11f753867003 [headlabel="2", labeldistance=1.5 headhref="dir_001873_001225.html"];
+  dir_01a2942dd95d383dccdbc857d1cde848->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_001873_002151.html"];
+}

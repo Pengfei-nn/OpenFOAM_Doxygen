@@ -1,0 +1,12 @@
+digraph "applications/solvers/combustion/reactingFoam/rhoReactingBuoyantFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_77e43672d651fa6e6d24ffd29099bf96 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="reactingFoam" fontname="Helvetica", fontsize="10", URL="dir_77e43672d651fa6e6d24ffd29099bf96.html"]
+  dir_252b78f89ca039d14fb95b060b7986d0 [shape=box, label="rhoReactingBuoyantFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_252b78f89ca039d14fb95b060b7986d0.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_252b78f89ca039d14fb95b060b7986d0->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="7", labeldistance=1.5 headhref="dir_000029_000499.html"];
+}

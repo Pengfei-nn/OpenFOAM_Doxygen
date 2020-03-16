@@ -1,0 +1,10 @@
+digraph "src/ODE/doc" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e47b7a1cb0d621da2e060462b00c1c76 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="ODE" fontname="Helvetica", fontsize="10", URL="dir_e47b7a1cb0d621da2e060462b00c1c76.html"]
+  dir_d7c54b43186f5b228def8dda1abd9c66 [shape=box, label="doc", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d7c54b43186f5b228def8dda1abd9c66.html"];
+  }
+}

@@ -1,0 +1,14 @@
+digraph "src/OpenFOAM/containers/Dictionaries/UPtrDictionary" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4f2e58bca614b0b5e09a6a47af6ca3c2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Dictionaries" fontname="Helvetica", fontsize="10", URL="dir_4f2e58bca614b0b5e09a6a47af6ca3c2.html"]
+  dir_4e5d4d3b08d1fda9e86dd6f98a8735a4 [shape=box, label="UPtrDictionary", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4e5d4d3b08d1fda9e86dd6f98a8735a4.html"];
+  }
+  dir_217028059cea324bae2d14ed83dd4c99 [shape=box label="DictionaryBase" URL="dir_217028059cea324bae2d14ed83dd4c99.html"];
+  dir_1ceeb2d59d8f320bd70a3a0eeca6c137 [shape=box label="LinkedLists" color="red" URL="dir_1ceeb2d59d8f320bd70a3a0eeca6c137.html"];
+  dir_4e5d4d3b08d1fda9e86dd6f98a8735a4->dir_217028059cea324bae2d14ed83dd4c99 [headlabel="1", labeldistance=1.5 headhref="dir_002171_002167.html"];
+  dir_4e5d4d3b08d1fda9e86dd6f98a8735a4->dir_1ceeb2d59d8f320bd70a3a0eeca6c137 [headlabel="1", labeldistance=1.5 headhref="dir_002171_002188.html"];
+}

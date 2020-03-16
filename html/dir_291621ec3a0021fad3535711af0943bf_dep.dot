@@ -1,0 +1,14 @@
+digraph "applications/solvers/multiphase/compressibleInterFoam/surfaceTensionModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fb05bcc430bbe51efa429e7fa7725607 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="compressibleInterFoam" fontname="Helvetica", fontsize="10", URL="dir_fb05bcc430bbe51efa429e7fa7725607.html"]
+  subgraph clusterdir_291621ec3a0021fad3535711af0943bf {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_291621ec3a0021fad3535711af0943bf.html"];
+    dir_291621ec3a0021fad3535711af0943bf [shape=plaintext label="surfaceTensionModels"];
+    dir_07a52907786f5fd04b9e24f8a90d4044 [shape=box label="liquidProperties" color="black" fillcolor="white" style="filled" URL="dir_07a52907786f5fd04b9e24f8a90d4044.html"];
+  }
+  }
+}

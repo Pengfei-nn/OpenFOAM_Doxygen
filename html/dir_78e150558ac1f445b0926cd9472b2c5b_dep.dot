@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/hyperbolic" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_aebb62d5a146922005635c093adbc6e4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="blendingMethods" fontname="Helvetica", fontsize="10", URL="dir_aebb62d5a146922005635c093adbc6e4.html"]
+  dir_78e150558ac1f445b0926cd9472b2c5b [shape=box, label="hyperbolic", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_78e150558ac1f445b0926cd9472b2c5b.html"];
+  }
+}

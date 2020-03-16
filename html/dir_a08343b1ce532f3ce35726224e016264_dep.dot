@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/primitives/spatialVectorAlgebra/CompactSpatialTensorT" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0d054148b2ad42a055e9a559a10add02 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="spatialVectorAlgebra" fontname="Helvetica", fontsize="10", URL="dir_0d054148b2ad42a055e9a559a10add02.html"]
+  dir_a08343b1ce532f3ce35726224e016264 [shape=box, label="CompactSpatialTensorT", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a08343b1ce532f3ce35726224e016264.html"];
+  }
+  dir_661bbed6b403683bcb923b9b15d5983c [shape=box label="CompactSpatialTensor" color="red" URL="dir_661bbed6b403683bcb923b9b15d5983c.html"];
+  dir_a08343b1ce532f3ce35726224e016264->dir_661bbed6b403683bcb923b9b15d5983c [headlabel="1", labeldistance=1.5 headhref="dir_002720_002718.html"];
+}

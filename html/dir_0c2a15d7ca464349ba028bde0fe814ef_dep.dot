@@ -1,0 +1,10 @@
+digraph "applications/utilities/thermophysical/equilibriumFlameT" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ad006ac2d4adf68d191bc9af38a824ca {
+    graph [ bgcolor="#ddddee", pencolor="black", label="thermophysical" fontname="Helvetica", fontsize="10", URL="dir_ad006ac2d4adf68d191bc9af38a824ca.html"]
+  dir_0c2a15d7ca464349ba028bde0fe814ef [shape=box, label="equilibriumFlameT", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0c2a15d7ca464349ba028bde0fe814ef.html"];
+  }
+}

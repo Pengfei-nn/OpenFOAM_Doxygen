@@ -1,0 +1,14 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="end",height=0.2,width=0.4,color="black",URL="$shootRays_8H.html#a343b76d5aedb8270ed459bc189e3e407"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::primitiveMesh\l::faceAreas",height=0.2,width=0.4,color="black",URL="$classFoam_1_1primitiveMesh.html#a460495623a8ec621b95f93bbcb3d4773"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::primitiveMesh\l::faces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1primitiveMesh.html#a3669b3b29537f3a55bbd2ffa8c749f41",tooltip="Return faces. "];
+}

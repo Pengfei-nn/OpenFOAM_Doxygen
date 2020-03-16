@@ -1,0 +1,27 @@
+digraph "applications/utilities/mesh/advanced" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d0d736d3dc14112e53d1ae4faa8f931f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="mesh" fontname="Helvetica", fontsize="10", URL="dir_d0d736d3dc14112e53d1ae4faa8f931f.html"]
+  subgraph clusterdir_33cf184158805ce1a4614f861f9c9f7a {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_33cf184158805ce1a4614f861f9c9f7a.html"];
+    dir_33cf184158805ce1a4614f861f9c9f7a [shape=plaintext label="advanced"];
+    dir_854652718d4a0d983cb98c1d94bdef30 [shape=box label="collapseEdges" color="black" fillcolor="white" style="filled" URL="dir_854652718d4a0d983cb98c1d94bdef30.html"];
+    dir_eb4abae7c4687d9bb506282a2c0cedb6 [shape=box label="combinePatchFaces" color="black" fillcolor="white" style="filled" URL="dir_eb4abae7c4687d9bb506282a2c0cedb6.html"];
+    dir_f44661775aa28e48d9e4ad94340e62f9 [shape=box label="modifyMesh" color="black" fillcolor="white" style="filled" URL="dir_f44661775aa28e48d9e4ad94340e62f9.html"];
+    dir_87a1bdd5a1fb262709db79f9091a69bb [shape=box label="PDRMesh" color="black" fillcolor="white" style="filled" URL="dir_87a1bdd5a1fb262709db79f9091a69bb.html"];
+    dir_197d2c29f8635c781a103f97ad68f195 [shape=box label="refineHexMesh" color="black" fillcolor="white" style="filled" URL="dir_197d2c29f8635c781a103f97ad68f195.html"];
+    dir_cb02ff8bb9a7c91c420ceb553535c6eb [shape=box label="refinementLevel" color="black" fillcolor="white" style="filled" URL="dir_cb02ff8bb9a7c91c420ceb553535c6eb.html"];
+    dir_03b656dee637a9d598c82a3e6df3b770 [shape=box label="refineWallLayer" color="black" fillcolor="white" style="filled" URL="dir_03b656dee637a9d598c82a3e6df3b770.html"];
+    dir_f238c0dbdb79f2172db05ffac32caa06 [shape=box label="removeFaces" color="black" fillcolor="white" style="filled" URL="dir_f238c0dbdb79f2172db05ffac32caa06.html"];
+    dir_7f35309f7648570777412acccb9a59cb [shape=box label="selectCells" color="black" fillcolor="white" style="filled" URL="dir_7f35309f7648570777412acccb9a59cb.html"];
+    dir_edff8f9eb390b6c0d5b498e22e8e4832 [shape=box label="snappyRefineMesh" color="black" fillcolor="white" style="filled" URL="dir_edff8f9eb390b6c0d5b498e22e8e4832.html"];
+    dir_292cde58dfa9ac23c32351305d07d195 [shape=box label="splitCells" color="black" fillcolor="white" style="filled" URL="dir_292cde58dfa9ac23c32351305d07d195.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_f44661775aa28e48d9e4ad94340e62f9->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_000241_000499.html"];
+  dir_7f35309f7648570777412acccb9a59cb->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000246_000499.html"];
+}

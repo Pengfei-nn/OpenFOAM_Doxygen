@@ -1,0 +1,19 @@
+digraph "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/initialPointsMethod/initialPointsMethod" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8fe8a2be90de25befe5b2e9b512a52aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="initialPointsMethod" fontname="Helvetica", fontsize="10", URL="dir_8fe8a2be90de25befe5b2e9b512a52aa.html"]
+  dir_6320d834263f3367c754599438b3baf0 [shape=box, label="initialPointsMethod", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6320d834263f3367c754599438b3baf0.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_38479fab6fd543e227b5b42ac4c0dfc7 [shape=box label="conformalVoronoiMesh" color="red" URL="dir_38479fab6fd543e227b5b42ac4c0dfc7.html"];
+  dir_bc43d8325f9052bcda93babf76ac9548 [shape=box label="backgroundMeshDecomposition" URL="dir_bc43d8325f9052bcda93babf76ac9548.html"];
+  dir_38479fab6fd543e227b5b42ac4c0dfc7->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="52", labeldistance=1.5 headhref="dir_000316_000499.html"];
+  dir_6320d834263f3367c754599438b3baf0->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="5", labeldistance=1.5 headhref="dir_000332_000499.html"];
+  dir_6320d834263f3367c754599438b3baf0->dir_38479fab6fd543e227b5b42ac4c0dfc7 [headlabel="1", labeldistance=1.5 headhref="dir_000332_000316.html"];
+  dir_6320d834263f3367c754599438b3baf0->dir_bc43d8325f9052bcda93babf76ac9548 [headlabel="1", labeldistance=1.5 headhref="dir_000332_000290.html"];
+  dir_bc43d8325f9052bcda93babf76ac9548->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="19", labeldistance=1.5 headhref="dir_000290_000499.html"];
+  dir_bc43d8325f9052bcda93babf76ac9548->dir_38479fab6fd543e227b5b42ac4c0dfc7 [headlabel="1", labeldistance=1.5 headhref="dir_000290_000316.html"];
+}

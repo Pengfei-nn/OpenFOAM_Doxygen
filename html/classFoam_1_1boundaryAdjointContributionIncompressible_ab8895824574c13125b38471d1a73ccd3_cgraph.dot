@@ -1,0 +1,14 @@
+digraph "turbulentDiffusivity"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="turbulentDiffusivity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1GeometricField.html#a6987ef31fb532d0fc43c84eca14fe558",tooltip="Return const-reference to the boundary field. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::fvPatch::index",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fvPatch.html#a7d1e8acadb27bd2b4e61457d47b71b6f",tooltip="Return the index of this patch in the fvBoundaryMesh. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::incompressibleVars::phi",height=0.2,width=0.4,color="black",URL="$classFoam_1_1incompressibleVars.html#ade37cce1ef602d14a94d32d418cb8fdd",tooltip="Return const reference to volume flux. "];
+}

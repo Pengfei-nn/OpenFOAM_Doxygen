@@ -1,0 +1,17 @@
+digraph "src/OpenFOAM/primitives/Tensor2D/tensor2D" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_af3b3c32572abb73a47caea053f82d3c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Tensor2D" fontname="Helvetica", fontsize="10", URL="dir_af3b3c32572abb73a47caea053f82d3c.html"]
+  dir_71c358aaca74482d6c1f86c25a6ef8b3 [shape=box, label="tensor2D", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_71c358aaca74482d6c1f86c25a6ef8b3.html"];
+  }
+  dir_ea22b97d585b581f8109179e40307995 [shape=box label="polynomialEqns" color="red" URL="dir_ea22b97d585b581f8109179e40307995.html"];
+  dir_03cbbdc57deccee747de3682b626c91e [shape=box label="SphericalTensor2D" color="red" URL="dir_03cbbdc57deccee747de3682b626c91e.html"];
+  dir_974ac155d7c04ce7d59446545c00b04b [shape=box label="Vector2D" color="red" URL="dir_974ac155d7c04ce7d59446545c00b04b.html"];
+  dir_71c358aaca74482d6c1f86c25a6ef8b3->dir_ea22b97d585b581f8109179e40307995 [headlabel="1", labeldistance=1.5 headhref="dir_002756_002694.html"];
+  dir_71c358aaca74482d6c1f86c25a6ef8b3->dir_03cbbdc57deccee747de3682b626c91e [headlabel="1", labeldistance=1.5 headhref="dir_002756_002729.html"];
+  dir_71c358aaca74482d6c1f86c25a6ef8b3->dir_974ac155d7c04ce7d59446545c00b04b [headlabel="1", labeldistance=1.5 headhref="dir_002756_002767.html"];
+  dir_03cbbdc57deccee747de3682b626c91e->dir_974ac155d7c04ce7d59446545c00b04b [headlabel="1", labeldistance=1.5 headhref="dir_002729_002767.html"];
+}

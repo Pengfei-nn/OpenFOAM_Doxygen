@@ -1,0 +1,18 @@
+digraph "src/thermophysicalModels/reactionThermo/mixtures/singleStepReactingMixture" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4c3899116fa10d6c6748b991d6c665d1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="mixtures" fontname="Helvetica", fontsize="10", URL="dir_4c3899116fa10d6c6748b991d6c665d1.html"]
+  dir_894dc3d7bb1a3d4332e4fc3c45b06373 [shape=box, label="singleStepReactingMixture", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_894dc3d7bb1a3d4332e4fc3c45b06373.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_d6ca8f970bca45fc70c046b4a0fab377 [shape=box label="chemistryReaders" color="red" URL="dir_d6ca8f970bca45fc70c046b4a0fab377.html"];
+  dir_0c7f392feaa80e16a659c2da09460231 [shape=box label="reactingMixture" URL="dir_0c7f392feaa80e16a659c2da09460231.html"];
+  dir_0c7f392feaa80e16a659c2da09460231->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_003799_000814.html"];
+  dir_0c7f392feaa80e16a659c2da09460231->dir_d6ca8f970bca45fc70c046b4a0fab377 [headlabel="1", labeldistance=1.5 headhref="dir_003799_003780.html"];
+  dir_894dc3d7bb1a3d4332e4fc3c45b06373->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_003801_000814.html"];
+  dir_894dc3d7bb1a3d4332e4fc3c45b06373->dir_d6ca8f970bca45fc70c046b4a0fab377 [headlabel="1", labeldistance=1.5 headhref="dir_003801_003780.html"];
+  dir_894dc3d7bb1a3d4332e4fc3c45b06373->dir_0c7f392feaa80e16a659c2da09460231 [headlabel="1", labeldistance=1.5 headhref="dir_003801_003799.html"];
+}

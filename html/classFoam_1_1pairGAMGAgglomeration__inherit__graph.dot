@@ -1,0 +1,13 @@
+digraph "pairGAMGAgglomeration"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="pairGAMGAgglomeration",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GAMGAgglomeration",height=0.2,width=0.4,color="red",URL="$classFoam_1_1GAMGAgglomeration.html",tooltip="Geometric agglomerated algebraic multigrid agglomeration class. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="algebraicPairGAMGAgglomeration",height=0.2,width=0.4,color="black",URL="$classFoam_1_1algebraicPairGAMGAgglomeration.html",tooltip="Agglomerate using the pair algorithm. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="faceAreaPairGAMGAgglomeration",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faceAreaPairGAMGAgglomeration.html",tooltip="Agglomerate using the pair algorithm. "];
+}

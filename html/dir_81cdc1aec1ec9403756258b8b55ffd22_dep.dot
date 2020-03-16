@@ -1,0 +1,12 @@
+digraph "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/initialPointsMethod/uniformGrid" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8fe8a2be90de25befe5b2e9b512a52aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="initialPointsMethod" fontname="Helvetica", fontsize="10", URL="dir_8fe8a2be90de25befe5b2e9b512a52aa.html"]
+  dir_81cdc1aec1ec9403756258b8b55ffd22 [shape=box, label="uniformGrid", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_81cdc1aec1ec9403756258b8b55ffd22.html"];
+  }
+  dir_6320d834263f3367c754599438b3baf0 [shape=box label="initialPointsMethod" URL="dir_6320d834263f3367c754599438b3baf0.html"];
+  dir_81cdc1aec1ec9403756258b8b55ffd22->dir_6320d834263f3367c754599438b3baf0 [headlabel="1", labeldistance=1.5 headhref="dir_000335_000332.html"];
+}

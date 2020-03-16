@@ -1,0 +1,20 @@
+digraph "FieldMapper"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="FieldMapper",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="directFieldMapper",height=0.2,width=0.4,color="black",URL="$classFoam_1_1directFieldMapper.html",tooltip="FieldMapper with direct mapping. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="distributedUnallocatedDirect\lFieldMapper",height=0.2,width=0.4,color="black",URL="$classFoam_1_1distributedUnallocatedDirectFieldMapper.html",tooltip="FieldMapper with direct mapping from remote quantities. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="faPatchFieldMapper",height=0.2,width=0.4,color="red",URL="$classFoam_1_1faPatchFieldMapper.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="fvPatchFieldMapper",height=0.2,width=0.4,color="red",URL="$classFoam_1_1fvPatchFieldMapper.html",tooltip="Foam::fvPatchFieldMapper. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="morphFieldMapper",height=0.2,width=0.4,color="red",URL="$classFoam_1_1morphFieldMapper.html",tooltip="Abstract base class to hold the Field mapping for mesh morphs. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="pointPatchFieldMapper",height=0.2,width=0.4,color="red",URL="$classFoam_1_1pointPatchFieldMapper.html",tooltip="Foam::pointPatchFieldMapper. "];
+}

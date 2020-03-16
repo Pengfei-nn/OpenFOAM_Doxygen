@@ -1,0 +1,21 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/interfacialModels/liftModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b7d8cc85fbe5b5cd664e714a0ccf860f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfacialModels" fontname="Helvetica", fontsize="10", URL="dir_b7d8cc85fbe5b5cd664e714a0ccf860f.html"]
+  subgraph clusterdir_1930af04ba8ca8c5e74b60dc9dc3e3d1 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1930af04ba8ca8c5e74b60dc9dc3e3d1.html"];
+    dir_1930af04ba8ca8c5e74b60dc9dc3e3d1 [shape=plaintext label="liftModels"];
+    dir_5b159fa4579026eec7e18191289c804d [shape=box label="constantLiftCoefficient" color="black" fillcolor="white" style="filled" URL="dir_5b159fa4579026eec7e18191289c804d.html"];
+    dir_7f0ce98d7a45ed76793b16299ac0b712 [shape=box label="LegendreMagnaudet" color="black" fillcolor="white" style="filled" URL="dir_7f0ce98d7a45ed76793b16299ac0b712.html"];
+    dir_46712fbd265a326ee393f01a02faa26d [shape=box label="liftModel" color="black" fillcolor="white" style="filled" URL="dir_46712fbd265a326ee393f01a02faa26d.html"];
+    dir_db1f5921e2ea4e9ef8c8ca93b1ece5f9 [shape=box label="Moraga" color="black" fillcolor="white" style="filled" URL="dir_db1f5921e2ea4e9ef8c8ca93b1ece5f9.html"];
+    dir_171cc67d097c69ee7bdda036a992ef99 [shape=box label="noLift" color="black" fillcolor="white" style="filled" URL="dir_171cc67d097c69ee7bdda036a992ef99.html"];
+    dir_d63f1f3a119effbbd67cd37c0bbfac83 [shape=box label="TomiyamaLift" color="black" fillcolor="white" style="filled" URL="dir_d63f1f3a119effbbd67cd37c0bbfac83.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_46712fbd265a326ee393f01a02faa26d->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003135_000499.html"];
+}

@@ -1,0 +1,15 @@
+digraph "src/waveModels/waveGenerationModels/derived/StokesV" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0d5b02f5e377897adf99f293bf94aa3d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="derived" fontname="Helvetica", fontsize="10", URL="dir_0d5b02f5e377897adf99f293bf94aa3d.html"]
+  dir_662f2a809afad4b3721005f89bd2a607 [shape=box, label="StokesV", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_662f2a809afad4b3721005f89bd2a607.html"];
+  }
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_6cb06675edd90ab3dcdb430887a80510 [shape=box label="StokesI" URL="dir_6cb06675edd90ab3dcdb430887a80510.html"];
+  dir_6cb06675edd90ab3dcdb430887a80510->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_004137_002151.html"];
+  dir_662f2a809afad4b3721005f89bd2a607->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_004139_002151.html"];
+  dir_662f2a809afad4b3721005f89bd2a607->dir_6cb06675edd90ab3dcdb430887a80510 [headlabel="1", labeldistance=1.5 headhref="dir_004139_004137.html"];
+}
