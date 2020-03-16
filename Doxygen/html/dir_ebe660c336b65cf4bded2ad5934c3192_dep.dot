@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/icoReactingMultiphaseInterFoam/phasesSystem/interfaceModels/surfaceTensionModels/constantSurfaceTensionCoefficient" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5ed536a27bab8f207ae6e7cb6d40b672 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="surfaceTensionModels" fontname="Helvetica", fontsize="10", URL="dir_5ed536a27bab8f207ae6e7cb6d40b672.html"]
+  dir_ebe660c336b65cf4bded2ad5934c3192 [shape=box, label="constantSurfaceTensionCoefficient", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ebe660c336b65cf4bded2ad5934c3192.html"];
+  }
+}

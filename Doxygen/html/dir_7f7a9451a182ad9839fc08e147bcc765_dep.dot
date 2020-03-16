@@ -1,0 +1,15 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/phaseSystems/PhaseSystems/PhaseTransferPhaseSystem" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a7327b39a6c21bd7cb6ad15cb00d59b5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="PhaseSystems" fontname="Helvetica", fontsize="10", URL="dir_a7327b39a6c21bd7cb6ad15cb00d59b5.html"]
+  dir_7f7a9451a182ad9839fc08e147bcc765 [shape=box, label="PhaseTransferPhaseSystem", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7f7a9451a182ad9839fc08e147bcc765.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_5934097b4d7408dbf6d7abeb4fcc346f [shape=box label="interfacialModels" color="red" URL="dir_5934097b4d7408dbf6d7abeb4fcc346f.html"];
+  dir_5934097b4d7408dbf6d7abeb4fcc346f->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="23", labeldistance=1.5 headhref="dir_001791_000814.html"];
+  dir_7f7a9451a182ad9839fc08e147bcc765->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_003256_000814.html"];
+  dir_7f7a9451a182ad9839fc08e147bcc765->dir_5934097b4d7408dbf6d7abeb4fcc346f [headlabel="1", labeldistance=1.5 headhref="dir_003256_001791.html"];
+}

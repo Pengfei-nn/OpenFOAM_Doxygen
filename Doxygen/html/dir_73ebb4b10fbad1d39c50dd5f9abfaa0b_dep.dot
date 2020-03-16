@@ -1,0 +1,12 @@
+digraph "src/lagrangian/intermediate/submodels/Kinematic/ParticleForces/Gravity" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7880c6dec9d81c909715027e243e12ba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="ParticleForces" fontname="Helvetica", fontsize="10", URL="dir_7880c6dec9d81c909715027e243e12ba.html"]
+  dir_73ebb4b10fbad1d39c50dd5f9abfaa0b [shape=box, label="Gravity", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_73ebb4b10fbad1d39c50dd5f9abfaa0b.html"];
+  }
+  dir_6ac06ece5f26f1196a12108b46c15ea0 [shape=box label="ParticleForce" URL="dir_6ac06ece5f26f1196a12108b46c15ea0.html"];
+  dir_73ebb4b10fbad1d39c50dd5f9abfaa0b->dir_6ac06ece5f26f1196a12108b46c15ea0 [headlabel="1", labeldistance=1.5 headhref="dir_001704_001712.html"];
+}

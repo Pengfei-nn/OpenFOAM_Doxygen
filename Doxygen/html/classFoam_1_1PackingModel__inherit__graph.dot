@@ -1,0 +1,20 @@
+digraph "PackingModel&lt; CloudType &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PackingModel\< CloudType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CloudSubModelBase\<\l CloudType \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1CloudSubModelBase.html",tooltip="Base class for cloud sub-models. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Explicit\< CloudType \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PackingModels_1_1Explicit.html",tooltip="Explicit model for applying an inter-particle stress to the particles. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Implicit\< CloudType \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PackingModels_1_1Implicit.html",tooltip="Implicit model for applying an inter-particle stress to the particles. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="NoPacking\< CloudType \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PackingModels_1_1NoPacking.html"];
+  Node1 -> Node6 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::MPPICCloud\l\< Foam::DSMCCloud \> \>" ,fontname="Helvetica"];
+  Node6 [label="PackingModel\< Foam\l::MPPICCloud\< Foam::\lDSMCCloud \> \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PackingModel.html"];
+  Node1 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::MPPICCloud\l\< CloudType \> \>" ,fontname="Helvetica"];
+  Node7 [label="PackingModel\< Foam\l::MPPICCloud\< CloudType \> \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PackingModel.html"];
+}

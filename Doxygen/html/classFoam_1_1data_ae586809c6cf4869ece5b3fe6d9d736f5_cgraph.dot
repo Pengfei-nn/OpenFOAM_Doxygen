@@ -1,0 +1,22 @@
+digraph "setSolverPerformance"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="setSolverPerformance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::dictionary::clear",height=0.2,width=0.4,color="black",URL="$classFoam_1_1dictionary.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the dictionary. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::dictionary::readIf\lPresent",height=0.2,width=0.4,color="black",URL="$classFoam_1_1dictionary.html#a8f7067ef9364fc3f5cb74b0f69feaef3",tooltip="Find an entry if present, and assign to T val. FatalIOError if it is found and the number of tokens i..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$classFoam_1_1List.html#a3eb74b6b9f8c1346a09c49e3eade797c",tooltip="Alias for resize(const label) "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::UList::size",height=0.2,width=0.4,color="red",URL="$classFoam_1_1UList.html#afee03bfededf699921815b2bf3c41e35",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="solverPerformanceDict",height=0.2,width=0.4,color="red",URL="$classFoam_1_1data.html#acfc8613521401a0a226420999e784c6f",tooltip="Return the dictionary of solver performance data which includes initial and final residuals for conve..."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::IOobject::time",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#ab5a56b597db315d880e81c09a4341244",tooltip="Return time. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::TimeState::timeIndex",height=0.2,width=0.4,color="red",URL="$classFoam_1_1TimeState.html#afddcdeb3f90d772e6710d657a2a6e600",tooltip="Return current time index. "];
+}

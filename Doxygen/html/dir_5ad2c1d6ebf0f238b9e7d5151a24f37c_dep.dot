@@ -1,0 +1,12 @@
+digraph "src/lagrangian/intermediate/parcels/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b8d19ddbdf0975644e34192d6313800e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="parcels" fontname="Helvetica", fontsize="10", URL="dir_b8d19ddbdf0975644e34192d6313800e.html"]
+  dir_5ad2c1d6ebf0f238b9e7d5151a24f37c [shape=box, label="include", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5ad2c1d6ebf0f238b9e7d5151a24f37c.html"];
+  }
+  dir_825de5f87f0ef3ae7d76ccd6a5458244 [shape=box label="submodels" color="red" URL="dir_825de5f87f0ef3ae7d76ccd6a5458244.html"];
+  dir_5ad2c1d6ebf0f238b9e7d5151a24f37c->dir_825de5f87f0ef3ae7d76ccd6a5458244 [headlabel="103", labeldistance=1.5 headhref="dir_001627_001527.html"];
+}

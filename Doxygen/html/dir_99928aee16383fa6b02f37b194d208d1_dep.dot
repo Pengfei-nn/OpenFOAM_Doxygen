@@ -1,0 +1,18 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/twoPhaseSystem/phasePair" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cfe205aac25c0433b15142b141b5f211 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="twoPhaseSystem" fontname="Helvetica", fontsize="10", URL="dir_cfe205aac25c0433b15142b141b5f211.html"]
+  subgraph clusterdir_99928aee16383fa6b02f37b194d208d1 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_99928aee16383fa6b02f37b194d208d1.html"];
+    dir_99928aee16383fa6b02f37b194d208d1 [shape=plaintext label="phasePair"];
+    dir_0d304608a0a9440ceae9123c8a0cc61d [shape=box label="orderedPhasePair" color="black" fillcolor="white" style="filled" URL="dir_0d304608a0a9440ceae9123c8a0cc61d.html"];
+    dir_e8861c7db43d6375c9e09be0d6ca61c4 [shape=box label="phasePair" color="black" fillcolor="white" style="filled" URL="dir_e8861c7db43d6375c9e09be0d6ca61c4.html"];
+    dir_fcd95b99c07632502a5a881ce37d1566 [shape=box label="phasePairKey" color="black" fillcolor="white" style="filled" URL="dir_fcd95b99c07632502a5a881ce37d1566.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_fcd95b99c07632502a5a881ce37d1566->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_003250_000499.html"];
+}

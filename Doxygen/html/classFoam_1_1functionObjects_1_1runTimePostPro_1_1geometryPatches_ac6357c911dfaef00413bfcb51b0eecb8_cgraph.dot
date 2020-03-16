@@ -1,0 +1,42 @@
+digraph "gatherPatchPieces"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="gatherPatchPieces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$classFoam_1_1polyMesh.html#a6b7f5ba89250dbd7a1c6c7860ab60fe3",tooltip="Return boundary mesh. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::List::clear",height=0.2,width=0.4,color="black",URL="$classFoam_1_1List.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the list, i.e. set size to zero. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::UPstream::firstSlave",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UPstream.html#a83b2c4a5864f50eca8034b84f90e4874",tooltip="Process index of first slave. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::UPstream::lastSlave",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UPstream.html#a6ba6de79b96f3b7f2d987b2b657f47e1",tooltip="Process index of last slave. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::PrimitivePatch\l::localFaces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PrimitivePatch.html#af5aca3ce69275c80366bc8d5c0584da2",tooltip="Return patch faces addressing into local point list. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::PrimitivePatch\l::localPoints",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PrimitivePatch.html#a180aa335ba66b3224df33de8eb29b3bf",tooltip="Return pointField of points in patch. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::UPstream::master",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UPstream.html#a36af549940a0aae3733774649594489f",tooltip="Am I the master process. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::UPstream::masterNo",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UPstream.html#a40c4d875df4ff7c32f30f6f596b0f4f8",tooltip="Process index of the master. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::vtk::Tools::Patch\l::mesh",height=0.2,width=0.4,color="red",URL="$structFoam_1_1vtk_1_1Tools_1_1Patch.html#a611b4408e44356dd0dd653522e354037",tooltip="Convert patch points/faces to vtkPolyData. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::functionObjects\l::runTimePostProcessing::mesh",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostProcessing.html#a9687e6999ad5ae21072ec74623f049ff",tooltip="Reference to the underlying OpenFOAM mesh. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::UPstream::myProcNo",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UPstream.html#afc74d89573de32a3032c916f8cdd1733",tooltip="Number of this process (starting from masterNo() = 0) "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::functionObjects\l::runTimePostPro::geometryBase\l::needsCollective",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1geometryBase.html#a293e3c7335ccb32a011ff4fe2f0151f1",tooltip="May need to gather geometry parts to render on single-processor. "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Foam::New",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a9d62cf14554c95e83f83f14909d9e0ec",tooltip="Global function forwards to reuseTmpDimensionedField::New. "];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Foam::functionObjects\l::runTimePostPro::geometryBase\l::parent",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1geometryBase.html#a8ae072ba3583a71483513c8eae8d6261",tooltip="Return the reference to the parent function object. "];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="patchId",height=0.2,width=0.4,color="black",URL="$interrogateWallPatches_8H.html#a331bf146c76d695e9b2b9d4e7e1ebd2c"];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Foam::UList::size",height=0.2,width=0.4,color="red",URL="$classFoam_1_1UList.html#afee03bfededf699921815b2bf3c41e35",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Foam::UPtrList::size",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0",tooltip="The number of elements in the list. "];
+}

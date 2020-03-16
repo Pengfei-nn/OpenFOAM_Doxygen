@@ -1,0 +1,12 @@
+digraph "applications/solvers/combustion/PDRFoam/PDRModels/turbulence/PDRkEpsilon" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a7eccf1ee2e1fdb798fc80065c36c3f7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="turbulence" fontname="Helvetica", fontsize="10", URL="dir_a7eccf1ee2e1fdb798fc80065c36c3f7.html"]
+  dir_e53459868105b6d343964a94bff8603c [shape=box, label="PDRkEpsilon", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e53459868105b6d343964a94bff8603c.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_e53459868105b6d343964a94bff8603c->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000100_000499.html"];
+}

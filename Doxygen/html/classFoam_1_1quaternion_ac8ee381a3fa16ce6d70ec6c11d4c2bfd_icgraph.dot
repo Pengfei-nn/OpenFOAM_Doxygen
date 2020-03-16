@@ -1,0 +1,24 @@
+digraph "w"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="w",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::inv",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a0309a86559573a27aeb5a706f9fe7b02",tooltip="Return the inverse of the given quaternion. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a25934eca49aac07fc82f9f50a1620f13"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::normalize",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a9d8b0222f6097fc2249f01ec8b333b7e",tooltip="Return the normalized (unit) quaternion of the given quaternion. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::operator!=",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#ab348a1f824f70f6b866e56336e176041"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::operator*",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a1a97802e4a7d20b0101b21b94baec802"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::operator-",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a118729368091b04480ed1ca9e1e3f6c1"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::operator/",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a0932249ae3d87d3601be0b57a117bfff"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="operator/=",height=0.2,width=0.4,color="black",URL="$classFoam_1_1quaternion.html#a01d96cbb2a8c41e003e8d34b582584d8"];
+}

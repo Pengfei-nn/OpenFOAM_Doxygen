@@ -1,0 +1,21 @@
+digraph "src/OpenFOAM/primitives/polynomialEqns" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3e50f45338116b169052b428016851aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="primitives" fontname="Helvetica", fontsize="10", URL="dir_3e50f45338116b169052b428016851aa.html"]
+  subgraph clusterdir_ea22b97d585b581f8109179e40307995 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_ea22b97d585b581f8109179e40307995.html"];
+    dir_ea22b97d585b581f8109179e40307995 [shape=plaintext label="polynomialEqns"];
+    dir_db6b38ebd9152f8654ab28bfc58f70ac [shape=box label="cubicEqn" color="black" fillcolor="white" style="filled" URL="dir_db6b38ebd9152f8654ab28bfc58f70ac.html"];
+    dir_1dd29ea88533f030dacac6222e342ea9 [shape=box label="linearEqn" color="black" fillcolor="white" style="filled" URL="dir_1dd29ea88533f030dacac6222e342ea9.html"];
+    dir_165c92b436e95bde50e6c748f77bf491 [shape=box label="quadraticEqn" color="black" fillcolor="white" style="filled" URL="dir_165c92b436e95bde50e6c748f77bf491.html"];
+  }
+  }
+  dir_67e43ffa00fdb90d8ab20f3d61175616 [shape=box label="VectorSpace" URL="dir_67e43ffa00fdb90d8ab20f3d61175616.html"];
+  dir_ea22b97d585b581f8109179e40307995->dir_67e43ffa00fdb90d8ab20f3d61175616 [headlabel="1", labeldistance=1.5 headhref="dir_002694_002770.html"];
+  dir_165c92b436e95bde50e6c748f77bf491->dir_1dd29ea88533f030dacac6222e342ea9 [headlabel="1", labeldistance=1.5 headhref="dir_002697_002696.html"];
+  dir_db6b38ebd9152f8654ab28bfc58f70ac->dir_165c92b436e95bde50e6c748f77bf491 [headlabel="1", labeldistance=1.5 headhref="dir_002695_002697.html"];
+  dir_db6b38ebd9152f8654ab28bfc58f70ac->dir_1dd29ea88533f030dacac6222e342ea9 [headlabel="1", labeldistance=1.5 headhref="dir_002695_002696.html"];
+}

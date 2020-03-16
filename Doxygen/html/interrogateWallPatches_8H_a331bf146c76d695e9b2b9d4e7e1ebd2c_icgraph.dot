@@ -1,0 +1,20 @@
+digraph "patchId"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="patchId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::functionObjects\l::runTimePostPro::geometryPatches\l::addPatchField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1geometryPatches.html#adbde9cb7b5ac9c8d4a91d76ae47eed31",tooltip="Add patch values. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="forAll",height=0.2,width=0.4,color="black",URL="$interrogateWallPatches_8H.html#a06297ebc59c8cf33e217a4c04fc0c416"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::functionObjects\l::runTimePostPro::geometryPatches\l::gatherPatchPieces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1geometryPatches.html#ac6357c911dfaef00413bfcb51b0eecb8",tooltip="Gather and convert patches to multi-piece dataset with vtkPolyData for each patch/processor. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::lumpedPointMovement\l::setBoundBox",height=0.2,width=0.4,color="black",URL="$classFoam_1_1lumpedPointMovement.html#a5b405b9317f088dc0f28e7cc24ca0fb4",tooltip="Define the bounding-box required to enclose the specified patches. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::lumpedPointMovement\l::setMapping",height=0.2,width=0.4,color="black",URL="$classFoam_1_1lumpedPointMovement.html#aa6801eb1ec408334bbe30945511a12e6",tooltip="Define the pressure-zones mapping for faces in the specified. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::ensightOutput\l::Detail::writeVolField",height=0.2,width=0.4,color="black",URL="$namespaceFoam_1_1ensightOutput_1_1Detail.html#a83763c6ecbbfea5ade1ef04c3a751c54",tooltip="Write volume field component-wise. "];
+}

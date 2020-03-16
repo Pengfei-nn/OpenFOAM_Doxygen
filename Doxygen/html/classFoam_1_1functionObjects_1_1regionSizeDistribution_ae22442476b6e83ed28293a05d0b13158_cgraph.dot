@@ -1,0 +1,16 @@
+digraph "regionSum"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="regionSum",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::Pstream::mapCombine\lGather",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Pstream.html#ab0d015456e1aebecc6f0e06668de1437"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::Pstream::mapCombine\lScatter",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Pstream.html#a8989a48f795cff7dd8f59d00c094e484",tooltip="Scatter data. Reverse of combineGather. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UPstream.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::regionSplit::\lnRegions",height=0.2,width=0.4,color="black",URL="$classFoam_1_1regionSplit.html#a57f980c4312eca2cfa550ab99040161d",tooltip="Return total number of regions. "];
+}

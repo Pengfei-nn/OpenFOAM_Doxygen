@@ -1,0 +1,12 @@
+digraph "src/thermophysicalModels/specie/reaction/Reactions/IrreversibleReaction" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6df6717126315845253e3389d84631ef {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Reactions" fontname="Helvetica", fontsize="10", URL="dir_6df6717126315845253e3389d84631ef.html"]
+  dir_4450238ea64972bb2a94f2f8c4baa841 [shape=box, label="IrreversibleReaction", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4450238ea64972bb2a94f2f8c4baa841.html"];
+  }
+  dir_b7c4cf0a4d4427609627ff77ee1a173b [shape=box label="Reaction" URL="dir_b7c4cf0a4d4427609627ff77ee1a173b.html"];
+  dir_4450238ea64972bb2a94f2f8c4baa841->dir_b7c4cf0a4d4427609627ff77ee1a173b [headlabel="1", labeldistance=1.5 headhref="dir_003858_003861.html"];
+}

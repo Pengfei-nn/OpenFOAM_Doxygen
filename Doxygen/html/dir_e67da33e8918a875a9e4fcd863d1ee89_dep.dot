@@ -1,0 +1,15 @@
+digraph "src/OpenFOAM/dimensionedTypes/dimensionedSphericalTensor" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d4979fdf35c07e0caec68718d229a4b4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="dimensionedTypes" fontname="Helvetica", fontsize="10", URL="dir_d4979fdf35c07e0caec68718d229a4b4.html"]
+  dir_e67da33e8918a875a9e4fcd863d1ee89 [shape=box, label="dimensionedSphericalTensor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e67da33e8918a875a9e4fcd863d1ee89.html"];
+  }
+  dir_10a50275708c74d41843a3aeb8530ab7 [shape=box label="dimensionedType" URL="dir_10a50275708c74d41843a3aeb8530ab7.html"];
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_10a50275708c74d41843a3aeb8530ab7->dir_3e50f45338116b169052b428016851aa [headlabel="4", labeldistance=1.5 headhref="dir_002294_002628.html"];
+  dir_e67da33e8918a875a9e4fcd863d1ee89->dir_10a50275708c74d41843a3aeb8530ab7 [headlabel="1", labeldistance=1.5 headhref="dir_002291_002294.html"];
+  dir_e67da33e8918a875a9e4fcd863d1ee89->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002291_002628.html"];
+}

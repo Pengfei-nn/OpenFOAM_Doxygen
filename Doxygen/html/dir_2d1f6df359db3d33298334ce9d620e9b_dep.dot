@@ -1,0 +1,21 @@
+digraph "src/OpenFOAM/primitives/ints/uint32" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_086c067a0e64eeb439d30ae0c44248d8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="ints" fontname="Helvetica", fontsize="10", URL="dir_086c067a0e64eeb439d30ae0c44248d8.html"]
+  dir_2d1f6df359db3d33298334ce9d620e9b [shape=box, label="uint32", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2d1f6df359db3d33298334ce9d620e9b.html"];
+  }
+  dir_19dbf0591cffda9f7a5a990739e1850d [shape=box label="direction" URL="dir_19dbf0591cffda9f7a5a990739e1850d.html"];
+  dir_ce1ee507886310df0e74ee2e624fbc88 [shape=box label="strings" color="red" URL="dir_ce1ee507886310df0e74ee2e624fbc88.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_a71222f4f105181f964ceb320add37f5 [shape=box label="pTraits" URL="dir_a71222f4f105181f964ceb320add37f5.html"];
+  dir_19dbf0591cffda9f7a5a990739e1850d->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002646_002218.html"];
+  dir_ce1ee507886310df0e74ee2e624fbc88->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="22", labeldistance=1.5 headhref="dir_002731_002218.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_ce1ee507886310df0e74ee2e624fbc88 [headlabel="39", labeldistance=1.5 headhref="dir_002218_002731.html"];
+  dir_2d1f6df359db3d33298334ce9d620e9b->dir_19dbf0591cffda9f7a5a990739e1850d [headlabel="1", labeldistance=1.5 headhref="dir_002686_002646.html"];
+  dir_2d1f6df359db3d33298334ce9d620e9b->dir_ce1ee507886310df0e74ee2e624fbc88 [headlabel="2", labeldistance=1.5 headhref="dir_002686_002731.html"];
+  dir_2d1f6df359db3d33298334ce9d620e9b->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002686_002218.html"];
+  dir_2d1f6df359db3d33298334ce9d620e9b->dir_a71222f4f105181f964ceb320add37f5 [headlabel="1", labeldistance=1.5 headhref="dir_002686_002700.html"];
+}

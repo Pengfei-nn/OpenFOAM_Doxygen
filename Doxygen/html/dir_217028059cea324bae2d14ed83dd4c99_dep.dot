@@ -1,0 +1,22 @@
+digraph "src/OpenFOAM/containers/Dictionaries/DictionaryBase" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4f2e58bca614b0b5e09a6a47af6ca3c2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Dictionaries" fontname="Helvetica", fontsize="10", URL="dir_4f2e58bca614b0b5e09a6a47af6ca3c2.html"]
+  dir_217028059cea324bae2d14ed83dd4c99 [shape=box, label="DictionaryBase", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_217028059cea324bae2d14ed83dd4c99.html"];
+  }
+  dir_46dbcbff8acc0ae94a21b2306d4033de [shape=box label="HashTables" color="red" URL="dir_46dbcbff8acc0ae94a21b2306d4033de.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_46dbcbff8acc0ae94a21b2306d4033de->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="9", labeldistance=1.5 headhref="dir_002172_002218.html"];
+  dir_46dbcbff8acc0ae94a21b2306d4033de->dir_3e50f45338116b169052b428016851aa [headlabel="9", labeldistance=1.5 headhref="dir_002172_002628.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_46dbcbff8acc0ae94a21b2306d4033de [headlabel="14", labeldistance=1.5 headhref="dir_002218_002172.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_3e50f45338116b169052b428016851aa [headlabel="95", labeldistance=1.5 headhref="dir_002218_002628.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_46dbcbff8acc0ae94a21b2306d4033de [headlabel="6", labeldistance=1.5 headhref="dir_002628_002172.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="100", labeldistance=1.5 headhref="dir_002628_002218.html"];
+  dir_217028059cea324bae2d14ed83dd4c99->dir_46dbcbff8acc0ae94a21b2306d4033de [headlabel="1", labeldistance=1.5 headhref="dir_002167_002172.html"];
+  dir_217028059cea324bae2d14ed83dd4c99->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002167_002218.html"];
+  dir_217028059cea324bae2d14ed83dd4c99->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002167_002628.html"];
+}

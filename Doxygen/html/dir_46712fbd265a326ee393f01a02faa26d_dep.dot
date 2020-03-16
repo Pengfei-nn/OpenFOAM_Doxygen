@@ -1,0 +1,12 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/interfacialModels/liftModels/liftModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1930af04ba8ca8c5e74b60dc9dc3e3d1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="liftModels" fontname="Helvetica", fontsize="10", URL="dir_1930af04ba8ca8c5e74b60dc9dc3e3d1.html"]
+  dir_46712fbd265a326ee393f01a02faa26d [shape=box, label="liftModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_46712fbd265a326ee393f01a02faa26d.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_46712fbd265a326ee393f01a02faa26d->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003135_000499.html"];
+}

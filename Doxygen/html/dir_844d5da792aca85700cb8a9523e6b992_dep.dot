@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/graph/writers/rawGraph" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4186ef7d082dc05bc2b228141df39fcb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="writers" fontname="Helvetica", fontsize="10", URL="dir_4186ef7d082dc05bc2b228141df39fcb.html"]
+  dir_844d5da792aca85700cb8a9523e6b992 [shape=box, label="rawGraph", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_844d5da792aca85700cb8a9523e6b992.html"];
+  }
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_844d5da792aca85700cb8a9523e6b992->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002416_002218.html"];
+}

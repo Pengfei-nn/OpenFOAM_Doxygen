@@ -1,0 +1,12 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/kineticTheoryModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_18940e7e4fb44f9ad3a0587e01140041 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="kineticTheoryModels" fontname="Helvetica", fontsize="10", URL="dir_18940e7e4fb44f9ad3a0587e01140041.html"]
+  dir_cf4d3670220bc19a63001f4205030acc [shape=box, label="kineticTheoryModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_cf4d3670220bc19a63001f4205030acc.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_cf4d3670220bc19a63001f4205030acc->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003342_000499.html"];
+}

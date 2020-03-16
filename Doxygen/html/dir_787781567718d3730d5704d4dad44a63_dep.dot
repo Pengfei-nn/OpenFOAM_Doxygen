@@ -1,0 +1,12 @@
+digraph "src/lagrangian/intermediate/submodels/Kinematic/ParticleForces/Drag/DistortedSphereDrag" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_620819115bb7ac1ed0b4d6e4ce0b4bd5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Drag" fontname="Helvetica", fontsize="10", URL="dir_620819115bb7ac1ed0b4d6e4ce0b4bd5.html"]
+  dir_787781567718d3730d5704d4dad44a63 [shape=box, label="DistortedSphereDrag", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_787781567718d3730d5704d4dad44a63.html"];
+  }
+  dir_6ac06ece5f26f1196a12108b46c15ea0 [shape=box label="ParticleForce" URL="dir_6ac06ece5f26f1196a12108b46c15ea0.html"];
+  dir_787781567718d3730d5704d4dad44a63->dir_6ac06ece5f26f1196a12108b46c15ea0 [headlabel="1", labeldistance=1.5 headhref="dir_001697_001712.html"];
+}

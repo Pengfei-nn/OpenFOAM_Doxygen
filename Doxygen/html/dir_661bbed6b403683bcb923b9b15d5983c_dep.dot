@@ -1,0 +1,19 @@
+digraph "src/OpenFOAM/primitives/spatialVectorAlgebra/CompactSpatialTensor" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0d054148b2ad42a055e9a559a10add02 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="spatialVectorAlgebra" fontname="Helvetica", fontsize="10", URL="dir_0d054148b2ad42a055e9a559a10add02.html"]
+  subgraph clusterdir_661bbed6b403683bcb923b9b15d5983c {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_661bbed6b403683bcb923b9b15d5983c.html"];
+    dir_661bbed6b403683bcb923b9b15d5983c [shape=plaintext label="CompactSpatialTensor"];
+    dir_460618fba6a8dd2c9a43298ce30655e2 [shape=box label="compactSpatialTensor" color="black" fillcolor="white" style="filled" URL="dir_460618fba6a8dd2c9a43298ce30655e2.html"];
+  }
+  }
+  dir_a6b8a6f9dface4c74b0aa8fa3cc8b4c1 [shape=box label="SpatialTensor" color="red" URL="dir_a6b8a6f9dface4c74b0aa8fa3cc8b4c1.html"];
+  dir_a08343b1ce532f3ce35726224e016264 [shape=box label="CompactSpatialTensorT" URL="dir_a08343b1ce532f3ce35726224e016264.html"];
+  dir_a08343b1ce532f3ce35726224e016264->dir_661bbed6b403683bcb923b9b15d5983c [headlabel="1", labeldistance=1.5 headhref="dir_002720_002718.html"];
+  dir_460618fba6a8dd2c9a43298ce30655e2->dir_a08343b1ce532f3ce35726224e016264 [headlabel="1", labeldistance=1.5 headhref="dir_002719_002720.html"];
+  dir_661bbed6b403683bcb923b9b15d5983c->dir_a6b8a6f9dface4c74b0aa8fa3cc8b4c1 [headlabel="1", labeldistance=1.5 headhref="dir_002718_002721.html"];
+}

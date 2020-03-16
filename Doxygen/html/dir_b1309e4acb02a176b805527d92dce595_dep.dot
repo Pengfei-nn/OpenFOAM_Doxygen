@@ -1,0 +1,10 @@
+digraph "src/OpenFOAM/primitives/spatialVectorAlgebra/SpatialTensor/spatialTensor" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a6b8a6f9dface4c74b0aa8fa3cc8b4c1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="SpatialTensor" fontname="Helvetica", fontsize="10", URL="dir_a6b8a6f9dface4c74b0aa8fa3cc8b4c1.html"]
+  dir_b1309e4acb02a176b805527d92dce595 [shape=box, label="spatialTensor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b1309e4acb02a176b805527d92dce595.html"];
+  }
+}

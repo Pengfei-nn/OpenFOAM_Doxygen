@@ -1,0 +1,26 @@
+digraph "solidBodyMotionFunction"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="solidBodyMotionFunction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="axisRotationMotion",height=0.2,width=0.4,color="black",URL="$classFoam_1_1solidBodyMotionFunctions_1_1axisRotationMotion.html",tooltip="Constant velocity rotation around CoG. Similar to rotatingMotion but motion specified as rotation vec..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="drivenLinearMotion",height=0.2,width=0.4,color="black",URL="$classFoam_1_1solidBodyMotionFunctions_1_1drivenLinearMotion.html",tooltip="Variable velocity displacement. The velocity is read from a uniformVectorField from the time registry..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="linearMotion",height=0.2,width=0.4,color="black",URL="$classFoam_1_1solidBodyMotionFunctions_1_1linearMotion.html",tooltip="SolidBodyMotionFvMesh 6DoF motion function. Constant velocity displacement. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="multiMotion",height=0.2,width=0.4,color="black",URL="$classFoam_1_1solidBodyMotionFunctions_1_1multiMotion.html",tooltip="Combination of SolidBodyMotionFvMesh 6DoF motion functions. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="oscillatingLinearMotion",height=0.2,width=0.4,color="black",URL="$classFoam_1_1solidBodyMotionFunctions_1_1oscillatingLinearMotion.html",tooltip="SolidBodyMotionFvMesh 6DoF motion function. Oscillating displacement. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="oscillatingRotatingMotion",height=0.2,width=0.4,color="black",URL="$classFoam_1_1solidBodyMotionFunctions_1_1oscillatingRotatingMotion.html",tooltip="SolidBodyMotionFvMesh 6DoF motion function. Oscillating rotation. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="rotatingMotion",height=0.2,width=0.4,color="black",URL="$classFoam_1_1solidBodyMotionFunctions_1_1rotatingMotion.html",tooltip="SolidBodyMotionFvMesh 6DoF motion function. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SDA",height=0.2,width=0.4,color="black",URL="$classFoam_1_1solidBodyMotionFunctions_1_1SDA.html",tooltip="Ship design analysis (SDA) 3DoF motion function. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="tabulated6DoFMotion",height=0.2,width=0.4,color="black",URL="$classFoam_1_1solidBodyMotionFunctions_1_1tabulated6DoFMotion.html",tooltip="Tabulated 6DoF motion function. "];
+}

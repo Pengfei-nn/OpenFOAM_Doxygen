@@ -1,0 +1,13 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/phaseSystems/populationBalanceModel/coalescenceModels/coalescenceModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0721f517baf771ec8d7656b8f5235e03 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="coalescenceModels" fontname="Helvetica", fontsize="10", URL="dir_0721f517baf771ec8d7656b8f5235e03.html"]
+  dir_266a22525b8231633db5495286b1dd46 [shape=box, label="coalescenceModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_266a22525b8231633db5495286b1dd46.html"];
+  }
+  dir_6836c8d0bc2688f1a5e39885a04a3d18 [shape=box label="populationBalanceModel" URL="dir_6836c8d0bc2688f1a5e39885a04a3d18.html"];
+  dir_6836c8d0bc2688f1a5e39885a04a3d18->dir_266a22525b8231633db5495286b1dd46 [headlabel="1", labeldistance=1.5 headhref="dir_003295_003268.html"];
+  dir_266a22525b8231633db5495286b1dd46->dir_6836c8d0bc2688f1a5e39885a04a3d18 [headlabel="1", labeldistance=1.5 headhref="dir_003268_003295.html"];
+}

@@ -1,0 +1,12 @@
+digraph "src/optimisation/adjointOptimisation/adjoint/optimisation/updateMethod/constrainedOptimisationMethod" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_442e213e33281933d117f57865442da6 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="updateMethod" fontname="Helvetica", fontsize="10", URL="dir_442e213e33281933d117f57865442da6.html"]
+  dir_453be7ec68cc3d6cd46716a004e5a107 [shape=box, label="constrainedOptimisationMethod", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_453be7ec68cc3d6cd46716a004e5a107.html"];
+  }
+  dir_a968e0ad5abdbae5544be71ab3e682ac [shape=box label="updateMethod" URL="dir_a968e0ad5abdbae5544be71ab3e682ac.html"];
+  dir_453be7ec68cc3d6cd46716a004e5a107->dir_a968e0ad5abdbae5544be71ab3e682ac [headlabel="1", labeldistance=1.5 headhref="dir_002875_002882.html"];
+}

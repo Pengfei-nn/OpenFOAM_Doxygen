@@ -1,0 +1,48 @@
+digraph "src/functionObjects/graphics/runTimePostProcessing/fieldVisualisationBase.C"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/functionObjects\l/graphics/runTimePostProcessing\l/fieldVisualisationBase.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="fieldVisualisationBase.H",height=0.2,width=0.4,color="red",URL="$fieldVisualisationBase_8H.html"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="vtkSmartPointer.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="runTimePostProcessing.H",height=0.2,width=0.4,color="red",URL="$runTimePostProcessing_8H.html"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="doubleVector.H",height=0.2,width=0.4,color="red",URL="$doubleVector_8H.html"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="foamVtkTools.H",height=0.2,width=0.4,color="red",URL="$foamVtkTools_8H.html"];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="vtkPolyData.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="vtkArrowSource.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="vtkCellDataToPointData.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="vtkCellData.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="vtkColorTransferFunction.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="vtkCompositeDataSet.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="vtkDataObjectTreeIterator.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="vtkFieldData.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="vtkGlyph3D.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="vtkLookupTable.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="vtkPointData.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="vtkPolyDataMapper.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="vtkRenderer.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="vtkSphereSource.h",height=0.2,width=0.4,color="grey75"];
+}

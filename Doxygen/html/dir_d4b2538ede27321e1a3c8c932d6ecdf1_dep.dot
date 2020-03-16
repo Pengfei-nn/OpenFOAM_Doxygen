@@ -1,0 +1,10 @@
+digraph "src/thermophysicalModels/specie/thermo/sensibleInternalEnergy" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_52d55d2fbf4a26d00084c41bddaf4722 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="thermo" fontname="Helvetica", fontsize="10", URL="dir_52d55d2fbf4a26d00084c41bddaf4722.html"]
+  dir_d4b2538ede27321e1a3c8c932d6ecdf1 [shape=box, label="sensibleInternalEnergy", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d4b2538ede27321e1a3c8c932d6ecdf1.html"];
+  }
+}

@@ -1,0 +1,29 @@
+digraph "NURBS3DVolume"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NURBS3DVolume",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" boundUMaxCPs_\nboundUMinCPs_\nboundWMaxCPs_\nboundWMinCPs_\nboundVMaxCPs_\nboundVMinCPs_" ,fontname="Helvetica"];
+  Node2 [label="List\< FixedList\< bool,\l 3 \> \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1List.html"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" parametricCoordinatesPtr_" ,fontname="Helvetica"];
+  Node3 [label="autoPtr\< Foam::Geometric\lField \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1autoPtr.html"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mapPtr_\nreverseMapPtr_" ,fontname="Helvetica"];
+  Node4 [label="autoPtr\< Foam::List \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1autoPtr.html"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mesh_" ,fontname="Helvetica"];
+  Node5 [label="fvMesh",height=0.2,width=0.4,color="red",URL="$classFoam_1_1fvMesh.html",tooltip="Mesh data needed to do the Finite Volume discretisation. "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cpsFolder_" ,fontname="Helvetica"];
+  Node6 [label="string",height=0.2,width=0.4,color="red",URL="$classFoam_1_1string.html",tooltip="A class for handling character strings derived from std::string. "];
+  Node6 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="Helvetica"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" activeControlPoints\l_\nactiveDesignVariables_" ,fontname="Helvetica"];
+  Node7 [label="List\< bool \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1List.html"];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cps_\nlocalSystemCoordinates_" ,fontname="Helvetica"];
+  Node8 [label="Field\< vector \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1Field.html"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" basisV_\nbasisU_\nbasisW_" ,fontname="Helvetica"];
+  Node9 [label="NURBSbasis",height=0.2,width=0.4,color="black",URL="$classFoam_1_1NURBSbasis.html",tooltip="NURBSbasis fuction. Used to construct NURBS curves, surfaces and volumes. "];
+  Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" name_" ,fontname="Helvetica"];
+  Node10 [label="word",height=0.2,width=0.4,color="black",URL="$classFoam_1_1word.html",tooltip="A class for handling words, derived from Foam::string. "];
+  Node6 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="Helvetica"];
+}

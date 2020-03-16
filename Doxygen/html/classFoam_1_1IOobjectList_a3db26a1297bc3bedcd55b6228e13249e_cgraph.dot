@@ -1,0 +1,14 @@
+digraph "classesImpl"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="classesImpl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::IOobject::headerClassName",height=0.2,width=0.4,color="red",URL="$classFoam_1_1IOobject.html#a82625e0262de6399f2d4cf9542014c99",tooltip="Return name of the class name read from header. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::HashPtrTable\l\< IOobject \>::insert",height=0.2,width=0.4,color="black",URL="$classFoam_1_1HashPtrTable.html#a782331d436530a19ddbc4e3585abf841",tooltip="No insert() with raw pointers (potential memory leaks). Use insert() with autoPtr or set() ..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::HashTable::size",height=0.2,width=0.4,color="black",URL="$classFoam_1_1HashTable.html#a95603446b248fe1ecf5dc59bcc2eaff0",tooltip="The number of elements in table. "];
+}

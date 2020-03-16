@@ -1,0 +1,12 @@
+digraph "src/lagrangian/molecularDynamics/molecularMeasurements/bufferedAccumulator" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d688c861569b69efcb20a975bc1993fa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="molecularMeasurements" fontname="Helvetica", fontsize="10", URL="dir_d688c861569b69efcb20a975bc1993fa.html"]
+  dir_842dca28d2bcc227f5882819415a5c7b [shape=box, label="bufferedAccumulator", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_842dca28d2bcc227f5882819415a5c7b.html"];
+  }
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_842dca28d2bcc227f5882819415a5c7b->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_001805_002151.html"];
+}

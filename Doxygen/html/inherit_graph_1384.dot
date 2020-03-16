@@ -1,0 +1,32 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="blockEdge",height=0.2,width=0.4,color="black",URL="$classFoam_1_1blockEdge.html",tooltip="Define a curved edge that is parameterized for 0&lt;lambda&lt;1 between the start and end point..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="arcEdge",height=0.2,width=0.4,color="black",URL="$classFoam_1_1blockEdges_1_1arcEdge.html",tooltip="Defines the arcEdge of a circle in terms of 3 points on its circumference. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="bezier",height=0.2,width=0.4,color="black",URL="$classFoam_1_1blockEdges_1_1bezier.html",tooltip="Nth order bezier curve edge. Only interior control points should be specified. The outer points are t..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="BSplineEdge",height=0.2,width=0.4,color="black",URL="$classFoam_1_1blockEdges_1_1BSplineEdge.html",tooltip="A blockEdge interface for B-splines. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="lineEdge",height=0.2,width=0.4,color="black",URL="$classFoam_1_1blockEdges_1_1lineEdge.html",tooltip="A straight edge between the start point and the end point. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="polyLineEdge",height=0.2,width=0.4,color="black",URL="$classFoam_1_1blockEdges_1_1polyLineEdge.html",tooltip="A blockEdge defined in terms of a series of straight line segments. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="splineEdge",height=0.2,width=0.4,color="black",URL="$classFoam_1_1blockEdges_1_1splineEdge.html",tooltip="A blockEdge interface for Catmull-Rom splines. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="projectCurveEdge",height=0.2,width=0.4,color="black",URL="$classFoam_1_1projectCurveEdge.html",tooltip="Defines the edge from the projection onto a surface (single surface) or intersection of two surfaces..."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="projectEdge",height=0.2,width=0.4,color="black",URL="$classFoam_1_1projectEdge.html",tooltip="Defines the edge from the projection onto a surface (single surface) or intersection of two surfaces..."];
+  Node10 [label="polyLine",height=0.2,width=0.4,color="black",URL="$classFoam_1_1polyLine.html",tooltip="A series of straight line segments, which can also be interpreted as a series of control points for s..."];
+  Node10 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="BSpline",height=0.2,width=0.4,color="black",URL="$classFoam_1_1BSpline.html",tooltip="An implementation of B-splines. "];
+  Node11 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="CatmullRomSpline",height=0.2,width=0.4,color="black",URL="$classFoam_1_1CatmullRomSpline.html",tooltip="An implementation of Catmull-Rom splines (sometimes known as Overhauser splines). ..."];
+  Node12 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

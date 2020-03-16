@@ -1,0 +1,34 @@
+digraph "operator&lt;&lt;"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::IOstream::check",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOstream.html#af85c845c01b78192c2f5302a271d153d",tooltip="Check IOstream status for given operation. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="endl",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::reducedUnits\l::refEnergy",height=0.2,width=0.4,color="black",URL="$classFoam_1_1reducedUnits.html#ad0004a681a7a7610d6b5ac128a649766"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::reducedUnits\l::refForce",height=0.2,width=0.4,color="black",URL="$classFoam_1_1reducedUnits.html#ad50d80029d65d24e234a03269c82c28e"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::reducedUnits\l::refLength",height=0.2,width=0.4,color="black",URL="$classFoam_1_1reducedUnits.html#a6de1f98b97328b52b3a6e077bd42bdb7"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::reducedUnits\l::refMass",height=0.2,width=0.4,color="black",URL="$classFoam_1_1reducedUnits.html#ae6bd5e7d5b9837f13046becf79cfd8f8"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::reducedUnits\l::refMassDensity",height=0.2,width=0.4,color="black",URL="$classFoam_1_1reducedUnits.html#a36af68cbd66ed445a902d841cd74e32a"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::reducedUnits\l::refNumberDensity",height=0.2,width=0.4,color="black",URL="$classFoam_1_1reducedUnits.html#abd13d7a41280ce5c2c8c9523c44ae13f"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::reducedUnits\l::refPressure",height=0.2,width=0.4,color="black",URL="$classFoam_1_1reducedUnits.html#a7be702c43b30703024b7565a72ee8196"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::reducedUnits\l::refTemp",height=0.2,width=0.4,color="black",URL="$classFoam_1_1reducedUnits.html#aa333ab90cffac13f010f70fc674e8b77"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::reducedUnits\l::refTime",height=0.2,width=0.4,color="black",URL="$classFoam_1_1reducedUnits.html#aebc12fe352225619f369f105f0006760"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::reducedUnits\l::refVelocity",height=0.2,width=0.4,color="black",URL="$classFoam_1_1reducedUnits.html#a640668715cd01c5197bd51d5ed9a6f16"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Foam::reducedUnits\l::refVolume",height=0.2,width=0.4,color="black",URL="$classFoam_1_1reducedUnits.html#af7647ebb4b44045cbaf2e209dcfb6563"];
+}

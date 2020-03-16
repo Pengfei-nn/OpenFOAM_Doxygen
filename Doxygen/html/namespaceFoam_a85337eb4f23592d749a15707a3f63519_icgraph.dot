@@ -1,0 +1,12 @@
+digraph "readInt"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="readInt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="min",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a5f55d5d355216a7078b9235387b1a36e",tooltip="Floating/integral min. Use stdFoam::min() to preserve references. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="readLabel",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a1269245969008f49bcd2a602d3a72319",tooltip="Parse entire buffer as a label, skipping leading/trailing whitespace. "];
+}

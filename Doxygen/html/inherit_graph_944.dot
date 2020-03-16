@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="IndirectListBase\< T,\l Addr \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IndirectListBase.html",tooltip="Base for lists with indirect addressing, templated on the list contents type and the addressing type..."];
+}

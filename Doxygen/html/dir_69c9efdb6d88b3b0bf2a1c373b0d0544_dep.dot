@@ -1,0 +1,12 @@
+digraph "src/lagrangian/intermediate/submodels/MPPIC/IsotropyModels/Stochastic" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5ebf5441bb19562900f53624daac8cc1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="IsotropyModels" fontname="Helvetica", fontsize="10", URL="dir_5ebf5441bb19562900f53624daac8cc1.html"]
+  dir_69c9efdb6d88b3b0bf2a1c373b0d0544 [shape=box, label="Stochastic", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_69c9efdb6d88b3b0bf2a1c373b0d0544.html"];
+  }
+  dir_a90a64b49b311eb4730f048fb9c5d106 [shape=box label="IsotropyModel" URL="dir_a90a64b49b311eb4730f048fb9c5d106.html"];
+  dir_69c9efdb6d88b3b0bf2a1c373b0d0544->dir_a90a64b49b311eb4730f048fb9c5d106 [headlabel="1", labeldistance=1.5 headhref="dir_001746_001744.html"];
+}

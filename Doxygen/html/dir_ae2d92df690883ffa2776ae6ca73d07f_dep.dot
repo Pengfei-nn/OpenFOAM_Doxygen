@@ -1,0 +1,34 @@
+digraph "src/meshTools/AMIInterpolation/AMIInterpolation/AMIMethod" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cc283432b470ffbfab40d5c39743e289 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="AMIInterpolation" fontname="Helvetica", fontsize="10", URL="dir_cc283432b470ffbfab40d5c39743e289.html"]
+  subgraph clusterdir_ae2d92df690883ffa2776ae6ca73d07f {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_ae2d92df690883ffa2776ae6ca73d07f.html"];
+    dir_ae2d92df690883ffa2776ae6ca73d07f [shape=plaintext label="AMIMethod"];
+    dir_ab8d48b795ec09a4d7d6714f080de9a7 [shape=box label="AMIMethod" color="black" fillcolor="white" style="filled" URL="dir_ab8d48b795ec09a4d7d6714f080de9a7.html"];
+    dir_363e4e2695e56265f46c79b817f683b3 [shape=box label="directAMI" color="black" fillcolor="white" style="filled" URL="dir_363e4e2695e56265f46c79b817f683b3.html"];
+    dir_c23e4713d3f832484a4a5ab10f68d109 [shape=box label="faceAreaWeightAMI" color="black" fillcolor="white" style="filled" URL="dir_c23e4713d3f832484a4a5ab10f68d109.html"];
+    dir_0cf247861992aace6002d80e651b3826 [shape=box label="mapNearestAMI" color="black" fillcolor="white" style="filled" URL="dir_0cf247861992aace6002d80e651b3826.html"];
+    dir_ad9d8e9fee86093356c24620bf7ab477 [shape=box label="partialFaceAreaWeightAMI" color="black" fillcolor="white" style="filled" URL="dir_ad9d8e9fee86093356c24620bf7ab477.html"];
+  }
+  }
+  dir_daefbc79e43b4c6de930591d46791fc2 [shape=box label="indexedOctree" URL="dir_daefbc79e43b4c6de930591d46791fc2.html"];
+  dir_4ae445d483bd729388166adc3e791dcb [shape=box label="faceAreaIntersect" URL="dir_4ae445d483bd729388166adc3e791dcb.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_ed89494532d84cde5bd7df6bbfcbe2dc [shape=box label="meshTools" URL="dir_ed89494532d84cde5bd7df6bbfcbe2dc.html"];
+  dir_ab8d48b795ec09a4d7d6714f080de9a7->dir_daefbc79e43b4c6de930591d46791fc2 [headlabel="1", labeldistance=1.5 headhref="dir_001958_002009.html"];
+  dir_ab8d48b795ec09a4d7d6714f080de9a7->dir_4ae445d483bd729388166adc3e791dcb [headlabel="1", labeldistance=1.5 headhref="dir_001958_001963.html"];
+  dir_ab8d48b795ec09a4d7d6714f080de9a7->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="7", labeldistance=1.5 headhref="dir_001958_002151.html"];
+  dir_ab8d48b795ec09a4d7d6714f080de9a7->dir_ed89494532d84cde5bd7df6bbfcbe2dc [headlabel="1", labeldistance=1.5 headhref="dir_001958_002015.html"];
+  dir_daefbc79e43b4c6de930591d46791fc2->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="24", labeldistance=1.5 headhref="dir_002009_002151.html"];
+  dir_4ae445d483bd729388166adc3e791dcb->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="6", labeldistance=1.5 headhref="dir_001963_002151.html"];
+  dir_0cf247861992aace6002d80e651b3826->dir_ab8d48b795ec09a4d7d6714f080de9a7 [headlabel="1", labeldistance=1.5 headhref="dir_001961_001958.html"];
+  dir_ed89494532d84cde5bd7df6bbfcbe2dc->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="11", labeldistance=1.5 headhref="dir_002015_002151.html"];
+  dir_ad9d8e9fee86093356c24620bf7ab477->dir_c23e4713d3f832484a4a5ab10f68d109 [headlabel="1", labeldistance=1.5 headhref="dir_001962_001960.html"];
+  dir_c23e4713d3f832484a4a5ab10f68d109->dir_ab8d48b795ec09a4d7d6714f080de9a7 [headlabel="1", labeldistance=1.5 headhref="dir_001960_001958.html"];
+  dir_c23e4713d3f832484a4a5ab10f68d109->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_001960_002151.html"];
+  dir_363e4e2695e56265f46c79b817f683b3->dir_ab8d48b795ec09a4d7d6714f080de9a7 [headlabel="1", labeldistance=1.5 headhref="dir_001959_001958.html"];
+}

@@ -1,0 +1,21 @@
+digraph "applications/utilities/postProcessing/graphics/PVReaders" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_38c5defe3ffc9983e83b19b4a8212ceb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="graphics" fontname="Helvetica", fontsize="10", URL="dir_38c5defe3ffc9983e83b19b4a8212ceb.html"]
+  subgraph clusterdir_886c4169983dfa1169e2a3bbfb2e06f0 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_886c4169983dfa1169e2a3bbfb2e06f0.html"];
+    dir_886c4169983dfa1169e2a3bbfb2e06f0 [shape=plaintext label="PVReaders"];
+    dir_4d451762ae5cbb4ad2fc8a6548b8ce62 [shape=box label="blockMeshReader" color="red" fillcolor="white" style="filled" URL="dir_4d451762ae5cbb4ad2fc8a6548b8ce62.html"];
+    dir_eb666c3203132dcd5610cbda0090760e [shape=box label="common" color="black" fillcolor="white" style="filled" URL="dir_eb666c3203132dcd5610cbda0090760e.html"];
+    dir_b5dd6a9e298b0a5116c96ed35def7b2a [shape=box label="foamReader" color="red" fillcolor="white" style="filled" URL="dir_b5dd6a9e298b0a5116c96ed35def7b2a.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_4d451762ae5cbb4ad2fc8a6548b8ce62->dir_eb666c3203132dcd5610cbda0090760e [headlabel="1", labeldistance=1.5 headhref="dir_000415_000417.html"];
+  dir_eb666c3203132dcd5610cbda0090760e->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="9", labeldistance=1.5 headhref="dir_000417_000499.html"];
+  dir_b5dd6a9e298b0a5116c96ed35def7b2a->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="8", labeldistance=1.5 headhref="dir_000418_000499.html"];
+  dir_b5dd6a9e298b0a5116c96ed35def7b2a->dir_eb666c3203132dcd5610cbda0090760e [headlabel="1", labeldistance=1.5 headhref="dir_000418_000417.html"];
+}

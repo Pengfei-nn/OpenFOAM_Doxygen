@@ -1,0 +1,12 @@
+digraph "refinementCount"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="refinementCount",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::hexRef8::consistent\lSlowRefinement",height=0.2,width=0.4,color="black",URL="$classFoam_1_1hexRef8.html#aeb54557fb67f4384c1d524d031d65e71",tooltip="Like consistentRefinement but slower: "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="operator!=",height=0.2,width=0.4,color="black",URL="$classFoam_1_1refinementData.html#aa3e37dfcad48b4a96b1184d8f559c9b3"];
+}

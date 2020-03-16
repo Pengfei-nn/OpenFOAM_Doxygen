@@ -1,0 +1,37 @@
+digraph "correction"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="correction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::GeometricField\l::component",height=0.2,width=0.4,color="black",URL="$classFoam_1_1GeometricField.html#a65aef361932c3d395290d8686fc8e484",tooltip="Return a component of the field. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::edgeInterpolation\l::correctionVectors",height=0.2,width=0.4,color="black",URL="$classFoam_1_1edgeInterpolation.html#acf40f10dbeb16155c614af72a8bb17c8",tooltip="Return reference to non-orthogonality correction vectors array. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::IOobject::db",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#adf469b34fcd0250cef43ac4ce3f153ab",tooltip="Return the local objectRegistry. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::edgeInterpolation\l::deltaCoeffs",height=0.2,width=0.4,color="black",URL="$classFoam_1_1edgeInterpolation.html#aade55ee92b20946f03d66690c9fbcff0",tooltip="Return reference to difference factors array. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::DimensionedField\l::dimensions",height=0.2,width=0.4,color="black",URL="$classFoam_1_1DimensionedField.html#a6098093e7de06370342a85cfae8b31f5",tooltip="Return dimensions. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::fac::grad",height=0.2,width=0.4,color="red",URL="$namespaceFoam_1_1fac.html#aa39104893b94ec9382a8b227e109c575"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::tmp::ref",height=0.2,width=0.4,color="black",URL="$classFoam_1_1tmp.html#af16202cc9b8e931206cfceb8d9779bb2",tooltip="Return non-const reference to the contents of a non-null managed pointer. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::faSchemes::gradScheme",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faSchemes.html#aac32205d4c2ca588cf68157838675e2c"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::IOobject::instance",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#a46160ffc8e0db5faef21fc9aa00a1677"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::interpolate",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#aba5fff183ec42758b0944abeabec41ea"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#a6d60057c26042eaf7fa1b3b6fb07b582",tooltip="Return name. "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::New",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a9d62cf14554c95e83f83f14909d9e0ec",tooltip="Global function forwards to reuseTmpDimensionedField::New. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Foam::GeometricField\l::replace",height=0.2,width=0.4,color="black",URL="$classFoam_1_1GeometricField.html#a4526a6ea0862d430a7a1458b0b5a834a",tooltip="Replace specified field component with content from another field. "];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Foam::type",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a69e2e8a647a7073be8ce6437c0aff762",tooltip="Return the file type: DIRECTORY or FILE, normally following symbolic links. "];
+}

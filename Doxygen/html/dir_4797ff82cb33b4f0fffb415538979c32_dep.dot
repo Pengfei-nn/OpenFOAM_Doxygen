@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/primitives/Vector/labelVector" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6ef5fbba1c02603637a533e2f686aa62 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Vector" fontname="Helvetica", fontsize="10", URL="dir_6ef5fbba1c02603637a533e2f686aa62.html"]
+  dir_4797ff82cb33b4f0fffb415538979c32 [shape=box, label="labelVector", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4797ff82cb33b4f0fffb415538979c32.html"];
+  }
+  dir_086c067a0e64eeb439d30ae0c44248d8 [shape=box label="ints" color="red" URL="dir_086c067a0e64eeb439d30ae0c44248d8.html"];
+  dir_4797ff82cb33b4f0fffb415538979c32->dir_086c067a0e64eeb439d30ae0c44248d8 [headlabel="1", labeldistance=1.5 headhref="dir_002764_002677.html"];
+}

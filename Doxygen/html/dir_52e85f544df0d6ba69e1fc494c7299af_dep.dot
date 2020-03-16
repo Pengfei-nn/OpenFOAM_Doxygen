@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/primitives/SphericalTensor2D/sphericalTensor2D" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_03cbbdc57deccee747de3682b626c91e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="SphericalTensor2D" fontname="Helvetica", fontsize="10", URL="dir_03cbbdc57deccee747de3682b626c91e.html"]
+  dir_52e85f544df0d6ba69e1fc494c7299af [shape=box, label="sphericalTensor2D", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_52e85f544df0d6ba69e1fc494c7299af.html"];
+  }
+  dir_15da0e2a135f43ffeb4645c968ce8ac7 [shape=box label="Tensor" color="red" URL="dir_15da0e2a135f43ffeb4645c968ce8ac7.html"];
+  dir_52e85f544df0d6ba69e1fc494c7299af->dir_15da0e2a135f43ffeb4645c968ce8ac7 [headlabel="1", labeldistance=1.5 headhref="dir_002730_002749.html"];
+}

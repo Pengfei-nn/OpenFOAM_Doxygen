@@ -1,0 +1,15 @@
+digraph "src/lagrangian/coalCombustion/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6061a3ee916a9160a3a185551ff9959f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="coalCombustion" fontname="Helvetica", fontsize="10", URL="dir_6061a3ee916a9160a3a185551ff9959f.html"]
+  dir_a0ff90d717e04b3dff76feaa84b08aad [shape=box, label="include", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a0ff90d717e04b3dff76feaa84b08aad.html"];
+  }
+  dir_d3c32a493136c130c1f0d51f4f35c297 [shape=box label="intermediate" color="red" URL="dir_d3c32a493136c130c1f0d51f4f35c297.html"];
+  dir_0ed563d2c3dc00cc49531eaf554b44dc [shape=box label="submodels" color="red" URL="dir_0ed563d2c3dc00cc49531eaf554b44dc.html"];
+  dir_a0ff90d717e04b3dff76feaa84b08aad->dir_d3c32a493136c130c1f0d51f4f35c297 [headlabel="1", labeldistance=1.5 headhref="dir_001514_001526.html"];
+  dir_a0ff90d717e04b3dff76feaa84b08aad->dir_0ed563d2c3dc00cc49531eaf554b44dc [headlabel="5", labeldistance=1.5 headhref="dir_001514_001515.html"];
+  dir_0ed563d2c3dc00cc49531eaf554b44dc->dir_d3c32a493136c130c1f0d51f4f35c297 [headlabel="5", labeldistance=1.5 headhref="dir_001515_001526.html"];
+}

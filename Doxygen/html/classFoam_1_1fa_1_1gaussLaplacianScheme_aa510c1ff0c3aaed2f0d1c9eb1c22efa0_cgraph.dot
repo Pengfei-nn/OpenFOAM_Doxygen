@@ -1,0 +1,42 @@
+digraph "famLaplacian"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="famLaplacian",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::faMatrix::boundary\lCoeffs",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faMatrix.html#a7afb1e50a188e5984f79504d63486d71",tooltip="faBoundary scalar field containing pseudo-matrix coeffs "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1GeometricField.html#a6987ef31fb532d0fc43c84eca14fe558",tooltip="Return const-reference to the boundary field. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::correction",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#aa5166e83cc970d681cdb0246482047e8",tooltip="Return the correction form of the given matrix. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::DimensionedField\l::dimensions",height=0.2,width=0.4,color="black",URL="$classFoam_1_1DimensionedField.html#a6098093e7de06370342a85cfae8b31f5",tooltip="Return dimensions. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::fac::div",height=0.2,width=0.4,color="red",URL="$namespaceFoam_1_1fac.html#a7f47cf8d21bf98bf234866e4efeab057"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::tmp::ref",height=0.2,width=0.4,color="black",URL="$classFoam_1_1tmp.html#af16202cc9b8e931206cfceb8d9779bb2",tooltip="Return non-const reference to the contents of a non-null managed pointer. "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::GeometricField\l::internalField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1GeometricField.html#a6d8f4c566820e3023e2e9c616a6a0093",tooltip="Return a const-reference to the dimensioned internal field. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::faMatrix::faceFlux\lCorrectionPtr",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faMatrix.html#a31e1db8bbb9317782cb5df5a7bcd2019",tooltip="Return pointer to face-flux non-orthogonal correction field. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::faPatchField\l::gradientBoundaryCoeffs",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faPatchField.html#ac8b62beb35da92f57c686d9d7997ebcd",tooltip="Return the matrix source coefficients corresponding to the. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::faPatchField\l::gradientInternalCoeffs",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faPatchField.html#a824eb17afcc38ad17a146e8e18ffde22",tooltip="Return the matrix diagonal coefficients corresponding to the. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::faMatrix::internal\lCoeffs",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faMatrix.html#a70f63c0b305ac3c1b02423e6e5d28115",tooltip="faBoundary scalar field containing pseudo-matrix coeffs "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#a6d60057c26042eaf7fa1b3b6fb07b582",tooltip="Return name. "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Foam::lduMatrix::negSumDiag",height=0.2,width=0.4,color="black",URL="$classFoam_1_1lduMatrix.html#a7ad351a572b04686613ec1f9650ad95c"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Foam::faMatrix::psi",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faMatrix.html#af5b2cc1a6a8e48f2175a813fe85696f3"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Foam::faMatrix::source",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faMatrix.html#a4c49d61a0e11bbdadf6646dbe3740560"];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Foam::lduMatrix::upper",height=0.2,width=0.4,color="black",URL="$classFoam_1_1lduMatrix.html#a11672a767f497e24dce3ff31da13d9d0"];
+}

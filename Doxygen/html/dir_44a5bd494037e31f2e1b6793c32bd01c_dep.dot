@@ -1,0 +1,12 @@
+digraph "src/lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/MultiInteraction" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cf43f87a8139bd03a012339b0f68c2d8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="PatchInteractionModel" fontname="Helvetica", fontsize="10", URL="dir_cf43f87a8139bd03a012339b0f68c2d8.html"]
+  dir_44a5bd494037e31f2e1b6793c32bd01c [shape=box, label="MultiInteraction", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_44a5bd494037e31f2e1b6793c32bd01c.html"];
+  }
+  dir_fbe14706e92980c2567ab36ee0a0e449 [shape=box label="PatchInteractionModel" URL="dir_fbe14706e92980c2567ab36ee0a0e449.html"];
+  dir_44a5bd494037e31f2e1b6793c32bd01c->dir_fbe14706e92980c2567ab36ee0a0e449 [headlabel="1", labeldistance=1.5 headhref="dir_001718_001720.html"];
+}

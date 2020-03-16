@@ -1,0 +1,12 @@
+digraph "src/waveModels/waveGenerationModels/base/irregularWaveModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8b3e8305750f57279d38dda6619c99cf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="base" fontname="Helvetica", fontsize="10", URL="dir_8b3e8305750f57279d38dda6619c99cf.html"]
+  dir_2ec230eeb18ab58dfde18d6f27a93ced [shape=box, label="irregularWaveModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2ec230eeb18ab58dfde18d6f27a93ced.html"];
+  }
+  dir_b87f8cbb0ecdc4005e3884e6236d7364 [shape=box label="waveGenerationModel" URL="dir_b87f8cbb0ecdc4005e3884e6236d7364.html"];
+  dir_2ec230eeb18ab58dfde18d6f27a93ced->dir_b87f8cbb0ecdc4005e3884e6236d7364 [headlabel="1", labeldistance=1.5 headhref="dir_004127_004130.html"];
+}

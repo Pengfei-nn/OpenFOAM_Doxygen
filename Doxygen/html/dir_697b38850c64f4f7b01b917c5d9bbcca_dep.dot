@@ -1,0 +1,15 @@
+digraph "src/OpenFOAM/meshes/pointMesh/pointPatches/basic/coupled" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0dd671b9b24893c9c3ff453a60d0022b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="basic" fontname="Helvetica", fontsize="10", URL="dir_0dd671b9b24893c9c3ff453a60d0022b.html"]
+  dir_697b38850c64f4f7b01b917c5d9bbcca [shape=box, label="coupled", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_697b38850c64f4f7b01b917c5d9bbcca.html"];
+  }
+  dir_b331248a108c86b71e58f49053a85c82 [shape=box label="pointBoundaryMesh" URL="dir_b331248a108c86b71e58f49053a85c82.html"];
+  dir_5e5a63cb97aae3d01c8e98f0c14953bc [shape=box label="polyMesh" color="red" URL="dir_5e5a63cb97aae3d01c8e98f0c14953bc.html"];
+  dir_b331248a108c86b71e58f49053a85c82->dir_5e5a63cb97aae3d01c8e98f0c14953bc [headlabel="2", labeldistance=1.5 headhref="dir_002551_002572.html"];
+  dir_697b38850c64f4f7b01b917c5d9bbcca->dir_b331248a108c86b71e58f49053a85c82 [headlabel="1", labeldistance=1.5 headhref="dir_002555_002551.html"];
+  dir_697b38850c64f4f7b01b917c5d9bbcca->dir_5e5a63cb97aae3d01c8e98f0c14953bc [headlabel="1", labeldistance=1.5 headhref="dir_002555_002572.html"];
+}

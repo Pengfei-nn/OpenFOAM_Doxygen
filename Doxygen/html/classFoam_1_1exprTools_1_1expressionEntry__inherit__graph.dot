@@ -1,0 +1,30 @@
+digraph "expressionEntry"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="expressionEntry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="boolEntry",height=0.2,width=0.4,color="black",URL="$structFoam_1_1exprTools_1_1boolEntry.html",tooltip="Expression representation of a bool : (false/true) "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="dimensionedScalarEntry",height=0.2,width=0.4,color="black",URL="$structFoam_1_1exprTools_1_1dimensionedScalarEntry.html",tooltip="Create an expression string from a dimensionedScalar as its value. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="dimensionedSphericalTensor\lEntry",height=0.2,width=0.4,color="black",URL="$structFoam_1_1exprTools_1_1dimensionedSphericalTensorEntry.html",tooltip="Create an expression string from a dimensionedSphericalTensor as its value. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dimensionedSymmTensorEntry",height=0.2,width=0.4,color="black",URL="$structFoam_1_1exprTools_1_1dimensionedSymmTensorEntry.html",tooltip="Create an expression string from a dimensionedSymmTensor as its value. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dimensionedTensorEntry",height=0.2,width=0.4,color="black",URL="$structFoam_1_1exprTools_1_1dimensionedTensorEntry.html",tooltip="Create an expression string from a dimensionedTensor as its value. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="dimensionedVectorEntry",height=0.2,width=0.4,color="black",URL="$structFoam_1_1exprTools_1_1dimensionedVectorEntry.html",tooltip="Create an expression string from a dimensionedVector as its value. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="sphericalTensorEntry",height=0.2,width=0.4,color="black",URL="$structFoam_1_1exprTools_1_1sphericalTensorEntry.html",tooltip="Create an expression string from a sphericalTensor. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="stringEntry",height=0.2,width=0.4,color="black",URL="$structFoam_1_1exprTools_1_1stringEntry.html",tooltip="Creates an expression from a string (removing surrounding quotes) "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="symmTensorEntry",height=0.2,width=0.4,color="black",URL="$structFoam_1_1exprTools_1_1symmTensorEntry.html",tooltip="Create an expression string from a symmTensor. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="tensorEntry",height=0.2,width=0.4,color="black",URL="$structFoam_1_1exprTools_1_1tensorEntry.html",tooltip="Create an expression string from a tensor. "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="vectorEntry",height=0.2,width=0.4,color="black",URL="$structFoam_1_1exprTools_1_1vectorEntry.html",tooltip="Create an expression string from a vector. "];
+}

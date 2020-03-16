@@ -1,0 +1,22 @@
+digraph "applications/solvers/multiphase/icoReactingMultiphaseInterFoam/phasesSystem/phaseModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9814e8b96a810c0bc5aa9f21bfecc094 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="phasesSystem" fontname="Helvetica", fontsize="10", URL="dir_9814e8b96a810c0bc5aa9f21bfecc094.html"]
+  subgraph clusterdir_dc11da56fd3d81c2bd39ac0cf0e67dd2 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_dc11da56fd3d81c2bd39ac0cf0e67dd2.html"];
+    dir_dc11da56fd3d81c2bd39ac0cf0e67dd2 [shape=plaintext label="phaseModel"];
+    dir_d461c9911d124db601a36932928e5d24 [shape=box label="MovingPhaseModel" color="black" fillcolor="white" style="filled" URL="dir_d461c9911d124db601a36932928e5d24.html"];
+    dir_d158cd75c7a4a9a627556cb952727333 [shape=box label="MultiComponentPhaseModel" color="black" fillcolor="white" style="filled" URL="dir_d158cd75c7a4a9a627556cb952727333.html"];
+    dir_686e6c6680e97f094e9fea48fb71d40a [shape=box label="phaseModel" color="black" fillcolor="white" style="filled" URL="dir_686e6c6680e97f094e9fea48fb71d40a.html"];
+    dir_02ca6dae3e1f871e87839d6345736bb3 [shape=box label="PurePhaseModel" color="black" fillcolor="white" style="filled" URL="dir_02ca6dae3e1f871e87839d6345736bb3.html"];
+    dir_c38df3bb19caa637cd7b8c5b0df15158 [shape=box label="StaticPhaseModel" color="black" fillcolor="white" style="filled" URL="dir_c38df3bb19caa637cd7b8c5b0df15158.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_02ca6dae3e1f871e87839d6345736bb3->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003235_000499.html"];
+  dir_d158cd75c7a4a9a627556cb952727333->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003229_000499.html"];
+  dir_686e6c6680e97f094e9fea48fb71d40a->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="8", labeldistance=1.5 headhref="dir_000203_000499.html"];
+}

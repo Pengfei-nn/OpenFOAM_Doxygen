@@ -1,0 +1,36 @@
+digraph "resize"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="resize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::PtrList::append",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PtrList.html#a19690ed8a9abf7f63be9551141d6b5f6",tooltip="Append an element to the end of the list. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$classFoam_1_1List.html#a846e26fe06e92168847d6937e1f171cf",tooltip="Move append an element at the end of the list. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::HashSet::assignMany",height=0.2,width=0.4,color="black",URL="$classFoam_1_1HashSet.html#a79a0b3e89479a2cb49652d355a3820f4"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::PtrDynList::clear",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PtrDynList.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the addressed list, i.e. set the size to zero. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::List::newElmt",height=0.2,width=0.4,color="black",URL="$classFoam_1_1List.html#a185404b8ba9a3d6985e4a940d679ae18",tooltip="Return subscript-checked element of UList and resizing the list if required. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::PtrList::readIstream",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PtrList.html#abd10854d664e07f878aff6bb4699f02d",tooltip="Read from Istream using Istream constructor class. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::IjkField::resize",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IjkField.html#aae8bef8dcce7b478cc1310d5057bdb18",tooltip="Change dimensions. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::SquareMatrix\l::resize",height=0.2,width=0.4,color="black",URL="$classFoam_1_1SquareMatrix.html#af798657eeacfe559510d89b4339e3f38",tooltip="Resize the matrix preserving the elements (compatibility) "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::List::resize",height=0.2,width=0.4,color="red",URL="$classFoam_1_1List.html#ae697ea15032f01f89988bb8ada677832",tooltip="Adjust allocated size of list. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::PackedList::setCapacity",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PackedList.html#ad4a4afb7d3154a5a20e8ef0292655f60",tooltip="Alter the size of the underlying storage. "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$classFoam_1_1List.html#a2984fcc1e336af2f6623d86192986b7f",tooltip="Alias for resize(const label, const T&amp;) "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::SquareMatrix\l::shallowResize",height=0.2,width=0.4,color="black",URL="$classFoam_1_1SquareMatrix.html#ace33232063f6ee339e811da9867a4091",tooltip="Resize the matrix without reallocating storage (unsafe) "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Foam::Matrix::shallowResize",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Matrix.html#a6c95fcafc4010a3c79f64fd1b8fb2caf",tooltip="Resize Matrix without reallocating storage (unsafe) "];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Foam::HashTable::swap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1HashTable.html#a9d149d7c6221f2115f2dae3b445ab348",tooltip="Swap contents into this table. "];
+}

@@ -1,0 +1,15 @@
+digraph "src/TurbulenceModels/turbulenceModels/DES/SpalartAllmarasDES" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4c597e202e8b6e09c8ced0164b37938b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="DES" fontname="Helvetica", fontsize="10", URL="dir_4c597e202e8b6e09c8ced0164b37938b.html"]
+  dir_02ee5e2b8c0e0c042c55db2cba8bf0bd [shape=box, label="SpalartAllmarasDES", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_02ee5e2b8c0e0c042c55db2cba8bf0bd.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_f86a3d43150bae25571c6b1b18691303 [shape=box label="DESModel" URL="dir_f86a3d43150bae25571c6b1b18691303.html"];
+  dir_02ee5e2b8c0e0c042c55db2cba8bf0bd->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_004064_000814.html"];
+  dir_02ee5e2b8c0e0c042c55db2cba8bf0bd->dir_f86a3d43150bae25571c6b1b18691303 [headlabel="1", labeldistance=1.5 headhref="dir_004064_004059.html"];
+  dir_f86a3d43150bae25571c6b1b18691303->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_004059_000814.html"];
+}

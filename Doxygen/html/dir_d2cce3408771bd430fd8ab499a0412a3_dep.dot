@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/multiphaseEulerFoam/interfacialModels/dragModels/interface" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_45e67d80f3fa79e6c6d32b95e41cd9a4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="dragModels" fontname="Helvetica", fontsize="10", URL="dir_45e67d80f3fa79e6c6d32b95e41cd9a4.html"]
+  dir_d2cce3408771bd430fd8ab499a0412a3 [shape=box, label="interface", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d2cce3408771bd430fd8ab499a0412a3.html"];
+  }
+}

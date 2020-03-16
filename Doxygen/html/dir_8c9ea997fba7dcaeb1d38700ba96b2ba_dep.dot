@@ -1,0 +1,14 @@
+digraph "applications/utilities/miscellaneous/OSspecific" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3210494cbdf79b7f44b411965daadab0 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="miscellaneous" fontname="Helvetica", fontsize="10", URL="dir_3210494cbdf79b7f44b411965daadab0.html"]
+  subgraph clusterdir_8c9ea997fba7dcaeb1d38700ba96b2ba {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_8c9ea997fba7dcaeb1d38700ba96b2ba.html"];
+    dir_8c9ea997fba7dcaeb1d38700ba96b2ba [shape=plaintext label="OSspecific"];
+    dir_bb58ce7e6a02457dc4c3111454607076 [shape=box label="addr2line" color="black" fillcolor="white" style="filled" URL="dir_bb58ce7e6a02457dc4c3111454607076.html"];
+  }
+  }
+}

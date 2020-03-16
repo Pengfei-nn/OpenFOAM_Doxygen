@@ -1,0 +1,12 @@
+digraph "src/lagrangian/spray/submodels/AtomizationModel/NoAtomization" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c04aec180e0de933cb1ce0e040f1f431 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="AtomizationModel" fontname="Helvetica", fontsize="10", URL="dir_c04aec180e0de933cb1ce0e040f1f431.html"]
+  dir_aae326796e4de325bee85f9c1a610e88 [shape=box, label="NoAtomization", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_aae326796e4de325bee85f9c1a610e88.html"];
+  }
+  dir_c5140c70a0de325936e2f0836d17f5d3 [shape=box label="AtomizationModel" URL="dir_c5140c70a0de325936e2f0836d17f5d3.html"];
+  dir_aae326796e4de325bee85f9c1a610e88->dir_c5140c70a0de325936e2f0836d17f5d3 [headlabel="1", labeldistance=1.5 headhref="dir_001862_001859.html"];
+}

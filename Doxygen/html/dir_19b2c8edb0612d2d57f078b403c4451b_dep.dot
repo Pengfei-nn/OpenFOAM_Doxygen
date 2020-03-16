@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/memory/autoPtr" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_385a22dcc2f7120acb0f1a7a832b3b8d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="memory" fontname="Helvetica", fontsize="10", URL="dir_385a22dcc2f7120acb0f1a7a832b3b8d.html"]
+  dir_19b2c8edb0612d2d57f078b403c4451b [shape=box, label="autoPtr", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_19b2c8edb0612d2d57f078b403c4451b.html"];
+  }
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_19b2c8edb0612d2d57f078b403c4451b->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002522_002218.html"];
+}

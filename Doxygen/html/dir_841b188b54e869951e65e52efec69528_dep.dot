@@ -1,0 +1,16 @@
+digraph "applications/utilities/postProcessing/lumped" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b0c2b0d6e5b08bdff054b28f26ba51e7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="postProcessing" fontname="Helvetica", fontsize="10", URL="dir_b0c2b0d6e5b08bdff054b28f26ba51e7.html"]
+  subgraph clusterdir_841b188b54e869951e65e52efec69528 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_841b188b54e869951e65e52efec69528.html"];
+    dir_841b188b54e869951e65e52efec69528 [shape=plaintext label="lumped"];
+    dir_5ba6c22f680f62193acaef4616ef3184 [shape=box label="lumpedPointForces" color="black" fillcolor="white" style="filled" URL="dir_5ba6c22f680f62193acaef4616ef3184.html"];
+    dir_0868a3c8bf56e9e15bb67ee1c1b5c684 [shape=box label="lumpedPointMovement" color="black" fillcolor="white" style="filled" URL="dir_0868a3c8bf56e9e15bb67ee1c1b5c684.html"];
+    dir_00a1d9cd3ce0be2fb30e13cf1ab775e6 [shape=box label="lumpedPointZones" color="black" fillcolor="white" style="filled" URL="dir_00a1d9cd3ce0be2fb30e13cf1ab775e6.html"];
+  }
+  }
+}

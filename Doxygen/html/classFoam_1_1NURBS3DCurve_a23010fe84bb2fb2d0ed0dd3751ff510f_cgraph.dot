@@ -1,0 +1,12 @@
+digraph "setNrm3DOrientation"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="setNrm3DOrientation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="curveDerivativeU",height=0.2,width=0.4,color="red",URL="$classFoam_1_1NURBS3DCurve.html#a0488febf1a030bdc5de06c102716dbcc",tooltip="Curve derivative wrt u at point ui. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::tan",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a18940c864aa0256e0d61061dbfe23243"];
+}

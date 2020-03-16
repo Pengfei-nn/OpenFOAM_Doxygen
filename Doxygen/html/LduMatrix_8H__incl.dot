@@ -1,0 +1,25 @@
+digraph "src/OpenFOAM/matrices/LduMatrix/LduMatrix/LduMatrix.H"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/OpenFOAM/matrices\l/LduMatrix/LduMatrix\l/LduMatrix.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="lduMesh.H",height=0.2,width=0.4,color="red",URL="$lduMesh_8H.html"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="typeInfo.H",height=0.2,width=0.4,color="red",URL="$typeInfo_8H.html"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Field.H",height=0.2,width=0.4,color="red",URL="$Field_8H.html"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="FieldField.H",height=0.2,width=0.4,color="red",URL="$FieldField_8H.html"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="LduInterfaceFieldPtrsList.H",height=0.2,width=0.4,color="red",URL="$LduInterfaceFieldPtrsList_8H.html",tooltip="List of coupled interface fields to be used in coupling. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SolverPerformance.H",height=0.2,width=0.4,color="red",URL="$SolverPerformance_8H.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="autoPtr.H",height=0.2,width=0.4,color="red",URL="$autoPtr_8H.html"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="runTimeSelectionTables.H",height=0.2,width=0.4,color="red",URL="$runTimeSelectionTables_8H.html",tooltip="Macros to ease declaration of run-time selection tables. "];
+  Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

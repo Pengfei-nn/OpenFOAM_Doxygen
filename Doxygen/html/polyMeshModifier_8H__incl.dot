@@ -1,0 +1,27 @@
+digraph "src/dynamicMesh/polyTopoChange/polyMeshModifier/polyMeshModifier.H"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/dynamicMesh/polyTopo\lChange/polyMeshModifier\l/polyMeshModifier.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="label.H",height=0.2,width=0.4,color="red",URL="$label_8H.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="word.H",height=0.2,width=0.4,color="red",URL="$word_8H.html"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Switch.H",height=0.2,width=0.4,color="red",URL="$Switch_8H.html"];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="typeInfo.H",height=0.2,width=0.4,color="red",URL="$typeInfo_8H.html"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="runTimeSelectionTables.H",height=0.2,width=0.4,color="red",URL="$runTimeSelectionTables_8H.html",tooltip="Macros to ease declaration of run-time selection tables. "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="autoPtr.H",height=0.2,width=0.4,color="red",URL="$autoPtr_8H.html"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="pointField.H",height=0.2,width=0.4,color="red",URL="$pointField_8H.html"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="faceList.H",height=0.2,width=0.4,color="red",URL="$faceList_8H.html"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="cellList.H",height=0.2,width=0.4,color="red",URL="$cellList_8H.html"];
+}

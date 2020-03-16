@@ -1,0 +1,20 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="decompositionConstraint",height=0.2,width=0.4,color="black",URL="$classFoam_1_1decompositionConstraint.html",tooltip="Abstract class for handling decomposition constraints. "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="geometric",height=0.2,width=0.4,color="black",URL="$classFoam_1_1decompositionConstraints_1_1geometric.html",tooltip="Keep faces together based on geometric considerations from a searchableSurfaces list. The faces inside of each searchableSurface are to be kept together during the decomposition. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="preserveBaffles",height=0.2,width=0.4,color="black",URL="$classFoam_1_1decompositionConstraints_1_1preserveBaffles.html",tooltip="Detects baffles and keeps owner and neighbour on same processor. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="preserveFaceZones",height=0.2,width=0.4,color="black",URL="$classFoam_1_1decompositionConstraints_1_1preserveFaceZones.html",tooltip="Constraint to keep/move owner and neighbour of faceZone onto same processor. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="preservePatches",height=0.2,width=0.4,color="black",URL="$classFoam_1_1decompositionConstraints_1_1preservePatches.html",tooltip="Constraint to keep owner and neighbour of (cyclic) patch on same processor. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="refinementHistory",height=0.2,width=0.4,color="black",URL="$classFoam_1_1decompositionConstraints_1_1refinementHistory.html",tooltip="Constraint to keep all cells originating from refining the same cell onto the same processor..."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="singleProcessorFaceSets",height=0.2,width=0.4,color="black",URL="$classFoam_1_1decompositionConstraints_1_1singleProcessorFaceSets.html",tooltip="Constraint to keep all cells connected to face or point of faceSet on a single processor. "];
+}

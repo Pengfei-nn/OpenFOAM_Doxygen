@@ -1,0 +1,16 @@
+digraph "sampleOnFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sampleOnFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="faces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1sampledCuttingSurface.html#a4d06c698bba36dbfe629cf0cda3649b1",tooltip="Faces of surface. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::cuttingSurfaceBase\l::meshCells",height=0.2,width=0.4,color="black",URL="$classFoam_1_1cuttingSurfaceBase.html#ad042cc0855b543ab7596715741ab8311",tooltip="The mesh cells cut. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="points",height=0.2,width=0.4,color="black",URL="$classFoam_1_1sampledCuttingSurface.html#a419417e2425dc489a0d4eb9f257e557b",tooltip="Points of surface. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::sampledSurface\l::sampleOnFaces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1sampledSurface.html#a9fb76fb748cde34167297d8ec12963d8",tooltip="General loop for sampling elements to faces. "];
+}

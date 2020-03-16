@@ -1,0 +1,40 @@
+digraph "src/rigidBodyDynamics/joints/joints.H"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/rigidBodyDynamics\l/joints/joints.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="nullJoint.H",height=0.2,width=0.4,color="red",URL="$nullJoint_8H.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="compositeJoint.H",height=0.2,width=0.4,color="red",URL="$compositeJoint_8H.html"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="floatingJoint.H",height=0.2,width=0.4,color="black",URL="$floatingJoint_8H.html"];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Rx.H",height=0.2,width=0.4,color="red",URL="$Rx_8H.html"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Ry.H",height=0.2,width=0.4,color="red",URL="$Ry_8H.html"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Rz.H",height=0.2,width=0.4,color="red",URL="$Rz_8H.html"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Ra.H",height=0.2,width=0.4,color="red",URL="$Ra_8H.html"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Rs.H",height=0.2,width=0.4,color="red",URL="$Rs_8H.html"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Rzyx.H",height=0.2,width=0.4,color="red",URL="$Rzyx_8H.html"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Rxyz.H",height=0.2,width=0.4,color="red",URL="$Rxyz_8H.html"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Ryxz.H",height=0.2,width=0.4,color="red",URL="$Ryxz_8H.html"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Px.H",height=0.2,width=0.4,color="red",URL="$Px_8H.html"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Py.H",height=0.2,width=0.4,color="red",URL="$Py_8H.html"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Pz.H",height=0.2,width=0.4,color="red",URL="$Pz_8H.html"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Pa.H",height=0.2,width=0.4,color="red",URL="$Pa_8H.html"];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Pxyz.H",height=0.2,width=0.4,color="red",URL="$Pxyz_8H.html"];
+}

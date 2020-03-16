@@ -1,0 +1,12 @@
+digraph "src/lagrangian/intermediate/submodels/Kinematic/StochasticCollision/NoStochasticCollision" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_83decfbee97b67bdfbabb760079715fa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="StochasticCollision" fontname="Helvetica", fontsize="10", URL="dir_83decfbee97b67bdfbabb760079715fa.html"]
+  dir_10f45b25a03174ce4ab51009b2bd113f [shape=box, label="NoStochasticCollision", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_10f45b25a03174ce4ab51009b2bd113f.html"];
+  }
+  dir_ba38f357888d99a65e2ac8c0bca68e1b [shape=box label="StochasticCollisionModel" URL="dir_ba38f357888d99a65e2ac8c0bca68e1b.html"];
+  dir_10f45b25a03174ce4ab51009b2bd113f->dir_ba38f357888d99a65e2ac8c0bca68e1b [headlabel="1", labeldistance=1.5 headhref="dir_001724_001725.html"];
+}

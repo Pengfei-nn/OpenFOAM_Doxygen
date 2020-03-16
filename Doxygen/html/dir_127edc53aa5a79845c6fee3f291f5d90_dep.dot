@@ -1,0 +1,15 @@
+digraph "applications/utilities/postProcessing/graphics/PVReaders/foamReader/library" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b5dd6a9e298b0a5116c96ed35def7b2a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="foamReader" fontname="Helvetica", fontsize="10", URL="dir_b5dd6a9e298b0a5116c96ed35def7b2a.html"]
+  dir_127edc53aa5a79845c6fee3f291f5d90 [shape=box, label="library", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_127edc53aa5a79845c6fee3f291f5d90.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_eb666c3203132dcd5610cbda0090760e [shape=box label="common" URL="dir_eb666c3203132dcd5610cbda0090760e.html"];
+  dir_127edc53aa5a79845c6fee3f291f5d90->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="8", labeldistance=1.5 headhref="dir_000419_000499.html"];
+  dir_127edc53aa5a79845c6fee3f291f5d90->dir_eb666c3203132dcd5610cbda0090760e [headlabel="1", labeldistance=1.5 headhref="dir_000419_000417.html"];
+  dir_eb666c3203132dcd5610cbda0090760e->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="9", labeldistance=1.5 headhref="dir_000417_000499.html"];
+}

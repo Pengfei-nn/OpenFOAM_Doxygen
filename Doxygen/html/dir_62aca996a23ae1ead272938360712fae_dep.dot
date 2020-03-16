@@ -1,0 +1,14 @@
+digraph "src/OpenFOAM/primitives/functions/Function1/quarterSineRamp" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bf4f273fcff898a8e57532425217d669 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Function1" fontname="Helvetica", fontsize="10", URL="dir_bf4f273fcff898a8e57532425217d669.html"]
+  dir_62aca996a23ae1ead272938360712fae [shape=box, label="quarterSineRamp", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_62aca996a23ae1ead272938360712fae.html"];
+  }
+  dir_db837a9a779e4f4f8480520e283a1ec8 [shape=box label="ramp" URL="dir_db837a9a779e4f4f8480520e283a1ec8.html"];
+  dir_8583492183f4d27c76555f8f333dd07b [shape=box label="global" color="red" URL="dir_8583492183f4d27c76555f8f333dd07b.html"];
+  dir_62aca996a23ae1ead272938360712fae->dir_db837a9a779e4f4f8480520e283a1ec8 [headlabel="1", labeldistance=1.5 headhref="dir_002660_002661.html"];
+  dir_62aca996a23ae1ead272938360712fae->dir_8583492183f4d27c76555f8f333dd07b [headlabel="1", labeldistance=1.5 headhref="dir_002660_002385.html"];
+}

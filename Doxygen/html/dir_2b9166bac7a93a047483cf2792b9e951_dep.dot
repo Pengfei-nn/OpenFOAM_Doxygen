@@ -1,0 +1,10 @@
+digraph "applications/utilities/mesh/conversion/datToFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5148cfe1bce83bc5fdc09a52963260a1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="conversion" fontname="Helvetica", fontsize="10", URL="dir_5148cfe1bce83bc5fdc09a52963260a1.html"]
+  dir_2b9166bac7a93a047483cf2792b9e951 [shape=box, label="datToFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2b9166bac7a93a047483cf2792b9e951.html"];
+  }
+}

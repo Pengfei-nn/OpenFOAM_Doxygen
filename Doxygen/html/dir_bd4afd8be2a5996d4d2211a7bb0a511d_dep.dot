@@ -1,0 +1,10 @@
+digraph "src/fvMotionSolver/doc" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f7091aeabaea36e4bb5fe5aa28ecbeff {
+    graph [ bgcolor="#ddddee", pencolor="black", label="fvMotionSolver" fontname="Helvetica", fontsize="10", URL="dir_f7091aeabaea36e4bb5fe5aa28ecbeff.html"]
+  dir_bd4afd8be2a5996d4d2211a7bb0a511d [shape=box, label="doc", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_bd4afd8be2a5996d4d2211a7bb0a511d.html"];
+  }
+}

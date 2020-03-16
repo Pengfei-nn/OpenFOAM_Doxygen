@@ -1,0 +1,12 @@
+digraph "dictPtr"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dictPtr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="checkITstream",height=0.2,width=0.4,color="black",URL="$classFoam_1_1entry.html#a5cc23beb8a453c468636358f81cad004",tooltip="Check after reading if the input token stream has unconsumed tokens remaining or if there were no tok..."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="stream",height=0.2,width=0.4,color="black",URL="$classFoam_1_1entry.html#a3af18be98df6d673e0a40a4e38c350d1",tooltip="Return token stream, if entry is a primitive entry. "];
+}

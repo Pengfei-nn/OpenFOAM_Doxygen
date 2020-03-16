@@ -1,0 +1,10 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/phaseSystems/phasePair/orderedPhasePair" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_71d01da5815d425c3df8c565f99b754b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="phasePair" fontname="Helvetica", fontsize="10", URL="dir_71d01da5815d425c3df8c565f99b754b.html"]
+  dir_ab6f279e136e9aa2bc4626378b651df7 [shape=box, label="orderedPhasePair", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ab6f279e136e9aa2bc4626378b651df7.html"];
+  }
+}

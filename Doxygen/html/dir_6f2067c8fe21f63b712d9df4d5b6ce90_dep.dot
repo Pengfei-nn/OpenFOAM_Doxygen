@@ -1,0 +1,10 @@
+digraph "src/functionObjects/field/wallShearStress" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bae024cac12ddc6733a616261920a91f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="field" fontname="Helvetica", fontsize="10", URL="dir_bae024cac12ddc6733a616261920a91f.html"]
+  dir_6f2067c8fe21f63b712d9df4d5b6ce90 [shape=box, label="wallShearStress", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6f2067c8fe21f63b712d9df4d5b6ce90.html"];
+  }
+}

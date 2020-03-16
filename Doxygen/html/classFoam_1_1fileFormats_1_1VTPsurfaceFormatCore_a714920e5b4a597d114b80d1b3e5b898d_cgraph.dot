@@ -1,0 +1,22 @@
+digraph "formatOptions"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="formatOptions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::vtk::outputOptions\l::append",height=0.2,width=0.4,color="black",URL="$classFoam_1_1vtk_1_1outputOptions.html#a060c79b83d32f37ba749b33d57bf7e5b",tooltip="True if output format uses an append mode. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::vtk::outputOptions\l::ascii",height=0.2,width=0.4,color="red",URL="$classFoam_1_1vtk_1_1outputOptions.html#a8875822a2c3a0fc409f51165068451ee",tooltip="True if output format is ASCII. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::IOstream::defaultPrecision",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOstream.html#acafd3ffa87132f6de66eb8be4cb83bc4",tooltip="Return the default precision. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::IOstreamOption\l::formatEnum",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOstreamOption.html#ae5716c578897bdd37d9bd7a2c01db97c",tooltip="The stream format enum corresponding to the string. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::vtk::outputOptions\l::legacy",height=0.2,width=0.4,color="black",URL="$classFoam_1_1vtk_1_1outputOptions.html#a339c7bb3560c72a48b5a841cb5216e63",tooltip="True if writer uses legacy file format. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::dictionary::lookup\lOrDefault",height=0.2,width=0.4,color="black",URL="$classFoam_1_1dictionary.html#aafeb5b6d423ef84158f94a21512dc0df",tooltip="Find and return a T, or return the given default value. FatalIOError if it is found and the number of..."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::vtk::outputOptions\l::precision",height=0.2,width=0.4,color="black",URL="$classFoam_1_1vtk_1_1outputOptions.html#a7fade36a019888da6d0a8deefcf61c74",tooltip="Return the ASCII write precision. "];
+}

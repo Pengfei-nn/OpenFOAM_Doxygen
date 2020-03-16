@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/primitives/demandDrivenEntry" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3e50f45338116b169052b428016851aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="primitives" fontname="Helvetica", fontsize="10", URL="dir_3e50f45338116b169052b428016851aa.html"]
+  dir_1ed90ee36d758fb385aa8ec7e8669419 [shape=box, label="demandDrivenEntry", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1ed90ee36d758fb385aa8ec7e8669419.html"];
+  }
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_1ed90ee36d758fb385aa8ec7e8669419->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002643_002218.html"];
+}

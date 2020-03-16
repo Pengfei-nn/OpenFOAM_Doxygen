@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="LduMatrix\< Type, DType,\l LUType \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1LduMatrix.html",tooltip="LduMatrix is a general matrix class in which the coefficients are stored as three arrays..."];
+}

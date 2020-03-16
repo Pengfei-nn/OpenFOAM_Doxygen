@@ -1,0 +1,12 @@
+digraph "src/lagrangian/intermediate/submodels/Thermodynamic/HeatTransferModel/HeatTransferModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_89131fa3386e14a0e147ebbe4f4fe0d7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="HeatTransferModel" fontname="Helvetica", fontsize="10", URL="dir_89131fa3386e14a0e147ebbe4f4fe0d7.html"]
+  dir_b5cb4d6f9354401e6d3d533cbf7c85eb [shape=box, label="HeatTransferModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b5cb4d6f9354401e6d3d533cbf7c85eb.html"];
+  }
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_b5cb4d6f9354401e6d3d533cbf7c85eb->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="3", labeldistance=1.5 headhref="dir_001788_002151.html"];
+}

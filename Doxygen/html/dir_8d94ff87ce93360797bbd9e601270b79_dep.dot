@@ -1,0 +1,20 @@
+digraph "src/OpenFOAM/fields/GeometricFields/GeometricScalarField" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_99558e6cce2e782cc8c86fe4c767e1e1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="GeometricFields" fontname="Helvetica", fontsize="10", URL="dir_99558e6cce2e782cc8c86fe4c767e1e1.html"]
+  dir_8d94ff87ce93360797bbd9e601270b79 [shape=box, label="GeometricScalarField", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_8d94ff87ce93360797bbd9e601270b79.html"];
+  }
+  dir_7d364942a13d3ce50f6681364b448a98 [shape=box label="Fields" color="red" URL="dir_7d364942a13d3ce50f6681364b448a98.html"];
+  dir_8c8bb42ce9b582caaa8128a267c381ba [shape=box label="DimensionedFields" color="red" URL="dir_8c8bb42ce9b582caaa8128a267c381ba.html"];
+  dir_cd8c242dbf9349898a9b717387ebe031 [shape=box label="GeometricField" URL="dir_cd8c242dbf9349898a9b717387ebe031.html"];
+  dir_8d94ff87ce93360797bbd9e601270b79->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="2", labeldistance=1.5 headhref="dir_002349_002323.html"];
+  dir_8d94ff87ce93360797bbd9e601270b79->dir_8c8bb42ce9b582caaa8128a267c381ba [headlabel="1", labeldistance=1.5 headhref="dir_002349_002307.html"];
+  dir_8d94ff87ce93360797bbd9e601270b79->dir_cd8c242dbf9349898a9b717387ebe031 [headlabel="3", labeldistance=1.5 headhref="dir_002349_002347.html"];
+  dir_8c8bb42ce9b582caaa8128a267c381ba->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="15", labeldistance=1.5 headhref="dir_002307_002323.html"];
+  dir_cd8c242dbf9349898a9b717387ebe031->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="3", labeldistance=1.5 headhref="dir_002347_002323.html"];
+  dir_cd8c242dbf9349898a9b717387ebe031->dir_8d94ff87ce93360797bbd9e601270b79 [headlabel="2", labeldistance=1.5 headhref="dir_002347_002349.html"];
+  dir_cd8c242dbf9349898a9b717387ebe031->dir_8c8bb42ce9b582caaa8128a267c381ba [headlabel="1", labeldistance=1.5 headhref="dir_002347_002307.html"];
+}

@@ -1,0 +1,22 @@
+digraph "applications/solvers/multiphase/interPhaseChangeFoam/phaseChangeTwoPhaseMixtures" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_072f0e2674ae04115e1196cfcbf8d2aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interPhaseChangeFoam" fontname="Helvetica", fontsize="10", URL="dir_072f0e2674ae04115e1196cfcbf8d2aa.html"]
+  subgraph clusterdir_428d76558bf17b61b63e4dbf2a2e5401 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_428d76558bf17b61b63e4dbf2a2e5401.html"];
+    dir_428d76558bf17b61b63e4dbf2a2e5401 [shape=plaintext label="phaseChangeTwoPhaseMixtures"];
+    dir_a38fbfd2725be097781c915bf944a088 [shape=box label="Kunz" color="black" fillcolor="white" style="filled" URL="dir_a38fbfd2725be097781c915bf944a088.html"];
+    dir_301e10e4ec80ffb7d6de7678b8cd68a2 [shape=box label="Merkle" color="black" fillcolor="white" style="filled" URL="dir_301e10e4ec80ffb7d6de7678b8cd68a2.html"];
+    dir_21e893d6b4a0ab8f17bf121752a23206 [shape=box label="phaseChangeTwoPhaseMixture" color="black" fillcolor="white" style="filled" URL="dir_21e893d6b4a0ab8f17bf121752a23206.html"];
+    dir_b3a69e1e896de06609f27ea2da8836cf [shape=box label="SchnerrSauer" color="black" fillcolor="white" style="filled" URL="dir_b3a69e1e896de06609f27ea2da8836cf.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_b3a69e1e896de06609f27ea2da8836cf->dir_21e893d6b4a0ab8f17bf121752a23206 [headlabel="1", labeldistance=1.5 headhref="dir_000218_000217.html"];
+  dir_301e10e4ec80ffb7d6de7678b8cd68a2->dir_21e893d6b4a0ab8f17bf121752a23206 [headlabel="1", labeldistance=1.5 headhref="dir_000216_000217.html"];
+  dir_21e893d6b4a0ab8f17bf121752a23206->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="7", labeldistance=1.5 headhref="dir_000217_000499.html"];
+  dir_a38fbfd2725be097781c915bf944a088->dir_21e893d6b4a0ab8f17bf121752a23206 [headlabel="1", labeldistance=1.5 headhref="dir_000215_000217.html"];
+}

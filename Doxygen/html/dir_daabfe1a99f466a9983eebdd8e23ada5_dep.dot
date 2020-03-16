@@ -1,0 +1,15 @@
+digraph "src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPointPatchField" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cd74d29a05e94118a5acdbfd55a576bf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="cyclicAMI" fontname="Helvetica", fontsize="10", URL="dir_cd74d29a05e94118a5acdbfd55a576bf.html"]
+  dir_daabfe1a99f466a9983eebdd8e23ada5 [shape=box, label="cyclicAMIPointPatchField", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_daabfe1a99f466a9983eebdd8e23ada5.html"];
+  }
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_7dfb4b845b68c3bcc1956ab13c79f58e [shape=box label="cyclicAMIPointPatch" URL="dir_7dfb4b845b68c3bcc1956ab13c79f58e.html"];
+  dir_daabfe1a99f466a9983eebdd8e23ada5->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="8", labeldistance=1.5 headhref="dir_001980_002151.html"];
+  dir_daabfe1a99f466a9983eebdd8e23ada5->dir_7dfb4b845b68c3bcc1956ab13c79f58e [headlabel="1", labeldistance=1.5 headhref="dir_001980_001979.html"];
+  dir_7dfb4b845b68c3bcc1956ab13c79f58e->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="4", labeldistance=1.5 headhref="dir_001979_002151.html"];
+}

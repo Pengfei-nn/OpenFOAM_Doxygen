@@ -1,0 +1,33 @@
+digraph "src/surfMesh/writers/ensight/ensightSurfaceWriter.C"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/surfMesh/writers\l/ensight/ensightSurfaceWriter.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ensightSurfaceWriter.H",height=0.2,width=0.4,color="red",URL="$ensightSurfaceWriter_8H.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="IOmanip.H",height=0.2,width=0.4,color="red",URL="$IOmanip_8H.html",tooltip="Istream and Ostream manipulators taking arguments. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Fstream.H",height=0.2,width=0.4,color="red",URL="$Fstream_8H.html",tooltip="Input/output from file streams. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="OSspecific.H",height=0.2,width=0.4,color="red",URL="$OSspecific_8H.html",tooltip="Functions used by OpenFOAM that are specific to POSIX compliant operating systems and need to be repl..."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ensightCase.H",height=0.2,width=0.4,color="red",URL="$ensightCase_8H.html"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ensightPartFaces.H",height=0.2,width=0.4,color="red",URL="$ensightPartFaces_8H.html"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ensightOutput.H",height=0.2,width=0.4,color="red",URL="$ensightOutput_8H.html"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ensightPTraits.H",height=0.2,width=0.4,color="red",URL="$ensightPTraits_8H.html"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="surfaceWriterMethods.H",height=0.2,width=0.4,color="black",URL="$surfaceWriterMethods_8H.html",tooltip="Convenience macros for instantiating surfaceWriter methods. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="addToRunTimeSelectionTable.H",height=0.2,width=0.4,color="black",URL="$addToRunTimeSelectionTable_8H.html",tooltip="Macros for easy insertion into run-time selection tables. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ensightSurfaceWriterCollated.C",height=0.2,width=0.4,color="black",URL="$ensightSurfaceWriterCollated_8C.html"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ensightSurfaceWriterUncollated.C",height=0.2,width=0.4,color="black",URL="$ensightSurfaceWriterUncollated_8C.html"];
+}

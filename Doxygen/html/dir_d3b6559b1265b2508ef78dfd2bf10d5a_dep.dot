@@ -1,0 +1,12 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/interfacialCompositionModels/interfaceCompositionModels/NonRandomTwoLiquid" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a63b1632811abe8b1c693b44c789df0c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfaceCompositionModels" fontname="Helvetica", fontsize="10", URL="dir_a63b1632811abe8b1c693b44c789df0c.html"]
+  dir_d3b6559b1265b2508ef78dfd2bf10d5a [shape=box, label="NonRandomTwoLiquid", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d3b6559b1265b2508ef78dfd2bf10d5a.html"];
+  }
+  dir_f832372c159f1b7f6f9e363867cbf30f [shape=box label="saturationModels" color="red" URL="dir_f832372c159f1b7f6f9e363867cbf30f.html"];
+  dir_d3b6559b1265b2508ef78dfd2bf10d5a->dir_f832372c159f1b7f6f9e363867cbf30f [headlabel="1", labeldistance=1.5 headhref="dir_003045_003052.html"];
+}

@@ -1,0 +1,16 @@
+digraph "cell"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cell",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::interpolationCell\l\< scalar \>::interpolate",height=0.2,width=0.4,color="black",URL="$classFoam_1_1interpolationCell.html#abf9b1a616aa403ad81c24ef51c68ba51",tooltip="Interpolate field to the given coordinates in the tetrahedron. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::interpolationCellPatch\lConstrained::interpolate",height=0.2,width=0.4,color="black",URL="$classFoam_1_1interpolationCellPatchConstrained.html#abf9b1a616aa403ad81c24ef51c68ba51",tooltip="Interpolate field to the given coordinates in the tetrahedron. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::AveragingMethods\l::Basic::interpolate",height=0.2,width=0.4,color="black",URL="$classFoam_1_1AveragingMethods_1_1Basic.html#a731d08d33a93eadd6a6d2cc92355a9d7",tooltip="Interpolate. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::AveragingMethods\l::Basic::primitiveField",height=0.2,width=0.4,color="black",URL="$classFoam_1_1AveragingMethods_1_1Basic.html#ae3b9299124b4fd9239c8568cface2803",tooltip="Return an internal field of the average. "];
+}

@@ -1,0 +1,10 @@
+digraph "~Rxyz"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="~Rxyz",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Rxyz",height=0.2,width=0.4,color="black",URL="$classFoam_1_1RBD_1_1joints_1_1Rxyz.html#a9232fa2b419457bf2dab705c6b35132a",tooltip="Construct for given model. "];
+}

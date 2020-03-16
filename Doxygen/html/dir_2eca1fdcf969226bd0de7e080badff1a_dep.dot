@@ -1,0 +1,10 @@
+digraph "src/functionObjects/solvers/doc" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7cdb7b0bca19376e9913494d97360d84 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="solvers" fontname="Helvetica", fontsize="10", URL="dir_7cdb7b0bca19376e9913494d97360d84.html"]
+  dir_2eca1fdcf969226bd0de7e080badff1a [shape=box, label="doc", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2eca1fdcf969226bd0de7e080badff1a.html"];
+  }
+}

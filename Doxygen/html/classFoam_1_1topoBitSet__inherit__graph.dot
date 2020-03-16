@@ -1,0 +1,15 @@
+digraph "topoBitSet"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="topoBitSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="topoSet",height=0.2,width=0.4,color="red",URL="$classFoam_1_1topoSet.html",tooltip="General set of labels of mesh quantity (points, cells, faces). "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cellBitSet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1cellBitSet.html",tooltip="A special purpose topoSet with the cell labels stored as a bitSet. It does not correspond to a cellSe..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="faceBitSet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faceBitSet.html",tooltip="A special purpose topoSet with the face labels stored as a bitSet. It does not correspond to a faceSe..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="pointBitSet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1pointBitSet.html",tooltip="A special purpose topoSet with the point labels stored as a bitSet. It does not correspond to a point..."];
+}

@@ -1,0 +1,12 @@
+digraph "src/thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/DRG" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_11a35c86249c89795f10656fe50614a9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="reduction" fontname="Helvetica", fontsize="10", URL="dir_11a35c86249c89795f10656fe50614a9.html"]
+  dir_d4c23b9b7b126269314cfc82114837fd [shape=box, label="DRG", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d4c23b9b7b126269314cfc82114837fd.html"];
+  }
+  dir_ac98b418f6eb9b9c9b4c98898a45b42d [shape=box label="chemistryReductionMethod" URL="dir_ac98b418f6eb9b9c9b4c98898a45b42d.html"];
+  dir_d4c23b9b7b126269314cfc82114837fd->dir_ac98b418f6eb9b9c9b4c98898a45b42d [headlabel="1", labeldistance=1.5 headhref="dir_003695_003693.html"];
+}

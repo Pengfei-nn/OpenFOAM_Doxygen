@@ -1,0 +1,18 @@
+digraph "src/finiteArea/finiteArea/lnGradSchemes/lnGradScheme" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1f99fc86de3cb8326507b722cf78c6d9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lnGradSchemes" fontname="Helvetica", fontsize="10", URL="dir_1f99fc86de3cb8326507b722cf78c6d9.html"]
+  dir_befc71e0ff5758eb28aa54bc502e2aa0 [shape=box, label="lnGradScheme", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_befc71e0ff5758eb28aa54bc502e2aa0.html"];
+  }
+  dir_82c77a639fb8894523e0866635d617d1 [shape=box label="fields" color="red" URL="dir_82c77a639fb8894523e0866635d617d1.html"];
+  dir_e5a517ccc941541272063f044b95a606 [shape=box label="fa" URL="dir_e5a517ccc941541272063f044b95a606.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_82c77a639fb8894523e0866635d617d1->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="99", labeldistance=1.5 headhref="dir_000734_002151.html"];
+  dir_befc71e0ff5758eb28aa54bc502e2aa0->dir_82c77a639fb8894523e0866635d617d1 [headlabel="4", labeldistance=1.5 headhref="dir_000806_000734.html"];
+  dir_befc71e0ff5758eb28aa54bc502e2aa0->dir_e5a517ccc941541272063f044b95a606 [headlabel="1", labeldistance=1.5 headhref="dir_000806_000788.html"];
+  dir_befc71e0ff5758eb28aa54bc502e2aa0->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="5", labeldistance=1.5 headhref="dir_000806_002151.html"];
+  dir_e5a517ccc941541272063f044b95a606->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_000788_002151.html"];
+}

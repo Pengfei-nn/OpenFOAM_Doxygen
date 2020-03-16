@@ -1,0 +1,19 @@
+digraph "src/thermophysicalModels/reactionThermo/chemistryReaders/chemkinReader" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d6ca8f970bca45fc70c046b4a0fab377 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="chemistryReaders" fontname="Helvetica", fontsize="10", URL="dir_d6ca8f970bca45fc70c046b4a0fab377.html"]
+  dir_2b91c6153b0e79fb858bbd94cff3a901 [shape=box, label="chemkinReader", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2b91c6153b0e79fb858bbd94cff3a901.html"];
+  }
+  dir_5c4bf53b114f4c9237cd4ef0431fc9bd [shape=box label="specie" color="red" URL="dir_5c4bf53b114f4c9237cd4ef0431fc9bd.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_138e52da766a648956709a4f09492c68 [shape=box label="chemistryReader" URL="dir_138e52da766a648956709a4f09492c68.html"];
+  dir_5c4bf53b114f4c9237cd4ef0431fc9bd->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="87", labeldistance=1.5 headhref="dir_001228_002151.html"];
+  dir_2b91c6153b0e79fb858bbd94cff3a901->dir_5c4bf53b114f4c9237cd4ef0431fc9bd [headlabel="18", labeldistance=1.5 headhref="dir_003782_001228.html"];
+  dir_2b91c6153b0e79fb858bbd94cff3a901->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="6", labeldistance=1.5 headhref="dir_003782_002151.html"];
+  dir_2b91c6153b0e79fb858bbd94cff3a901->dir_138e52da766a648956709a4f09492c68 [headlabel="1", labeldistance=1.5 headhref="dir_003782_003781.html"];
+  dir_138e52da766a648956709a4f09492c68->dir_5c4bf53b114f4c9237cd4ef0431fc9bd [headlabel="4", labeldistance=1.5 headhref="dir_003781_001228.html"];
+  dir_138e52da766a648956709a4f09492c68->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003781_002151.html"];
+}

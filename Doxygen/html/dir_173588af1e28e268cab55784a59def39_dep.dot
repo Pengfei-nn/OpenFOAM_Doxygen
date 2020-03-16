@@ -1,0 +1,12 @@
+digraph "src/TurbulenceModels/turbulenceModels/RAS/kOmegaSSTSAS" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_adfb94148fb30832cafb0debb79458ba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="RAS" fontname="Helvetica", fontsize="10", URL="dir_adfb94148fb30832cafb0debb79458ba.html"]
+  dir_173588af1e28e268cab55784a59def39 [shape=box, label="kOmegaSSTSAS", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_173588af1e28e268cab55784a59def39.html"];
+  }
+  dir_9fc1e48ca755258281286cef4f8e0bec [shape=box label="LES" color="red" URL="dir_9fc1e48ca755258281286cef4f8e0bec.html"];
+  dir_173588af1e28e268cab55784a59def39->dir_9fc1e48ca755258281286cef4f8e0bec [headlabel="1", labeldistance=1.5 headhref="dir_004102_004071.html"];
+}

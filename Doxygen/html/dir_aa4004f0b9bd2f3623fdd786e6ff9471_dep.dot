@@ -1,0 +1,12 @@
+digraph "src/thermophysicalModels/thermophysicalProperties/thermophysicalPropertiesSelector" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e18d608ec106eacfb005ee36ef0e1b8f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="thermophysicalProperties" fontname="Helvetica", fontsize="10", URL="dir_e18d608ec106eacfb005ee36ef0e1b8f.html"]
+  dir_aa4004f0b9bd2f3623fdd786e6ff9471 [shape=box, label="thermophysicalPropertiesSelector", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_aa4004f0b9bd2f3623fdd786e6ff9471.html"];
+  }
+  dir_4651bb69b7f292d2e02d8b506955ec59 [shape=box label="thermophysicalProperties" URL="dir_4651bb69b7f292d2e02d8b506955ec59.html"];
+  dir_aa4004f0b9bd2f3623fdd786e6ff9471->dir_4651bb69b7f292d2e02d8b506955ec59 [headlabel="1", labeldistance=1.5 headhref="dir_003939_003938.html"];
+}

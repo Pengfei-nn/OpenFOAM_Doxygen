@@ -1,0 +1,14 @@
+digraph "pow5"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="pow5",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::radiation::blackBody\lEmission::bLambda",height=0.2,width=0.4,color="black",URL="$classFoam_1_1radiation_1_1blackBodyEmission.html#a6d1ef3eff9fe1515219ae610841bd1ee",tooltip="Black body spectrum. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::diameterModels\l::daughterSizeDistributionModels\l::LaakkonenAlopaeusAittamaaDsd\l::calcNik",height=0.2,width=0.4,color="black",URL="$classFoam_1_1diameterModels_1_1daughterSizeDistributionModels_1_1LaakkonenAlopaeusAittamaaDsd.html#af7f02b08e5653d54638b6299d3199eb5",tooltip="Return total number of particles assigned to class i when a particle. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sumProd",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a93e6930f789f21705c721dc592817713",tooltip="Sum product. "];
+}

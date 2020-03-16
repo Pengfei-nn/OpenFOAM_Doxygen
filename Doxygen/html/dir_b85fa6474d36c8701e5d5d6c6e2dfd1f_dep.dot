@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/db/Callback" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_63c634f7a7cfd679ac26c67fb30fc32f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="db" fontname="Helvetica", fontsize="10", URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"]
+  dir_b85fa6474d36c8701e5d5d6c6e2dfd1f [shape=box, label="Callback", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b85fa6474d36c8701e5d5d6c6e2dfd1f.html"];
+  }
+  dir_cdfe99edaf40dd57840d437ec09b5318 [shape=box label="CallbackRegistry" URL="dir_cdfe99edaf40dd57840d437ec09b5318.html"];
+  dir_b85fa6474d36c8701e5d5d6c6e2dfd1f->dir_cdfe99edaf40dd57840d437ec09b5318 [headlabel="1", labeldistance=1.5 headhref="dir_002219_002220.html"];
+}

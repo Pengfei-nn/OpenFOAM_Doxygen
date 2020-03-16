@@ -1,0 +1,25 @@
+digraph "applications/solvers/combustion" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fdd174abb8ada244b49e98779c87ac3c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="solvers" fontname="Helvetica", fontsize="10", URL="dir_fdd174abb8ada244b49e98779c87ac3c.html"]
+  subgraph clusterdir_88c1d5d59a4178ad3afaab9cf233cb5e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_88c1d5d59a4178ad3afaab9cf233cb5e.html"];
+    dir_88c1d5d59a4178ad3afaab9cf233cb5e [shape=plaintext label="combustion"];
+    dir_5c733699742fc9cb63e9c3c0074eb0ce [shape=box label="chemFoam" color="black" fillcolor="white" style="filled" URL="dir_5c733699742fc9cb63e9c3c0074eb0ce.html"];
+    dir_a22d7e8ed7f99cd6540297b50b76fda7 [shape=box label="coldEngineFoam" color="black" fillcolor="white" style="filled" URL="dir_a22d7e8ed7f99cd6540297b50b76fda7.html"];
+    dir_e530b45aae71659635a4c6dc28d17331 [shape=box label="fireFoam" color="black" fillcolor="white" style="filled" URL="dir_e530b45aae71659635a4c6dc28d17331.html"];
+    dir_7013a7587984e010384a3ad956d16510 [shape=box label="PDRFoam" color="red" fillcolor="white" style="filled" URL="dir_7013a7587984e010384a3ad956d16510.html"];
+    dir_77e43672d651fa6e6d24ffd29099bf96 [shape=box label="reactingFoam" color="red" fillcolor="white" style="filled" URL="dir_77e43672d651fa6e6d24ffd29099bf96.html"];
+    dir_7b7ff6f9c8b758fe57960f4103fac593 [shape=box label="XiFoam" color="red" fillcolor="white" style="filled" URL="dir_7b7ff6f9c8b758fe57960f4103fac593.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_e530b45aae71659635a4c6dc28d17331->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="8", labeldistance=1.5 headhref="dir_000026_000499.html"];
+  dir_7b7ff6f9c8b758fe57960f4103fac593->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="8", labeldistance=1.5 headhref="dir_000011_000499.html"];
+  dir_7013a7587984e010384a3ad956d16510->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="27", labeldistance=1.5 headhref="dir_000027_000499.html"];
+  dir_77e43672d651fa6e6d24ffd29099bf96->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="17", labeldistance=1.5 headhref="dir_000028_000499.html"];
+  dir_a22d7e8ed7f99cd6540297b50b76fda7->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_000025_000499.html"];
+}

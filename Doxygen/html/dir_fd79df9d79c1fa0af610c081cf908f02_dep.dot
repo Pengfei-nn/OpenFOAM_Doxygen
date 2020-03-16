@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/meshes/primitiveShapes/pyramid" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a36ac568b20b0ed2190ed53a491bc296 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="primitiveShapes" fontname="Helvetica", fontsize="10", URL="dir_a36ac568b20b0ed2190ed53a491bc296.html"]
+  dir_fd79df9d79c1fa0af610c081cf908f02 [shape=box, label="pyramid", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_fd79df9d79c1fa0af610c081cf908f02.html"];
+  }
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_fd79df9d79c1fa0af610c081cf908f02->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002622_002218.html"];
+}

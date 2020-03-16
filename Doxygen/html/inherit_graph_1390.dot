@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PolynomialEntry",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Function1Types_1_1PolynomialEntry.html",tooltip="PolynomialEntry container data entry for scalars. Items are stored in a list of Tuple2&#39;s. Data is input in the form, e.g. for an entry &lt;entryName&gt; that describes y = x^2 + 2x^3. "];
+}

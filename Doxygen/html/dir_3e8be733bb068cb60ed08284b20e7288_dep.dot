@@ -1,0 +1,17 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/twoPhaseSystem/BlendedInterfacialModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cfe205aac25c0433b15142b141b5f211 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="twoPhaseSystem" fontname="Helvetica", fontsize="10", URL="dir_cfe205aac25c0433b15142b141b5f211.html"]
+  subgraph clusterdir_3e8be733bb068cb60ed08284b20e7288 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_3e8be733bb068cb60ed08284b20e7288.html"];
+    dir_3e8be733bb068cb60ed08284b20e7288 [shape=plaintext label="BlendedInterfacialModel"];
+    dir_aebb62d5a146922005635c093adbc6e4 [shape=box label="blendingMethods" color="red" fillcolor="white" style="filled" URL="dir_aebb62d5a146922005635c093adbc6e4.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_aebb62d5a146922005635c093adbc6e4->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_001232_000499.html"];
+  dir_3e8be733bb068cb60ed08284b20e7288->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_001231_000499.html"];
+}

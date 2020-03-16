@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="IOstreamOption::versionNumber",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOstreamOption_1_1versionNumber.html",tooltip="Representation of a major/minor version number. "];
+}

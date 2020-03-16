@@ -1,0 +1,22 @@
+digraph "src/OpenFOAM/containers/Lists/DynamicList" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f87fe3b02e96c330e8a853ff310f1666 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Lists" fontname="Helvetica", fontsize="10", URL="dir_f87fe3b02e96c330e8a853ff310f1666.html"]
+  dir_a20ab38044f60e4dac365f73757378d6 [shape=box, label="DynamicList", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a20ab38044f60e4dac365f73757378d6.html"];
+  }
+  dir_03aa4c8470f056a9cdca8307712625bf [shape=box label="List" URL="dir_03aa4c8470f056a9cdca8307712625bf.html"];
+  dir_8ae708bd051dd27b69149ee282cd159a [shape=box label="FixedList" URL="dir_8ae708bd051dd27b69149ee282cd159a.html"];
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_a20ab38044f60e4dac365f73757378d6->dir_03aa4c8470f056a9cdca8307712625bf [headlabel="1", labeldistance=1.5 headhref="dir_002202_002205.html"];
+  dir_a20ab38044f60e4dac365f73757378d6->dir_8ae708bd051dd27b69149ee282cd159a [headlabel="1", labeldistance=1.5 headhref="dir_002202_002203.html"];
+  dir_a20ab38044f60e4dac365f73757378d6->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002202_002628.html"];
+  dir_03aa4c8470f056a9cdca8307712625bf->dir_8ae708bd051dd27b69149ee282cd159a [headlabel="1", labeldistance=1.5 headhref="dir_002205_002203.html"];
+  dir_03aa4c8470f056a9cdca8307712625bf->dir_3e50f45338116b169052b428016851aa [headlabel="3", labeldistance=1.5 headhref="dir_002205_002628.html"];
+  dir_8ae708bd051dd27b69149ee282cd159a->dir_03aa4c8470f056a9cdca8307712625bf [headlabel="1", labeldistance=1.5 headhref="dir_002203_002205.html"];
+  dir_8ae708bd051dd27b69149ee282cd159a->dir_3e50f45338116b169052b428016851aa [headlabel="7", labeldistance=1.5 headhref="dir_002203_002628.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_03aa4c8470f056a9cdca8307712625bf [headlabel="16", labeldistance=1.5 headhref="dir_002628_002205.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_8ae708bd051dd27b69149ee282cd159a [headlabel="2", labeldistance=1.5 headhref="dir_002628_002203.html"];
+}

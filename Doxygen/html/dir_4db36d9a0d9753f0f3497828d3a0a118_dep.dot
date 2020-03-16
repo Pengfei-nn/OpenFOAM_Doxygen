@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/fields/Fields/Field/PrecisionAdaptor" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4ebd9bc21e2e523c28661f024575b5ba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Field" fontname="Helvetica", fontsize="10", URL="dir_4ebd9bc21e2e523c28661f024575b5ba.html"]
+  dir_4db36d9a0d9753f0f3497828d3a0a118 [shape=box, label="PrecisionAdaptor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4db36d9a0d9753f0f3497828d3a0a118.html"];
+  }
+  dir_385a22dcc2f7120acb0f1a7a832b3b8d [shape=box label="memory" color="red" URL="dir_385a22dcc2f7120acb0f1a7a832b3b8d.html"];
+  dir_4db36d9a0d9753f0f3497828d3a0a118->dir_385a22dcc2f7120acb0f1a7a832b3b8d [headlabel="1", labeldistance=1.5 headhref="dir_002329_002521.html"];
+}

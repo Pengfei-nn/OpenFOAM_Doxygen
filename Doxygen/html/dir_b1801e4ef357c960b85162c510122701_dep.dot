@@ -1,0 +1,13 @@
+digraph "src/OpenFOAM/primitives/functions/Function1/Constant" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bf4f273fcff898a8e57532425217d669 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Function1" fontname="Helvetica", fontsize="10", URL="dir_bf4f273fcff898a8e57532425217d669.html"]
+  dir_b1801e4ef357c960b85162c510122701 [shape=box, label="Constant", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b1801e4ef357c960b85162c510122701.html"];
+  }
+  dir_c0adf992fe16fe46b123b20bd86c3f11 [shape=box label="Function1" URL="dir_c0adf992fe16fe46b123b20bd86c3f11.html"];
+  dir_b1801e4ef357c960b85162c510122701->dir_c0adf992fe16fe46b123b20bd86c3f11 [headlabel="1", labeldistance=1.5 headhref="dir_002651_002653.html"];
+  dir_c0adf992fe16fe46b123b20bd86c3f11->dir_b1801e4ef357c960b85162c510122701 [headlabel="2", labeldistance=1.5 headhref="dir_002653_002651.html"];
+}

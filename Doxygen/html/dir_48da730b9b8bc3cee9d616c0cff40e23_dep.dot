@@ -1,0 +1,16 @@
+digraph "applications/solvers/basic/laplacianFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c1a1d77e2de9f0a909b0abf393e236fa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="basic" fontname="Helvetica", fontsize="10", URL="dir_c1a1d77e2de9f0a909b0abf393e236fa.html"]
+  subgraph clusterdir_48da730b9b8bc3cee9d616c0cff40e23 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_48da730b9b8bc3cee9d616c0cff40e23.html"];
+    dir_48da730b9b8bc3cee9d616c0cff40e23 [shape=plaintext label="laplacianFoam"];
+    dir_84e1de0c56d93e5b1916784e07e08a5b [shape=box label="overLaplacianDyMFoam" color="black" fillcolor="white" style="filled" URL="dir_84e1de0c56d93e5b1916784e07e08a5b.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_48da730b9b8bc3cee9d616c0cff40e23->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000003_000499.html"];
+}

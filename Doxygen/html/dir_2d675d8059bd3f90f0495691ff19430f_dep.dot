@@ -1,0 +1,14 @@
+digraph "src/OpenFOAM/primitives/functions/Function1/PolynomialEntry" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bf4f273fcff898a8e57532425217d669 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Function1" fontname="Helvetica", fontsize="10", URL="dir_bf4f273fcff898a8e57532425217d669.html"]
+  dir_2d675d8059bd3f90f0495691ff19430f [shape=box, label="PolynomialEntry", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2d675d8059bd3f90f0495691ff19430f.html"];
+  }
+  dir_246f7a9c53924f474d87efd38f207066 [shape=box label="Tuple2" URL="dir_246f7a9c53924f474d87efd38f207066.html"];
+  dir_c0adf992fe16fe46b123b20bd86c3f11 [shape=box label="Function1" URL="dir_c0adf992fe16fe46b123b20bd86c3f11.html"];
+  dir_2d675d8059bd3f90f0495691ff19430f->dir_246f7a9c53924f474d87efd38f207066 [headlabel="1", labeldistance=1.5 headhref="dir_002657_002759.html"];
+  dir_2d675d8059bd3f90f0495691ff19430f->dir_c0adf992fe16fe46b123b20bd86c3f11 [headlabel="2", labeldistance=1.5 headhref="dir_002657_002653.html"];
+}

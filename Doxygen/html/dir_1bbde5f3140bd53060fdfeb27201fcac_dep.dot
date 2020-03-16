@@ -1,0 +1,14 @@
+digraph "src/OpenFOAM/matrices/lduMatrix/smoothers/DICGaussSeidel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_27bacb8e19b5862d96d869422b2be03b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="smoothers" fontname="Helvetica", fontsize="10", URL="dir_27bacb8e19b5862d96d869422b2be03b.html"]
+  dir_1bbde5f3140bd53060fdfeb27201fcac [shape=box, label="DICGaussSeidel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1bbde5f3140bd53060fdfeb27201fcac.html"];
+  }
+  dir_17f5a1ef659fcd824c12a6e8251e56f3 [shape=box label="DIC" URL="dir_17f5a1ef659fcd824c12a6e8251e56f3.html"];
+  dir_5e89c184c4a835c9e0c07194ae237305 [shape=box label="GaussSeidel" URL="dir_5e89c184c4a835c9e0c07194ae237305.html"];
+  dir_1bbde5f3140bd53060fdfeb27201fcac->dir_17f5a1ef659fcd824c12a6e8251e56f3 [headlabel="1", labeldistance=1.5 headhref="dir_002464_002463.html"];
+  dir_1bbde5f3140bd53060fdfeb27201fcac->dir_5e89c184c4a835c9e0c07194ae237305 [headlabel="1", labeldistance=1.5 headhref="dir_002464_002468.html"];
+}

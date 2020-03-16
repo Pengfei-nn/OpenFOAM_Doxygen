@@ -1,0 +1,31 @@
+digraph "src/OpenFOAM/global/fileOperations/fileOperation/fileOperation.H"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/OpenFOAM/global\l/fileOperations/fileOperation\l/fileOperation.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ISstream.H",height=0.2,width=0.4,color="red",URL="$ISstream_8H.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Ostream.H",height=0.2,width=0.4,color="red",URL="$Ostream_8H.html"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="autoPtr.H",height=0.2,width=0.4,color="red",URL="$autoPtr_8H.html"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="fileNameList.H",height=0.2,width=0.4,color="red",URL="$fileNameList_8H.html"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="instantList.H",height=0.2,width=0.4,color="red",URL="$instantList_8H.html"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="fileMonitor.H",height=0.2,width=0.4,color="red",URL="$fileMonitor_8H.html"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Enum.H",height=0.2,width=0.4,color="red",URL="$Enum_8H.html"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="labelList.H",height=0.2,width=0.4,color="red",URL="$labelList_8H.html"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Switch.H",height=0.2,width=0.4,color="red",URL="$Switch_8H.html"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="tmpNrc.H",height=0.2,width=0.4,color="red",URL="$tmpNrc_8H.html"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Tuple2.H",height=0.2,width=0.4,color="red",URL="$Tuple2_8H.html"];
+  Node12 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

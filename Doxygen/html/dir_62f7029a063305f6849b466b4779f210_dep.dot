@@ -1,0 +1,10 @@
+digraph "src/OpenFOAM/primitives/Tensor/floatTensor" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_15da0e2a135f43ffeb4645c968ce8ac7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Tensor" fontname="Helvetica", fontsize="10", URL="dir_15da0e2a135f43ffeb4645c968ce8ac7.html"]
+  dir_62f7029a063305f6849b466b4779f210 [shape=box, label="floatTensor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_62f7029a063305f6849b466b4779f210.html"];
+  }
+}

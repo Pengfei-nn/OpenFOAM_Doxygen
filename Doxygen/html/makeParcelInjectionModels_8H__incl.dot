@@ -1,0 +1,31 @@
+digraph "src/lagrangian/intermediate/parcels/include/makeParcelInjectionModels.H"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/lagrangian/intermediate\l/parcels/include/makeParcelInjection\lModels.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CellZoneInjection.H",height=0.2,width=0.4,color="red",URL="$CellZoneInjection_8H.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ConeInjection.H",height=0.2,width=0.4,color="red",URL="$ConeInjection_8H.html"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ConeNozzleInjection.H",height=0.2,width=0.4,color="red",URL="$ConeNozzleInjection_8H.html"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="FieldActivatedInjection.H",height=0.2,width=0.4,color="red",URL="$FieldActivatedInjection_8H.html"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="InjectedParticleDistribution\lInjection.H",height=0.2,width=0.4,color="red",URL="$InjectedParticleDistributionInjection_8H.html"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="InjectedParticleInjection.H",height=0.2,width=0.4,color="red",URL="$InjectedParticleInjection_8H.html"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="InflationInjection.H",height=0.2,width=0.4,color="red",URL="$InflationInjection_8H.html"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="KinematicLookupTableInjection.H",height=0.2,width=0.4,color="red",URL="$KinematicLookupTableInjection_8H.html"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ManualInjection.H",height=0.2,width=0.4,color="red",URL="$ManualInjection_8H.html"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="NoInjection.H",height=0.2,width=0.4,color="red",URL="$NoInjection_8H.html"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="PatchInjection.H",height=0.2,width=0.4,color="red",URL="$PatchInjection_8H.html"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="PatchFlowRateInjection.H",height=0.2,width=0.4,color="red",URL="$PatchFlowRateInjection_8H.html"];
+}

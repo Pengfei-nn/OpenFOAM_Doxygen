@@ -1,0 +1,10 @@
+digraph "getIncoVars"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="getIncoVars",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::simple::addExtraSchemes",height=0.2,width=0.4,color="black",URL="$classFoam_1_1simple.html#ab51fdad106f0d2a4a9c5c94249f89583",tooltip="In case variable names are different than the base ones, add extra schemes and relaxation factors to ..."];
+}

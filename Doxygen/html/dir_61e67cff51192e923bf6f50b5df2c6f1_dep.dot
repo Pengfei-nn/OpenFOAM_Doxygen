@@ -1,0 +1,15 @@
+digraph "src/TurbulenceModels/turbulenceModels/LES/kEqn" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9fc1e48ca755258281286cef4f8e0bec {
+    graph [ bgcolor="#ddddee", pencolor="black", label="LES" fontname="Helvetica", fontsize="10", URL="dir_9fc1e48ca755258281286cef4f8e0bec.html"]
+  dir_61e67cff51192e923bf6f50b5df2c6f1 [shape=box, label="kEqn", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_61e67cff51192e923bf6f50b5df2c6f1.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_59a443f63c1732c08799bcf8a4fd11ae [shape=box label="LESeddyViscosity" URL="dir_59a443f63c1732c08799bcf8a4fd11ae.html"];
+  dir_61e67cff51192e923bf6f50b5df2c6f1->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_004075_000814.html"];
+  dir_61e67cff51192e923bf6f50b5df2c6f1->dir_59a443f63c1732c08799bcf8a4fd11ae [headlabel="1", labeldistance=1.5 headhref="dir_004075_004085.html"];
+  dir_59a443f63c1732c08799bcf8a4fd11ae->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_004085_000814.html"];
+}

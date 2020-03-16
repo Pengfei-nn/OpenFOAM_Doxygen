@@ -1,0 +1,20 @@
+digraph "applications/solvers/basic" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fdd174abb8ada244b49e98779c87ac3c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="solvers" fontname="Helvetica", fontsize="10", URL="dir_fdd174abb8ada244b49e98779c87ac3c.html"]
+  subgraph clusterdir_c1a1d77e2de9f0a909b0abf393e236fa {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_c1a1d77e2de9f0a909b0abf393e236fa.html"];
+    dir_c1a1d77e2de9f0a909b0abf393e236fa [shape=plaintext label="basic"];
+    dir_48da730b9b8bc3cee9d616c0cff40e23 [shape=box label="laplacianFoam" color="red" fillcolor="white" style="filled" URL="dir_48da730b9b8bc3cee9d616c0cff40e23.html"];
+    dir_bb853a4a1f118ab3e8a3306bde206fb7 [shape=box label="potentialFoam" color="red" fillcolor="white" style="filled" URL="dir_bb853a4a1f118ab3e8a3306bde206fb7.html"];
+    dir_03d215f834cc7562c80aa99014587ecd [shape=box label="scalarTransportFoam" color="black" fillcolor="white" style="filled" URL="dir_03d215f834cc7562c80aa99014587ecd.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_48da730b9b8bc3cee9d616c0cff40e23->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000003_000499.html"];
+  dir_03d215f834cc7562c80aa99014587ecd->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000024_000499.html"];
+  dir_bb853a4a1f118ab3e8a3306bde206fb7->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000007_000499.html"];
+}

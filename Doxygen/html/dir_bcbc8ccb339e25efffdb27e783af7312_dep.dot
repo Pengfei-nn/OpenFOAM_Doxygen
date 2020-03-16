@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/icoReactingMultiphaseInterFoam/massTransferModels/kineticGasEvaporation" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_22e84d0f1ac24eb425676d371410161f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="massTransferModels" fontname="Helvetica", fontsize="10", URL="dir_22e84d0f1ac24eb425676d371410161f.html"]
+  dir_bcbc8ccb339e25efffdb27e783af7312 [shape=box, label="kineticGasEvaporation", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_bcbc8ccb339e25efffdb27e783af7312.html"];
+  }
+}

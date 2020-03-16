@@ -1,0 +1,15 @@
+digraph "functionObjectBase"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="functionObjectBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="fieldVisualisationBase",height=0.2,width=0.4,color="red",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1fieldVisualisationBase.html",tooltip="Base class for scene objects. "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fieldName_" ,fontname="Helvetica"];
+  Node3 [label="word",height=0.2,width=0.4,color="red",URL="$classFoam_1_1word.html",tooltip="A class for handling words, derived from Foam::string. "];
+  Node3 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="Helvetica"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" state_" ,fontname="Helvetica"];
+  Node4 [label="stateFunctionObject",height=0.2,width=0.4,color="red",URL="$classFoam_1_1functionObjects_1_1stateFunctionObject.html",tooltip="Base class for function objects, adding functionality to read/write state information (data required ..."];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" functionObjectName_" ,fontname="Helvetica"];
+}

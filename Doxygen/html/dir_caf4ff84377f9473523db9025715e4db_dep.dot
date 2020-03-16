@@ -1,0 +1,12 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/reactingTwoPhaseEulerFoam/twoPhaseCompressibleTurbulenceModels/phasePressureModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0df8dc692a0f448ef6ef3d12a726d1f5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="twoPhaseCompressibleTurbulenceModels" fontname="Helvetica", fontsize="10", URL="dir_0df8dc692a0f448ef6ef3d12a726d1f5.html"]
+  dir_caf4ff84377f9473523db9025715e4db [shape=box, label="phasePressureModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_caf4ff84377f9473523db9025715e4db.html"];
+  }
+  dir_1eda626aeac0f0ad2848c36acaa5d501 [shape=box label="TurbulenceModels" color="red" URL="dir_1eda626aeac0f0ad2848c36acaa5d501.html"];
+  dir_caf4ff84377f9473523db9025715e4db->dir_1eda626aeac0f0ad2848c36acaa5d501 [headlabel="3", labeldistance=1.5 headhref="dir_003366_002933.html"];
+}

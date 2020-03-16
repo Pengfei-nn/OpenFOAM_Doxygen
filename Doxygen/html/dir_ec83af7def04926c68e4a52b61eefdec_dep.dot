@@ -1,0 +1,10 @@
+digraph "src/thermophysicalModels/specie/doc" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5c4bf53b114f4c9237cd4ef0431fc9bd {
+    graph [ bgcolor="#ddddee", pencolor="black", label="specie" fontname="Helvetica", fontsize="10", URL="dir_5c4bf53b114f4c9237cd4ef0431fc9bd.html"]
+  dir_ec83af7def04926c68e4a52b61eefdec [shape=box, label="doc", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ec83af7def04926c68e4a52b61eefdec.html"];
+  }
+}

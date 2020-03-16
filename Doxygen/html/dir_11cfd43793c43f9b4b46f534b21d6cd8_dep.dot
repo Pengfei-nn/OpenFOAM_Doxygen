@@ -1,0 +1,15 @@
+digraph "src/lagrangian/intermediate/submodels/HeterogeneousReactingModel/MUCSheterogeneousRate" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fb1c2bb12d2b85259453545b2631e6a2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="HeterogeneousReactingModel" fontname="Helvetica", fontsize="10", URL="dir_fb1c2bb12d2b85259453545b2631e6a2.html"]
+  dir_11cfd43793c43f9b4b46f534b21d6cd8 [shape=box, label="MUCSheterogeneousRate", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_11cfd43793c43f9b4b46f534b21d6cd8.html"];
+  }
+  dir_06141f6634409701a7cfd6670fa1b702 [shape=box label="HeterogeneousReactingModel" URL="dir_06141f6634409701a7cfd6670fa1b702.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_06141f6634409701a7cfd6670fa1b702->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="4", labeldistance=1.5 headhref="dir_001662_002151.html"];
+  dir_11cfd43793c43f9b4b46f534b21d6cd8->dir_06141f6634409701a7cfd6670fa1b702 [headlabel="1", labeldistance=1.5 headhref="dir_001663_001662.html"];
+  dir_11cfd43793c43f9b4b46f534b21d6cd8->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_001663_002151.html"];
+}

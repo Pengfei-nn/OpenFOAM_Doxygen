@@ -1,0 +1,10 @@
+digraph "src/OpenFOAM/matrices/lduMatrix/doc" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bce8a1f1efa9a7681b85c119e7b79042 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lduMatrix" fontname="Helvetica", fontsize="10", URL="dir_bce8a1f1efa9a7681b85c119e7b79042.html"]
+  dir_1fa493bff3e6aee407cf9f413defade0 [shape=box, label="doc", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1fa493bff3e6aee407cf9f413defade0.html"];
+  }
+}

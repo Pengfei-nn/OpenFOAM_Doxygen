@@ -1,0 +1,10 @@
+digraph "src/functionObjects/forces/doc" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ba1ab3b9ed2422fc501bccc3fa5b3296 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="forces" fontname="Helvetica", fontsize="10", URL="dir_ba1ab3b9ed2422fc501bccc3fa5b3296.html"]
+  dir_e092991be0f7720f8cb56758c1eeaa76 [shape=box, label="doc", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e092991be0f7720f8cb56758c1eeaa76.html"];
+  }
+}

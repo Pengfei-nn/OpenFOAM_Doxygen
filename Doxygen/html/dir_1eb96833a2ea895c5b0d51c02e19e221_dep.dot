@@ -1,0 +1,24 @@
+digraph "src/lagrangian/intermediate/submodels/Thermodynamic" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_825de5f87f0ef3ae7d76ccd6a5458244 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="submodels" fontname="Helvetica", fontsize="10", URL="dir_825de5f87f0ef3ae7d76ccd6a5458244.html"]
+  subgraph clusterdir_1eb96833a2ea895c5b0d51c02e19e221 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1eb96833a2ea895c5b0d51c02e19e221.html"];
+    dir_1eb96833a2ea895c5b0d51c02e19e221 [shape=plaintext label="Thermodynamic"];
+    dir_89131fa3386e14a0e147ebbe4f4fe0d7 [shape=box label="HeatTransferModel" color="red" fillcolor="white" style="filled" URL="dir_89131fa3386e14a0e147ebbe4f4fe0d7.html"];
+    dir_d6cfcce7cb01000f00d3012d70fdee4f [shape=box label="InjectionModel" color="red" fillcolor="white" style="filled" URL="dir_d6cfcce7cb01000f00d3012d70fdee4f.html"];
+    dir_685b5eb119739f2702439e0c19587c12 [shape=box label="SurfaceFilmModel" color="red" fillcolor="white" style="filled" URL="dir_685b5eb119739f2702439e0c19587c12.html"];
+  }
+  }
+  dir_280ce042c33ce1e00a1fb89491254772 [shape=box label="Kinematic" color="red" URL="dir_280ce042c33ce1e00a1fb89491254772.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_89131fa3386e14a0e147ebbe4f4fe0d7->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="3", labeldistance=1.5 headhref="dir_001787_002151.html"];
+  dir_685b5eb119739f2702439e0c19587c12->dir_280ce042c33ce1e00a1fb89491254772 [headlabel="1", labeldistance=1.5 headhref="dir_001801_001665.html"];
+  dir_685b5eb119739f2702439e0c19587c12->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="3", labeldistance=1.5 headhref="dir_001801_002151.html"];
+  dir_280ce042c33ce1e00a1fb89491254772->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="103", labeldistance=1.5 headhref="dir_001665_002151.html"];
+  dir_d6cfcce7cb01000f00d3012d70fdee4f->dir_280ce042c33ce1e00a1fb89491254772 [headlabel="3", labeldistance=1.5 headhref="dir_001799_001665.html"];
+  dir_d6cfcce7cb01000f00d3012d70fdee4f->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_001799_002151.html"];
+}

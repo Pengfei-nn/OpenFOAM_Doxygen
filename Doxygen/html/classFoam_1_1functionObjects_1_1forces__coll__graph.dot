@@ -1,0 +1,32 @@
+digraph "forces"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="forces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="fvMeshFunctionObject",height=0.2,width=0.4,color="red",URL="$classFoam_1_1functionObjects_1_1fvMeshFunctionObject.html",tooltip="Specialization of Foam::functionObject for an Foam::fvMesh, providing a reference to the Foam::fvMesh..."];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="writeFile",height=0.2,width=0.4,color="red",URL="$classFoam_1_1functionObjects_1_1writeFile.html",tooltip="functionObject base class for writing single files "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" filePtr_" ,fontname="Helvetica"];
+  Node4 [label="autoPtr\< Foam::OFstream \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1autoPtr.html"];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fileName_" ,fontname="Helvetica"];
+  Node5 [label="word",height=0.2,width=0.4,color="red",URL="$classFoam_1_1word.html",tooltip="A class for handling words, derived from Foam::string. "];
+  Node5 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="Helvetica"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coordSys_" ,fontname="Helvetica"];
+  Node6 [label="cartesian",height=0.2,width=0.4,color="red",URL="$classFoam_1_1coordSystem_1_1cartesian.html",tooltip="A Cartesian coordinate system. "];
+  Node6 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="Helvetica"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" directForceDensity_" ,fontname="Helvetica"];
+  Node7 [label="Switch",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Switch.html",tooltip="A simple wrapper around bool so that it can be read as a word: true/false, on/off, yes/no, y/n, t/f, or none. "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" momentFilePtr_\nforceBinFilePtr_\nforceFilePtr_\nmomentBinFilePtr_" ,fontname="Helvetica"];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" binPoints_" ,fontname="Helvetica"];
+  Node8 [label="List\< Foam::Vector \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1List.html"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" force_\nmoment_" ,fontname="Helvetica"];
+  Node9 [label="List\< Foam::Field\<\l Foam::Vector \> \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1List.html"];
+  Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" binDir_" ,fontname="Helvetica"];
+  Node10 [label="Vector\< scalar \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1Vector.html"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fDName_\npName_\nrhoName_\nUName_" ,fontname="Helvetica"];
+  Node11 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" patchSet_" ,fontname="Helvetica"];
+  Node11 [label="HashSet\< label, Hash\l\< label \> \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1HashSet.html"];
+}

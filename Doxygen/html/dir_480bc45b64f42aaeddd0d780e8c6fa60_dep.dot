@@ -1,0 +1,12 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/phaseSystems/PhaseSystems/OneResistanceHeatTransferPhaseSystem" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a7327b39a6c21bd7cb6ad15cb00d59b5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="PhaseSystems" fontname="Helvetica", fontsize="10", URL="dir_a7327b39a6c21bd7cb6ad15cb00d59b5.html"]
+  dir_480bc45b64f42aaeddd0d780e8c6fa60 [shape=box, label="OneResistanceHeatTransferPhaseSystem", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_480bc45b64f42aaeddd0d780e8c6fa60.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_480bc45b64f42aaeddd0d780e8c6fa60->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_003255_000814.html"];
+}

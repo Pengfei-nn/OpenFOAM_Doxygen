@@ -1,0 +1,34 @@
+digraph "sampledSet"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sampledSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="coordSet",height=0.2,width=0.4,color="red",URL="$classFoam_1_1coordSet.html",tooltip="Holds list of sampling positions. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="arraySet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1arraySet.html",tooltip="Specifies an x,y,z array of uniformly distributed sampling points. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cellCentreSet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1cellCentreSet.html",tooltip="A sampleSet based on cell centres. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="circleSet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1circleSet.html",tooltip="Samples along a circular path. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cloudSet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1cloudSet.html",tooltip="Samples at arbitrary locations with a volume mesh. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="faceOnlySet",height=0.2,width=0.4,color="red",URL="$classFoam_1_1faceOnlySet.html",tooltip="Sample on faces along a specified path. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="patchCloudSet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1patchCloudSet.html",tooltip="Like Foam::cloudSet but samples nearest patch face. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="patchEdgeSet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1patchEdgeSet.html",tooltip="Like Foam::uniformSet but samples patch edges. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="patchSeedSet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1patchSeedSet.html",tooltip="Initialises points on or just off patch. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="polyLineSet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1polyLineSet.html",tooltip="Sample along poly line defined by a list of points (knots) "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="shortestPathSet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1shortestPathSet.html",tooltip="Finds shortest path (in terms of cell centres) to walk on mesh from any point in insidePoints to any ..."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="triSurfaceMeshPointSet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1triSurfaceMeshPointSet.html",tooltip="A sampleSet from all points of a triSurfaceMesh. "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="uniformSet",height=0.2,width=0.4,color="black",URL="$classFoam_1_1uniformSet.html",tooltip="For a dictionary specification: "];
+}

@@ -1,0 +1,14 @@
+digraph "applications/solvers/discreteMethods/dsmc" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8a605ff3c0e2dfbb6b998066c93429d7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="discreteMethods" fontname="Helvetica", fontsize="10", URL="dir_8a605ff3c0e2dfbb6b998066c93429d7.html"]
+  subgraph clusterdir_b20997a7199e59148f127b94cdef3c86 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_b20997a7199e59148f127b94cdef3c86.html"];
+    dir_b20997a7199e59148f127b94cdef3c86 [shape=plaintext label="dsmc"];
+    dir_09e15c0d3c97688c95c2d06028e6da55 [shape=box label="dsmcFoam" color="black" fillcolor="white" style="filled" URL="dir_09e15c0d3c97688c95c2d06028e6da55.html"];
+  }
+  }
+}

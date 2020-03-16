@@ -1,0 +1,22 @@
+digraph "src/OpenFOAM/meshes/preservePatchTypes" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_aa2423979fb45fc41c393a5db370ab21 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="meshes" fontname="Helvetica", fontsize="10", URL="dir_aa2423979fb45fc41c393a5db370ab21.html"]
+  dir_4300987aaf8cf81a27553a490f18f02e [shape=box, label="preservePatchTypes", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4300987aaf8cf81a27553a490f18f02e.html"];
+  }
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_5e5a63cb97aae3d01c8e98f0c14953bc [shape=box label="polyMesh" color="red" URL="dir_5e5a63cb97aae3d01c8e98f0c14953bc.html"];
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_5e5a63cb97aae3d01c8e98f0c14953bc [headlabel="6", labeldistance=1.5 headhref="dir_002218_002572.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_3e50f45338116b169052b428016851aa [headlabel="95", labeldistance=1.5 headhref="dir_002218_002628.html"];
+  dir_4300987aaf8cf81a27553a490f18f02e->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002609_002218.html"];
+  dir_4300987aaf8cf81a27553a490f18f02e->dir_5e5a63cb97aae3d01c8e98f0c14953bc [headlabel="2", labeldistance=1.5 headhref="dir_002609_002572.html"];
+  dir_4300987aaf8cf81a27553a490f18f02e->dir_3e50f45338116b169052b428016851aa [headlabel="2", labeldistance=1.5 headhref="dir_002609_002628.html"];
+  dir_5e5a63cb97aae3d01c8e98f0c14953bc->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="62", labeldistance=1.5 headhref="dir_002572_002218.html"];
+  dir_5e5a63cb97aae3d01c8e98f0c14953bc->dir_3e50f45338116b169052b428016851aa [headlabel="29", labeldistance=1.5 headhref="dir_002572_002628.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="100", labeldistance=1.5 headhref="dir_002628_002218.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_5e5a63cb97aae3d01c8e98f0c14953bc [headlabel="3", labeldistance=1.5 headhref="dir_002628_002572.html"];
+}

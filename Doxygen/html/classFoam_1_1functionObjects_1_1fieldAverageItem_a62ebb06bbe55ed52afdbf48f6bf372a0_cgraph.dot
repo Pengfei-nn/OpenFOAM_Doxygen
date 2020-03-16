@@ -1,0 +1,32 @@
+digraph "calculateMeanField"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="calculateMeanField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="beta",height=0.2,width=0.4,color="black",URL="$solvers_2heatTransfer_2buoyantBoussinesqSimpleFoam_2readTransportProperties_8H.html#a7f7bcc92fa37329ef6b25b3a843cb8ba"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::LList::cbegin",height=0.2,width=0.4,color="black",URL="$classFoam_1_1LList.html#abcbe5a8d1c228764829c9826cfe48910",tooltip="Iterator to first item in list with const access. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::TimeState::deltaTValue",height=0.2,width=0.4,color="black",URL="$classFoam_1_1TimeState.html#a1508533903ff59ee99b4f85c41bb6ad5",tooltip="Return time step value. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dt",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1fieldAverageItem.html#a0adc909d415f5fd33be69284d8282d28",tooltip="Return the current time interval. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Dt",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1fieldAverageItem.html#a25eae40935099bce25df6795c84e50c6",tooltip="Return the total time interval. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="fieldName",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1fieldAverageItem.html#a640df1149048f7e9b2482d44db62c0f0",tooltip="Return const access to the field name. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::objectRegistry\l::findObject",height=0.2,width=0.4,color="black",URL="$classFoam_1_1objectRegistry.html#a0f87f2f85d5e4e14e14c9c9f95a15296",tooltip="Return const pointer to the object of the given Type. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::LList::first",height=0.2,width=0.4,color="black",URL="$classFoam_1_1LList.html#aebab7630c4fe77a3cdf468262c55395e",tooltip="The first entry in the list. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::objectRegistry\l::lookupObject",height=0.2,width=0.4,color="red",URL="$classFoam_1_1objectRegistry.html#a406f76006058a5b9afd4b0882dd2b6fb",tooltip="Lookup and return const reference to the object of the given Type. Fatal if not found or the wrong ty..."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::objectRegistry\l::lookupObjectRef",height=0.2,width=0.4,color="black",URL="$classFoam_1_1objectRegistry.html#a138ff0e2608c8e67180adb22864160b4",tooltip="Lookup and return non-const reference to the object of the given Type. Fatal if not found or the wron..."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::objectRegistry\l::time",height=0.2,width=0.4,color="black",URL="$classFoam_1_1objectRegistry.html#a48fcf6de2789aff6b430b5fc1a05693f",tooltip="Return time. "];
+}

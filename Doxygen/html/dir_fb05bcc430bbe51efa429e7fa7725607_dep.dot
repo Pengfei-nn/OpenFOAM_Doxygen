@@ -1,0 +1,26 @@
+digraph "applications/solvers/multiphase/compressibleInterFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d62a5a20700de1cb9696e405d497a576 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="multiphase" fontname="Helvetica", fontsize="10", URL="dir_d62a5a20700de1cb9696e405d497a576.html"]
+  subgraph clusterdir_fb05bcc430bbe51efa429e7fa7725607 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_fb05bcc430bbe51efa429e7fa7725607.html"];
+    dir_fb05bcc430bbe51efa429e7fa7725607 [shape=plaintext label="compressibleInterFoam"];
+    dir_47758a512a4a832d05f998afa98b85ab [shape=box label="compressibleInterDyMFoam" color="black" fillcolor="white" style="filled" URL="dir_47758a512a4a832d05f998afa98b85ab.html"];
+    dir_75b9f74adb163bfb4b9c016bd690a11e [shape=box label="compressibleInterFilmFoam" color="red" fillcolor="white" style="filled" URL="dir_75b9f74adb163bfb4b9c016bd690a11e.html"];
+    dir_291621ec3a0021fad3535711af0943bf [shape=box label="surfaceTensionModels" color="red" fillcolor="white" style="filled" URL="dir_291621ec3a0021fad3535711af0943bf.html"];
+    dir_68db7f353b564b3fa2c0d239691ab319 [shape=box label="twoPhaseMixtureThermo" color="black" fillcolor="white" style="filled" URL="dir_68db7f353b564b3fa2c0d239691ab319.html"];
+    dir_4eb31f278d9d5a9527f66ee71bd6b6f0 [shape=box label="VoFphaseCompressibleTurbulenceModels" color="black" fillcolor="white" style="filled" URL="dir_4eb31f278d9d5a9527f66ee71bd6b6f0.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_cfe487b9a1ffbcf0a88127011618677b [shape=box label="VoF" URL="dir_cfe487b9a1ffbcf0a88127011618677b.html"];
+  dir_4eb31f278d9d5a9527f66ee71bd6b6f0->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="5", labeldistance=1.5 headhref="dir_000172_000499.html"];
+  dir_4eb31f278d9d5a9527f66ee71bd6b6f0->dir_68db7f353b564b3fa2c0d239691ab319 [headlabel="1", labeldistance=1.5 headhref="dir_000172_000171.html"];
+  dir_68db7f353b564b3fa2c0d239691ab319->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_000171_000499.html"];
+  dir_75b9f74adb163bfb4b9c016bd690a11e->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="5", labeldistance=1.5 headhref="dir_000070_000499.html"];
+  dir_fb05bcc430bbe51efa429e7fa7725607->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="19", labeldistance=1.5 headhref="dir_000068_000499.html"];
+  dir_fb05bcc430bbe51efa429e7fa7725607->dir_cfe487b9a1ffbcf0a88127011618677b [headlabel="1", labeldistance=1.5 headhref="dir_000068_000121.html"];
+}

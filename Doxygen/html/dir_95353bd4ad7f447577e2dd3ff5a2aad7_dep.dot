@@ -1,0 +1,28 @@
+digraph "src/lagrangian/intermediate/submodels/Reacting/PhaseChangeModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_32fe46b8d3399a01c9ad390919e91809 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Reacting" fontname="Helvetica", fontsize="10", URL="dir_32fe46b8d3399a01c9ad390919e91809.html"]
+  subgraph clusterdir_95353bd4ad7f447577e2dd3ff5a2aad7 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_95353bd4ad7f447577e2dd3ff5a2aad7.html"];
+    dir_95353bd4ad7f447577e2dd3ff5a2aad7 [shape=plaintext label="PhaseChangeModel"];
+    dir_4ef9883d17df60a10983e6afa59b7ffa [shape=box label="LiquidEvaporation" color="black" fillcolor="white" style="filled" URL="dir_4ef9883d17df60a10983e6afa59b7ffa.html"];
+    dir_a06e61307c5ee5f6e46c55a72c80c3c0 [shape=box label="LiquidEvaporationBoil" color="black" fillcolor="white" style="filled" URL="dir_a06e61307c5ee5f6e46c55a72c80c3c0.html"];
+    dir_7b8b6773e6833c66e04cb534f6b5e75a [shape=box label="NoPhaseChange" color="black" fillcolor="white" style="filled" URL="dir_7b8b6773e6833c66e04cb534f6b5e75a.html"];
+    dir_a574ec62e8cd6cbf40600800e7143909 [shape=box label="PhaseChangeModel" color="black" fillcolor="white" style="filled" URL="dir_a574ec62e8cd6cbf40600800e7143909.html"];
+  }
+  }
+  dir_2778d089ec5c4f66810b11f753867003 [shape=box label="thermophysicalModels" color="red" URL="dir_2778d089ec5c4f66810b11f753867003.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_a574ec62e8cd6cbf40600800e7143909->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="3", labeldistance=1.5 headhref="dir_001772_002151.html"];
+  dir_a06e61307c5ee5f6e46c55a72c80c3c0->dir_a574ec62e8cd6cbf40600800e7143909 [headlabel="1", labeldistance=1.5 headhref="dir_001770_001772.html"];
+  dir_a06e61307c5ee5f6e46c55a72c80c3c0->dir_2778d089ec5c4f66810b11f753867003 [headlabel="2", labeldistance=1.5 headhref="dir_001770_001225.html"];
+  dir_a06e61307c5ee5f6e46c55a72c80c3c0->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_001770_002151.html"];
+  dir_2778d089ec5c4f66810b11f753867003->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="389", labeldistance=1.5 headhref="dir_001225_002151.html"];
+  dir_7b8b6773e6833c66e04cb534f6b5e75a->dir_a574ec62e8cd6cbf40600800e7143909 [headlabel="1", labeldistance=1.5 headhref="dir_001771_001772.html"];
+  dir_4ef9883d17df60a10983e6afa59b7ffa->dir_a574ec62e8cd6cbf40600800e7143909 [headlabel="1", labeldistance=1.5 headhref="dir_001769_001772.html"];
+  dir_4ef9883d17df60a10983e6afa59b7ffa->dir_2778d089ec5c4f66810b11f753867003 [headlabel="2", labeldistance=1.5 headhref="dir_001769_001225.html"];
+  dir_4ef9883d17df60a10983e6afa59b7ffa->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_001769_002151.html"];
+}

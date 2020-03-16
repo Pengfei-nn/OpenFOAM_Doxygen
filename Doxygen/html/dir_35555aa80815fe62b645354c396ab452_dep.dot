@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/granularPressureModel/SyamlalRogersOBrien" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8a87f5759e8efc37b819fa36188b226f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="granularPressureModel" fontname="Helvetica", fontsize="10", URL="dir_8a87f5759e8efc37b819fa36188b226f.html"]
+  dir_35555aa80815fe62b645354c396ab452 [shape=box, label="SyamlalRogersOBrien", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_35555aa80815fe62b645354c396ab452.html"];
+  }
+}

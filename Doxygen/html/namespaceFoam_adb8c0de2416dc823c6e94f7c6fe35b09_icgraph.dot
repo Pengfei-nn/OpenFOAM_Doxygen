@@ -1,0 +1,22 @@
+digraph "operator*"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="operator*",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::LPtrList::const\l_iterator::const_iterator",height=0.2,width=0.4,color="black",URL="$classFoam_1_1LPtrList_1_1const__iterator.html#a7c8e6a45d83ab5598f533ab8e2fb63c0"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::LPtrList::iterator::get",height=0.2,width=0.4,color="black",URL="$classFoam_1_1LPtrList_1_1iterator.html#ad52c9dbf5fc04799a476822f43a79eb0",tooltip="Return the address of the object being referenced. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::LPtrList::last",height=0.2,width=0.4,color="black",URL="$classFoam_1_1LPtrList.html#a4fc1d283512c7d8834f1692a1dd6cef5",tooltip="The last entry in the list (const access) "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::autoPtr::operator bool",height=0.2,width=0.4,color="black",URL="$classFoam_1_1autoPtr.html#a420e60e9788bfa3b52aa3aab72ea3a5e",tooltip="True if the managed pointer is non-null - same as valid() "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::autoPtr::operator()",height=0.2,width=0.4,color="black",URL="$classFoam_1_1autoPtr.html#a67ab9fec03fbd870322d975c8876d3d6",tooltip="Return const reference to the object data. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="operator*",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a4cc7bfabaa73f1de09c74fdb9923135f"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::phasePair::const\l_iterator::otherPhase",height=0.2,width=0.4,color="black",URL="$classFoam_1_1phasePair_1_1const__iterator.html#ae1644739cf759d435035bed9a29e95bd"];
+}

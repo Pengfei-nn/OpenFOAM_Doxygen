@@ -1,0 +1,22 @@
+digraph "applications/solvers/combustion/PDRFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_88c1d5d59a4178ad3afaab9cf233cb5e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="combustion" fontname="Helvetica", fontsize="10", URL="dir_88c1d5d59a4178ad3afaab9cf233cb5e.html"]
+  subgraph clusterdir_7013a7587984e010384a3ad956d16510 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_7013a7587984e010384a3ad956d16510.html"];
+    dir_7013a7587984e010384a3ad956d16510 [shape=plaintext label="PDRFoam"];
+    dir_7c5380a9e15431c3d88f79d83259de89 [shape=box label="laminarFlameSpeed" color="red" fillcolor="white" style="filled" URL="dir_7c5380a9e15431c3d88f79d83259de89.html"];
+    dir_f1651a0ed0bf74a29170ecd2526abc49 [shape=box label="PDRModels" color="red" fillcolor="white" style="filled" URL="dir_f1651a0ed0bf74a29170ecd2526abc49.html"];
+    dir_875d300f7c06ad3c5c9e587b64daa300 [shape=box label="XiModels" color="red" fillcolor="white" style="filled" URL="dir_875d300f7c06ad3c5c9e587b64daa300.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_f1651a0ed0bf74a29170ecd2526abc49->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="6", labeldistance=1.5 headhref="dir_000095_000499.html"];
+  dir_f1651a0ed0bf74a29170ecd2526abc49->dir_875d300f7c06ad3c5c9e587b64daa300 [headlabel="3", labeldistance=1.5 headhref="dir_000095_000105.html"];
+  dir_875d300f7c06ad3c5c9e587b64daa300->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="14", labeldistance=1.5 headhref="dir_000105_000499.html"];
+  dir_875d300f7c06ad3c5c9e587b64daa300->dir_7c5380a9e15431c3d88f79d83259de89 [headlabel="1", labeldistance=1.5 headhref="dir_000105_000093.html"];
+  dir_7c5380a9e15431c3d88f79d83259de89->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000093_000499.html"];
+}

@@ -1,0 +1,18 @@
+digraph "applications/solvers/multiphase/icoReactingMultiphaseInterFoam/phasesSystem/interfaceModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9814e8b96a810c0bc5aa9f21bfecc094 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="phasesSystem" fontname="Helvetica", fontsize="10", URL="dir_9814e8b96a810c0bc5aa9f21bfecc094.html"]
+  subgraph clusterdir_8dea918e19f2b0d395c314789ab8198a {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_8dea918e19f2b0d395c314789ab8198a.html"];
+    dir_8dea918e19f2b0d395c314789ab8198a [shape=plaintext label="interfaceModels"];
+    dir_132c8308128ee06caf43993dbac26f6d [shape=box label="porousModels" color="red" fillcolor="white" style="filled" URL="dir_132c8308128ee06caf43993dbac26f6d.html"];
+    dir_5ed536a27bab8f207ae6e7cb6d40b672 [shape=box label="surfaceTensionModels" color="red" fillcolor="white" style="filled" URL="dir_5ed536a27bab8f207ae6e7cb6d40b672.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_5ed536a27bab8f207ae6e7cb6d40b672->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003062_000499.html"];
+  dir_132c8308128ee06caf43993dbac26f6d->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_000198_000499.html"];
+}

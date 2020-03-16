@@ -1,0 +1,22 @@
+digraph "src/OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_354e0e3f4a321ccc8878de612aa38840 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfaces" fontname="Helvetica", fontsize="10", URL="dir_354e0e3f4a321ccc8878de612aa38840.html"]
+  dir_da3433395e359af1783e5baa6b094d5b [shape=box, label="GAMGInterface", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_da3433395e359af1783e5baa6b094d5b.html"];
+  }
+  dir_385a22dcc2f7120acb0f1a7a832b3b8d [shape=box label="memory" color="red" URL="dir_385a22dcc2f7120acb0f1a7a832b3b8d.html"];
+  dir_12547202c65033a69d4e18947f2fbe2a [shape=box label="lduAddressing" color="red" URL="dir_12547202c65033a69d4e18947f2fbe2a.html"];
+  dir_a924fc5b9b02d4bfaf9b6fb6bcc671ab [shape=box label="GAMGAgglomerations" color="red" URL="dir_a924fc5b9b02d4bfaf9b6fb6bcc671ab.html"];
+  dir_1ce70feb2b06c30ebd4091245573b99e [shape=box label="lduMatrix" URL="dir_1ce70feb2b06c30ebd4091245573b99e.html"];
+  dir_da3433395e359af1783e5baa6b094d5b->dir_385a22dcc2f7120acb0f1a7a832b3b8d [headlabel="1", labeldistance=1.5 headhref="dir_002497_002521.html"];
+  dir_da3433395e359af1783e5baa6b094d5b->dir_12547202c65033a69d4e18947f2fbe2a [headlabel="1", labeldistance=1.5 headhref="dir_002497_002440.html"];
+  dir_da3433395e359af1783e5baa6b094d5b->dir_a924fc5b9b02d4bfaf9b6fb6bcc671ab [headlabel="2", labeldistance=1.5 headhref="dir_002497_002478.html"];
+  dir_da3433395e359af1783e5baa6b094d5b->dir_1ce70feb2b06c30ebd4091245573b99e [headlabel="1", labeldistance=1.5 headhref="dir_002497_002450.html"];
+  dir_a924fc5b9b02d4bfaf9b6fb6bcc671ab->dir_12547202c65033a69d4e18947f2fbe2a [headlabel="2", labeldistance=1.5 headhref="dir_002478_002440.html"];
+  dir_a924fc5b9b02d4bfaf9b6fb6bcc671ab->dir_1ce70feb2b06c30ebd4091245573b99e [headlabel="2", labeldistance=1.5 headhref="dir_002478_002450.html"];
+  dir_1ce70feb2b06c30ebd4091245573b99e->dir_385a22dcc2f7120acb0f1a7a832b3b8d [headlabel="1", labeldistance=1.5 headhref="dir_002450_002521.html"];
+  dir_1ce70feb2b06c30ebd4091245573b99e->dir_12547202c65033a69d4e18947f2fbe2a [headlabel="1", labeldistance=1.5 headhref="dir_002450_002440.html"];
+}

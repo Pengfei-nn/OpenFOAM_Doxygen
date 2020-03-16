@@ -1,0 +1,12 @@
+digraph "faces"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="faces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::functionObjects\l::runTimePostPro::surface\l::gatherSurfacePieces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1runTimePostPro_1_1surface.html#a5af23c77e0b2f578d68e0e1a06b5ecf4",tooltip="Gather and convert polySurface to multi-piece dataset with vtkPolyData for the leaves. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::polySurfaceGeoMesh\l::size",height=0.2,width=0.4,color="black",URL="$classFoam_1_1polySurfaceGeoMesh.html#aa0c7f6ff63e57a0895e8f82d4e73ce70",tooltip="Return size. "];
+}

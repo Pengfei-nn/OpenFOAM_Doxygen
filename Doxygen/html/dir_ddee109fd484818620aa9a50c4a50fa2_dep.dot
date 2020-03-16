@@ -1,0 +1,15 @@
+digraph "src/OpenFOAM/dimensionedTypes/dimensionedSymmTensor" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d4979fdf35c07e0caec68718d229a4b4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="dimensionedTypes" fontname="Helvetica", fontsize="10", URL="dir_d4979fdf35c07e0caec68718d229a4b4.html"]
+  dir_ddee109fd484818620aa9a50c4a50fa2 [shape=box, label="dimensionedSymmTensor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ddee109fd484818620aa9a50c4a50fa2.html"];
+  }
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_9b0e310db7e4b70335615c0c4d305c61 [shape=box label="dimensionedVector" URL="dir_9b0e310db7e4b70335615c0c4d305c61.html"];
+  dir_ddee109fd484818620aa9a50c4a50fa2->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002292_002628.html"];
+  dir_ddee109fd484818620aa9a50c4a50fa2->dir_9b0e310db7e4b70335615c0c4d305c61 [headlabel="1", labeldistance=1.5 headhref="dir_002292_002295.html"];
+  dir_9b0e310db7e4b70335615c0c4d305c61->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002295_002628.html"];
+}

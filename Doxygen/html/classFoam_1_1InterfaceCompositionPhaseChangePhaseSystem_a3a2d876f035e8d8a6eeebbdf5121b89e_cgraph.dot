@@ -1,0 +1,28 @@
+digraph "InterfaceCompositionPhaseChangePhaseSystem"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="InterfaceCompositionPhase\lChangePhaseSystem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::exit",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a06ca7250d8e89caf05243ec094843642"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::IOobject::groupName",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#a9ed17c9be570523bdea86b4b019457d5",tooltip="Create dot-delimited name.group. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::phasePair::index",height=0.2,width=0.4,color="black",URL="$classFoam_1_1phasePair.html#a8a11e31ddb5e5a9577f40a689440f1ac",tooltip="Return the index of the given phase. Generates a FatalError if. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::phasePair::name",height=0.2,width=0.4,color="black",URL="$classFoam_1_1phasePair.html#a998485fa6e866c6158d991d4cfd4e384",tooltip="Pair name. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::phaseModel::name",height=0.2,width=0.4,color="black",URL="$classFoam_1_1phaseModel.html#a6d60057c26042eaf7fa1b3b6fb07b582",tooltip="Return the name of this phase. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::phasePairKey\l::ordered",height=0.2,width=0.4,color="black",URL="$classFoam_1_1phasePairKey.html#a9b29bda98360dd9684b7757833a54403",tooltip="Return the ordered flag. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::phasePair::phase1",height=0.2,width=0.4,color="black",URL="$classFoam_1_1phasePair.html#aafa87466cebd9ebda4a09ea338673568",tooltip="Return phase 1. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::phasePair::phase2",height=0.2,width=0.4,color="black",URL="$classFoam_1_1phasePair.html#ace6dda1224b634f41045415a3ba6089d",tooltip="Return phase 2. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::HashPtrTable::set",height=0.2,width=0.4,color="black",URL="$classFoam_1_1HashPtrTable.html#aafaf624301fb614c6cfde9235240cecc",tooltip="Assign a new entry, overwriting existing entries. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::interfaceComposition\lModel::species",height=0.2,width=0.4,color="black",URL="$classFoam_1_1interfaceCompositionModel.html#a8e8e59a9ad29e9476697c194c47cc375",tooltip="Return the transferring species names. "];
+}

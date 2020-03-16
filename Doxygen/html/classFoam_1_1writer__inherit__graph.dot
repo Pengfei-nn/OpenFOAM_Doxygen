@@ -1,0 +1,34 @@
+digraph "writer&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="writer\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="csvSetWriter\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1csvSetWriter.html",tooltip="Write set in csv format. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ensightSetWriter\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1ensightSetWriter.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="gnuplotSetWriter\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1gnuplotSetWriter.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="jplotSetWriter\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1jplotSetWriter.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="nastranSetWriter\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1nastranSetWriter.html",tooltip="Line format in Nastran (currently hardcoded to &#39;free&#39; format) "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="rawSetWriter\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1rawSetWriter.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="vtkSetWriter\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1vtkSetWriter.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="xmgraceSetWriter\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1xmgraceSetWriter.html"];
+  Node1 -> Node10 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::SymmTensor \>" ,fontname="Helvetica"];
+  Node10 [label="writer\< Foam::SymmTensor \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1writer.html"];
+  Node1 -> Node11 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar \>" ,fontname="Helvetica"];
+  Node11 [label="writer\< scalar \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1writer.html"];
+  Node1 -> Node12 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::Vector \>" ,fontname="Helvetica"];
+  Node12 [label="writer\< Foam::Vector \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1writer.html"];
+  Node1 -> Node13 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::Tensor \>" ,fontname="Helvetica"];
+  Node13 [label="writer\< Foam::Tensor \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1writer.html"];
+  Node1 -> Node14 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::SphericalTensor \>" ,fontname="Helvetica"];
+  Node14 [label="writer\< Foam::SphericalTensor \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1writer.html"];
+}

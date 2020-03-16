@@ -1,0 +1,32 @@
+digraph "first"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="first",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::distributedTriSurface\lMesh::findNearest",height=0.2,width=0.4,color="black",URL="$classFoam_1_1distributedTriSurfaceMesh.html#ad64c821f48b189f0be09244ae2037fdc"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::predicates::scalars\l::operation",height=0.2,width=0.4,color="black",URL="$classFoam_1_1predicates_1_1scalars.html#a1cc35c844d6856b384a0e6ab47800a4c",tooltip="Standard comparison method by (name, value) "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::nearestEqOp::\loperator()",height=0.2,width=0.4,color="red",URL="$classFoam_1_1nearestEqOp.html#a45b941696c6dbb1cd69bfba13a5368cd"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::mappedPatchBase\l::nearestEqOp::operator()",height=0.2,width=0.4,color="black",URL="$classFoam_1_1mappedPatchBase_1_1nearestEqOp.html#aca31c134b06f127a240af78f11932306"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::mappedPatchBase\l::maxProcEqOp::operator()",height=0.2,width=0.4,color="black",URL="$classFoam_1_1mappedPatchBase_1_1maxProcEqOp.html#aca31c134b06f127a240af78f11932306"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::minFirstOp::operator()",height=0.2,width=0.4,color="red",URL="$structFoam_1_1minFirstOp.html#a930f0579ee18f652b3779ff61cd1a51d"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::minFirstEqOp\l::operator()",height=0.2,width=0.4,color="black",URL="$structFoam_1_1minFirstEqOp.html#a49ebd0ae765b9936027dfd77677faff2"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::maxFirstOp::operator()",height=0.2,width=0.4,color="black",URL="$structFoam_1_1maxFirstOp.html#a38066be9937aa7348daae57379b1e385"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::forceSuSp::operator+=",height=0.2,width=0.4,color="black",URL="$classFoam_1_1forceSuSp.html#aecdbf37eee622b01e457b4ec7c9c790a",tooltip="Addition. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::forceSuSp::operator-=",height=0.2,width=0.4,color="black",URL="$classFoam_1_1forceSuSp.html#a5f02310c32a7903251f864187b3ad016",tooltip="Subtraction. "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::operator\>=",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#adbb3d8cb5aba143a4eff5985b6f157be"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::Tuple2\< scalar,\l Foam::Vector \>::second",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Tuple2.html#a31f66e04c322bd0e1110eb9c0a499ac0",tooltip="Return second. "];
+}

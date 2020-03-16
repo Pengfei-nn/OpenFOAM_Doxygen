@@ -1,0 +1,12 @@
+digraph "src/TurbulenceModels/compressible/CompressibleTurbulenceModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7904bc8e3270082a35070ba525b2d08a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="compressible" fontname="Helvetica", fontsize="10", URL="dir_7904bc8e3270082a35070ba525b2d08a.html"]
+  dir_886aa8b6b628196a61d7d959f449a24d [shape=box, label="CompressibleTurbulenceModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_886aa8b6b628196a61d7d959f449a24d.html"];
+  }
+  dir_a3dc37bcacf99bb6122ed819dac99f09 [shape=box label="turbulenceModels" color="red" URL="dir_a3dc37bcacf99bb6122ed819dac99f09.html"];
+  dir_886aa8b6b628196a61d7d959f449a24d->dir_a3dc37bcacf99bb6122ed819dac99f09 [headlabel="1", labeldistance=1.5 headhref="dir_003978_002934.html"];
+}

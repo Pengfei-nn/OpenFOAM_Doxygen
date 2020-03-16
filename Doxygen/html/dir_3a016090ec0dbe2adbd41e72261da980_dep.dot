@@ -1,0 +1,20 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/viscosityModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_18940e7e4fb44f9ad3a0587e01140041 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="kineticTheoryModels" fontname="Helvetica", fontsize="10", URL="dir_18940e7e4fb44f9ad3a0587e01140041.html"]
+  subgraph clusterdir_3a016090ec0dbe2adbd41e72261da980 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_3a016090ec0dbe2adbd41e72261da980.html"];
+    dir_3a016090ec0dbe2adbd41e72261da980 [shape=plaintext label="viscosityModel"];
+    dir_6376b08a1a0cc667429a7c0fc0c9daee [shape=box label="Gidaspow" color="black" fillcolor="white" style="filled" URL="dir_6376b08a1a0cc667429a7c0fc0c9daee.html"];
+    dir_7614c51fa2da5a5f35159827d2bcd9a8 [shape=box label="HrenyaSinclair" color="black" fillcolor="white" style="filled" URL="dir_7614c51fa2da5a5f35159827d2bcd9a8.html"];
+    dir_df1405a13b6d3e4fdcc45c0ff37ca651 [shape=box label="none" color="black" fillcolor="white" style="filled" URL="dir_df1405a13b6d3e4fdcc45c0ff37ca651.html"];
+    dir_e865379f8b004ec7f9b9d42ee89c27d4 [shape=box label="Syamlal" color="black" fillcolor="white" style="filled" URL="dir_e865379f8b004ec7f9b9d42ee89c27d4.html"];
+    dir_3db9c7ff47afb3ff963c6218accd9f3d [shape=box label="viscosityModel" color="black" fillcolor="white" style="filled" URL="dir_3db9c7ff47afb3ff963c6218accd9f3d.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_3db9c7ff47afb3ff963c6218accd9f3d->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_003364_000499.html"];
+}

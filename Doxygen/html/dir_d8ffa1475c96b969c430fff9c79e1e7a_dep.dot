@@ -1,0 +1,18 @@
+digraph "src/finiteVolume/expressions/fields/pointPatchFields" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_94e9d388d8c18aad033edbe21e3c244a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="fields" fontname="Helvetica", fontsize="10", URL="dir_94e9d388d8c18aad033edbe21e3c244a.html"]
+  dir_d8ffa1475c96b969c430fff9c79e1e7a [shape=box, label="pointPatchFields", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d8ffa1475c96b969c430fff9c79e1e7a.html"];
+  }
+  dir_3e84b121de6ab417f91aa031991d9123 [shape=box label="base" URL="dir_3e84b121de6ab417f91aa031991d9123.html"];
+  dir_6bbd0519651b483f986c0452fcb0469a [shape=box label="patch" URL="dir_6bbd0519651b483f986c0452fcb0469a.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_3e84b121de6ab417f91aa031991d9123->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="4", labeldistance=1.5 headhref="dir_000885_002151.html"];
+  dir_d8ffa1475c96b969c430fff9c79e1e7a->dir_3e84b121de6ab417f91aa031991d9123 [headlabel="1", labeldistance=1.5 headhref="dir_000887_000885.html"];
+  dir_d8ffa1475c96b969c430fff9c79e1e7a->dir_6bbd0519651b483f986c0452fcb0469a [headlabel="1", labeldistance=1.5 headhref="dir_000887_000888.html"];
+  dir_d8ffa1475c96b969c430fff9c79e1e7a->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="7", labeldistance=1.5 headhref="dir_000887_002151.html"];
+  dir_6bbd0519651b483f986c0452fcb0469a->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="10", labeldistance=1.5 headhref="dir_000888_002151.html"];
+}

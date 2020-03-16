@@ -1,0 +1,16 @@
+digraph "applications/solvers/finiteArea" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fdd174abb8ada244b49e98779c87ac3c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="solvers" fontname="Helvetica", fontsize="10", URL="dir_fdd174abb8ada244b49e98779c87ac3c.html"]
+  subgraph clusterdir_8093b55327f00aa4ed58d387e2e10983 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_8093b55327f00aa4ed58d387e2e10983.html"];
+    dir_8093b55327f00aa4ed58d387e2e10983 [shape=plaintext label="finiteArea"];
+    dir_24ca5efb34cb9c57cca2fce07ce916d5 [shape=box label="liquidFilmFoam" color="black" fillcolor="white" style="filled" URL="dir_24ca5efb34cb9c57cca2fce07ce916d5.html"];
+    dir_139b1e9e54b237de198599ae97b00dcb [shape=box label="sphereSurfactantFoam" color="black" fillcolor="white" style="filled" URL="dir_139b1e9e54b237de198599ae97b00dcb.html"];
+    dir_c88f667f77dea2fa18afd6316e3d4509 [shape=box label="surfactantFoam" color="black" fillcolor="white" style="filled" URL="dir_c88f667f77dea2fa18afd6316e3d4509.html"];
+  }
+  }
+}

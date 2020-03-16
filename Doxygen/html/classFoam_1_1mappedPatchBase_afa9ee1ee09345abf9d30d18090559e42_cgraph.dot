@@ -1,0 +1,16 @@
+digraph "calcAMI"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="calcAMI",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::exit",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a06ca7250d8e89caf05243ec094843642"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::PrimitivePatch\l::localFaces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PrimitivePatch.html#af5aca3ce69275c80366bc8d5c0584da2",tooltip="Return patch faces addressing into local point list. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::PrimitivePatch\l::localPoints",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PrimitivePatch.html#a180aa335ba66b3224df33de8eb29b3bf",tooltip="Return pointField of points in patch. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::meshTools::writeOBJ",height=0.2,width=0.4,color="black",URL="$namespaceFoam_1_1meshTools.html#afd76c6ccc8ee4a5957f0232218167c17",tooltip="Write obj representation of a point. "];
+}

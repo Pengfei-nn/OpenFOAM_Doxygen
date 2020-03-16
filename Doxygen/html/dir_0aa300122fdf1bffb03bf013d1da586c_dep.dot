@@ -1,0 +1,12 @@
+digraph "src/lagrangian/intermediate/submodels/MPPIC/PackingModels/Explicit" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_53a1042b3e5d1ab48a4a4664459291c4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="PackingModels" fontname="Helvetica", fontsize="10", URL="dir_53a1042b3e5d1ab48a4a4664459291c4.html"]
+  dir_0aa300122fdf1bffb03bf013d1da586c [shape=box, label="Explicit", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0aa300122fdf1bffb03bf013d1da586c.html"];
+  }
+  dir_72cee44745666f6ed21c39ef493210e5 [shape=box label="PackingModel" URL="dir_72cee44745666f6ed21c39ef493210e5.html"];
+  dir_0aa300122fdf1bffb03bf013d1da586c->dir_72cee44745666f6ed21c39ef493210e5 [headlabel="1", labeldistance=1.5 headhref="dir_001748_001751.html"];
+}

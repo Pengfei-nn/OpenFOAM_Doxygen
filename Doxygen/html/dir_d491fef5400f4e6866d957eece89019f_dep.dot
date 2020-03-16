@@ -1,0 +1,12 @@
+digraph "src/lagrangian/spray/submodels/BreakupModel/NoBreakup" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7862d93b0f83aa5120e5fba7616a1684 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="BreakupModel" fontname="Helvetica", fontsize="10", URL="dir_7862d93b0f83aa5120e5fba7616a1684.html"]
+  dir_d491fef5400f4e6866d957eece89019f [shape=box, label="NoBreakup", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d491fef5400f4e6866d957eece89019f.html"];
+  }
+  dir_960cc54e61b1c0cc02c9fe03d6c537da [shape=box label="BreakupModel" URL="dir_960cc54e61b1c0cc02c9fe03d6c537da.html"];
+  dir_d491fef5400f4e6866d957eece89019f->dir_960cc54e61b1c0cc02c9fe03d6c537da [headlabel="1", labeldistance=1.5 headhref="dir_001866_001864.html"];
+}

@@ -1,0 +1,15 @@
+digraph "src/sampling/sampledSurface/readers/ensight" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_009c096f8f766051ddac71e8b4399275 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="readers" fontname="Helvetica", fontsize="10", URL="dir_009c096f8f766051ddac71e8b4399275.html"]
+  dir_35389a0e7cb8f02c89a0305c6390260f [shape=box, label="ensight", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_35389a0e7cb8f02c89a0305c6390260f.html"];
+  }
+  dir_b05602f37bb521a7142c0a3e200b5f35 [shape=box label="fileFormats" color="red" URL="dir_b05602f37bb521a7142c0a3e200b5f35.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_b05602f37bb521a7142c0a3e200b5f35->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="218", labeldistance=1.5 headhref="dir_000682_002151.html"];
+  dir_35389a0e7cb8f02c89a0305c6390260f->dir_b05602f37bb521a7142c0a3e200b5f35 [headlabel="1", labeldistance=1.5 headhref="dir_003582_000682.html"];
+  dir_35389a0e7cb8f02c89a0305c6390260f->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="4", labeldistance=1.5 headhref="dir_003582_002151.html"];
+}

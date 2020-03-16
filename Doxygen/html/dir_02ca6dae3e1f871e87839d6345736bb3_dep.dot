@@ -1,0 +1,12 @@
+digraph "applications/solvers/multiphase/icoReactingMultiphaseInterFoam/phasesSystem/phaseModel/PurePhaseModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_dc11da56fd3d81c2bd39ac0cf0e67dd2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="phaseModel" fontname="Helvetica", fontsize="10", URL="dir_dc11da56fd3d81c2bd39ac0cf0e67dd2.html"]
+  dir_02ca6dae3e1f871e87839d6345736bb3 [shape=box, label="PurePhaseModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_02ca6dae3e1f871e87839d6345736bb3.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_02ca6dae3e1f871e87839d6345736bb3->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_003235_000499.html"];
+}

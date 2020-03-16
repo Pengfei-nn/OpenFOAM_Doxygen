@@ -1,0 +1,12 @@
+digraph "applications/solvers/combustion/PDRFoam/XiModels/XiGModels/XiGModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8466298f5f92a7096630ba54e6501d61 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="XiGModels" fontname="Helvetica", fontsize="10", URL="dir_8466298f5f92a7096630ba54e6501d61.html"]
+  dir_30a376875544d288d5b7e930364c2096 [shape=box, label="XiGModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_30a376875544d288d5b7e930364c2096.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_30a376875544d288d5b7e930364c2096->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_000118_000499.html"];
+}

@@ -1,0 +1,10 @@
+digraph "applications/solvers/lagrangian/sprayFoam/sprayDyMFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_48c474b6adf4f963495d4502f2c7f782 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="sprayFoam" fontname="Helvetica", fontsize="10", URL="dir_48c474b6adf4f963495d4502f2c7f782.html"]
+  dir_31a9bf919c1c3c2d437d6bc1cc5c5d64 [shape=box, label="sprayDyMFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_31a9bf919c1c3c2d437d6bc1cc5c5d64.html"];
+  }
+}

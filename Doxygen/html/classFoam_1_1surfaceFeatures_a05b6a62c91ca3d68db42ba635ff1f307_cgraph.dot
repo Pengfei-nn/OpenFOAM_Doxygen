@@ -1,0 +1,25 @@
+digraph "nearestSamples"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="nearestSamples",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::indexedOctree::bb",height=0.2,width=0.4,color="black",URL="$classFoam_1_1indexedOctree.html#af955c64dcfefdc4ac1d969621016d443",tooltip="Top bounding box. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::endl",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::PointIndexHit::hit",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PointIndexHit.html#ad963d38a624b8bf8b37c210109dba03c",tooltip="Is there a hit. "];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::PointIndexHit\l::index",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PointIndexHit.html#a7d1e8acadb27bd2b4e61457d47b71b6f",tooltip="Return index. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a7e96c2b6f66f356ef358f08e65cb8ace"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::UList::size",height=0.2,width=0.4,color="red",URL="$classFoam_1_1UList.html#afee03bfededf699921815b2bf3c41e35",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::meshTools::writeOBJ",height=0.2,width=0.4,color="black",URL="$namespaceFoam_1_1meshTools.html#afd76c6ccc8ee4a5957f0232218167c17",tooltip="Write obj representation of a point. "];
+}

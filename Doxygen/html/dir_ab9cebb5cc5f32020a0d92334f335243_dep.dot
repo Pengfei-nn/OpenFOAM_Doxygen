@@ -1,0 +1,12 @@
+digraph "applications/solvers/electromagnetics/magneticFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6925107ea68bc879ce25441c80612b3f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="electromagnetics" fontname="Helvetica", fontsize="10", URL="dir_6925107ea68bc879ce25441c80612b3f.html"]
+  dir_ab9cebb5cc5f32020a0d92334f335243 [shape=box, label="magneticFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ab9cebb5cc5f32020a0d92334f335243.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_ab9cebb5cc5f32020a0d92334f335243->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000139_000499.html"];
+}

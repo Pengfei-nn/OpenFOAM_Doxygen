@@ -1,0 +1,36 @@
+digraph "src/OpenFOAM/fields/GeometricFields/GeometricTensorField" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_99558e6cce2e782cc8c86fe4c767e1e1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="GeometricFields" fontname="Helvetica", fontsize="10", URL="dir_99558e6cce2e782cc8c86fe4c767e1e1.html"]
+  dir_5ce9b94a15d598509690339b73ab7566 [shape=box, label="GeometricTensorField", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5ce9b94a15d598509690339b73ab7566.html"];
+  }
+  dir_7d364942a13d3ce50f6681364b448a98 [shape=box label="Fields" color="red" URL="dir_7d364942a13d3ce50f6681364b448a98.html"];
+  dir_8eb3a7b50b56ddbfb00a2ddef0a44ff7 [shape=box label="FieldFields" color="red" URL="dir_8eb3a7b50b56ddbfb00a2ddef0a44ff7.html"];
+  dir_1511140f93c0ce1002d17a6bb313e786 [shape=box label="GeometricSphericalTensorField" URL="dir_1511140f93c0ce1002d17a6bb313e786.html"];
+  dir_02a55e4020468345e3b4cc1316f3bce2 [shape=box label="GeometricSymmTensorField" URL="dir_02a55e4020468345e3b4cc1316f3bce2.html"];
+  dir_8c8bb42ce9b582caaa8128a267c381ba [shape=box label="DimensionedFields" color="red" URL="dir_8c8bb42ce9b582caaa8128a267c381ba.html"];
+  dir_cd8c242dbf9349898a9b717387ebe031 [shape=box label="GeometricField" URL="dir_cd8c242dbf9349898a9b717387ebe031.html"];
+  dir_8eb3a7b50b56ddbfb00a2ddef0a44ff7->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="15", labeldistance=1.5 headhref="dir_002313_002323.html"];
+  dir_1511140f93c0ce1002d17a6bb313e786->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="2", labeldistance=1.5 headhref="dir_002350_002323.html"];
+  dir_1511140f93c0ce1002d17a6bb313e786->dir_8eb3a7b50b56ddbfb00a2ddef0a44ff7 [headlabel="1", labeldistance=1.5 headhref="dir_002350_002313.html"];
+  dir_1511140f93c0ce1002d17a6bb313e786->dir_cd8c242dbf9349898a9b717387ebe031 [headlabel="3", labeldistance=1.5 headhref="dir_002350_002347.html"];
+  dir_02a55e4020468345e3b4cc1316f3bce2->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="2", labeldistance=1.5 headhref="dir_002351_002323.html"];
+  dir_02a55e4020468345e3b4cc1316f3bce2->dir_8eb3a7b50b56ddbfb00a2ddef0a44ff7 [headlabel="1", labeldistance=1.5 headhref="dir_002351_002313.html"];
+  dir_02a55e4020468345e3b4cc1316f3bce2->dir_8c8bb42ce9b582caaa8128a267c381ba [headlabel="1", labeldistance=1.5 headhref="dir_002351_002307.html"];
+  dir_02a55e4020468345e3b4cc1316f3bce2->dir_cd8c242dbf9349898a9b717387ebe031 [headlabel="3", labeldistance=1.5 headhref="dir_002351_002347.html"];
+  dir_5ce9b94a15d598509690339b73ab7566->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="2", labeldistance=1.5 headhref="dir_002352_002323.html"];
+  dir_5ce9b94a15d598509690339b73ab7566->dir_8eb3a7b50b56ddbfb00a2ddef0a44ff7 [headlabel="1", labeldistance=1.5 headhref="dir_002352_002313.html"];
+  dir_5ce9b94a15d598509690339b73ab7566->dir_1511140f93c0ce1002d17a6bb313e786 [headlabel="1", labeldistance=1.5 headhref="dir_002352_002350.html"];
+  dir_5ce9b94a15d598509690339b73ab7566->dir_02a55e4020468345e3b4cc1316f3bce2 [headlabel="1", labeldistance=1.5 headhref="dir_002352_002351.html"];
+  dir_5ce9b94a15d598509690339b73ab7566->dir_8c8bb42ce9b582caaa8128a267c381ba [headlabel="1", labeldistance=1.5 headhref="dir_002352_002307.html"];
+  dir_5ce9b94a15d598509690339b73ab7566->dir_cd8c242dbf9349898a9b717387ebe031 [headlabel="2", labeldistance=1.5 headhref="dir_002352_002347.html"];
+  dir_8c8bb42ce9b582caaa8128a267c381ba->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="15", labeldistance=1.5 headhref="dir_002307_002323.html"];
+  dir_cd8c242dbf9349898a9b717387ebe031->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="3", labeldistance=1.5 headhref="dir_002347_002323.html"];
+  dir_cd8c242dbf9349898a9b717387ebe031->dir_8eb3a7b50b56ddbfb00a2ddef0a44ff7 [headlabel="1", labeldistance=1.5 headhref="dir_002347_002313.html"];
+  dir_cd8c242dbf9349898a9b717387ebe031->dir_1511140f93c0ce1002d17a6bb313e786 [headlabel="1", labeldistance=1.5 headhref="dir_002347_002350.html"];
+  dir_cd8c242dbf9349898a9b717387ebe031->dir_5ce9b94a15d598509690339b73ab7566 [headlabel="1", labeldistance=1.5 headhref="dir_002347_002352.html"];
+  dir_cd8c242dbf9349898a9b717387ebe031->dir_8c8bb42ce9b582caaa8128a267c381ba [headlabel="1", labeldistance=1.5 headhref="dir_002347_002307.html"];
+}

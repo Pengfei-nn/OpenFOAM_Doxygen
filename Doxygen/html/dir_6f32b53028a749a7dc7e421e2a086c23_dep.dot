@@ -1,0 +1,18 @@
+digraph "applications/solvers/multiphase/reactingEulerFoam/functionObjects" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bd1c0bce0f70f7327528a03b20ac8e2b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="reactingEulerFoam" fontname="Helvetica", fontsize="10", URL="dir_bd1c0bce0f70f7327528a03b20ac8e2b.html"]
+  subgraph clusterdir_6f32b53028a749a7dc7e421e2a086c23 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_6f32b53028a749a7dc7e421e2a086c23.html"];
+    dir_6f32b53028a749a7dc7e421e2a086c23 [shape=plaintext label="functionObjects"];
+    dir_826d57a981394f170c7ee8de88247b01 [shape=box label="phaseForces" color="black" fillcolor="white" style="filled" URL="dir_826d57a981394f170c7ee8de88247b01.html"];
+    dir_0ae37d28ea6b30b76364b2802e30dee4 [shape=box label="sizeDistribution" color="black" fillcolor="white" style="filled" URL="dir_0ae37d28ea6b30b76364b2802e30dee4.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_0ae37d28ea6b30b76364b2802e30dee4->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_000228_000499.html"];
+  dir_826d57a981394f170c7ee8de88247b01->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000227_000499.html"];
+}

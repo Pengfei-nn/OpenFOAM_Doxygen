@@ -1,0 +1,14 @@
+digraph "name"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="name",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::functionObjects\l::fileFieldSelection\l::addFromFile",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1fileFieldSelection.html#aa1eb7d714b28b59028d8098314274ba7",tooltip="Add objects of a given type. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::functionObjects\l::fieldSelection::addRegistered",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1fieldSelection.html#abdfc74da0a6d0a10db7f79e11560da74",tooltip="Add registered objects of a given type. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::functionObjects\l::fieldSelection::filters",height=0.2,width=0.4,color="black",URL="$classFoam_1_1functionObjects_1_1fieldSelection.html#a5d7fa67344a470e11b0d5b0c6deaa6da",tooltip="Return the cuurent filters. "];
+}

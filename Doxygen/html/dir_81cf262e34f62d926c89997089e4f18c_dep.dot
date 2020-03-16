@@ -1,0 +1,12 @@
+digraph "applications/solvers/multiphase/driftFluxFoam/mixtureViscosityModels/BinghamPlastic" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_86eef1904a5ad7add78c6b09bd981540 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="mixtureViscosityModels" fontname="Helvetica", fontsize="10", URL="dir_86eef1904a5ad7add78c6b09bd981540.html"]
+  dir_81cf262e34f62d926c89997089e4f18c [shape=box, label="BinghamPlastic", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_81cf262e34f62d926c89997089e4f18c.html"];
+  }
+  dir_bf1885526af51fd120af9c2a2654e5a2 [shape=box label="plastic" URL="dir_bf1885526af51fd120af9c2a2654e5a2.html"];
+  dir_81cf262e34f62d926c89997089e4f18c->dir_bf1885526af51fd120af9c2a2654e5a2 [headlabel="1", labeldistance=1.5 headhref="dir_000177_000179.html"];
+}

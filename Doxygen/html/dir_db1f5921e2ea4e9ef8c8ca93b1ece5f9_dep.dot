@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/interfacialModels/liftModels/Moraga" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1930af04ba8ca8c5e74b60dc9dc3e3d1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="liftModels" fontname="Helvetica", fontsize="10", URL="dir_1930af04ba8ca8c5e74b60dc9dc3e3d1.html"]
+  dir_db1f5921e2ea4e9ef8c8ca93b1ece5f9 [shape=box, label="Moraga", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_db1f5921e2ea4e9ef8c8ca93b1ece5f9.html"];
+  }
+}

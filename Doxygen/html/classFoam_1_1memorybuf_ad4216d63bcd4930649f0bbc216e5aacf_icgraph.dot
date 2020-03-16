@@ -1,0 +1,10 @@
+digraph "tellp"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="tellp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::Detail::UOListStream\lAllocator::capacity",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Detail_1_1UOListStreamAllocator.html#aaf269962a38bccab3c5d603a4742f024",tooltip="The current list output capacity. "];
+}

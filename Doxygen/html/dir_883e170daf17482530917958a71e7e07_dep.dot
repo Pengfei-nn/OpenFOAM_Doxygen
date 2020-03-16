@@ -1,0 +1,12 @@
+digraph "src/TurbulenceModels/turbulenceModels/Base/kOmegaSST" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3832ed45651eb26efa0c13129dbd5167 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Base" fontname="Helvetica", fontsize="10", URL="dir_3832ed45651eb26efa0c13129dbd5167.html"]
+  dir_883e170daf17482530917958a71e7e07 [shape=box, label="kOmegaSST", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_883e170daf17482530917958a71e7e07.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_883e170daf17482530917958a71e7e07->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_004033_000814.html"];
+}

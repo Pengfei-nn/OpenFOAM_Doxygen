@@ -1,0 +1,15 @@
+digraph "applications/solvers/heatTransfer/chtMultiRegionFoam/chtMultiRegionSimpleFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b757d9b58d85b680e78ff2fbfc645379 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="chtMultiRegionFoam" fontname="Helvetica", fontsize="10", URL="dir_b757d9b58d85b680e78ff2fbfc645379.html"]
+  subgraph clusterdir_7ecfd1dac3553496cb15f774e1c2dc42 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_7ecfd1dac3553496cb15f774e1c2dc42.html"];
+    dir_7ecfd1dac3553496cb15f774e1c2dc42 [shape=plaintext label="chtMultiRegionSimpleFoam"];
+    dir_480b20a163520755f6a315cc6ae6dab3 [shape=box label="fluid" color="black" fillcolor="white" style="filled" URL="dir_480b20a163520755f6a315cc6ae6dab3.html"];
+    dir_8af865739e947a1b0575fbb3e6ebbc6d [shape=box label="solid" color="black" fillcolor="white" style="filled" URL="dir_8af865739e947a1b0575fbb3e6ebbc6d.html"];
+  }
+  }
+}

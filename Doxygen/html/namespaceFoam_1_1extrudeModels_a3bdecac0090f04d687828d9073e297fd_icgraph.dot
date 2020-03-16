@@ -1,0 +1,14 @@
+digraph "angle_"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="angle_",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::coordinateRotations\l::axisAngle::R",height=0.2,width=0.4,color="black",URL="$classFoam_1_1coordinateRotations_1_1axisAngle.html#ae10a9e572a265c8a6b4e03646751082e",tooltip="Calculate and return the rotation tensor calculated from axis and angle. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::coordinateRotations\l::axisAngle::write",height=0.2,width=0.4,color="black",URL="$classFoam_1_1coordinateRotations_1_1axisAngle.html#a4bc86b48333705e13add9de0db8eebd3",tooltip="Write information. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::coordinateRotations\l::axisAngle::writeEntry",height=0.2,width=0.4,color="black",URL="$classFoam_1_1coordinateRotations_1_1axisAngle.html#a37ca48bb95f2d19dd4468d303314fe3c",tooltip="Write dictionary entry. "];
+}

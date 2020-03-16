@@ -1,0 +1,30 @@
+digraph "findNearestBoundaryFace"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="findNearestBoundaryFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::indexedOctree::bb",height=0.2,width=0.4,color="black",URL="$classFoam_1_1indexedOctree.html#af955c64dcfefdc4ac1d969621016d443",tooltip="Top bounding box. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::PointHit::distance",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PointHit.html#a6fc60097ee4a2ef28aa08c9d11269046",tooltip="Return distance to hit. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::treeDataFace\l::faceLabels",height=0.2,width=0.4,color="black",URL="$classFoam_1_1treeDataFace.html#ad34c8e741f054aecf4dfd0775edc5bea"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::PointIndexHit::hit",height=0.2,width=0.4,color="red",URL="$classFoam_1_1PointIndexHit.html#ad963d38a624b8bf8b37c210109dba03c",tooltip="Is there a hit. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::PointIndexHit\l::index",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PointIndexHit.html#a7d1e8acadb27bd2b4e61457d47b71b6f",tooltip="Return index. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a7e96c2b6f66f356ef358f08e65cb8ace"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::boundBox::max",height=0.2,width=0.4,color="black",URL="$classFoam_1_1boundBox.html#a264800db5fd48c1d4541fd05cab1d40f",tooltip="Maximum describing the bounding box. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::boundBox::min",height=0.2,width=0.4,color="black",URL="$classFoam_1_1boundBox.html#a1dd50affef9a273ab682ccbf33df7b32",tooltip="Minimum describing the bounding box. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::face::nearestPoint",height=0.2,width=0.4,color="black",URL="$classFoam_1_1face.html#aaf8bbc69ac2ff743c691f5365106210a",tooltip="Return nearest point to face. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::indexedOctree\l::shapes",height=0.2,width=0.4,color="black",URL="$classFoam_1_1indexedOctree.html#abd186b2cbd8c6def61dc033a4892b847",tooltip="Reference to shape. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::sqr",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a277dc11c581d53826ab5090b08f3b17b"];
+}

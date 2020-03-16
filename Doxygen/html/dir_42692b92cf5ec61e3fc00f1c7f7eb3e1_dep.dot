@@ -1,0 +1,25 @@
+digraph "src/OpenFOAM/containers/Bits/PackedList" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d88157af7a891d11a6818b2689bd5e5e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Bits" fontname="Helvetica", fontsize="10", URL="dir_d88157af7a891d11a6818b2689bd5e5e.html"]
+  dir_42692b92cf5ec61e3fc00f1c7f7eb3e1 [shape=box, label="PackedList", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_42692b92cf5ec61e3fc00f1c7f7eb3e1.html"];
+  }
+  dir_2ff42185f76505a7c3842d939b765b4e [shape=box label="BitOps" URL="dir_2ff42185f76505a7c3842d939b765b4e.html"];
+  dir_f1bdd3e1864452c4a43cb0467c28790d [shape=box label="IndirectLists" color="red" URL="dir_f1bdd3e1864452c4a43cb0467c28790d.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_42692b92cf5ec61e3fc00f1c7f7eb3e1->dir_2ff42185f76505a7c3842d939b765b4e [headlabel="1", labeldistance=1.5 headhref="dir_002160_002158.html"];
+  dir_42692b92cf5ec61e3fc00f1c7f7eb3e1->dir_f1bdd3e1864452c4a43cb0467c28790d [headlabel="1", labeldistance=1.5 headhref="dir_002160_002181.html"];
+  dir_42692b92cf5ec61e3fc00f1c7f7eb3e1->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="4", labeldistance=1.5 headhref="dir_002160_002218.html"];
+  dir_42692b92cf5ec61e3fc00f1c7f7eb3e1->dir_3e50f45338116b169052b428016851aa [headlabel="2", labeldistance=1.5 headhref="dir_002160_002628.html"];
+  dir_2ff42185f76505a7c3842d939b765b4e->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002158_002218.html"];
+  dir_2ff42185f76505a7c3842d939b765b4e->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002158_002628.html"];
+  dir_f1bdd3e1864452c4a43cb0467c28790d->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="2", labeldistance=1.5 headhref="dir_002181_002218.html"];
+  dir_f1bdd3e1864452c4a43cb0467c28790d->dir_3e50f45338116b169052b428016851aa [headlabel="2", labeldistance=1.5 headhref="dir_002181_002628.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_3e50f45338116b169052b428016851aa [headlabel="95", labeldistance=1.5 headhref="dir_002218_002628.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_f1bdd3e1864452c4a43cb0467c28790d [headlabel="6", labeldistance=1.5 headhref="dir_002628_002181.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="100", labeldistance=1.5 headhref="dir_002628_002218.html"];
+}

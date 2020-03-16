@@ -1,0 +1,14 @@
+digraph "R"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="R",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::operator!=",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a08fc8f9064c7c67ca1adceb53cd17766",tooltip="Compare inequality. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::coordSystem::\lindirect::rename",height=0.2,width=0.4,color="black",URL="$classFoam_1_1coordSystem_1_1indirect.html#af41376d1e0031e06613d5ce3c740cf7d",tooltip="Rename (ignored) "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="rotationsImpl",height=0.2,width=0.4,color="black",URL="$classFoam_1_1coordinateSystem.html#a9417a4a4e3bbf064845737fec5cfb3b5"];
+}

@@ -1,0 +1,14 @@
+digraph "src/TurbulenceModels/turbulenceModels/LES/LESModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9fc1e48ca755258281286cef4f8e0bec {
+    graph [ bgcolor="#ddddee", pencolor="black", label="LES" fontname="Helvetica", fontsize="10", URL="dir_9fc1e48ca755258281286cef4f8e0bec.html"]
+  dir_94eb6700438052f81c716d2ea2d30c0a [shape=box, label="LESModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_94eb6700438052f81c716d2ea2d30c0a.html"];
+  }
+  dir_f4ac237440903b58b2b7b64b0e39044f [shape=box label="TurbulenceModel" URL="dir_f4ac237440903b58b2b7b64b0e39044f.html"];
+  dir_3e9d13ce922c8e5657605faa5b84c7a1 [shape=box label="LESdeltas" color="red" URL="dir_3e9d13ce922c8e5657605faa5b84c7a1.html"];
+  dir_94eb6700438052f81c716d2ea2d30c0a->dir_f4ac237440903b58b2b7b64b0e39044f [headlabel="1", labeldistance=1.5 headhref="dir_004091_004110.html"];
+  dir_94eb6700438052f81c716d2ea2d30c0a->dir_3e9d13ce922c8e5657605faa5b84c7a1 [headlabel="1", labeldistance=1.5 headhref="dir_004091_004076.html"];
+}

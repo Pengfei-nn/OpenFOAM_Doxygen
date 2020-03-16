@@ -1,0 +1,14 @@
+digraph "src/OpenFOAM/primitives/RowVector" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3e50f45338116b169052b428016851aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="primitives" fontname="Helvetica", fontsize="10", URL="dir_3e50f45338116b169052b428016851aa.html"]
+  dir_3073982a3e901484828b41a110ebd059 [shape=box, label="RowVector", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3073982a3e901484828b41a110ebd059.html"];
+  }
+  dir_6ef5fbba1c02603637a533e2f686aa62 [shape=box label="Vector" color="red" URL="dir_6ef5fbba1c02603637a533e2f686aa62.html"];
+  dir_74bb8d3ac938216a63ff87e7c9cc403c [shape=box label="MatrixSpace" URL="dir_74bb8d3ac938216a63ff87e7c9cc403c.html"];
+  dir_3073982a3e901484828b41a110ebd059->dir_6ef5fbba1c02603637a533e2f686aa62 [headlabel="1", labeldistance=1.5 headhref="dir_002710_002760.html"];
+  dir_3073982a3e901484828b41a110ebd059->dir_74bb8d3ac938216a63ff87e7c9cc403c [headlabel="1", labeldistance=1.5 headhref="dir_002710_002689.html"];
+}

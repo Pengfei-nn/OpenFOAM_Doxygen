@@ -1,0 +1,14 @@
+digraph "printFieldInfo"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="printFieldInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::endl",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::OSstream::name",height=0.2,width=0.4,color="black",URL="$classFoam_1_1OSstream.html#ab27acd1d200f0d245337451aa2f31517",tooltip="Return the name of the stream. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::fileName::type",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fileName.html#aa6fc7f7594a8c48f382349bee53ac9d0",tooltip="Return the directory entry type: UNDEFINED, FILE, DIRECTORY (or LINK). "];
+}

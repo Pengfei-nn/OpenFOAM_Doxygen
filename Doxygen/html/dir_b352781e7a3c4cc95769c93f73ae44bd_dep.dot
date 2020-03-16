@@ -1,0 +1,12 @@
+digraph "src/dynamicMesh/motionSmoother/polyMeshGeometry" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a5f41142d67d2cb37e86033b3571a7be {
+    graph [ bgcolor="#ddddee", pencolor="black", label="motionSmoother" fontname="Helvetica", fontsize="10", URL="dir_a5f41142d67d2cb37e86033b3571a7be.html"]
+  dir_b352781e7a3c4cc95769c93f73ae44bd [shape=box, label="polyMeshGeometry", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b352781e7a3c4cc95769c93f73ae44bd.html"];
+  }
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_b352781e7a3c4cc95769c93f73ae44bd->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="8", labeldistance=1.5 headhref="dir_000620_002151.html"];
+}

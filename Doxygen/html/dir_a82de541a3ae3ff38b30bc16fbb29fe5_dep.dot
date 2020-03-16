@@ -1,0 +1,10 @@
+digraph "src/OpenFOAM/containers/Circulators/CirculatorBase" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_95a7e81c1594d83c19708405d7dbc74d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Circulators" fontname="Helvetica", fontsize="10", URL="dir_95a7e81c1594d83c19708405d7dbc74d.html"]
+  dir_a82de541a3ae3ff38b30bc16fbb29fe5 [shape=box, label="CirculatorBase", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a82de541a3ae3ff38b30bc16fbb29fe5.html"];
+  }
+}

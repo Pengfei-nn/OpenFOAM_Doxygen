@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/primitives/subModelBase" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3e50f45338116b169052b428016851aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="primitives" fontname="Helvetica", fontsize="10", URL="dir_3e50f45338116b169052b428016851aa.html"]
+  dir_a5ab764987886a96b81db1b910e5c021 [shape=box, label="subModelBase", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a5ab764987886a96b81db1b910e5c021.html"];
+  }
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_a5ab764987886a96b81db1b910e5c021->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002742_002218.html"];
+}

@@ -1,0 +1,19 @@
+digraph "src/OpenFOAM/matrices/lduMatrix/smoothers/DIC" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_27bacb8e19b5862d96d869422b2be03b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="smoothers" fontname="Helvetica", fontsize="10", URL="dir_27bacb8e19b5862d96d869422b2be03b.html"]
+  dir_17f5a1ef659fcd824c12a6e8251e56f3 [shape=box, label="DIC", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_17f5a1ef659fcd824c12a6e8251e56f3.html"];
+  }
+  dir_962442b8f989d5529fab5e0f0e4ffb74 [shape=box label="fields" color="red" URL="dir_962442b8f989d5529fab5e0f0e4ffb74.html"];
+  dir_3f6e7e10cc3663a460947d1f6ad52004 [shape=box label="preconditioners" color="red" URL="dir_3f6e7e10cc3663a460947d1f6ad52004.html"];
+  dir_1ce70feb2b06c30ebd4091245573b99e [shape=box label="lduMatrix" URL="dir_1ce70feb2b06c30ebd4091245573b99e.html"];
+  dir_17f5a1ef659fcd824c12a6e8251e56f3->dir_962442b8f989d5529fab5e0f0e4ffb74 [headlabel="1", labeldistance=1.5 headhref="dir_002463_002305.html"];
+  dir_17f5a1ef659fcd824c12a6e8251e56f3->dir_3f6e7e10cc3663a460947d1f6ad52004 [headlabel="1", labeldistance=1.5 headhref="dir_002463_002451.html"];
+  dir_17f5a1ef659fcd824c12a6e8251e56f3->dir_1ce70feb2b06c30ebd4091245573b99e [headlabel="1", labeldistance=1.5 headhref="dir_002463_002450.html"];
+  dir_3f6e7e10cc3663a460947d1f6ad52004->dir_962442b8f989d5529fab5e0f0e4ffb74 [headlabel="1", labeldistance=1.5 headhref="dir_002451_002305.html"];
+  dir_3f6e7e10cc3663a460947d1f6ad52004->dir_1ce70feb2b06c30ebd4091245573b99e [headlabel="5", labeldistance=1.5 headhref="dir_002451_002450.html"];
+  dir_1ce70feb2b06c30ebd4091245573b99e->dir_962442b8f989d5529fab5e0f0e4ffb74 [headlabel="4", labeldistance=1.5 headhref="dir_002450_002305.html"];
+}

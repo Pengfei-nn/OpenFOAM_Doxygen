@@ -1,0 +1,10 @@
+digraph "src/finiteVolume/fields/fvPatchFields/doc" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a5850494bc77049b2a182260f0d1f703 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="fvPatchFields" fontname="Helvetica", fontsize="10", URL="dir_a5850494bc77049b2a182260f0d1f703.html"]
+  dir_e8f5a280dc8440d74ed65a75489a2eaf [shape=box, label="doc", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e8f5a280dc8440d74ed65a75489a2eaf.html"];
+  }
+}

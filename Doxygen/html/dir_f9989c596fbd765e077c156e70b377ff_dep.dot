@@ -1,0 +1,13 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/phaseSystems/populationBalanceModel/nucleationModels/nucleationModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2bb7d45ac0e08a0ef643eb556d29e86e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="nucleationModels" fontname="Helvetica", fontsize="10", URL="dir_2bb7d45ac0e08a0ef643eb556d29e86e.html"]
+  dir_f9989c596fbd765e077c156e70b377ff [shape=box, label="nucleationModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_f9989c596fbd765e077c156e70b377ff.html"];
+  }
+  dir_6836c8d0bc2688f1a5e39885a04a3d18 [shape=box label="populationBalanceModel" URL="dir_6836c8d0bc2688f1a5e39885a04a3d18.html"];
+  dir_f9989c596fbd765e077c156e70b377ff->dir_6836c8d0bc2688f1a5e39885a04a3d18 [headlabel="1", labeldistance=1.5 headhref="dir_003292_003295.html"];
+  dir_6836c8d0bc2688f1a5e39885a04a3d18->dir_f9989c596fbd765e077c156e70b377ff [headlabel="1", labeldistance=1.5 headhref="dir_003295_003292.html"];
+}

@@ -1,0 +1,32 @@
+digraph "calcNut"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="calcNut",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::endl",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::IOobject::groupName",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#a9ed17c9be570523bdea86b4b019457d5",tooltip="Create dot-delimited name.group. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::turbulenceModel::k",height=0.2,width=0.4,color="black",URL="$classFoam_1_1turbulenceModel.html#a513c40f9ed37e2baed10984c3c4c57a9",tooltip="Return the turbulence kinetic energy. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::log",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a6e89590da9859ad497977e08f110d4b5"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a0e0c00c14acbabe88eec56a8b0fa2806",tooltip="Find the max value in labelHashSet, optionally limited by second argument. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::turbulenceModel::nu",height=0.2,width=0.4,color="black",URL="$classFoam_1_1turbulenceModel.html#ad5f81fcd6f7d0ddad1a5fe2a8f08bb3f",tooltip="Return the laminar viscosity. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::nutWallFunctionFvPatch\lScalarField::nutw",height=0.2,width=0.4,color="black",URL="$classFoam_1_1nutWallFunctionFvPatchScalarField.html#a21f0b179250d0db538ba12bd2c72d9f0",tooltip="Return the nut patchField for the given wall patch. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::pow025",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#af8d7dc24dfce32ee37c1210e616966e1"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::tmp::ref",height=0.2,width=0.4,color="black",URL="$classFoam_1_1tmp.html#af16202cc9b8e931206cfceb8d9779bb2",tooltip="Return non-const reference to the contents of a non-null managed pointer. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::sqrt",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a8616bd62eebf2342a80222fecb1bda71"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::turbulenceModel::y",height=0.2,width=0.4,color="black",URL="$classFoam_1_1turbulenceModel.html#a786f55d8a1d6a0900d1798fd04595c14",tooltip="Return the near wall distances. "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::nutkWallFunctionFv\lPatchScalarField::yPlus",height=0.2,width=0.4,color="black",URL="$classFoam_1_1nutkWallFunctionFvPatchScalarField.html#a5156cc68c23ee1a8f70fb50e1ea0ae13",tooltip="Calculate and return the yPlus at the boundary. "];
+}

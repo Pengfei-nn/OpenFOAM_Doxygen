@@ -1,0 +1,12 @@
+digraph "tabulatedNTUHeatTransfer"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="tabulatedNTUHeatTransfer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="interRegionHeatTransferModel",height=0.2,width=0.4,color="red",URL="$classFoam_1_1fv_1_1interRegionHeatTransferModel.html",tooltip="Base class for inter region heat exchange. The derived classes must provide the heat transfer coeffis..."];
+  Node2 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nbrModel_" ,fontname="Helvetica"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" geometryModelNames_" ,fontname="Helvetica"];
+  Node3 [label="Enum\< geometryModeType \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1Enum.html"];
+}

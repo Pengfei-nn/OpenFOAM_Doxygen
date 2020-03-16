@@ -1,0 +1,13 @@
+digraph "src/OpenFOAM/matrices/lduMatrix/solvers/diagonalSolver" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f03e085f4fe95c9b32f7b904515484f9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="solvers" fontname="Helvetica", fontsize="10", URL="dir_f03e085f4fe95c9b32f7b904515484f9.html"]
+  dir_8926363f1489cc3df154fde808052730 [shape=box, label="diagonalSolver", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_8926363f1489cc3df154fde808052730.html"];
+  }
+  dir_1ce70feb2b06c30ebd4091245573b99e [shape=box label="lduMatrix" URL="dir_1ce70feb2b06c30ebd4091245573b99e.html"];
+  dir_8926363f1489cc3df154fde808052730->dir_1ce70feb2b06c30ebd4091245573b99e [headlabel="1", labeldistance=1.5 headhref="dir_002474_002450.html"];
+  dir_1ce70feb2b06c30ebd4091245573b99e->dir_8926363f1489cc3df154fde808052730 [headlabel="1", labeldistance=1.5 headhref="dir_002450_002474.html"];
+}

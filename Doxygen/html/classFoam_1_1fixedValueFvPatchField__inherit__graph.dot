@@ -1,0 +1,38 @@
+digraph "fixedValueFvPatchField&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="fixedValueFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="fvPatchField\< Type \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1fvPatchField.html",tooltip="Abstract base class with a fat-interface to all derived classes covering all possible ways in which t..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="adjointZeroInletFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1adjointZeroInletFvPatchField.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cellMotionFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1cellMotionFvPatchField.html",tooltip="Foam::cellMotionFvPatchField. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="codedFixedValueFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1codedFixedValueFvPatchField.html",tooltip="Constructs on-the-fly a new boundary condition (derived from fixedValueFvPatchField) which is then us..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="exprFixedValueFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1exprFixedValueFvPatchField.html",tooltip="A fixed value boundary condition with expressions. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="fixedMeanFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fixedMeanFvPatchField.html",tooltip="This boundary condition extrapolates field to the patch using the near-cell values and adjusts the di..."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="fixedProfileFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fixedProfileFvPatchField.html",tooltip="This boundary condition provides a fixed value profile condition. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mappedFieldFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1mappedFieldFvPatchField.html",tooltip="This boundary condition provides a self-contained version of the mapped condition. It does not use information on the patch; instead it holds the data locally. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mappedFixedValueFvPatchField\l\< Type \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1mappedFixedValueFvPatchField.html",tooltip="This boundary condition maps the value at a set of cells or patch faces back to *this. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="outletMappedUniformInlet\lFvPatchField\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1outletMappedUniformInletFvPatchField.html",tooltip="This boundary conditon averages the field over the &quot;outlet&quot; patch specified by name &quot;outletPatch&quot; and..."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="scaledFixedValueFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1scaledFixedValueFvPatchField.html",tooltip="This condition applies a scalar multiplier to the value of another boundary condition. "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="timeVaryingMappedFixedValue\lFvPatchField\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1timeVaryingMappedFixedValueFvPatchField.html",tooltip="This boundary conditions interpolates the values from a set of supplied points in space and time..."];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="turbulentInletFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1turbulentInletFvPatchField.html",tooltip="This boundary condition produces spatiotemporal-variant field by summing a set of pseudo-random numbe..."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="uniformFixedValueFvPatch\lField\< Type \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1uniformFixedValueFvPatchField.html",tooltip="This boundary condition provides a uniform fixed value condition. "];
+  Node1 -> Node16 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar \>" ,fontname="Helvetica"];
+  Node16 [label="fixedValueFvPatchField\l\< scalar \>",height=0.2,width=0.4,color="red",URL="$classFoam_1_1fixedValueFvPatchField.html"];
+}

@@ -1,0 +1,18 @@
+digraph "getVariable"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="getVariable",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="entryToString",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#ab8ef3c53811d1e3af302552b4f5e488f"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="exit",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a06ca7250d8e89caf05243ec094843642"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::dictionary::findScoped",height=0.2,width=0.4,color="black",URL="$classFoam_1_1dictionary.html#a839995d04c6a70ad84b14c5f5d983882",tooltip="Search for a scoped entry (const access) with the given keyword. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="getEnv",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a0a0d786a0c45c9a20ec782670b7b3013",tooltip="Get environment value for given envName. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="value",height=0.2,width=0.4,color="black",URL="$StCorr_8H.html#a7f851d6ccb9cf41e28285ce3b75e11df"];
+}

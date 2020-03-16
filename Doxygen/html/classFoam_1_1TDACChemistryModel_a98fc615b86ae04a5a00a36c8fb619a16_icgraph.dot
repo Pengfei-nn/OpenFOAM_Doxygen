@@ -1,0 +1,18 @@
+digraph "Y"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Y",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::chemistryReduction\lMethods::DAC::DAC",height=0.2,width=0.4,color="black",URL="$classFoam_1_1chemistryReductionMethods_1_1DAC.html#a97e71408a55ea6177a0d4b36e0b05405",tooltip="Construct from components. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::chemistryReduction\lMethods::DRG::DRG",height=0.2,width=0.4,color="black",URL="$classFoam_1_1chemistryReductionMethods_1_1DRG.html#a0baa4a092aa7cdd4f195d9e83595aaf5",tooltip="Construct from components. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::chemistryReduction\lMethods::DRGEP::DRGEP",height=0.2,width=0.4,color="black",URL="$classFoam_1_1chemistryReductionMethods_1_1DRGEP.html#af0ce113c85563ece1b53a57091724708",tooltip="Construct from components. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::chemistryReduction\lMethods::PFA::PFA",height=0.2,width=0.4,color="black",URL="$classFoam_1_1chemistryReductionMethods_1_1PFA.html#ad99566592973bfa2c1ca0e434d978223",tooltip="Construct from components. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="TDACChemistryModel",height=0.2,width=0.4,color="black",URL="$classFoam_1_1TDACChemistryModel.html#a984f481d44faf71c0b39052325ad5585",tooltip="Construct from thermo. "];
+}

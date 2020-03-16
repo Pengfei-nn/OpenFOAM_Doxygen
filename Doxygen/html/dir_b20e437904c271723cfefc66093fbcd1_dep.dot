@@ -1,0 +1,12 @@
+digraph "applications/solvers/combustion/PDRFoam/PDRModels/dragModels/PDRDragModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c833b6868a1136272de6782c3a4b48f1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="dragModels" fontname="Helvetica", fontsize="10", URL="dir_c833b6868a1136272de6782c3a4b48f1.html"]
+  dir_b20e437904c271723cfefc66093fbcd1 [shape=box, label="PDRDragModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b20e437904c271723cfefc66093fbcd1.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_b20e437904c271723cfefc66093fbcd1->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="5", labeldistance=1.5 headhref="dir_000098_000499.html"];
+}

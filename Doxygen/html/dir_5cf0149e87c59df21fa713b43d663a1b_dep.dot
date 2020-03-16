@@ -1,0 +1,10 @@
+digraph "applications/solvers/lagrangian/reactingParcelFoam/reactingHeterogenousParcelFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8821b214d5324b706eee8ea34602208f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="reactingParcelFoam" fontname="Helvetica", fontsize="10", URL="dir_8821b214d5324b706eee8ea34602208f.html"]
+  dir_5cf0149e87c59df21fa713b43d663a1b [shape=box, label="reactingHeterogenousParcelFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5cf0149e87c59df21fa713b43d663a1b.html"];
+  }
+}

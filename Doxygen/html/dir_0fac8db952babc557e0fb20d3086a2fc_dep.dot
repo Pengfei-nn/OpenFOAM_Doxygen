@@ -1,0 +1,27 @@
+digraph "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cellShapeControl/cellSizeAndAlignmentControl" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5088df82dcf25da56e0bc3a1a53ca996 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="cellShapeControl" fontname="Helvetica", fontsize="10", URL="dir_5088df82dcf25da56e0bc3a1a53ca996.html"]
+  subgraph clusterdir_0fac8db952babc557e0fb20d3086a2fc {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_0fac8db952babc557e0fb20d3086a2fc.html"];
+    dir_0fac8db952babc557e0fb20d3086a2fc [shape=plaintext label="cellSizeAndAlignmentControl"];
+    dir_ceb700f6c96a4df8330d59bb3498b205 [shape=box label="cellSizeAndAlignmentControl" color="black" fillcolor="white" style="filled" URL="dir_ceb700f6c96a4df8330d59bb3498b205.html"];
+    dir_be7c2e87f43f41877588ffab7d0e02df [shape=box label="fileControl" color="black" fillcolor="white" style="filled" URL="dir_be7c2e87f43f41877588ffab7d0e02df.html"];
+    dir_54685045831cda5e95e7d92c081c6dca [shape=box label="searchableSurfaceControl" color="black" fillcolor="white" style="filled" URL="dir_54685045831cda5e95e7d92c081c6dca.html"];
+  }
+  }
+  dir_2620dcc07dc81ce1ef4379237ffdbf3e [shape=box label="conformationSurfaces" URL="dir_2620dcc07dc81ce1ef4379237ffdbf3e.html"];
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_778c82a8af8b45b8f10407162d229375 [shape=box label="cellSizeControlSurfaces" color="red" URL="dir_778c82a8af8b45b8f10407162d229375.html"];
+  dir_2620dcc07dc81ce1ef4379237ffdbf3e->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="6", labeldistance=1.5 headhref="dir_000321_000499.html"];
+  dir_ceb700f6c96a4df8330d59bb3498b205->dir_2620dcc07dc81ce1ef4379237ffdbf3e [headlabel="1", labeldistance=1.5 headhref="dir_000296_000321.html"];
+  dir_ceb700f6c96a4df8330d59bb3498b205->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_000296_000499.html"];
+  dir_0fac8db952babc557e0fb20d3086a2fc->dir_ceb700f6c96a4df8330d59bb3498b205 [headlabel="2", labeldistance=1.5 headhref="dir_000295_000296.html"];
+  dir_54685045831cda5e95e7d92c081c6dca->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000298_000499.html"];
+  dir_54685045831cda5e95e7d92c081c6dca->dir_778c82a8af8b45b8f10407162d229375 [headlabel="1", labeldistance=1.5 headhref="dir_000298_000301.html"];
+  dir_778c82a8af8b45b8f10407162d229375->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="18", labeldistance=1.5 headhref="dir_000301_000499.html"];
+  dir_be7c2e87f43f41877588ffab7d0e02df->dir_ceb700f6c96a4df8330d59bb3498b205 [headlabel="1", labeldistance=1.5 headhref="dir_000297_000296.html"];
+}

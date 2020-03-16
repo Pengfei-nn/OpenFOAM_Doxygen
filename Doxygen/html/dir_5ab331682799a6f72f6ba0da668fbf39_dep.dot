@@ -1,0 +1,20 @@
+digraph "applications/solvers/multiphase/multiphaseEulerFoam/multiphaseSystem" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bdb3c14a9a2875c5ad517fe30fd83be7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="multiphaseEulerFoam" fontname="Helvetica", fontsize="10", URL="dir_bdb3c14a9a2875c5ad517fe30fd83be7.html"]
+  subgraph clusterdir_5ab331682799a6f72f6ba0da668fbf39 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_5ab331682799a6f72f6ba0da668fbf39.html"];
+    dir_5ab331682799a6f72f6ba0da668fbf39 [shape=plaintext label="multiphaseSystem"];
+    dir_0769710d8a5060e73663baccf1ef7a2c [shape=box label="alphaContactAngle" color="black" fillcolor="white" style="filled" URL="dir_0769710d8a5060e73663baccf1ef7a2c.html"];
+    dir_d2fa68893773f04e02f4fa5f3ba06996 [shape=box label="diameterModels" color="red" fillcolor="white" style="filled" URL="dir_d2fa68893773f04e02f4fa5f3ba06996.html"];
+    dir_9211ef966a2491fcc7e6b501a78bec86 [shape=box label="phaseModel" color="black" fillcolor="white" style="filled" URL="dir_9211ef966a2491fcc7e6b501a78bec86.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_d2fa68893773f04e02f4fa5f3ba06996->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_003208_000499.html"];
+  dir_0769710d8a5060e73663baccf1ef7a2c->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_003302_000499.html"];
+  dir_9211ef966a2491fcc7e6b501a78bec86->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="5", labeldistance=1.5 headhref="dir_003232_000499.html"];
+}

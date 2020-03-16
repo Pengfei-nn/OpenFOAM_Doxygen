@@ -1,0 +1,15 @@
+digraph "src/lagrangian/intermediate/submodels/Kinematic/ParticleForces/Drag/ErgunWenYuDrag" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_620819115bb7ac1ed0b4d6e4ce0b4bd5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Drag" fontname="Helvetica", fontsize="10", URL="dir_620819115bb7ac1ed0b4d6e4ce0b4bd5.html"]
+  dir_b529926956c716ce3d22a0b8d4c8ff65 [shape=box, label="ErgunWenYuDrag", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b529926956c716ce3d22a0b8d4c8ff65.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_6ac06ece5f26f1196a12108b46c15ea0 [shape=box label="ParticleForce" URL="dir_6ac06ece5f26f1196a12108b46c15ea0.html"];
+  dir_6ac06ece5f26f1196a12108b46c15ea0->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_001712_000814.html"];
+  dir_b529926956c716ce3d22a0b8d4c8ff65->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_001698_000814.html"];
+  dir_b529926956c716ce3d22a0b8d4c8ff65->dir_6ac06ece5f26f1196a12108b46c15ea0 [headlabel="1", labeldistance=1.5 headhref="dir_001698_001712.html"];
+}

@@ -1,0 +1,36 @@
+digraph "sin"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sin",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="adjustHue",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#ad5fe02105df55a906865d8304b0ac0fc"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::primitiveMeshGeometry\l::checkFaceAngles",height=0.2,width=0.4,color="black",URL="$classFoam_1_1primitiveMeshGeometry.html#a1e53fa2de621f051c1777b67d71e354c"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::polyMeshGeometry\l::checkFaceAngles",height=0.2,width=0.4,color="black",URL="$classFoam_1_1polyMeshGeometry.html#a54a9bc2a85ca197cef7b133c51ec94b4",tooltip="See primitiveMesh. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::nutkRoughWallFunction\lFvPatchScalarField::fnRough",height=0.2,width=0.4,color="black",URL="$classFoam_1_1nutkRoughWallFunctionFvPatchScalarField.html#a7c067e2ca824c0d4f24d5c6d24423bf0",tooltip="Compute the roughness function. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mshToLab",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a1e0097a7bec9bf31c67549fd8ec46c08",tooltip="Convert from special polar version of CIELAB. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::kineticTheoryModels\l::frictionalStressModels\l::JohnsonJackson::read",height=0.2,width=0.4,color="black",URL="$classFoam_1_1kineticTheoryModels_1_1frictionalStressModels_1_1JohnsonJackson.html#af816873151ddb0126e98bb2f914d8ed5"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::cubicEqn::roots",height=0.2,width=0.4,color="black",URL="$classFoam_1_1cubicEqn.html#a2fa09dffd36e0606bc255750a34184fc",tooltip="Get the roots. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Rx",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a372254e3fc7eff020e2121c71cacc1e7",tooltip="Rotational transformation tensor about the x-axis by omega radians. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Ry",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a6f1defc7b9d541da3317116a5f4d2a8e",tooltip="Rotational transformation tensor about the y-axis by omega radians. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="sumProd",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a93e6930f789f21705c721dc592817713",tooltip="Sum product. "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::fixedTrim::thetag",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fixedTrim.html#ada746e880f7327d24d3dee868873d5ef",tooltip="Return the geometric angle of attack [rad]. "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="toCartesian",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a653881adf75092378152a29ed2b23dc1",tooltip="Convert to Cartesian (from Cylindrical) "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Foam::Function1Types\l::quarterSineRamp::value",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Function1Types_1_1quarterSineRamp.html#ace177e4d4965ac826bcbdf4c8d669050",tooltip="Return value for time t. "];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Foam::Function1Types\l::Sine::value",height=0.2,width=0.4,color="black",URL="$classFoam_1_1Function1Types_1_1Sine.html#ae4d2db9a289943b3e739b4976bdd6f04",tooltip="Return value for time t. "];
+}

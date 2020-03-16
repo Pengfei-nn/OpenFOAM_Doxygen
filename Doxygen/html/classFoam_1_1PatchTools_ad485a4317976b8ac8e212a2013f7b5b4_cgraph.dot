@@ -1,0 +1,22 @@
+digraph "edgeOwner"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="edgeOwner",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::PrimitivePatch\l::edgeFaces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PrimitivePatch.html#ab456054a1e7e1a07261799f50167916f",tooltip="Return edge-face addressing. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="edgeOwner",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PatchTools.html#a410209fbd9afb13b3507a811d9221640",tooltip="If 2 face neighbours: label of face where ordering of edge. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::PrimitivePatch\l::edges",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PrimitivePatch.html#aae82d34fe433288eb6b1f9dea53675c8",tooltip="Return list of edges, address into LOCAL point list. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="f",height=0.2,width=0.4,color="black",URL="$readKivaGrid_8H.html#a888be93833ac7a23170555c69c690288"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::PrimitivePatch\l::localFaces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PrimitivePatch.html#af5aca3ce69275c80366bc8d5c0584da2",tooltip="Return patch faces addressing into local point list. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::UList::size",height=0.2,width=0.4,color="red",URL="$classFoam_1_1UList.html#afee03bfededf699921815b2bf3c41e35",tooltip="Override size to be inconsistent with allocated storage. "];
+}

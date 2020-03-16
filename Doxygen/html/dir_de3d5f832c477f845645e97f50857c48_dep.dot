@@ -1,0 +1,15 @@
+digraph "src/TurbulenceModels/turbulenceModels/LES/LESdeltas/maxDeltaxyz" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3e9d13ce922c8e5657605faa5b84c7a1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="LESdeltas" fontname="Helvetica", fontsize="10", URL="dir_3e9d13ce922c8e5657605faa5b84c7a1.html"]
+  dir_de3d5f832c477f845645e97f50857c48 [shape=box, label="maxDeltaxyz", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_de3d5f832c477f845645e97f50857c48.html"];
+  }
+  dir_ee7b7e21773ec7c59c22147291714fd1 [shape=box label="LESdelta" URL="dir_ee7b7e21773ec7c59c22147291714fd1.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_ee7b7e21773ec7c59c22147291714fd1->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_004079_002151.html"];
+  dir_de3d5f832c477f845645e97f50857c48->dir_ee7b7e21773ec7c59c22147291714fd1 [headlabel="1", labeldistance=1.5 headhref="dir_004080_004079.html"];
+  dir_de3d5f832c477f845645e97f50857c48->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_004080_002151.html"];
+}

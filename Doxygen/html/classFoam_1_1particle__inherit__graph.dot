@@ -1,0 +1,30 @@
+digraph "particle&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="particle\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="link\< particle \>",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DTRMParticle",height=0.2,width=0.4,color="black",URL="$classFoam_1_1DTRMParticle.html",tooltip="Discrete Transfer Radiation Model (DTRM) particle. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="findCellParticle",height=0.2,width=0.4,color="black",URL="$classFoam_1_1findCellParticle.html",tooltip="Particle class that finds cells by tracking. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="indexedParticle",height=0.2,width=0.4,color="black",URL="$classFoam_1_1indexedParticle.html",tooltip="Adds label index to base particle. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="injectedParticle",height=0.2,width=0.4,color="black",URL="$classFoam_1_1injectedParticle.html",tooltip="Primarly stores particle properties so that it can be injected at a later time. Note that this stores..."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="molecule",height=0.2,width=0.4,color="black",URL="$classFoam_1_1molecule.html",tooltip="Foam::molecule. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="passiveParticle",height=0.2,width=0.4,color="red",URL="$classFoam_1_1passiveParticle.html",tooltip="Copy of base particle. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="solidParticle",height=0.2,width=0.4,color="black",URL="$classFoam_1_1solidParticle.html",tooltip="Simple solid spherical particle class with one-way coupling with the continuous phase. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="streamLineParticle",height=0.2,width=0.4,color="black",URL="$classFoam_1_1streamLineParticle.html",tooltip="Particle class that samples fields as it passes through. Used in streamline calculation. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="trackedParticle",height=0.2,width=0.4,color="black",URL="$classFoam_1_1trackedParticle.html",tooltip="Particle class that marks cells it passes through. Used to mark cells visited by feature edges..."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="wallBoundedParticle",height=0.2,width=0.4,color="red",URL="$classFoam_1_1wallBoundedParticle.html",tooltip="Particle class that tracks on triangles of boundary faces. Use trackToEdge similar to trackToFace on ..."];
+}

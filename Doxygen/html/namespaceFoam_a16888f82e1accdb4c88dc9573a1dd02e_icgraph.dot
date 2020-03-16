@@ -1,0 +1,30 @@
+digraph "tr"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="tr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dev",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a90e979160d37b84a0d362534e3433777",tooltip="Return the deviatoric part of a tensor. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="inv",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#ac6cce89d9430d6a8a200c00aca98cb7c",tooltip="Return the inverse of a symmetric tensor give the determinant. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::LESModels::Smagorinsky::k",height=0.2,width=0.4,color="black",URL="$classFoam_1_1LESModels_1_1Smagorinsky.html#a5fccd0982fff539a550586cbc901dc80",tooltip="Return SGS kinetic energy. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="operator*",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a8c9064842f4c256da43719fff06fa462"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="operator+",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a71064502bbdef6e1fa5defa11a0409c3"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="operator-",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a9c0208ce98f9ad6f022ce14f9e192d66"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="operator/",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a12cddf97e996921f5a96008f88fc3b76"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="skew",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#aaedf1bb3e4d40e5dae00208a57f7ee30",tooltip="Return the skew-symmetric part of a symmetric tensor. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="sph",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a4f331863863112b6bad63c848fca84aa",tooltip="Return the spherical part of a tensor. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="tr",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a9354c5cf1c5094875b098457c7502c2f",tooltip="Return the trace of a diagonal tensor. "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="twoSymm",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a14ac911bead5a5d63576a0e6f8d6efe6",tooltip="Return twice the symmetric part of a symmetric tensor. "];
+}

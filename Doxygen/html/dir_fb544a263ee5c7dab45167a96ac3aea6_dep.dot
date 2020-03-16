@@ -1,0 +1,26 @@
+digraph "src/OpenFOAM/fields/GeometricFields/pointFields" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_99558e6cce2e782cc8c86fe4c767e1e1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="GeometricFields" fontname="Helvetica", fontsize="10", URL="dir_99558e6cce2e782cc8c86fe4c767e1e1.html"]
+  dir_fb544a263ee5c7dab45167a96ac3aea6 [shape=box, label="pointFields", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_fb544a263ee5c7dab45167a96ac3aea6.html"];
+  }
+  dir_7d364942a13d3ce50f6681364b448a98 [shape=box label="Fields" color="red" URL="dir_7d364942a13d3ce50f6681364b448a98.html"];
+  dir_1c0ea8bf575d837c6744560b5bb2481c [shape=box label="pointPatchFields" color="red" URL="dir_1c0ea8bf575d837c6744560b5bb2481c.html"];
+  dir_aa2423979fb45fc41c393a5db370ab21 [shape=box label="meshes" color="red" URL="dir_aa2423979fb45fc41c393a5db370ab21.html"];
+  dir_cd8c242dbf9349898a9b717387ebe031 [shape=box label="GeometricField" URL="dir_cd8c242dbf9349898a9b717387ebe031.html"];
+  dir_7d364942a13d3ce50f6681364b448a98->dir_aa2423979fb45fc41c393a5db370ab21 [headlabel="3", labeldistance=1.5 headhref="dir_002323_002525.html"];
+  dir_fb544a263ee5c7dab45167a96ac3aea6->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="1", labeldistance=1.5 headhref="dir_002355_002323.html"];
+  dir_fb544a263ee5c7dab45167a96ac3aea6->dir_1c0ea8bf575d837c6744560b5bb2481c [headlabel="1", labeldistance=1.5 headhref="dir_002355_002358.html"];
+  dir_fb544a263ee5c7dab45167a96ac3aea6->dir_aa2423979fb45fc41c393a5db370ab21 [headlabel="2", labeldistance=1.5 headhref="dir_002355_002525.html"];
+  dir_fb544a263ee5c7dab45167a96ac3aea6->dir_cd8c242dbf9349898a9b717387ebe031 [headlabel="1", labeldistance=1.5 headhref="dir_002355_002347.html"];
+  dir_1c0ea8bf575d837c6744560b5bb2481c->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="32", labeldistance=1.5 headhref="dir_002358_002323.html"];
+  dir_1c0ea8bf575d837c6744560b5bb2481c->dir_aa2423979fb45fc41c393a5db370ab21 [headlabel="16", labeldistance=1.5 headhref="dir_002358_002525.html"];
+  dir_aa2423979fb45fc41c393a5db370ab21->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="32", labeldistance=1.5 headhref="dir_002525_002323.html"];
+  dir_aa2423979fb45fc41c393a5db370ab21->dir_1c0ea8bf575d837c6744560b5bb2481c [headlabel="8", labeldistance=1.5 headhref="dir_002525_002358.html"];
+  dir_aa2423979fb45fc41c393a5db370ab21->dir_cd8c242dbf9349898a9b717387ebe031 [headlabel="1", labeldistance=1.5 headhref="dir_002525_002347.html"];
+  dir_cd8c242dbf9349898a9b717387ebe031->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="3", labeldistance=1.5 headhref="dir_002347_002323.html"];
+  dir_cd8c242dbf9349898a9b717387ebe031->dir_aa2423979fb45fc41c393a5db370ab21 [headlabel="6", labeldistance=1.5 headhref="dir_002347_002525.html"];
+}

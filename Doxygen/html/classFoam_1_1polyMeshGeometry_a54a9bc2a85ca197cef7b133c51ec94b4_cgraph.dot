@@ -1,0 +1,41 @@
+digraph "checkFaceAngles"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="checkFaceAngles",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::asin",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a0f833aaca51130190a5001a7e5392f8a"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::degToRad",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a29bdf29209233267101e6fc9463dabf1",tooltip="Conversion from degrees to radians. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::endl",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="red",URL="$classFoam_1_1polyMesh.html#a4434536d50d4c14116249da802a1e2b2",tooltip="Return raw faces. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::UList::fcIndex",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UList.html#af4d05e19e6cdc80f0c7acd5bbe250f69",tooltip="Return the forward circular index, i.e. next index which returns to the first at the end of the list..."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::UList::first",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UList.html#a1c9828bc3de9502754d944c95a2ce0d9",tooltip="Return the first element of the list. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$classFoam_1_1HashSet.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry, not overwriting existing entries. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::UList::last",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UList.html#aef07c02ea1c27bdb5906043b399e0ff0",tooltip="Return the last element of the list. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a834bb6faa2fd38f3b65634f2e1987e97"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a0e0c00c14acbabe88eec56a8b0fa2806",tooltip="Find the max value in labelHashSet, optionally limited by second argument. "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a96b65441175bbfb9a869045dc05fb0b9",tooltip="Find the min value in labelHashSet, optionally limited by second argument. "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Foam::normalised",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#ae8b6429f5bc023d52cf48615ed13f578"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Foam::radToDeg",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a7b95c583775795580f596c0e6ed9ce34",tooltip="Conversion from radians to degrees. "];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node16 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Foam::sin",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a4517d680df5510934705011b30dcefa6"];
+}

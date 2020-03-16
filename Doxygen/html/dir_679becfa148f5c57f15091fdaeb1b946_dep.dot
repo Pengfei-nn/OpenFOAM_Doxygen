@@ -1,0 +1,12 @@
+digraph "src/lagrangian/spray/submodels/StochasticCollision/TrajectoryCollision" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d1a3f71b50ce1a4c501cb9b210d08764 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="StochasticCollision" fontname="Helvetica", fontsize="10", URL="dir_d1a3f71b50ce1a4c501cb9b210d08764.html"]
+  dir_679becfa148f5c57f15091fdaeb1b946 [shape=box, label="TrajectoryCollision", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_679becfa148f5c57f15091fdaeb1b946.html"];
+  }
+  dir_01a2942dd95d383dccdbc857d1cde848 [shape=box label="ORourkeCollision" URL="dir_01a2942dd95d383dccdbc857d1cde848.html"];
+  dir_679becfa148f5c57f15091fdaeb1b946->dir_01a2942dd95d383dccdbc857d1cde848 [headlabel="1", labeldistance=1.5 headhref="dir_001874_001873.html"];
+}

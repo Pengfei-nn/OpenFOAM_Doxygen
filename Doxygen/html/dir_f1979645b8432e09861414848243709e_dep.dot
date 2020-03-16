@@ -1,0 +1,12 @@
+digraph "src/thermophysicalModels/specie/reaction/Reactions/NonEquilibriumReversibleReaction" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6df6717126315845253e3389d84631ef {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Reactions" fontname="Helvetica", fontsize="10", URL="dir_6df6717126315845253e3389d84631ef.html"]
+  dir_f1979645b8432e09861414848243709e [shape=box, label="NonEquilibriumReversibleReaction", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_f1979645b8432e09861414848243709e.html"];
+  }
+  dir_b7c4cf0a4d4427609627ff77ee1a173b [shape=box label="Reaction" URL="dir_b7c4cf0a4d4427609627ff77ee1a173b.html"];
+  dir_f1979645b8432e09861414848243709e->dir_b7c4cf0a4d4427609627ff77ee1a173b [headlabel="1", labeldistance=1.5 headhref="dir_003860_003861.html"];
+}

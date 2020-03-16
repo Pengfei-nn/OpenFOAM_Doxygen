@@ -1,0 +1,14 @@
+digraph "src/thermophysicalModels/reactionThermo/mixtures/egrMixture" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4c3899116fa10d6c6748b991d6c665d1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="mixtures" fontname="Helvetica", fontsize="10", URL="dir_4c3899116fa10d6c6748b991d6c665d1.html"]
+  dir_2374790e2b96731a62dbad823312fc23 [shape=box, label="egrMixture", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2374790e2b96731a62dbad823312fc23.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_304be2c3c3e20d27db4225b2b34f5ead [shape=box label="basicCombustionMixture" URL="dir_304be2c3c3e20d27db4225b2b34f5ead.html"];
+  dir_2374790e2b96731a62dbad823312fc23->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_003795_000814.html"];
+  dir_2374790e2b96731a62dbad823312fc23->dir_304be2c3c3e20d27db4225b2b34f5ead [headlabel="1", labeldistance=1.5 headhref="dir_003795_003792.html"];
+}

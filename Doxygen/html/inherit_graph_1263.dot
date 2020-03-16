@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="objectMap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1objectMap.html",tooltip="An objectMap is a pair of labels defining the mapping of an object from another object, e.g. a cell mapped from a point. "];
+}

@@ -1,0 +1,15 @@
+digraph "src/fileFormats/sampledSetWriters/gnuplot" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_276074facfd9ea15c0477839cf5f076d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="sampledSetWriters" fontname="Helvetica", fontsize="10", URL="dir_276074facfd9ea15c0477839cf5f076d.html"]
+  dir_e6d09ce4d30904621ed9ee3bb223c5c3 [shape=box, label="gnuplot", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e6d09ce4d30904621ed9ee3bb223c5c3.html"];
+  }
+  dir_388c909ee48a1d04b28f5bcb790268a1 [shape=box label="coordSet" URL="dir_388c909ee48a1d04b28f5bcb790268a1.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_388c909ee48a1d04b28f5bcb790268a1->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="3", labeldistance=1.5 headhref="dir_000684_002151.html"];
+  dir_e6d09ce4d30904621ed9ee3bb223c5c3->dir_388c909ee48a1d04b28f5bcb790268a1 [headlabel="1", labeldistance=1.5 headhref="dir_000697_000684.html"];
+  dir_e6d09ce4d30904621ed9ee3bb223c5c3->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="4", labeldistance=1.5 headhref="dir_000697_002151.html"];
+}

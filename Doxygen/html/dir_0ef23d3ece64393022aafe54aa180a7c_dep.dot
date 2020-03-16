@@ -1,0 +1,18 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/phaseCompressibleTurbulenceModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9a8884475cf7812a7a55716c3274f065 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="twoPhaseEulerFoam" fontname="Helvetica", fontsize="10", URL="dir_9a8884475cf7812a7a55716c3274f065.html"]
+  subgraph clusterdir_0ef23d3ece64393022aafe54aa180a7c {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_0ef23d3ece64393022aafe54aa180a7c.html"];
+    dir_0ef23d3ece64393022aafe54aa180a7c [shape=plaintext label="phaseCompressibleTurbulenceModels"];
+    dir_18940e7e4fb44f9ad3a0587e01140041 [shape=box label="kineticTheoryModels" color="red" fillcolor="white" style="filled" URL="dir_18940e7e4fb44f9ad3a0587e01140041.html"];
+    dir_461ab6fd2d169f22f3617b9d77c5953a [shape=box label="phasePressureModel" color="black" fillcolor="white" style="filled" URL="dir_461ab6fd2d169f22f3617b9d77c5953a.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_461ab6fd2d169f22f3617b9d77c5953a->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="5", labeldistance=1.5 headhref="dir_003367_000499.html"];
+  dir_18940e7e4fb44f9ad3a0587e01140041->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="25", labeldistance=1.5 headhref="dir_003308_000499.html"];
+}

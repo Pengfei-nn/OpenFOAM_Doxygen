@@ -1,0 +1,25 @@
+digraph "src/functionObjects/utilities/parProfiling/parProfiling.C"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/functionObjects\l/utilities/parProfiling\l/parProfiling.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="parProfiling.H",height=0.2,width=0.4,color="red",URL="$parProfiling_8H.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="addToRunTimeSelectionTable.H",height=0.2,width=0.4,color="black",URL="$addToRunTimeSelectionTable_8H.html",tooltip="Macros for easy insertion into run-time selection tables. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="UPstream.H",height=0.2,width=0.4,color="red",URL="$UPstream_8H.html"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Pstream.H",height=0.2,width=0.4,color="red",URL="$Pstream_8H.html"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="PstreamReduceOps.H",height=0.2,width=0.4,color="red",URL="$PstreamReduceOps_8H.html",tooltip="Inter-processor communication reduction functions. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="profilingPstream.H",height=0.2,width=0.4,color="red",URL="$profilingPstream_8H.html"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="FixedList.H",height=0.2,width=0.4,color="red",URL="$FixedList_8H.html"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Tuple2.H",height=0.2,width=0.4,color="red",URL="$Tuple2_8H.html"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

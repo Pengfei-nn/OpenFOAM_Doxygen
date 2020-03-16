@@ -1,0 +1,22 @@
+digraph "src/OpenFOAM/graph/writers" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0fdbe385b7770877731446f8c754e682 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="graph" fontname="Helvetica", fontsize="10", URL="dir_0fdbe385b7770877731446f8c754e682.html"]
+  subgraph clusterdir_4186ef7d082dc05bc2b228141df39fcb {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_4186ef7d082dc05bc2b228141df39fcb.html"];
+    dir_4186ef7d082dc05bc2b228141df39fcb [shape=plaintext label="writers"];
+    dir_e77a220e027a816d0c464ca487290808 [shape=box label="gnuplotGraph" color="black" fillcolor="white" style="filled" URL="dir_e77a220e027a816d0c464ca487290808.html"];
+    dir_352046011ec4213851dc9b8a91385200 [shape=box label="jplotGraph" color="black" fillcolor="white" style="filled" URL="dir_352046011ec4213851dc9b8a91385200.html"];
+    dir_844d5da792aca85700cb8a9523e6b992 [shape=box label="rawGraph" color="black" fillcolor="white" style="filled" URL="dir_844d5da792aca85700cb8a9523e6b992.html"];
+    dir_8848a73de6d6cd8f662dc4c991439305 [shape=box label="xmgrGraph" color="black" fillcolor="white" style="filled" URL="dir_8848a73de6d6cd8f662dc4c991439305.html"];
+  }
+  }
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_844d5da792aca85700cb8a9523e6b992->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002416_002218.html"];
+  dir_352046011ec4213851dc9b8a91385200->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002415_002218.html"];
+  dir_8848a73de6d6cd8f662dc4c991439305->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002417_002218.html"];
+  dir_e77a220e027a816d0c464ca487290808->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002414_002218.html"];
+}

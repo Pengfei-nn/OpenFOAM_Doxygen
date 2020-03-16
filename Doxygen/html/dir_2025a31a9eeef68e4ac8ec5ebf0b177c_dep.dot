@@ -1,0 +1,16 @@
+digraph "applications/solvers/compressible/rhoPimpleFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ec6fbd2e4e71296a5c4843bd2aa1db19 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="compressible" fontname="Helvetica", fontsize="10", URL="dir_ec6fbd2e4e71296a5c4843bd2aa1db19.html"]
+  subgraph clusterdir_2025a31a9eeef68e4ac8ec5ebf0b177c {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_2025a31a9eeef68e4ac8ec5ebf0b177c.html"];
+    dir_2025a31a9eeef68e4ac8ec5ebf0b177c [shape=plaintext label="rhoPimpleFoam"];
+    dir_da5023477afa0564743381c50203551c [shape=box label="overRhoPimpleDyMFoam" color="black" fillcolor="white" style="filled" URL="dir_da5023477afa0564743381c50203551c.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_da5023477afa0564743381c50203551c->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="5", labeldistance=1.5 headhref="dir_000015_000499.html"];
+}

@@ -1,0 +1,10 @@
+digraph "applications/solvers/DNS/dnsFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cd92214bc98a4694331953f5bfc53511 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="DNS" fontname="Helvetica", fontsize="10", URL="dir_cd92214bc98a4694331953f5bfc53511.html"]
+  dir_86649e9769991d19bbf486690d08bde1 [shape=box, label="dnsFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_86649e9769991d19bbf486690d08bde1.html"];
+  }
+}

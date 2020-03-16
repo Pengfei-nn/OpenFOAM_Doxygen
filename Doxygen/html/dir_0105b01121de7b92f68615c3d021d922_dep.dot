@@ -1,0 +1,19 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/frictionalStressModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_18940e7e4fb44f9ad3a0587e01140041 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="kineticTheoryModels" fontname="Helvetica", fontsize="10", URL="dir_18940e7e4fb44f9ad3a0587e01140041.html"]
+  subgraph clusterdir_0105b01121de7b92f68615c3d021d922 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_0105b01121de7b92f68615c3d021d922.html"];
+    dir_0105b01121de7b92f68615c3d021d922 [shape=plaintext label="frictionalStressModel"];
+    dir_15b82d356673a097249638c1e3eed7ae [shape=box label="frictionalStressModel" color="black" fillcolor="white" style="filled" URL="dir_15b82d356673a097249638c1e3eed7ae.html"];
+    dir_209bef62cd907c630433b8d6ec2cead8 [shape=box label="JohnsonJackson" color="black" fillcolor="white" style="filled" URL="dir_209bef62cd907c630433b8d6ec2cead8.html"];
+    dir_7e9db5820f82fc35c55c149e25bdd616 [shape=box label="JohnsonJacksonSchaeffer" color="black" fillcolor="white" style="filled" URL="dir_7e9db5820f82fc35c55c149e25bdd616.html"];
+    dir_92f06e642f381c3e646ebc4932d77787 [shape=box label="Schaeffer" color="black" fillcolor="white" style="filled" URL="dir_92f06e642f381c3e646ebc4932d77787.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_15b82d356673a097249638c1e3eed7ae->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_003326_000499.html"];
+}

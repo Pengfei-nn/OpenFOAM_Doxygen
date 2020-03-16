@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/interfacialModels/dragModels/TomiyamaCorrelated" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c58268a9b7712e9928f15c977fe2c49e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="dragModels" fontname="Helvetica", fontsize="10", URL="dir_c58268a9b7712e9928f15c977fe2c49e.html"]
+  dir_ae5a7efcefcd0443887e8a82e5eacff4 [shape=box, label="TomiyamaCorrelated", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ae5a7efcefcd0443887e8a82e5eacff4.html"];
+  }
+}

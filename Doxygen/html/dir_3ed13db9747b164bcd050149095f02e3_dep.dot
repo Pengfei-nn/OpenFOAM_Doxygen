@@ -1,0 +1,12 @@
+digraph "applications/solvers/combustion/PDRFoam/PDRModels/XiEqModels/basicXiSubXiEq" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_41f73f04d76a13fbe764809830efb673 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="XiEqModels" fontname="Helvetica", fontsize="10", URL="dir_41f73f04d76a13fbe764809830efb673.html"]
+  dir_3ed13db9747b164bcd050149095f02e3 [shape=box, label="basicXiSubXiEq", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3ed13db9747b164bcd050149095f02e3.html"];
+  }
+  dir_875d300f7c06ad3c5c9e587b64daa300 [shape=box label="XiModels" color="red" URL="dir_875d300f7c06ad3c5c9e587b64daa300.html"];
+  dir_3ed13db9747b164bcd050149095f02e3->dir_875d300f7c06ad3c5c9e587b64daa300 [headlabel="1", labeldistance=1.5 headhref="dir_000102_000105.html"];
+}

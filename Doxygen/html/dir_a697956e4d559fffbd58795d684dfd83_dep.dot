@@ -1,0 +1,22 @@
+digraph "applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cellSizeControlSurfaces/surfaceCellSizeFunction/cellSizeCalculationType" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bb203e61ccf055bfaaaa7acfdea88afb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="surfaceCellSizeFunction" fontname="Helvetica", fontsize="10", URL="dir_bb203e61ccf055bfaaaa7acfdea88afb.html"]
+  subgraph clusterdir_a697956e4d559fffbd58795d684dfd83 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_a697956e4d559fffbd58795d684dfd83.html"];
+    dir_a697956e4d559fffbd58795d684dfd83 [shape=plaintext label="cellSizeCalculationType"];
+    dir_35bb6116b1e221ce86343c74ad2c20cb [shape=box label="automatic" color="black" fillcolor="white" style="filled" URL="dir_35bb6116b1e221ce86343c74ad2c20cb.html"];
+    dir_4b32007aaf06d58f51fdc3e678ece01a [shape=box label="cellSizeCalculationType" color="black" fillcolor="white" style="filled" URL="dir_4b32007aaf06d58f51fdc3e678ece01a.html"];
+    dir_44cb690e17aa6015688c894691084093 [shape=box label="fieldFromFile" color="black" fillcolor="white" style="filled" URL="dir_44cb690e17aa6015688c894691084093.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_44cb690e17aa6015688c894691084093->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000312_000499.html"];
+  dir_44cb690e17aa6015688c894691084093->dir_4b32007aaf06d58f51fdc3e678ece01a [headlabel="1", labeldistance=1.5 headhref="dir_000312_000311.html"];
+  dir_4b32007aaf06d58f51fdc3e678ece01a->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_000311_000499.html"];
+  dir_35bb6116b1e221ce86343c74ad2c20cb->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000310_000499.html"];
+  dir_35bb6116b1e221ce86343c74ad2c20cb->dir_4b32007aaf06d58f51fdc3e678ece01a [headlabel="1", labeldistance=1.5 headhref="dir_000310_000311.html"];
+}

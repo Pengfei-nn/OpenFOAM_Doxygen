@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/meshes/MeshObject" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_aa2423979fb45fc41c393a5db370ab21 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="meshes" fontname="Helvetica", fontsize="10", URL="dir_aa2423979fb45fc41c393a5db370ab21.html"]
+  dir_eacc4aff89696b3e3ac7cbcde46e9390 [shape=box, label="MeshObject", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_eacc4aff89696b3e3ac7cbcde46e9390.html"];
+  }
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_eacc4aff89696b3e3ac7cbcde46e9390->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="4", labeldistance=1.5 headhref="dir_002537_002218.html"];
+}

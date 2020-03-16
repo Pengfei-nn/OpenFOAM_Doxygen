@@ -1,0 +1,19 @@
+digraph "src/OpenFOAM/db/IOobjects/GlobalIOList" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cc10b28373a5cdb85fcb1ececb22619b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="IOobjects" fontname="Helvetica", fontsize="10", URL="dir_cc10b28373a5cdb85fcb1ececb22619b.html"]
+  dir_58fed69a5444be9b90fd9b18109369d1 [shape=box, label="GlobalIOList", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_58fed69a5444be9b90fd9b18109369d1.html"];
+  }
+  dir_962442b8f989d5529fab5e0f0e4ffb74 [shape=box label="fields" color="red" URL="dir_962442b8f989d5529fab5e0f0e4ffb74.html"];
+  dir_19d0872053bde092be81d7fe3f56cbf7 [shape=box label="containers" color="red" URL="dir_19d0872053bde092be81d7fe3f56cbf7.html"];
+  dir_bb2890f68b7fdb7b322b02b8256df6db [shape=box label="regIOobject" URL="dir_bb2890f68b7fdb7b322b02b8256df6db.html"];
+  dir_962442b8f989d5529fab5e0f0e4ffb74->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="11", labeldistance=1.5 headhref="dir_002305_002156.html"];
+  dir_962442b8f989d5529fab5e0f0e4ffb74->dir_bb2890f68b7fdb7b322b02b8256df6db [headlabel="3", labeldistance=1.5 headhref="dir_002305_002281.html"];
+  dir_58fed69a5444be9b90fd9b18109369d1->dir_962442b8f989d5529fab5e0f0e4ffb74 [headlabel="1", labeldistance=1.5 headhref="dir_002259_002305.html"];
+  dir_58fed69a5444be9b90fd9b18109369d1->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="1", labeldistance=1.5 headhref="dir_002259_002156.html"];
+  dir_58fed69a5444be9b90fd9b18109369d1->dir_bb2890f68b7fdb7b322b02b8256df6db [headlabel="1", labeldistance=1.5 headhref="dir_002259_002281.html"];
+  dir_bb2890f68b7fdb7b322b02b8256df6db->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="1", labeldistance=1.5 headhref="dir_002281_002156.html"];
+}

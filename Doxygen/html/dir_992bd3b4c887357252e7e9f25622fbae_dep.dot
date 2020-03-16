@@ -1,0 +1,14 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/phaseSystems/populationBalanceModel/breakupModels/powerLaw" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_14c0d0009f2ac072307ec8ee27104b33 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="breakupModels" fontname="Helvetica", fontsize="10", URL="dir_14c0d0009f2ac072307ec8ee27104b33.html"]
+  dir_992bd3b4c887357252e7e9f25622fbae [shape=box, label="powerLaw", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_992bd3b4c887357252e7e9f25622fbae.html"];
+  }
+  dir_b8ec4032d7deeccf07215ae2b9b3a385 [shape=box label="breakupModel" URL="dir_b8ec4032d7deeccf07215ae2b9b3a385.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_992bd3b4c887357252e7e9f25622fbae->dir_b8ec4032d7deeccf07215ae2b9b3a385 [headlabel="1", labeldistance=1.5 headhref="dir_000854_003265.html"];
+  dir_992bd3b4c887357252e7e9f25622fbae->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_000854_002151.html"];
+}

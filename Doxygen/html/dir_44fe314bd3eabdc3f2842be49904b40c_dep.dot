@@ -1,0 +1,12 @@
+digraph "src/lagrangian/intermediate/submodels/MPPIC/AveragingMethods/AveragingMethod" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fbd1c672053200686ab1ea737c0ac70f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="AveragingMethods" fontname="Helvetica", fontsize="10", URL="dir_fbd1c672053200686ab1ea737c0ac70f.html"]
+  dir_44fe314bd3eabdc3f2842be49904b40c [shape=box, label="AveragingMethod", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_44fe314bd3eabdc3f2842be49904b40c.html"];
+  }
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_44fe314bd3eabdc3f2842be49904b40c->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="6", labeldistance=1.5 headhref="dir_001730_002151.html"];
+}

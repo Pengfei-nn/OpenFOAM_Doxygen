@@ -1,0 +1,10 @@
+digraph "src/OpenFOAM/primitives/DiagTensor/diagTensor" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_537bace1925cccf901fb30a89ca4875a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="DiagTensor" fontname="Helvetica", fontsize="10", URL="dir_537bace1925cccf901fb30a89ca4875a.html"]
+  dir_91218ede25c8ca6bb6f79e9a68111b81 [shape=box, label="diagTensor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_91218ede25c8ca6bb6f79e9a68111b81.html"];
+  }
+}

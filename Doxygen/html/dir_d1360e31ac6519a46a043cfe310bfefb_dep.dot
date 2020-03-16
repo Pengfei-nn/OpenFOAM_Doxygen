@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/potentialFreeSurfaceFoam/potentialFreeSurfaceDyMFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_40ec60a1fdb4f603452122e742a2be76 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="potentialFreeSurfaceFoam" fontname="Helvetica", fontsize="10", URL="dir_40ec60a1fdb4f603452122e742a2be76.html"]
+  dir_d1360e31ac6519a46a043cfe310bfefb [shape=box, label="potentialFreeSurfaceDyMFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d1360e31ac6519a46a043cfe310bfefb.html"];
+  }
+}

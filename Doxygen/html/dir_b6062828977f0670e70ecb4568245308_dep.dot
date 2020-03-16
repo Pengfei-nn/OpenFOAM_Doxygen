@@ -1,0 +1,36 @@
+digraph "src/thermophysicalModels/chemistryModel/chemistrySolver/chemistrySolver" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6bcc1e86007f484a5b22bf400ecd810f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="chemistrySolver" fontname="Helvetica", fontsize="10", URL="dir_6bcc1e86007f484a5b22bf400ecd810f.html"]
+  dir_b6062828977f0670e70ecb4568245308 [shape=box, label="chemistrySolver", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b6062828977f0670e70ecb4568245308.html"];
+  }
+  dir_5c4bf53b114f4c9237cd4ef0431fc9bd [shape=box label="specie" color="red" URL="dir_5c4bf53b114f4c9237cd4ef0431fc9bd.html"];
+  dir_531cd5b0a38f00a7139c22fe0972072f [shape=box label="EulerImplicit" URL="dir_531cd5b0a38f00a7139c22fe0972072f.html"];
+  dir_59275a36d5557d48973d087e211fa222 [shape=box label="noChemistrySolver" URL="dir_59275a36d5557d48973d087e211fa222.html"];
+  dir_c571401ccb489c71ff21e08e929f4e25 [shape=box label="chemistryModel" color="red" URL="dir_c571401ccb489c71ff21e08e929f4e25.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_87c7a4a86ffb283740ec390ea55551cb [shape=box label="reactionThermo" color="red" URL="dir_87c7a4a86ffb283740ec390ea55551cb.html"];
+  dir_0c84beea5d7d3600bce4f850f077082a [shape=box label="ode" URL="dir_0c84beea5d7d3600bce4f850f077082a.html"];
+  dir_5c4bf53b114f4c9237cd4ef0431fc9bd->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="87", labeldistance=1.5 headhref="dir_001228_002151.html"];
+  dir_531cd5b0a38f00a7139c22fe0972072f->dir_5c4bf53b114f4c9237cd4ef0431fc9bd [headlabel="1", labeldistance=1.5 headhref="dir_003709_001228.html"];
+  dir_531cd5b0a38f00a7139c22fe0972072f->dir_b6062828977f0670e70ecb4568245308 [headlabel="1", labeldistance=1.5 headhref="dir_003709_003708.html"];
+  dir_531cd5b0a38f00a7139c22fe0972072f->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="3", labeldistance=1.5 headhref="dir_003709_002151.html"];
+  dir_59275a36d5557d48973d087e211fa222->dir_b6062828977f0670e70ecb4568245308 [headlabel="1", labeldistance=1.5 headhref="dir_003710_003708.html"];
+  dir_59275a36d5557d48973d087e211fa222->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_003710_002151.html"];
+  dir_c571401ccb489c71ff21e08e929f4e25->dir_5c4bf53b114f4c9237cd4ef0431fc9bd [headlabel="4", labeldistance=1.5 headhref="dir_003687_001228.html"];
+  dir_c571401ccb489c71ff21e08e929f4e25->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="28", labeldistance=1.5 headhref="dir_003687_002151.html"];
+  dir_c571401ccb489c71ff21e08e929f4e25->dir_87c7a4a86ffb283740ec390ea55551cb [headlabel="7", labeldistance=1.5 headhref="dir_003687_003779.html"];
+  dir_b6062828977f0670e70ecb4568245308->dir_5c4bf53b114f4c9237cd4ef0431fc9bd [headlabel="1", labeldistance=1.5 headhref="dir_003708_001228.html"];
+  dir_b6062828977f0670e70ecb4568245308->dir_531cd5b0a38f00a7139c22fe0972072f [headlabel="1", labeldistance=1.5 headhref="dir_003708_003709.html"];
+  dir_b6062828977f0670e70ecb4568245308->dir_59275a36d5557d48973d087e211fa222 [headlabel="1", labeldistance=1.5 headhref="dir_003708_003710.html"];
+  dir_b6062828977f0670e70ecb4568245308->dir_c571401ccb489c71ff21e08e929f4e25 [headlabel="2", labeldistance=1.5 headhref="dir_003708_003687.html"];
+  dir_b6062828977f0670e70ecb4568245308->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003708_002151.html"];
+  dir_b6062828977f0670e70ecb4568245308->dir_87c7a4a86ffb283740ec390ea55551cb [headlabel="2", labeldistance=1.5 headhref="dir_003708_003779.html"];
+  dir_b6062828977f0670e70ecb4568245308->dir_0c84beea5d7d3600bce4f850f077082a [headlabel="1", labeldistance=1.5 headhref="dir_003708_003711.html"];
+  dir_87c7a4a86ffb283740ec390ea55551cb->dir_5c4bf53b114f4c9237cd4ef0431fc9bd [headlabel="57", labeldistance=1.5 headhref="dir_003779_001228.html"];
+  dir_87c7a4a86ffb283740ec390ea55551cb->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="28", labeldistance=1.5 headhref="dir_003779_002151.html"];
+  dir_0c84beea5d7d3600bce4f850f077082a->dir_b6062828977f0670e70ecb4568245308 [headlabel="1", labeldistance=1.5 headhref="dir_003711_003708.html"];
+}

@@ -1,0 +1,24 @@
+digraph "loadPointField"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="loadPointField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::IOobject::db",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#adf469b34fcd0250cef43ac4ce3f153ab",tooltip="Return the local objectRegistry. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="endl",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::IOobject::headerClassName",height=0.2,width=0.4,color="red",URL="$classFoam_1_1IOobject.html#a82625e0262de6399f2d4cf9542014c99",tooltip="Return name of the class name read from header. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::IOobject::instance",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#a46160ffc8e0db5faef21fc9aa00a1677"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::IOobject::local",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#abaa5bb6899d5ce5105e495d2e1b0a77f"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#a6d60057c26042eaf7fa1b3b6fb07b582",tooltip="Return name. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::autoPtr::New",height=0.2,width=0.4,color="black",URL="$classFoam_1_1autoPtr.html#ad82ede358a78a76455a1dd14dd55d843",tooltip="Construct autoPtr of T with forwarding arguments. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::IOobject::register\lObject",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#a0eb09fb85e1e5f6f13d9cdf62e6061b7",tooltip="Should object created with this IOobject be registered? "];
+}

@@ -1,0 +1,15 @@
+digraph "src/finiteArea/faMesh/faPatches/constraint/empty" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_153f03f4c9f1808136b4b13dc539a5ce {
+    graph [ bgcolor="#ddddee", pencolor="black", label="constraint" fontname="Helvetica", fontsize="10", URL="dir_153f03f4c9f1808136b4b13dc539a5ce.html"]
+  dir_e1fac00e4d1523938d8612acd1872320 [shape=box, label="empty", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e1fac00e4d1523938d8612acd1872320.html"];
+  }
+  dir_2573e9a60ab8504dd6f33355336227ae [shape=box label="faPatch" URL="dir_2573e9a60ab8504dd6f33355336227ae.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_2573e9a60ab8504dd6f33355336227ae->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="11", labeldistance=1.5 headhref="dir_000732_002151.html"];
+  dir_e1fac00e4d1523938d8612acd1872320->dir_2573e9a60ab8504dd6f33355336227ae [headlabel="1", labeldistance=1.5 headhref="dir_000728_000732.html"];
+  dir_e1fac00e4d1523938d8612acd1872320->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_000728_002151.html"];
+}

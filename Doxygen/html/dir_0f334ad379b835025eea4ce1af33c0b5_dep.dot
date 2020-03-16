@@ -1,0 +1,20 @@
+digraph "src/regionModels/surfaceFilmModels/submodels/thermo/heatTransferModel/mappedConvectiveHeatTransfer" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c66a9f62c3f9db27452d795171e9cfbb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="heatTransferModel" fontname="Helvetica", fontsize="10", URL="dir_c66a9f62c3f9db27452d795171e9cfbb.html"]
+  dir_0f334ad379b835025eea4ce1af33c0b5 [shape=box, label="mappedConvectiveHeatTransfer", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0f334ad379b835025eea4ce1af33c0b5.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_1c60e658c3548753b29433c6c9718fd3 [shape=box label="kinematicSingleLayer" URL="dir_1c60e658c3548753b29433c6c9718fd3.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_9bd15774b555cf7259a6fa18f99fe99b->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="895", labeldistance=1.5 headhref="dir_000814_002151.html"];
+  dir_1c60e658c3548753b29433c6c9718fd3->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="12", labeldistance=1.5 headhref="dir_003422_000814.html"];
+  dir_1c60e658c3548753b29433c6c9718fd3->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003422_002151.html"];
+  dir_0f334ad379b835025eea4ce1af33c0b5->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_003465_000814.html"];
+  dir_0f334ad379b835025eea4ce1af33c0b5->dir_1c60e658c3548753b29433c6c9718fd3 [headlabel="1", labeldistance=1.5 headhref="dir_003465_003422.html"];
+  dir_0f334ad379b835025eea4ce1af33c0b5->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_003465_002151.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_002151_000814.html"];
+}

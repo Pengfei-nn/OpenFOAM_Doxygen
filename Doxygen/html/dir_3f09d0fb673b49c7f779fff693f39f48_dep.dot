@@ -1,0 +1,19 @@
+digraph "src/OpenFOAM/matrices/QRMatrix" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b07477ab37bc0cd7eb28fb569c691c21 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="matrices" fontname="Helvetica", fontsize="10", URL="dir_b07477ab37bc0cd7eb28fb569c691c21.html"]
+  dir_3f09d0fb673b49c7f779fff693f39f48 [shape=box, label="QRMatrix", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3f09d0fb673b49c7f779fff693f39f48.html"];
+  }
+  dir_9de91893ed1140d312544af919035e0c [shape=box label="SquareMatrix" URL="dir_9de91893ed1140d312544af919035e0c.html"];
+  dir_82024ecf96c7e84d47860642f57ace9e [shape=box label="RectangularMatrix" URL="dir_82024ecf96c7e84d47860642f57ace9e.html"];
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_9de91893ed1140d312544af919035e0c->dir_82024ecf96c7e84d47860642f57ace9e [headlabel="1", labeldistance=1.5 headhref="dir_002518_002513.html"];
+  dir_9de91893ed1140d312544af919035e0c->dir_3e50f45338116b169052b428016851aa [headlabel="2", labeldistance=1.5 headhref="dir_002518_002628.html"];
+  dir_82024ecf96c7e84d47860642f57ace9e->dir_9de91893ed1140d312544af919035e0c [headlabel="1", labeldistance=1.5 headhref="dir_002513_002518.html"];
+  dir_3f09d0fb673b49c7f779fff693f39f48->dir_9de91893ed1140d312544af919035e0c [headlabel="1", labeldistance=1.5 headhref="dir_002512_002518.html"];
+  dir_3f09d0fb673b49c7f779fff693f39f48->dir_82024ecf96c7e84d47860642f57ace9e [headlabel="1", labeldistance=1.5 headhref="dir_002512_002513.html"];
+  dir_3f09d0fb673b49c7f779fff693f39f48->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_002512_002628.html"];
+}

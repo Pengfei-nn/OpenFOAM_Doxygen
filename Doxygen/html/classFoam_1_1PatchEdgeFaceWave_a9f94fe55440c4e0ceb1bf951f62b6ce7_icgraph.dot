@@ -1,0 +1,10 @@
+digraph "setEdgeInfo"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="setEdgeInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="PatchEdgeFaceWave",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PatchEdgeFaceWave.html#aad5395dd54e0cbb0b698e963337fad6f",tooltip="Construct from patch, list of changed edges with the Type. "];
+}

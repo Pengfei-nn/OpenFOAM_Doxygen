@@ -1,0 +1,24 @@
+digraph "autoMap"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="autoMap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::valuePointPatchField\l::rmap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1valuePointPatchField.html#ae2d7451572e8a2b9fa83d64dbafa419f",tooltip="Reverse map the given PointPatchField onto. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::edgeNormalFixedValue\lFaPatchVectorField::rmap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1edgeNormalFixedValueFaPatchVectorField.html#a616ae209984bff09a41827185206b6ca",tooltip="Reverse map the given faPatchField onto this faPatchField. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::interstitialInletVelocity\lFvPatchVectorField::rmap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1interstitialInletVelocityFvPatchVectorField.html#a4fe41b169c41bfcd4311c1d1e27a96ed",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::nutkAtmRoughWallFunction\lFvPatchScalarField::rmap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1nutkAtmRoughWallFunctionFvPatchScalarField.html#a713277715ccc0a5ef466b0516d44731f",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::SRFVelocityFvPatch\lVectorField::rmap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1SRFVelocityFvPatchVectorField.html#a4fe41b169c41bfcd4311c1d1e27a96ed",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::pressureDirectedInlet\lVelocityFvPatchVectorField::rmap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1pressureDirectedInletVelocityFvPatchVectorField.html#a4fe41b169c41bfcd4311c1d1e27a96ed",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::faePatchField\l::rmap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faePatchField.html#ae4d67f9c045b6d43e1566eb8b6438a6f",tooltip="Reverse map the given faePatchField onto this faePatchField. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::faPatchField\l::rmap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faPatchField.html#a3e2bd7a6155bb7760f2359f388b2b699",tooltip="Reverse map the given faPatchField onto this faPatchField. "];
+}

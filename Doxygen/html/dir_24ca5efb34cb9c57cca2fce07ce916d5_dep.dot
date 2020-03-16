@@ -1,0 +1,10 @@
+digraph "applications/solvers/finiteArea/liquidFilmFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8093b55327f00aa4ed58d387e2e10983 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="finiteArea" fontname="Helvetica", fontsize="10", URL="dir_8093b55327f00aa4ed58d387e2e10983.html"]
+  dir_24ca5efb34cb9c57cca2fce07ce916d5 [shape=box, label="liquidFilmFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_24ca5efb34cb9c57cca2fce07ce916d5.html"];
+  }
+}

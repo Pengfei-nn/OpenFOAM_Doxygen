@@ -1,0 +1,37 @@
+digraph "src/sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/restraints" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7bf5f2e6b4a44539c2947a2841ca313c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="sixDoFRigidBodyMotion" fontname="Helvetica", fontsize="10", URL="dir_7bf5f2e6b4a44539c2947a2841ca313c.html"]
+  subgraph clusterdir_72e9e3456c414eac52b3a6275bc6c58e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_72e9e3456c414eac52b3a6275bc6c58e.html"];
+    dir_72e9e3456c414eac52b3a6275bc6c58e [shape=plaintext label="restraints"];
+    dir_613caea0e77c2d64fc4665e8bc5096cf [shape=box label="linearAxialAngularSpring" color="black" fillcolor="white" style="filled" URL="dir_613caea0e77c2d64fc4665e8bc5096cf.html"];
+    dir_16bcdff0e54d41d5ec9d5bed7319eabc [shape=box label="linearDamper" color="black" fillcolor="white" style="filled" URL="dir_16bcdff0e54d41d5ec9d5bed7319eabc.html"];
+    dir_ed8c2e13203cd45b5d17172bbda4d891 [shape=box label="linearSpring" color="black" fillcolor="white" style="filled" URL="dir_ed8c2e13203cd45b5d17172bbda4d891.html"];
+    dir_88cecd8fe41e102078b18813d8054a93 [shape=box label="linearSpringDamper" color="black" fillcolor="white" style="filled" URL="dir_88cecd8fe41e102078b18813d8054a93.html"];
+    dir_6e1bc2e36688850bd3aeabb66192bef0 [shape=box label="sixDoFRigidBodyMotionRestraint" color="black" fillcolor="white" style="filled" URL="dir_6e1bc2e36688850bd3aeabb66192bef0.html"];
+    dir_4322ee2a7db33eeb5682829af7ccd812 [shape=box label="sphericalAngularDamper" color="black" fillcolor="white" style="filled" URL="dir_4322ee2a7db33eeb5682829af7ccd812.html"];
+    dir_9c88e0883347d77f307b52d2efa79644 [shape=box label="sphericalAngularSpring" color="black" fillcolor="white" style="filled" URL="dir_9c88e0883347d77f307b52d2efa79644.html"];
+    dir_5315f8ba6970c2b15bcf8d80d942efc0 [shape=box label="tabulatedAxialAngularSpring" color="black" fillcolor="white" style="filled" URL="dir_5315f8ba6970c2b15bcf8d80d942efc0.html"];
+  }
+  }
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_6e1bc2e36688850bd3aeabb66192bef0->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="5", labeldistance=1.5 headhref="dir_003617_002151.html"];
+  dir_88cecd8fe41e102078b18813d8054a93->dir_6e1bc2e36688850bd3aeabb66192bef0 [headlabel="1", labeldistance=1.5 headhref="dir_003616_003617.html"];
+  dir_88cecd8fe41e102078b18813d8054a93->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="4", labeldistance=1.5 headhref="dir_003616_002151.html"];
+  dir_4322ee2a7db33eeb5682829af7ccd812->dir_6e1bc2e36688850bd3aeabb66192bef0 [headlabel="1", labeldistance=1.5 headhref="dir_003533_003617.html"];
+  dir_4322ee2a7db33eeb5682829af7ccd812->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_003533_002151.html"];
+  dir_ed8c2e13203cd45b5d17172bbda4d891->dir_6e1bc2e36688850bd3aeabb66192bef0 [headlabel="1", labeldistance=1.5 headhref="dir_003528_003617.html"];
+  dir_ed8c2e13203cd45b5d17172bbda4d891->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003528_002151.html"];
+  dir_16bcdff0e54d41d5ec9d5bed7319eabc->dir_6e1bc2e36688850bd3aeabb66192bef0 [headlabel="1", labeldistance=1.5 headhref="dir_003526_003617.html"];
+  dir_16bcdff0e54d41d5ec9d5bed7319eabc->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003526_002151.html"];
+  dir_5315f8ba6970c2b15bcf8d80d942efc0->dir_6e1bc2e36688850bd3aeabb66192bef0 [headlabel="1", labeldistance=1.5 headhref="dir_003619_003617.html"];
+  dir_5315f8ba6970c2b15bcf8d80d942efc0->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="6", labeldistance=1.5 headhref="dir_003619_002151.html"];
+  dir_613caea0e77c2d64fc4665e8bc5096cf->dir_6e1bc2e36688850bd3aeabb66192bef0 [headlabel="1", labeldistance=1.5 headhref="dir_003524_003617.html"];
+  dir_613caea0e77c2d64fc4665e8bc5096cf->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="4", labeldistance=1.5 headhref="dir_003524_002151.html"];
+  dir_9c88e0883347d77f307b52d2efa79644->dir_6e1bc2e36688850bd3aeabb66192bef0 [headlabel="1", labeldistance=1.5 headhref="dir_003618_003617.html"];
+  dir_9c88e0883347d77f307b52d2efa79644->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="3", labeldistance=1.5 headhref="dir_003618_002151.html"];
+}

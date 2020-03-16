@@ -1,0 +1,21 @@
+digraph "src/OpenFOAM/matrices/LduMatrix/Smoothers" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ad1279e85697e0f0972e5fabfcfcce34 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="LduMatrix" fontname="Helvetica", fontsize="10", URL="dir_ad1279e85697e0f0972e5fabfcfcce34.html"]
+  subgraph clusterdir_dbeb5dcd741f309aa6524e1dd7f86f94 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_dbeb5dcd741f309aa6524e1dd7f86f94.html"];
+    dir_dbeb5dcd741f309aa6524e1dd7f86f94 [shape=plaintext label="Smoothers"];
+    dir_5995dbfcd63b95a1a93206e401e60bed [shape=box label="GaussSeidel" color="black" fillcolor="white" style="filled" URL="dir_5995dbfcd63b95a1a93206e401e60bed.html"];
+  }
+  }
+  dir_962442b8f989d5529fab5e0f0e4ffb74 [shape=box label="fields" color="red" URL="dir_962442b8f989d5529fab5e0f0e4ffb74.html"];
+  dir_5ec68055571869848388d37c5cf0a9c9 [shape=box label="LduMatrix" color="red" URL="dir_5ec68055571869848388d37c5cf0a9c9.html"];
+  dir_dbeb5dcd741f309aa6524e1dd7f86f94->dir_962442b8f989d5529fab5e0f0e4ffb74 [headlabel="1", labeldistance=1.5 headhref="dir_002469_002305.html"];
+  dir_dbeb5dcd741f309aa6524e1dd7f86f94->dir_5995dbfcd63b95a1a93206e401e60bed [headlabel="1", labeldistance=1.5 headhref="dir_002469_002470.html"];
+  dir_962442b8f989d5529fab5e0f0e4ffb74->dir_5ec68055571869848388d37c5cf0a9c9 [headlabel="1", labeldistance=1.5 headhref="dir_002305_002448.html"];
+  dir_5995dbfcd63b95a1a93206e401e60bed->dir_5ec68055571869848388d37c5cf0a9c9 [headlabel="1", labeldistance=1.5 headhref="dir_002470_002448.html"];
+  dir_5ec68055571869848388d37c5cf0a9c9->dir_962442b8f989d5529fab5e0f0e4ffb74 [headlabel="6", labeldistance=1.5 headhref="dir_002448_002305.html"];
+}

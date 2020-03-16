@@ -1,0 +1,29 @@
+digraph "objectPath"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="objectPath",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::triSurfaceMesh\l::checkFile",height=0.2,width=0.4,color="red",URL="$classFoam_1_1triSurfaceMesh.html#afe81be0d6254a59c16e88bae1aea642c",tooltip="Return fileName to load IOobject from. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::fv::limitedSnGrad\l::correction",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fv_1_1limitedSnGrad.html#a3ca8452d8b2fad7ac66e2b8864f6e6ee",tooltip="Return the explicit correction to the limitedSnGrad. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::hexRef8::hexRef8",height=0.2,width=0.4,color="black",URL="$classFoam_1_1hexRef8.html#a38c122950a32c54a78c49acb2637ac88",tooltip="Construct from mesh, read_if_present refinement data. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::meshRefinement\l::mergePatchFacesUndo",height=0.2,width=0.4,color="black",URL="$classFoam_1_1meshRefinement.html#ad8250b1fa9c2e0cc9f75bd08c017d11a",tooltip="Merge coplanar faces. preserveFaces is != -1 for faces. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::baseIOdictionary\l::readData",height=0.2,width=0.4,color="black",URL="$classFoam_1_1baseIOdictionary.html#ac3b3d77e7369ae2785973778644137c5",tooltip="ReadData function required for regIOobject read operation. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::fileOperations\l::collatedFileOperation\l::setNProcs",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fileOperations_1_1collatedFileOperation.html#a2940e40ffc32e43e461339ed7e13f642",tooltip="Set number of processor directories/results. Only used in. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::hexRef8::setUnrefinement",height=0.2,width=0.4,color="black",URL="$classFoam_1_1hexRef8.html#aa4246c753057abd6ecf4b510ee30bd99",tooltip="Remove some refinement. Needs to be supplied output of. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::regIOobject::\lwriteObject",height=0.2,width=0.4,color="black",URL="$classFoam_1_1regIOobject.html#a5430b425d45707135d4187554c7ce52d",tooltip="Write using given format, version and compression. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::fileOperation\l::writeObject",height=0.2,width=0.4,color="black",URL="$classFoam_1_1fileOperation.html#a9128459568477bb147dc4fdf56773cc0",tooltip="Writes a regIOobject (so header, contents and divider). "];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::distributedTriSurface\lMesh::writeObject",height=0.2,width=0.4,color="black",URL="$classFoam_1_1distributedTriSurfaceMesh.html#a22fe39437327f6a44da6f06cd0e65cd9",tooltip="Write using given format, version and compression. "];
+}

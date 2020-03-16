@@ -1,0 +1,36 @@
+digraph "readField"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="readField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::PtrList\< PatchField\l\< Type \> \>::clear",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PtrList.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the PtrList. Delete allocated entries and set size to zero. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::entry::dict",height=0.2,width=0.4,color="black",URL="$classFoam_1_1entry.html#abd246c36ef3a3776f7d6e517dc9621af",tooltip="Return dictionary, if entry is a dictionary. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::endl",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::exit",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a06ca7250d8e89caf05243ec094843642"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::UList\< Type \>\l::found",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UList.html#a97eef32f7b4a70fe9472cfaa97fb90df",tooltip="True if the value if found in the list. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::entry::isDict",height=0.2,width=0.4,color="red",URL="$classFoam_1_1entry.html#aabe4453aa5aff1bb53c34ceda451eac7",tooltip="Return true if this entry is a dictionary. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::keyType::isLiteral",height=0.2,width=0.4,color="black",URL="$classFoam_1_1keyType.html#a684aef6ced61e908d15ee9680bab5fe7",tooltip="The keyType is treated as literal, not as pattern. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::entry::keyword",height=0.2,width=0.4,color="red",URL="$classFoam_1_1entry.html#ae793b54fbc2e5d1da0f1c23b908cb057",tooltip="Return keyword. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$classFoam_1_1IOobject.html#a6d60057c26042eaf7fa1b3b6fb07b582",tooltip="Return name. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::New",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a9d62cf14554c95e83f83f14909d9e0ec",tooltip="Global function forwards to reuseTmpDimensionedField::New. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::PtrList\< PatchField\l\< Type \> \>::set",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PtrList.html#a048776ab2f56c864e91eb71a010dcce6",tooltip="Return const pointer to element (if set) or nullptr. "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::PtrList\< PatchField\l\< Type \> \>::setSize",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PtrList.html#a69101c7616426ea26b33577a730b73e8",tooltip="Same as resize() "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Foam::UPtrList::size",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0",tooltip="The number of elements in the list. "];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Foam::type",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a69e2e8a647a7073be8ce6437c0aff762",tooltip="Return the file type: DIRECTORY or FILE, normally following symbolic links. "];
+}

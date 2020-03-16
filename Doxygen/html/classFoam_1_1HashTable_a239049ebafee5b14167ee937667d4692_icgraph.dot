@@ -1,0 +1,32 @@
+digraph "sortedToc"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sortedToc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::checkFireEdges",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a080199300e823facbc9b4d01b243705b",tooltip="check edge connectivity "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::DispersionRASModel\l::kModel",height=0.2,width=0.4,color="black",URL="$classFoam_1_1DispersionRASModel.html#a8ffa05013ec3efd8213da8ba436ae3aa",tooltip="Return the k field from the turbulence model. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::listSwitches",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a3218fe26b0440102a7d197a91a91289f"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::objectRegistry\l::names",height=0.2,width=0.4,color="black",URL="$classFoam_1_1objectRegistry.html#a679df4e6bdab1415b6b80cb6c2f70ff7",tooltip="The names of objects with the given class name. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::sampledPatch\l::needsUpdate",height=0.2,width=0.4,color="black",URL="$classFoam_1_1sampledPatch.html#aa8e65b62831b56e76cf5fba5cad934db",tooltip="Does the surface need an update? "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::polyMeshZipUpCells",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#ab957fb2d74d8de84991a6246e876ecd2"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::regionSplit::\lreduceRegions",height=0.2,width=0.4,color="black",URL="$classFoam_1_1regionSplit.html#aee98dcd8931af6c03badb8a1118b5e90",tooltip="Manually consolidate the regions globally by swapping information. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::cuttingSurfaceBase\l::walkCellCuts",height=0.2,width=0.4,color="black",URL="$classFoam_1_1cuttingSurfaceBase.html#a13973a2752e1122847e87e07db0f56b2",tooltip="Walk cell cuts to create faces. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::vtk::writeFaceSet",height=0.2,width=0.4,color="red",URL="$namespaceFoam_1_1vtk.html#acc1a7e7ac409a2bf4be571cfb6e59d2f",tooltip="Write faceSet as VTK polydata file. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::vtk::writePointSet",height=0.2,width=0.4,color="red",URL="$namespaceFoam_1_1vtk.html#a51048c3cf291d6f77d5dbf09869d3840",tooltip="Write pointSet to VTK polydata file. "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::ensightOutput\l::Detail::writeVolField",height=0.2,width=0.4,color="black",URL="$namespaceFoam_1_1ensightOutput_1_1Detail.html#a83763c6ecbbfea5ade1ef04c3a751c54",tooltip="Write volume field component-wise. "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::meshRefinement\l::zonify",height=0.2,width=0.4,color="black",URL="$classFoam_1_1meshRefinement.html#ad87fa7666ba3598cc5e4155ffd06420f",tooltip="Put faces/cells into zones according to surface specification. "];
+}

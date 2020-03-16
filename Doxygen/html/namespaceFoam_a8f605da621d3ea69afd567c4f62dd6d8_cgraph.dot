@@ -1,0 +1,16 @@
+digraph "readObjVertices"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="readObjVertices",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$classFoam_1_1DynamicList.html#a49092c48b51e838685499f995405ba52",tooltip="Append an element to the end of this list. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::DynamicList::\lclear",height=0.2,width=0.4,color="red",URL="$classFoam_1_1DynamicList.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the addressed list, i.e. set the size to zero. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="readLabel",height=0.2,width=0.4,color="red",URL="$namespaceFoam.html#a1269245969008f49bcd2a602d3a72319",tooltip="Parse entire buffer as a label, skipping leading/trailing whitespace. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::UList::size",height=0.2,width=0.4,color="red",URL="$classFoam_1_1UList.html#afee03bfededf699921815b2bf3c41e35",tooltip="Override size to be inconsistent with allocated storage. "];
+}

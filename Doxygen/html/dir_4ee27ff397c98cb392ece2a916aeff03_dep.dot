@@ -1,0 +1,10 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/interfacialModels/aspectRatioModels/VakhrushevEfremov" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_61a4c66f01258155d2258fd2274f3c82 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="aspectRatioModels" fontname="Helvetica", fontsize="10", URL="dir_61a4c66f01258155d2258fd2274f3c82.html"]
+  dir_4ee27ff397c98cb392ece2a916aeff03 [shape=box, label="VakhrushevEfremov", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4ee27ff397c98cb392ece2a916aeff03.html"];
+  }
+}

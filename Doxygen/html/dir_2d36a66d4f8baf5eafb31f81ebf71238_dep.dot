@@ -1,0 +1,10 @@
+digraph "src/OpenFOAM/primitives/SphericalTensor/labelSphericalTensor" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b065e1a4bed1b058c87ac57271f42191 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="SphericalTensor" fontname="Helvetica", fontsize="10", URL="dir_b065e1a4bed1b058c87ac57271f42191.html"]
+  dir_2d36a66d4f8baf5eafb31f81ebf71238 [shape=box, label="labelSphericalTensor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2d36a66d4f8baf5eafb31f81ebf71238.html"];
+  }
+}

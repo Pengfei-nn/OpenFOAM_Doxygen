@@ -1,0 +1,46 @@
+digraph "updateMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="updateMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Foam::faMeshMapper\l::areaMap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faMeshMapper.html#a1b515a410d372db1e91a590303a6191c",tooltip="Return surface mapper. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::faBoundaryMesh\l::calcGeometry",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faBoundaryMesh.html#a07574b3deb8d8c572f372ee01638eddc",tooltip="Calculate the geometry for the patches. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Foam::PrimitivePatch\l::edgeFaces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PrimitivePatch.html#ab456054a1e7e1a07261799f50167916f",tooltip="Return edge-face addressing. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Foam::endl",height=0.2,width=0.4,color="black",URL="$namespaceFoam.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::HashTable::found",height=0.2,width=0.4,color="black",URL="$classFoam_1_1HashTable.html#a484f3fbed148e809aa598ca3f1b7c413",tooltip="Return true if hashed entry is found in table. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="globalData",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faMesh.html#a4396765138c0ee0c03933a252fd1773f",tooltip="Return parallel info. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mapFields",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faMesh.html#ad2fadda983ff93df5df8c3d799a16d0a",tooltip="Map all fields in time using given map. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mapOldAreas",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faMesh.html#a159db050b665f83155c7a200f589e71b",tooltip="Map face areas in time using given map. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Foam::PrimitivePatch\l::nEdges",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PrimitivePatch.html#a1db9478309c639504a743b7b194226f4",tooltip="Return number of edges in patch. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Foam::faAreaMapper\l::newFaceLabels",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faAreaMapper.html#a96490a8ab7f55e17e69524cbb0d297f6",tooltip="Return new face labels. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Foam::faAreaMapper\l::newFaceLabelsMap",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faAreaMapper.html#ad0ecbf20ae4dd3fbb3aeef3b1c723e4c",tooltip="Return new face labels map. "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Foam::PrimitivePatch\l::nInternalEdges",height=0.2,width=0.4,color="black",URL="$classFoam_1_1PrimitivePatch.html#ace02a7a9077597f147502cc5d2650081",tooltip="Number of internal edges. "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="nInternalEdges",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faMesh.html#a3b322af5609b09f5d4f4b6fda11930df"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Foam::faMeshMapper\l::oldPatchEdgeFaces",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faMeshMapper.html#ad16e9718105f40a60c169e9fe7f79182",tooltip="Return old patch edgeFaces. "];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UPstream.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="patch",height=0.2,width=0.4,color="red",URL="$classFoam_1_1faMesh.html#a1ff8b2fdb3637d00594b64bf4d72b51d",tooltip="Return constant reference to primitive patch. "];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$classFoam_1_1List.html#a3eb74b6b9f8c1346a09c49e3eade797c",tooltip="Alias for resize(const label) "];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="Foam::UPtrList::size",height=0.2,width=0.4,color="black",URL="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0",tooltip="The number of elements in the list. "];
+  Node1 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="Foam::faBoundaryMesh\l::updateMesh",height=0.2,width=0.4,color="black",URL="$classFoam_1_1faBoundaryMesh.html#ae5693a309a936ac1040dd48c2881677f",tooltip="Correct faBoundaryMesh after topology update. "];
+}

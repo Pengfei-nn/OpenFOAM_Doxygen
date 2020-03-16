@@ -1,0 +1,14 @@
+digraph "src/OpenFOAM/db/IOstreams/dummy" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_466e4f5b4cc1582939ab4ceba36098d8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="IOstreams" fontname="Helvetica", fontsize="10", URL="dir_466e4f5b4cc1582939ab4ceba36098d8.html"]
+  dir_c8c130c0457693eb9a2c9e0287cfbdcf [shape=box, label="dummy", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_c8c130c0457693eb9a2c9e0287cfbdcf.html"];
+  }
+  dir_95c01b25932f381214b36aebb1c4e15e [shape=box label="StringStreams" URL="dir_95c01b25932f381214b36aebb1c4e15e.html"];
+  dir_3bcf6d087081efad30da69158be5063e [shape=box label="IOstreams" URL="dir_3bcf6d087081efad30da69158be5063e.html"];
+  dir_c8c130c0457693eb9a2c9e0287cfbdcf->dir_95c01b25932f381214b36aebb1c4e15e [headlabel="1", labeldistance=1.5 headhref="dir_002266_002277.html"];
+  dir_c8c130c0457693eb9a2c9e0287cfbdcf->dir_3bcf6d087081efad30da69158be5063e [headlabel="1", labeldistance=1.5 headhref="dir_002266_002270.html"];
+}

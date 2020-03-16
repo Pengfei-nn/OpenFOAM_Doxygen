@@ -1,0 +1,10 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/phaseSystems/phaseModel/StationaryPhaseModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4215db06b45072fc38364f35455e65ba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="phaseModel" fontname="Helvetica", fontsize="10", URL="dir_4215db06b45072fc38364f35455e65ba.html"]
+  dir_9ef7d947843ad236c8c30f15fc9253fc [shape=box, label="StationaryPhaseModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9ef7d947843ad236c8c30f15fc9253fc.html"];
+  }
+}

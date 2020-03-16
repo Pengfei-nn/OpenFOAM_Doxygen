@@ -1,0 +1,17 @@
+digraph "src/OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/algebraicPairGAMGAgglomeration" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a924fc5b9b02d4bfaf9b6fb6bcc671ab {
+    graph [ bgcolor="#ddddee", pencolor="black", label="GAMGAgglomerations" fontname="Helvetica", fontsize="10", URL="dir_a924fc5b9b02d4bfaf9b6fb6bcc671ab.html"]
+  dir_ce1fefca8d8766bf859c0f32ba3a3fb9 [shape=box, label="algebraicPairGAMGAgglomeration", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ce1fefca8d8766bf859c0f32ba3a3fb9.html"];
+  }
+  dir_8b3998cc144f2a2919dd0749e30e9bc3 [shape=box label="pairGAMGAgglomeration" URL="dir_8b3998cc144f2a2919dd0749e30e9bc3.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_1ce70feb2b06c30ebd4091245573b99e [shape=box label="lduMatrix" URL="dir_1ce70feb2b06c30ebd4091245573b99e.html"];
+  dir_ce1fefca8d8766bf859c0f32ba3a3fb9->dir_8b3998cc144f2a2919dd0749e30e9bc3 [headlabel="1", labeldistance=1.5 headhref="dir_002479_002482.html"];
+  dir_ce1fefca8d8766bf859c0f32ba3a3fb9->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002479_002218.html"];
+  dir_ce1fefca8d8766bf859c0f32ba3a3fb9->dir_1ce70feb2b06c30ebd4091245573b99e [headlabel="1", labeldistance=1.5 headhref="dir_002479_002450.html"];
+  dir_1ce70feb2b06c30ebd4091245573b99e->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="6", labeldistance=1.5 headhref="dir_002450_002218.html"];
+}

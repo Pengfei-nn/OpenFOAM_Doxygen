@@ -1,0 +1,18 @@
+digraph "src/OpenFOAM/primitives/Vector/lists" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6ef5fbba1c02603637a533e2f686aa62 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Vector" fontname="Helvetica", fontsize="10", URL="dir_6ef5fbba1c02603637a533e2f686aa62.html"]
+  dir_6222066c6900111c7783e46ac78461f5 [shape=box, label="lists", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6222066c6900111c7783e46ac78461f5.html"];
+  }
+  dir_19d0872053bde092be81d7fe3f56cbf7 [shape=box label="containers" color="red" URL="dir_19d0872053bde092be81d7fe3f56cbf7.html"];
+  dir_1d0183e3dd439c231d98049d5fd7da7c [shape=box label="vector" URL="dir_1d0183e3dd439c231d98049d5fd7da7c.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_6222066c6900111c7783e46ac78461f5->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="4", labeldistance=1.5 headhref="dir_002765_002156.html"];
+  dir_6222066c6900111c7783e46ac78461f5->dir_1d0183e3dd439c231d98049d5fd7da7c [headlabel="2", labeldistance=1.5 headhref="dir_002765_002766.html"];
+  dir_6222066c6900111c7783e46ac78461f5->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="5", labeldistance=1.5 headhref="dir_002765_002218.html"];
+  dir_19d0872053bde092be81d7fe3f56cbf7->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="55", labeldistance=1.5 headhref="dir_002156_002218.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="45", labeldistance=1.5 headhref="dir_002218_002156.html"];
+}

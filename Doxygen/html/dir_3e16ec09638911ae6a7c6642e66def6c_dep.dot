@@ -1,0 +1,12 @@
+digraph "src/phaseSystemModels/reactingEulerFoam/interfacialModels/wallDependentModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5934097b4d7408dbf6d7abeb4fcc346f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfacialModels" fontname="Helvetica", fontsize="10", URL="dir_5934097b4d7408dbf6d7abeb4fcc346f.html"]
+  dir_3e16ec09638911ae6a7c6642e66def6c [shape=box, label="wallDependentModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3e16ec09638911ae6a7c6642e66def6c.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_3e16ec09638911ae6a7c6642e66def6c->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="3", labeldistance=1.5 headhref="dir_003185_000814.html"];
+}

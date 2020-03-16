@@ -1,0 +1,12 @@
+digraph "src/thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/EFA" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_11a35c86249c89795f10656fe50614a9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="reduction" fontname="Helvetica", fontsize="10", URL="dir_11a35c86249c89795f10656fe50614a9.html"]
+  dir_17ba711453e48727e446f6ddb9987edf [shape=box, label="EFA", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_17ba711453e48727e446f6ddb9987edf.html"];
+  }
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_17ba711453e48727e446f6ddb9987edf->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_003697_002151.html"];
+}

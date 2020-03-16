@@ -1,0 +1,10 @@
+digraph "applications/solvers/incompressible/simpleFoam/porousSimpleFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e60ee3723b55ccdaf7511a7c56716fa2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="simpleFoam" fontname="Helvetica", fontsize="10", URL="dir_e60ee3723b55ccdaf7511a7c56716fa2.html"]
+  dir_03decea705bc0c0c22f85f91452a296f [shape=box, label="porousSimpleFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_03decea705bc0c0c22f85f91452a296f.html"];
+  }
+}

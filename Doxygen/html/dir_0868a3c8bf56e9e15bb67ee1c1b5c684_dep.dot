@@ -1,0 +1,10 @@
+digraph "applications/utilities/postProcessing/lumped/lumpedPointMovement" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_841b188b54e869951e65e52efec69528 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lumped" fontname="Helvetica", fontsize="10", URL="dir_841b188b54e869951e65e52efec69528.html"]
+  dir_0868a3c8bf56e9e15bb67ee1c1b5c684 [shape=box, label="lumpedPointMovement", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0868a3c8bf56e9e15bb67ee1c1b5c684.html"];
+  }
+}

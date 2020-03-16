@@ -1,0 +1,14 @@
+digraph "src/OpenFOAM/db/IOstreams/memory" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_466e4f5b4cc1582939ab4ceba36098d8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="IOstreams" fontname="Helvetica", fontsize="10", URL="dir_466e4f5b4cc1582939ab4ceba36098d8.html"]
+  dir_ffde048985eff828c149250af0899f40 [shape=box, label="memory", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ffde048985eff828c149250af0899f40.html"];
+  }
+  dir_05a8697d464c96d3323cd908b61b5361 [shape=box label="Sstreams" URL="dir_05a8697d464c96d3323cd908b61b5361.html"];
+  dir_19d0872053bde092be81d7fe3f56cbf7 [shape=box label="containers" color="red" URL="dir_19d0872053bde092be81d7fe3f56cbf7.html"];
+  dir_ffde048985eff828c149250af0899f40->dir_05a8697d464c96d3323cd908b61b5361 [headlabel="4", labeldistance=1.5 headhref="dir_002271_002276.html"];
+  dir_ffde048985eff828c149250af0899f40->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="7", labeldistance=1.5 headhref="dir_002271_002156.html"];
+}

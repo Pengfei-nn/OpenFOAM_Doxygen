@@ -1,0 +1,16 @@
+digraph "src/waveModels/waveAbsorptionModels/base" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_812dff35fe55fedb9b36e9d6339159a2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="waveAbsorptionModels" fontname="Helvetica", fontsize="10", URL="dir_812dff35fe55fedb9b36e9d6339159a2.html"]
+  subgraph clusterdir_dc11627dd50b3e909aec9c48d931dd3e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_dc11627dd50b3e909aec9c48d931dd3e.html"];
+    dir_dc11627dd50b3e909aec9c48d931dd3e [shape=plaintext label="base"];
+    dir_de2a6d6362caf065683deebdb9b9e992 [shape=box label="waveAbsorptionModel" color="black" fillcolor="white" style="filled" URL="dir_de2a6d6362caf065683deebdb9b9e992.html"];
+  }
+  }
+  dir_cee882d11d98834f07952dd5b2a801bf [shape=box label="waveModel" URL="dir_cee882d11d98834f07952dd5b2a801bf.html"];
+  dir_de2a6d6362caf065683deebdb9b9e992->dir_cee882d11d98834f07952dd5b2a801bf [headlabel="1", labeldistance=1.5 headhref="dir_004122_004141.html"];
+}

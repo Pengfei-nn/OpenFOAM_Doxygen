@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="pTraits\< labelList \>",height=0.2,width=0.4,color="black",URL="$classFoam_1_1pTraits_3_01labelList_01_4.html",tooltip="Template specialization for pTraits&lt;labelList&gt; so we can have fields. "];
+}

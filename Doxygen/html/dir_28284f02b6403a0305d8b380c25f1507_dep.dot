@@ -1,0 +1,14 @@
+digraph "src/OpenFOAM/primitives/functions/Function1/quarterCosineRamp" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bf4f273fcff898a8e57532425217d669 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Function1" fontname="Helvetica", fontsize="10", URL="dir_bf4f273fcff898a8e57532425217d669.html"]
+  dir_28284f02b6403a0305d8b380c25f1507 [shape=box, label="quarterCosineRamp", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_28284f02b6403a0305d8b380c25f1507.html"];
+  }
+  dir_db837a9a779e4f4f8480520e283a1ec8 [shape=box label="ramp" URL="dir_db837a9a779e4f4f8480520e283a1ec8.html"];
+  dir_8583492183f4d27c76555f8f333dd07b [shape=box label="global" color="red" URL="dir_8583492183f4d27c76555f8f333dd07b.html"];
+  dir_28284f02b6403a0305d8b380c25f1507->dir_db837a9a779e4f4f8480520e283a1ec8 [headlabel="1", labeldistance=1.5 headhref="dir_002659_002661.html"];
+  dir_28284f02b6403a0305d8b380c25f1507->dir_8583492183f4d27c76555f8f333dd07b [headlabel="1", labeldistance=1.5 headhref="dir_002659_002385.html"];
+}

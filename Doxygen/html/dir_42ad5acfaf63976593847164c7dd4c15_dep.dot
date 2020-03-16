@@ -1,0 +1,12 @@
+digraph "applications/utilities/mesh/manipulation/splitMesh" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_15449a1ef4a09517cc5e2efa6b11565e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="manipulation" fontname="Helvetica", fontsize="10", URL="dir_15449a1ef4a09517cc5e2efa6b11565e.html"]
+  dir_42ad5acfaf63976593847164c7dd4c15 [shape=box, label="splitMesh", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_42ad5acfaf63976593847164c7dd4c15.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_42ad5acfaf63976593847164c7dd4c15->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000380_000499.html"];
+}

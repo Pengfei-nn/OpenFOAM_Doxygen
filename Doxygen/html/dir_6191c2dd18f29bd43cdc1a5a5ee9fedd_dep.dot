@@ -1,0 +1,19 @@
+digraph "src/ODE/ODESolvers/Trapezoid" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3c9eb44cc766b767ba49f7a4339bd2b9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="ODESolvers" fontname="Helvetica", fontsize="10", URL="dir_3c9eb44cc766b767ba49f7a4339bd2b9.html"]
+  dir_6191c2dd18f29bd43cdc1a5a5ee9fedd [shape=box, label="Trapezoid", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6191c2dd18f29bd43cdc1a5a5ee9fedd.html"];
+  }
+  dir_cb3bcb75234a3f21db8dd158d6ddee49 [shape=box label="adaptiveSolver" URL="dir_cb3bcb75234a3f21db8dd158d6ddee49.html"];
+  dir_cdffcddb5e13bb570779da92c5291b7f [shape=box label="ODESolver" URL="dir_cdffcddb5e13bb570779da92c5291b7f.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_cb3bcb75234a3f21db8dd158d6ddee49->dir_cdffcddb5e13bb570779da92c5291b7f [headlabel="1", labeldistance=1.5 headhref="dir_002136_002138.html"];
+  dir_cb3bcb75234a3f21db8dd158d6ddee49->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_002136_002151.html"];
+  dir_cdffcddb5e13bb570779da92c5291b7f->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_002138_002151.html"];
+  dir_6191c2dd18f29bd43cdc1a5a5ee9fedd->dir_cb3bcb75234a3f21db8dd158d6ddee49 [headlabel="1", labeldistance=1.5 headhref="dir_002149_002136.html"];
+  dir_6191c2dd18f29bd43cdc1a5a5ee9fedd->dir_cdffcddb5e13bb570779da92c5291b7f [headlabel="1", labeldistance=1.5 headhref="dir_002149_002138.html"];
+  dir_6191c2dd18f29bd43cdc1a5a5ee9fedd->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_002149_002151.html"];
+}
